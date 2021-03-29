@@ -7,8 +7,6 @@
 	"Icon":{
 		"material":"apple"
 	},
-  "AllowRejoining": true,
-  "Completed": ["apples_everywhere_intro", true, "&fYou need to complete &cApples Everywhere &fbefore we can talk."],
 
   "HighlightClickEntity": "white_market_dealer",
 

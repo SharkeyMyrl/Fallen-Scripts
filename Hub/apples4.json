@@ -1,0 +1,81 @@
+{
+  "Key":"black_market",
+	"Name":"&c&lGot the Stuff?",
+  "ServerType": "hub",
+	"Description":"Got the Apples?!",
+  "Author": "SharkeyMyrl",
+	"Icon":{
+		"material":"apple"
+	},
+  "AllowRejoining": true,
+  "Completed": ["apples_everywhere_intro", true, "&fYou need to complete &cApples Everywhere &fbefore we can talk."],
+
+  "HighClickEntity": "black_market_dealer",
+
+  "If": [],
+  "Equals": ["bmarket","=", 0],
+  "Skip": "intro",
+  "Skip": "deal",
+
+  "Comment": "intro",
+  "Wait": 10,
+  "Dialog": [{"&cKnight of Apples": "Hey... Got the goods?"}],
+  "Wait": 10,
+  "Dialog": [{"&cKnight of Apples": "Wait a second who are you..."}],
+  "Wait": 10,
+  "Dialog": [{"&cKnight of Apples": "Did she send you to find me!?"}],
+  "Wait": 10,
+  "SendMessageOptions": [ "&6Yes", "&cNo" ],
+  "Skip": "Yes",
+  "Skip": "No",
+
+  "Comment": "Yes",
+  "Dialog": [{"Knight of Apples": "You can tell that witch to leave me alone!?"}],
+  "SetPersistent": ["bmarket", 2],
+  "Show": {"black_market_dealer": false},
+  "Leave": "black_market",
+
+  "Comment": "No",
+  "Dialog": [{"&cKnight of Apples": "Oh..."}],
+  "Wait": 40,
+  "Dialog": [{"&cKnight of Apples": "Sorry, she has caused me so many issues."}],
+  "Wait": 10,
+  "Dialog": [{"&cKnight of Apples": "She burns so many of my kings subjects..."}],
+  "Wait": 10,
+  "Dialog": [{"&cKnight of Apples": "If anyone is a murder between the two of us, she deservers to be hauled away in shackles."}],
+  "Wait": 10,
+  "Dialog": [{"&cKnight of Apples": "Come find me when you have apples you wish to part with, I am a knight from the land of apples."}],
+  "Wait": 10,
+  "Dialog": [{"&cKnight of Apples": "Just heed my warning. Don't let he kind words fool you."}],
+  "SetPersistent": ["bmarket", 1],
+  "Leave": "black_market",
+
+  "Comment": "deal",
+
+  "Menu": [
+    "Apple Black Market",
+    9,
+    {
+      "2": {"name": "Apple Armory","material": "Iron Sword", "glow": true},
+      "3": {"name": "Apple Brewery","material": "Potion", "glow": true},
+      "4": {"name": "Place Holder","material": "End Crystal"},
+      "5": {"name": "Place Holder","material": "End Crystal"},
+      "6": {"name": "Place Holder","material": "End Crystal"},
+
+      "8": {"name": "&cSell Apples","material": "Apple"}
+    },
+    false
+  ],
+  "Leave": "black_market",
+  "Leave": "black_market",
+  "Leave": "black_market",
+  "Leave": "black_market",
+  "Leave": "black_market",
+  "Leave": "black_market",
+  "Leave": "black_market"
+
+
+
+
+
+}

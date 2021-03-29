@@ -1,0 +1,9 @@
+{
+  "Key":"kill_quest_level_one_command",
+  "AllowRejoining": false,
+  "PlayerJoin":[],
+  "Command": "progress one",
+  "In": "kill_quest_level_one",
+  "SendMessage": "You have killed atleast [kill_quest_one]/10 zombies.",
+  "Start": "kill_quest_level_one_command"
+}

@@ -1,0 +1,68 @@
+{
+  "Key":"kill_quest_level_three",
+  "ServerType": "mines",
+	"Name":"&c&lSeek and Destroy lvl 3",
+	"Description":"Daily mob kill quest.",
+  "Author": "SharkeyMyrl",
+  "Quest":true,
+	"Icon":{
+		"material":"scute"
+	},
+  "HasKingdomBuilding":[
+		"mine",
+		3
+	],
+  "NotCompleted": 18,
+
+  "AllowRejoining": true,
+
+  "CreateEntity": {
+    "key": "kill_quest3",
+    "skin": "FALLEN_MINER_LIGHT",
+    "location": [2860.5, 66, 450.5, 225],
+    "name": [
+			"&6&lDavid",
+			"&8&oQuest Giver"
+		],
+    "global": true
+  },
+
+  "AddProperty": ["kill_quest_three_p", "[kill_quest_three]"],
+
+  "SetPersistent": [ "kill_quest_three", 0 ],
+  "HighlightClickEntity": "kill_quest3",
+  "LookDialog": [{"David": "Can you please kill 30 cave stalkers for me."},"kill_quest5"],
+  "KillMythicMob": ["CaveStalkerF3",5],
+  "AddPersistent": [ "kill_quest_three", 5 ],
+  "SendMessage": "&6&lYou have killed 5/30 cave stalkers, you need 25 more to complete quest.",
+  "Wait": 1,
+  "KillMythicMob": ["CaveStalkerF3",5],
+  "AddPersistent": [ "kill_quest_three", 5 ],
+  "SendMessage": "&6&lYou have killed 10/30 cave stalkers, you need 20 more to complete quest.",
+  "Wait": 1,
+  "KillMythicMob": ["CaveStalkerF3",5],
+  "AddPersistent": [ "kill_quest_three", 5 ],
+  "SendMessage": "&6&lYou have killed 15/30 cave stalkers, you need 15 more to complete quest.",
+  "Wait": 1,
+  "KillMythicMob": ["CaveStalkerF3",5],
+  "AddPersistent": [ "kill_quest_three", 5 ],
+  "SendMessage": "&6&lYou have killed 20/30 cave stalkers, you need 10 more to complete quest.",
+  "Wait": 1,
+  "KillMythicMob": ["CaveStalkerF3",5],
+  "AddPersistent": [ "kill_quest_three", 5 ],
+  "SendMessage": "&6&lYou have killed 25/30 cave stalkers, you need 5 more to complete quest.",
+  "Wait": 1,
+  "KillMythicMob": ["CaveStalkerF3",5],
+  "AddPersistent": [ "kill_quest_three", 5 ],
+  "SendMessage": "&2&lYou have killed 30/30 cave stalkers.",
+  "Wait": 1,
+  "Dialog": [{"David": "Come back to me in level three, to gather your rewards."}],
+  "HighlightClickEntity": "kill_quest3",
+  "SetPersistent": [ "kill_quest_three", 0 ],
+  "GiveItem": {
+    "material": "VenomousExtract",
+    "amount": 45
+  },
+  "Dialog": [{"David": "Thank you for helping me out [PLAYER], long live the king and queen."}],
+  "CompleteKingdomQuest": []
+}

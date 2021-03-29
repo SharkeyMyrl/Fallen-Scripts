@@ -1,0 +1,75 @@
+{
+  "Key":"kill_quest_level_four",
+  "ServerType": "mines",
+	"Name":"&c&lSeek and Destroy lvl 4",
+	"Description":"Daily mob kill quest.",
+  "Author": "SharkeyMyrl",
+  "Quest":true,
+	"Icon":{
+		"material":"ender_eye"
+	},
+  "HasKingdomBuilding":[
+		"mine",
+		4
+	],
+  "NotCompleted": 24,
+
+  "AllowRejoining": true,
+
+  "CreateEntity": {
+    "key": "kill_quest4",
+    "skin": "FALLEN_MINER_LIGHT",
+    "location": [2699.5, 66, 441.5, 225],
+    "name": [
+			"&6&lDavid",
+			"&8&oQuest Giver"
+		],
+    "global": true
+  },
+
+  "AddProperty": ["kill_quest_four_p", "[kill_quest_four]"],
+
+  "SetPersistent": [ "kill_quest_four", 0 ],
+  "HighlightClickEntity": "kill_quest4",
+  "LookDialog": [{"David": "Can you please kill 40 ore munchers for me."},"kill_quest5"],
+  "KillMythicMob": ["OreMuncherF4",5],
+  "AddPersistent": [ "kill_quest_four", 5 ],
+  "SendMessage": "&6&lYou have killed 5/40 ore munchers, you need 35 more to complete quest.",
+  "Wait": 1,
+  "KillMythicMob": ["OreMuncherF4",5],
+  "AddPersistent": [ "kill_quest_four", 5 ],
+  "SendMessage": "&6&lYou have killed 10/40 ore munchers, you need 30 more to complete quest.",
+  "Wait": 1,
+  "KillMythicMob": ["OreMuncherF4",5],
+  "AddPersistent": [ "kill_quest_four", 5 ],
+  "SendMessage": "&6&lYou have killed 15/40 ore munchers, you need 25 more to complete quest.",
+  "Wait": 1,
+  "KillMythicMob": ["OreMuncherF4",5],
+  "AddPersistent": [ "kill_quest_four", 5 ],
+  "SendMessage": "&6&lYou have killed 20/40 ore munchers, you need 20 more to complete quest.",
+  "KillMythicMob": ["OreMuncherF4",5],
+  "AddPersistent": [ "kill_quest_four", 5 ],
+  "SendMessage": "&6&lYou have killed 25/40 ore munchers, you need 15 more to complete quest.",
+  "Wait": 1,
+  "KillMythicMob": ["OreMuncherF4",5],
+  "AddPersistent": [ "kill_quest_four", 5 ],
+  "SendMessage": "&6&lYou have killed 30/40 ore munchers, you need 10 more to complete quest.",
+  "Wait": 1,
+  "KillMythicMob": ["OreMuncherF4",5],
+  "AddPersistent": [ "kill_quest_four", 5 ],
+  "SendMessage": "&6&lYou have killed 35/40 ore munchers, you need 5 more to complete quest.",
+  "Wait": 1,
+  "KillMythicMob": ["OreMuncherF4",5],
+  "AddPersistent": [ "kill_quest_four", 5 ],
+  "SendMessage": "&2&lYou have killed 40/40 ore munchers.",
+  "Wait": 1,
+  "Dialog": [{"David": "Come back to me in level four, to gather your rewards."}],
+  "HighlightClickEntity": "kill_quest4",
+  "SetPersistent": [ "kill_quest_four", 0 ],
+  "GiveItem": {
+    "material": "ender_eye",
+    "amount": 60
+  },
+  "Dialog": [{"David": "Thank you for helping me out [PLAYER], long live the king and queen."}],
+  "CompleteKingdomQuest": []
+}

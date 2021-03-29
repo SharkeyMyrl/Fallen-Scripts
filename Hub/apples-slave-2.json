@@ -1,0 +1,56 @@
+{
+  "Key":"apples_slave_2",
+  "ServerType": "hub",
+  "Name":"&c&lApples Everywhere",
+  "Description":"Apples Apples Everywhere!",
+  "Icon":{
+    "material":"apple"
+  },
+  "AllowRejoining": true,
+
+  "PickupItem":[
+     1975.5,
+     71.0,
+     538.5,
+     "&cApple",
+     "apple"
+  ],
+  "Skip": "End",
+  "PickupItem":[
+     2003.5,
+     35.0,
+     580.5,
+     "&cApple",
+     "apple"
+  ],
+  "Skip": "End",
+  "PickupItem":[
+     1990.5,
+     39.0,
+     608.5,
+     "&cApple",
+     "apple"
+  ],
+  "Skip": "End",
+  "PickupItem":[
+     1983.5,
+     63.0,
+     683.5,
+     "&cApple",
+     "apple"
+  ],
+  "Skip": "End",
+  "PickupItem":[
+     1976.5,
+     63.0,
+     683.5,
+     "&cApple",
+     "apple"
+  ],
+  "Comment": "End",
+  "SetPersistent":["apples", "progress", 1],
+  "SendMessage":[
+     "You found apple [apples:progress]/6"
+  ]
+
+}

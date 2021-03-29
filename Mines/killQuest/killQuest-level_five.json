@@ -1,0 +1,83 @@
+{
+  "Key":"kill_quest_level_five",
+  "ServerType": "mines",
+	"Name":"&c&lSeek and Destroy lvl 5",
+	"Description":"Daily mob kill quest.",
+  "Author": "SharkeyMyrl",
+  "Quest":true,
+	"Icon":{
+		"material":"diamond"
+	},
+  "HasKingdomBuilding":[
+		"mine",
+		5
+	],
+  "NotCompleted": 50,
+
+  "AllowRejoining": true,
+
+  "CreateEntity": {
+    "key": "kill_quest5",
+    "skin": "FALLEN_MINER_LIGHT",
+    "location": [2959.5, 93, 517.5, 225],
+    "name": [
+			"&6&lDavid",
+			"&8&oQuest Giver"
+		],
+    "global": true
+  },
+
+  "AddProperty": ["kill_quest_five_p", "[kill_quest_five]"],
+
+  "SetPersistent": [ "kill_quest_five", 0 ],
+  "HighlightClickEntity": "kill_quest5",
+  "LookDialog": [{"David": "Can you please kill 50 mimics for me."},"kill_quest5"],
+  "KillMythicMob": ["MimicF4",5],
+  "AddPersistent": [ "kill_quest_five", 5 ],
+  "SendMessage": "&6&lYou have killed 5/50 mimics, you need 45 more to complete quest.",
+  "Wait": 1,
+  "KillMythicMob": ["MimicF4",5],
+  "AddPersistent": [ "kill_quest_five", 5 ],
+  "SendMessage": "&6&lYou have killed 10/50 mimics, you need 40 more to complete quest.",
+  "Wait": 1,
+  "KillMythicMob": ["MimicF4",5],
+  "AddPersistent": [ "kill_quest_five", 5 ],
+  "SendMessage": "&6&lYou have killed 15/50 mimics, you need 35 more to complete quest.",
+  "Wait": 1,
+  "KillMythicMob": ["MimicF4",5],
+  "AddPersistent": [ "kill_quest_five", 5 ],
+  "SendMessage": "&6&lYou have killed 20/50 mimics, you need 30 more to complete quest.",
+  "KillMythicMob": ["MimicF4",5],
+  "AddPersistent": [ "kill_quest_five", 5 ],
+  "SendMessage": "&6&lYou have killed 25/50 mimics, you need 25 more to complete quest.",
+  "Wait": 1,
+  "KillMythicMob": ["MimicF4",5],
+  "AddPersistent": [ "kill_quest_five", 5 ],
+  "SendMessage": "&6&lYou have killed 30/50 mimics, you need 20 more to complete quest.",
+  "Wait": 1,
+  "KillMythicMob": ["MimicF4",5],
+  "AddPersistent": [ "kill_quest_five", 5 ],
+  "SendMessage": "&6&lYou have killed 35/50 mimics, you need 15 more to complete quest.",
+  "Wait": 1,
+  "KillMythicMob": ["MimicF4",5],
+  "AddPersistent": [ "kill_quest_five", 5 ],
+  "SendMessage": "&6&lYou have killed 40/50 mimics, you need 10 more to complete quest.",
+  "Wait": 1,
+  "KillMythicMob": ["MimicF4",5],
+  "AddPersistent": [ "kill_quest_five", 5 ],
+  "SendMessage": "&6&lYou have killed 45/50 mimics, you need 5 more to complete quest.",
+  "Wait": 1,
+  "KillMythicMob": ["MimicF4",5],
+  "AddPersistent": [ "kill_quest_five", 5 ],
+  "SendMessage": "&2&lYou have killed 50/50 mimics.",
+  "Wait": 1,
+  "Dialog": [{"David": "Come back to me in level five, to gather your rewards."}],
+  "HighlightClickEntity": "kill_quest5",
+  "SetPersistent": [ "kill_quest_five", 0 ],
+  "GiveItem": {
+    "material": "diamond",
+    "amount": 75
+  },
+  "Dialog": [{"David": "Thank you for helping me out [PLAYER], long live the king and queen."}],
+  "CompleteKingdomQuest": []
+}

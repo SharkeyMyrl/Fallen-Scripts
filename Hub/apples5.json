@@ -1,0 +1,84 @@
+{
+  "Key":"white_market",
+	"Name":"&c&lGot the Stuff?",
+  "ServerType": "hub",
+	"Description":"Got the Apples?!",
+  "Author": "SharkeyMyrl",
+	"Icon":{
+		"material":"apple"
+	},
+  "AllowRejoining": true,
+  "Completed": ["apples_everywhere_intro", true, "&fYou need to complete &cApples Everywhere &fbefore we can talk."],
+
+  "ClickEntity": "white_market_dealer",
+
+  "If": [],
+  "Equals": ["wmarket","=", 0],
+  "Skip": "intro",
+  "Skip": "deal",
+
+  "Comment": "intro",
+  "Wait": 10,
+  "Dialog": [{"&6Knight of PumkinPie": "Heyyo~"}],
+  "Wait": 10,
+  "Dialog": [{"&6Knight of PumkinPie": "Keep an eye out while wandering around, there is a shady figure in hiding."}],
+  "Wait": 10,
+  "Dialog": [{"&6Knight of PumkinPie": "He is a wanted man and should be brought to justice."}],
+  "Wait": 10,
+  "Dialog": [{"&6Knight of PumkinPie": "Would you mind helping me out and find him?"}],
+  "Wait": 10,
+  "SendMessageOptions": [ -1, "&6Yes", "&cNo" ],
+  "Skip": "Yes",
+  "Skip": "No",
+
+  "Comment": "Yes",
+  "Dialog": [{"&6Knight of PumkinPie": "Awesome, if you find him please report him to the authories so they can arrest him."}],
+  "Wait": 10,
+  "Dialog": [{"&6Knight of PumkinPie": "Come back when you have some apples for me."}],
+  "Wait": 10,
+  "SetPersistent": ["wmarket", 1],
+  "Leave": "white_market",
+
+  "Comment": "No",
+  "Dialog": [{"&6Knight of PumkinPie": "That's okay... We will find him with out your help..."}],
+  "Wait": 10,
+  "Dialog": [{"&6Knight of PumkinPie": "Come back when you have some apples for me."}],
+  "Wait": 10,
+  "SetPersistent": ["wmarket", 1],
+  "Leave": "white_market",
+
+  "Comment": "deal",
+
+  "Menu": [
+    "Apple White Market",
+    9,
+    {
+      "0": {"name": "&6Sell PumpkinPie","material": "Pumpkin Pie"},
+
+      "2": {"name": "PumpkinPie Armory","material": "Iron Sword", "glow": true},
+      "3": {"name": "PumpkinPie Brewery","material": "Potion", "glow": true},
+      "4": {"name": "Place Holder","material": "End Crystal"},
+      "5": {"name": "Place Holder","material": "End Crystal"},
+      "6": {"name": "Place Holder","material": "End Crystal"},
+
+      "8": {"name": "&cBurn Apples","material": "Apple"}
+    },
+    false
+  ],
+  "Leave": "white_market",
+  "Leave": "white_market",
+  "Leave": "white_market",
+  "Leave": "white_market",
+  "Leave": "white_market",
+  "Leave": "white_market",
+  "Leave": "white_market"
+
+
+
+
+
+
+
+
+
+}

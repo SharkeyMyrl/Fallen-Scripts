@@ -114,7 +114,7 @@
   "Skip": "reward2",
   "Skip": "reward3",
 
-  "Comment": "reward1 - 20% chance",
+  "Comment": "reward1",
   "GiveItem": {
     "material": "apple",
     "name": "&cApple",
@@ -124,7 +124,7 @@
   },
   "Complete": "apples_everywhere",
 
-  "Comment": "reward2 - 40% chance",
+  "Comment": "reward2",
   "GiveItem": {
     "material": "apple",
     "name": "&cApple",
@@ -134,7 +134,7 @@
   },
   "Complete": "apples_everywhere",
 
-  "Comment": "reward3 - 40% chance",
+  "Comment": "reward3",
   "GiveItem": {
     "material": "apple",
     "name": "&cApple",

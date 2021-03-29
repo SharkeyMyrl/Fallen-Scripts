@@ -56,13 +56,13 @@
     "AppleBlackMarket",
     9,
     {
-      "2": {"name": "Apple Armory", "description": "2", "material": "Iron Sword", "glow": true},
-      "3": {"name": "Apple Brewery", "description": "3", "material": "Potion", "glow": true},
-      "4": {"name": "Place Holder", "description": "4", "material": "End Crystal"},
-      "5": {"name": "Place Holder", "description": "5", "material": "End Crystal"},
-      "6": {"name": "Place Holder", "description": "6", "material": "End Crystal"},
+      "2": {"name": "Apple Armory", "description": ["2"], "material": "Iron Sword", "glow": true},
+      "3": {"name": "Apple Brewery", "description": ["3"], "material": "Potion", "glow": true},
+      "4": {"name": "Place Holder", "description": ["4"], "material": "End Crystal"},
+      "5": {"name": "Place Holder", "description": ["5"], "material": "End Crystal"},
+      "6": {"name": "Place Holder", "description": ["6"], "material": "End Crystal"},
 
-      "8": {"name": "&cSell Apples", "description": "8", "material": "Apple"}
+      "8": {"name": "&cSell Apples", "description": ["8"], "material": "Apple"}
     },
     false
   ],

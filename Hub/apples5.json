@@ -61,7 +61,7 @@
       "5": {"name": "Place Holder", "description": ["5"], "material": "End Crystal"},
       "6": {"name": "Place Holder", "description": ["6"], "material": "End Crystal"},
 
-      "8": {"name": "&cBurn Apples", "description": "8", "material": "Apple"}
+      "8": {"name": "&cBurn Apples", "description": ["8"], "material": "Apple"}
     },
     false
   ],

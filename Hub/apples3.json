@@ -7,7 +7,6 @@
   "Icon":{
     "material":"apple"
   },
-  "Server": true,
   "CreateEntity": {
     "key": "black_market_dealer",
     "skin": {

@@ -53,18 +53,32 @@
   "Comment": "deal",
 
   "Menu": [
-    "AppleBlackMarket",
-    {
-      "12": {"name": "Apple Armory", "description": ["2"], "material": "Iron Sword", "glow": true},
-      "13": {"name": "Apple Brewery", "description": ["3"], "material": "Potion", "glow": true},
-      "14": {"name": "Place Holder", "description": ["4"], "material": "End Crystal"},
-      "15": {"name": "Place Holder", "description": ["5"], "material": "End Crystal"},
-      "16": {"name": "Place Holder", "description": ["6"], "material": "End Crystal"},
+          "Aunty Alma's Shop",
+          3,
+          {
+              "11": {
+                  "name": "&aBerry Shop",
+                  "description": [
+                      "",
+                      "View my berry shop"
+                  ],
+                  "material": "Pomeg Berry"
+              },
+              "15": {
+                  "name": "&aReview Effort Training",
+                  "description": [
+                      "",
+                      "I will examine your Pokémon's battle state, giving you a report on its, hp, attack, defense, speed, special attack & special defense training!",
+                      "",
+                      "&7Buy: &6500 Coins"
+                  ],
+                  "material": "Bone"
+              }
+          },
+          false
+      ],
 
-      "18": {"name": "&cSell Apples", "description": ["8"], "material": "Apple"}
-    },
-    false
-  ],
+
   "Dialog": [{"&cKnight of Apples": "2"}],
   "Dialog": [{"&cKnight of Apples": "3"}],
   "Dialog": [{"&cKnight of Apples": "4"}],

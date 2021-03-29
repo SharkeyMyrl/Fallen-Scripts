@@ -50,7 +50,7 @@
   "TeleportEntity": ["black_market_dealer", 1908.5, 23.0, 517.5, -70, 0],
   "TeleportEntity": ["black_market_dealer", 1976.5, 98.0, 723.5, -30, 0],
   "TeleportEntity": ["black_market_dealer", 1901.5, 78.0, 579.5, 0, 0],
-  "TeleportEntity": ["black_market_dealer", 2019.5, 104.0, 461.5, 180, 0],
+  "TeleportEntity": ["black_market_dealer", 2019.5, 104.0, 461.5, -30, 0],
   "TeleportEntity": ["black_market_dealer", 2066.5, 56.0, 524.5, -128, 0],
   "TeleportEntity": ["black_market_dealer", 2032.5, 21.0, 518.5, -28, 0],
   "TeleportEntity": ["black_market_dealer", 1922.5, 61.0, 633.5, 0, 0],

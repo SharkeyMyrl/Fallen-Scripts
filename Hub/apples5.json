@@ -1,7 +1,4 @@
 {
-  "Key":"white_market",
-  "Author": "SharkeyMyrl",
-
   "HighlightClickEntity": "white_market_dealer",
 
   "If": [],

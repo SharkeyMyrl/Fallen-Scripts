@@ -1,7 +1,4 @@
 {
-  "Key":"black_market",
-  "Author": "SharkeyMyrl",
-
   "HighlightClickEntity": "black_market_dealer",
 
   "If": [],

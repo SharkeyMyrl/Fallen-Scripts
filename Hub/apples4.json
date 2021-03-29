@@ -20,12 +20,15 @@
   "Skip": "No",
 
   "Comment": "Yes",
-  "Dialog": [{"Knight of Apples": "You can tell that witch to leave me alone!?"}],
+  "Wait": 10,
+  "Dialog": [{"&cKnight of Apples": "You can tell that witch to leave me alone!?"}],
   "SetPersistent": ["bmarket", 2],
   "Show": {"black_market_dealer": false},
+  "Wait": 10,
   "Leave": "black_market",
 
   "Comment": "No",
+  "Wait": 10,
   "Dialog": [{"&cKnight of Apples": "Oh..."}],
   "Wait": 40,
   "Dialog": [{"&cKnight of Apples": "Sorry, she has caused me so many issues."}],

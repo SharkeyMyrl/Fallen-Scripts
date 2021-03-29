@@ -65,13 +65,15 @@
     },
     false
   ],
-  "Leave": "white_market",
-  "Leave": "white_market",
-  "Leave": "white_market",
-  "Leave": "white_market",
-  "Leave": "white_market",
-  "Leave": "white_market",
-  "Leave": "white_market"
+  "Dialog": [{"&cKnight of Apples": "0"}],
+  "Dialog": [{"&cKnight of Apples": "2"}],
+  "Dialog": [{"&cKnight of Apples": "3"}],
+  "Dialog": [{"&cKnight of Apples": "4"}],
+  "Dialog": [{"&cKnight of Apples": "5"}],
+  "Dialog": [{"&cKnight of Apples": "6"}],
+  "Dialog": [{"&cKnight of Apples": "8"}],
+
+  "Dialog": [{"&cKnight of Apples": "Bye"}]
 
 
 

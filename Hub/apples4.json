@@ -56,8 +56,8 @@
     "AppleBlackMarket",
     9,
     {
-      "2": {"name": "Apple Armory", "description": "", "material": "Iron Sword"},
-      "3": {"name": "Apple Brewery", "description": "", "material": "Potion"},
+      "2": {"name": "Apple Armory", "description": "", "material": "Iron Sword", "glow": true},
+      "3": {"name": "Apple Brewery", "description": "", "material": "Potion", "glow": true},
       "4": {"name": "Place Holder", "description": "", "material": "End Crystal"},
       "5": {"name": "Place Holder", "description": "", "material": "End Crystal"},
       "6": {"name": "Place Holder", "description": "", "material": "End Crystal"},
@@ -66,15 +66,14 @@
     },
     false
   ],
-  "Leave": "black_market",
-  "Leave": "black_market",
-  "Leave": "black_market",
-  "Leave": "black_market",
-  "Leave": "black_market",
-  "Leave": "black_market",
-  "Leave": "black_market"
+  "Dialog": [{"&cKnight of Apples": "2"}],
+  "Dialog": [{"&cKnight of Apples": "3"}],
+  "Dialog": [{"&cKnight of Apples": "4"}],
+  "Dialog": [{"&cKnight of Apples": "5"}],
+  "Dialog": [{"&cKnight of Apples": "6"}],
+  "Dialog": [{"&cKnight of Apples": "8"}],
 
-
+  "Dialog": [{"&cKnight of Apples": "Bye"}]
 
 
 

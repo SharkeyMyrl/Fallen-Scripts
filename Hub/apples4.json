@@ -53,32 +53,6 @@
   "Comment": "deal",
 
   "Menu": [
-          "Aunty Alma's Shop",
-          3,
-          {
-              "11": {
-                  "name": "&aBerry Shop",
-                  "description": [
-                      "",
-                      "View my berry shop"
-                  ],
-                  "material": "Pomeg Berry"
-              },
-              "15": {
-                  "name": "&aReview Effort Training",
-                  "description": [
-                      "",
-                      "I will examine your Pokémon's battle state, giving you a report on its, hp, attack, defense, speed, special attack & special defense training!",
-                      "",
-                      "&7Buy: &6500 Coins"
-                  ],
-                  "material": "Bone"
-              }
-          },
-          false
-      ],
-
-  "Menu": [
     "AppleBlackMarket",
     {
       "12": {"name": "Apple Armory", "description": ["2"], "material": "Iron Sword", "glow": true},

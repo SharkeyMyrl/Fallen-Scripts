@@ -53,13 +53,13 @@
     "Apple White Market",
     9,
     {
-      "0": {"name": "&6Sell PumpkinPie","material": "Pumpkin Pie"},
+      "0": {"name": "&6Sell PumpkinPie", "description": "", "material": "Pumpkin Pie"},
 
-      "2": {"name": "PumpkinPie Armory","material": "Iron Sword", "glow": true},
-      "3": {"name": "PumpkinPie Brewery","material": "Potion", "glow": true},
-      "4": {"name": "Place Holder","material": "End Crystal"},
-      "5": {"name": "Place Holder","material": "End Crystal"},
-      "6": {"name": "Place Holder","material": "End Crystal"},
+      "2": {"name": "PumpkinPie Armory", "description": "", "material": "Iron Sword", "glow": true},
+      "3": {"name": "PumpkinPie Brewery", "description": "", "material": "Potion", "glow": true},
+      "4": {"name": "Place Holder", "description": "", "material": "End Crystal"},
+      "5": {"name": "Place Holder", "description": "", "material": "End Crystal"},
+      "6": {"name": "Place Holder", "description": "", "material": "End Crystal"},
 
       "8": {"name": "&cBurn Apples","material": "Apple"}
     },
@@ -71,9 +71,7 @@
   "Leave": "white_market",
   "Leave": "white_market",
   "Leave": "white_market",
-  "Leave": "white_market",
-
-  "OpenMenu": "Apple White Market"
+  "Leave": "white_market"
 
 
 

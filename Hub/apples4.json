@@ -1,12 +1,6 @@
 {
   "Key":"black_market",
-	"Name":"&c&lGot the Stuff?",
-  "ServerType": "hub",
-	"Description":"Got the Apples?!",
   "Author": "SharkeyMyrl",
-	"Icon":{
-		"material":"apple"
-	},
 
   "HighlightClickEntity": "black_market_dealer",
 

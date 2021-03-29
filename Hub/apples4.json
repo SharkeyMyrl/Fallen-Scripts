@@ -53,7 +53,7 @@
   "Comment": "deal",
 
   "Menu": [
-    "Apple Black Market",
+    "AppleBlackMarket",
     9,
     {
       "2": {"name": "Apple Armory", "description": "", "material": "Iron Sword", "glow": true},

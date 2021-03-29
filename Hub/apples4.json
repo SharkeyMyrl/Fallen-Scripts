@@ -10,7 +10,7 @@
   "AllowRejoining": true,
   "Completed": ["apples_everywhere_intro", true, "&fYou need to complete &cApples Everywhere &fbefore we can talk."],
 
-  "ClickEntity": "black_market_dealer",
+  "HighlightClickEntity": "black_market_dealer",
 
   "If": [],
   "Equals": ["bmarket","=", 0],

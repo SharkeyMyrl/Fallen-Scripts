@@ -62,7 +62,7 @@
                       "",
                       "View my berry shop"
                   ],
-                  "material": "Bone"
+                  "material": "Pomeg Berry"
               },
               "15": {
                   "name": "&aReview Effort Training",
@@ -78,7 +78,19 @@
           false
       ],
 
+  "Menu": [
+    "AppleBlackMarket",
+    {
+      "12": {"name": "Apple Armory", "description": ["2"], "material": "Iron Sword", "glow": true},
+      "13": {"name": "Apple Brewery", "description": ["3"], "material": "Potion", "glow": true},
+      "14": {"name": "Place Holder", "description": ["4"], "material": "End Crystal"},
+      "15": {"name": "Place Holder", "description": ["5"], "material": "End Crystal"},
+      "16": {"name": "Place Holder", "description": ["6"], "material": "End Crystal"},
 
+      "18": {"name": "&cSell Apples", "description": ["8"], "material": "Apple"}
+    },
+    false
+  ],
   "Dialog": [{"&cKnight of Apples": "2"}],
   "Dialog": [{"&cKnight of Apples": "3"}],
   "Dialog": [{"&cKnight of Apples": "4"}],

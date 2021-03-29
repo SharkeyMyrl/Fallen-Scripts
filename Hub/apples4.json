@@ -54,7 +54,6 @@
 
   "Menu": [
     "AppleBlackMarket",
-    27,
     {
       "12": {"name": "Apple Armory", "description": ["2"], "material": "Iron Sword", "glow": true},
       "13": {"name": "Apple Brewery", "description": ["3"], "material": "Potion", "glow": true},

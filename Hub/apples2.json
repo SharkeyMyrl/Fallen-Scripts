@@ -114,7 +114,11 @@
   "Skip": "Heads",
   "Skip": "Tails",
 
+<<<<<<< HEAD
   "Comment": "Tie",
+=======
+  "Comment": "reward1",
+>>>>>>> 49e2ffb97095433cfeeb1fa93c88b4857fa05d24
   "GiveItem": {
     "material": "apple",
     "name": "&cApple",
@@ -124,7 +128,11 @@
   },
   "Complete": "apples_everywhere",
 
+<<<<<<< HEAD
   "Comment": "Heads",
+=======
+  "Comment": "reward2",
+>>>>>>> 49e2ffb97095433cfeeb1fa93c88b4857fa05d24
   "GiveItem": {
     "material": "apple",
     "name": "&cApple",
@@ -134,7 +142,11 @@
   },
   "Complete": "apples_everywhere",
 
+<<<<<<< HEAD
   "Comment": "Tails",
+=======
+  "Comment": "reward3",
+>>>>>>> 49e2ffb97095433cfeeb1fa93c88b4857fa05d24
   "GiveItem": {
     "material": "apple",
     "name": "&cApple",

@@ -53,15 +53,15 @@
     "AppleWhiteMarket",
     9,
     {
-      "0": {"name": "&6Sell PumpkinPie", "description": ["0"], "material": "Pumpkin Pie"},
+      "10": {"name": "&6Sell PumpkinPie", "description": ["0"], "material": "Pumpkin Pie"},
 
-      "2": {"name": "PumpkinPie Armory", "description": ["2"], "material": "Iron Sword", "glow": true},
-      "3": {"name": "PumpkinPie Brewery", "description": ["3"], "material": "Potion", "glow": true},
-      "4": {"name": "Place Holder", "description": ["4"], "material": "End Crystal"},
-      "5": {"name": "Place Holder", "description": ["5"], "material": "End Crystal"},
-      "6": {"name": "Place Holder", "description": ["6"], "material": "End Crystal"},
+      "12": {"name": "PumpkinPie Armory", "description": ["2"], "material": "Iron Sword", "glow": true},
+      "13": {"name": "PumpkinPie Brewery", "description": ["3"], "material": "Potion", "glow": true},
+      "14": {"name": "Place Holder", "description": ["4"], "material": "End Crystal"},
+      "15": {"name": "Place Holder", "description": ["5"], "material": "End Crystal"},
+      "16": {"name": "Place Holder", "description": ["6"], "material": "End Crystal"},
 
-      "8": {"name": "&cBurn Apples", "description": ["8"], "material": "Apple"}
+      "18": {"name": "&cBurn Apples", "description": ["8"], "material": "Apple"}
     },
     false
   ],

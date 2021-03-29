@@ -56,8 +56,8 @@
     "AppleBlackMarket",
     9,
     {
-      "2": {"name": "Apple Armory", "description": "", "material": "Iron Sword", "glow": true},
-      "3": {"name": "Apple Brewery", "description": "", "material": "Potion", "glow": true},
+      "2": {"name": "Apple Armory", "description": "", "material": "Iron Sword"},
+      "3": {"name": "Apple Brewery", "description": "", "material": "Potion"},
       "4": {"name": "Place Holder", "description": "", "material": "End Crystal"},
       "5": {"name": "Place Holder", "description": "", "material": "End Crystal"},
       "6": {"name": "Place Holder", "description": "", "material": "End Crystal"},

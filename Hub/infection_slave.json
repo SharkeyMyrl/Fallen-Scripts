@@ -2,7 +2,7 @@
   "Key":"infection_slave",
 	"Name":"&c&lDon't Get Caught~",
   "Author": "SharkeyMyrl & PresDaGod",
-  "PlayerJoin":[],
+  "PlayerJoin": [],
 
   "Comment": "Loop",
   "If": [],
@@ -108,7 +108,7 @@
     1
   ],
   "Potion":[
-    "nightvision",
+    "night_vision",
     200,
     1
   ],

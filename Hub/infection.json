@@ -15,26 +15,31 @@
   "Comment": "Ready",
   "Wait": 10,
   "BroadcastMessage": "Alrighty~ Let us infect the world~",
-
+  "Wait": 10,
   "SetPersistent": [
     "infection",
     "running",
     1
   ],
+  "Wait": 10,
   "SetPersistent": [
     "infected",
     1
   ],
+  "Wait": 10,
   "SetPersistent": [
     "infection",
     "participants",
     1
   ],
+  "Wait": 10,
   "SetPersistent": [
     "infection",
     "infected",
     1
   ],
+  "Wait": 10,
+  "BroadcastMessage": "Environment Set.",
 
 
   "Comment": "Game Duration",

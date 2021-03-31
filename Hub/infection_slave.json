@@ -70,11 +70,7 @@
   "Comment": "Checked",
   "SendToServer": "hub-1",
   "Teleport": [1985.5, 29.0, 638.5],
-  "AddPersistent": [
-    "infection",
-    "participants",
-    1
-  ],
+
   "SaveInventory":[],
   "ClearInventory":[],
 
@@ -87,6 +83,12 @@
   ],
   "Skip": "Infection Loop",
   "Wait": 10,
+
+  "AddPersistent": [
+    "infection",
+    "participants",
+    1
+  ],
 
   "Comment": "Game Loop",
 

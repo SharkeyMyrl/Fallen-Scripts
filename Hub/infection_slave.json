@@ -63,7 +63,7 @@
   "Equals": [
     "infection",
     "participants",
-    "!=",
+    "=",
     "[infection:infected]"
   ],
   "Skip": "GameOver",

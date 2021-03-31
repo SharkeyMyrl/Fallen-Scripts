@@ -6,8 +6,8 @@
   "BroadcastMessage": "Ready to infect everyone?",
   "DisableChat": [],
   "SendMessageOptions": [
-    "%6Yes",
-    "%cNo"
+    "&6Yes",
+    "&cNo"
   ],
   "Skip": "Ready",
   "Leave": "infection",

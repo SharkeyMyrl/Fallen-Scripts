@@ -5,6 +5,7 @@
   "PlayerJoin": [],
 
   "Comment": "Loop",
+  "Wait": 200,
   "If": [],
   "Equals": [
     "infection",

@@ -5,11 +5,12 @@
   "PlayerJoin": [],
 
   "Comment": "Loop",
-  "Wait": 200,
+  "Wait": 10,
   "If": [],
   "Equals": [
     "infection",
     "running",
+    "=",
     1
   ],
   "Skip": "Game has started.",
@@ -21,10 +22,11 @@
 
 
   "Comment": "Game has started.",
-
+  "BroadcastMessage": "Starting game.",
   "If": [],
   "Equals": [
     "infected",
+    "=",
     1
   ],
   "Skip": "Participating",
@@ -71,6 +73,7 @@
   "AddPersistent": [
     "infection",
     "participants",
+    "=",
     1
   ],
   "SaveInventory":[],
@@ -81,6 +84,7 @@
   "If": [],
   "Equals": [
     "infected",
+    "=",
     1
   ],
   "Skip": "Infection Loop",
@@ -93,11 +97,13 @@
   ],
   "SetPersistent": [
     "infected",
+    "=",
     1
   ],
   "AddPersistent": [
     "infection",
     "infected",
+    "=",
     1
   ],
 
@@ -137,6 +143,7 @@
   "Equals": [
     "infection",
     "timer",
+    "=",
     15
   ],
   "Skip": "GameOver-3",
@@ -146,6 +153,7 @@
   "Equals": [
     "infection",
     "participants",
+    "=",
     1
   ],
   "Skip": "Snowball Loop",
@@ -155,6 +163,7 @@
   "Equals": [
     "infection",
     "participants",
+    "=",
     "[infection:infected]"
   ],
   "Skip": "GameOver-2",

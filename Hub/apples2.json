@@ -123,7 +123,7 @@
     "amount": 5
   },
   "Complete": "apples_everywhere",
-  "Leave": "apples_everywhere"
+  "Leave": "apples_everywhere",
 
   "Comment": "Heads",
   "GiveItem": {
@@ -134,7 +134,7 @@
     "amount": 3
   },
   "Complete": "apples_everywhere",
-  "Leave": "apples_everywhere"
+  "Leave": "apples_everywhere",
 
   "Comment": "Tails",
   "Wait": 10,

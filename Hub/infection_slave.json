@@ -75,7 +75,7 @@
   "SaveInventory":[],
   "ClearInventory":[],
 
-  "ProgressiveDisableCommand": "k home",
+  "DisableAllCommands":[],
 
   "If": [],
   "Equals": [
@@ -128,8 +128,8 @@
     "Snowball",
     1
   ],
+  "Comment": "Full",
   "Wait": 10,
-
 
   "Comment": "If game time has lapsed.",
   "If": [],

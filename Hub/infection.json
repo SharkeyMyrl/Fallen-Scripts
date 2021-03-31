@@ -45,7 +45,7 @@
     "timer",
     15
   ],
-  "BroadcastMessage": "Game Over",
+  "BroadcastMessage": "Game Over"
 
 
 }

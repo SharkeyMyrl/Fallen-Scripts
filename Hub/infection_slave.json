@@ -1,0 +1,174 @@
+{
+  "Key":"infection_slave",
+	"Name":"&c&lDon't Get Caught~",
+  "Author": "SharkeyMyrl & PresDaGod",
+  "PlayerJoin":[],
+
+  "Comment": "Loop",
+  "If": [],
+  "Equals": [
+    "infection",
+    "running",
+    "=",
+    1
+  ],
+  "Skip": "Game has started.",
+  "Skip": "Loop",
+
+  "Comment": "GameOver",
+  "BroadcastMessage": "Sorry it seems the game has already ended.",
+  "Leave": "infection_slave",
+
+
+  "Comment": : "Game has started.",
+
+  "If": [],
+  "Equals": [
+    "infected",
+    "=",
+    1
+  ],
+  "Skip": "Participating",
+  "DisableChat": [],
+  "BroadcastMessage": "A game of infection has started would you like to play?",
+  "SendMessageOptions": [
+    "%6Yes",
+    "%cNo"
+  ],
+  "Skip": "Participating",
+  "Leave": "infection_slave",
+
+  "Comment": "Participating",
+
+  "If": [],
+  "Equals": [
+    "infection",
+    "participants",
+    "!=",
+    0
+  ],
+  "Skip": "GameOver",
+
+  "If": [],
+  "Equals": [
+    "infection",
+    "participants",
+    "!=",
+    1
+  ],
+  "Skip": "GameOver",
+
+  "If": [],
+  "Equals": [
+    "infection",
+    "participants",
+    "!=",
+    "[infection:infected]"
+  ],
+  "Skip": "GameOver",
+
+  "SendToServer": "hub-1",
+  "Teleport": [1985.5, 29.0, 638.5],
+  "AddPersistent": [
+    "infection",
+    "participants",
+    1
+  ],
+  "SaveInventory":[],
+  "ClearInventory":[],
+
+  "ProgressiveDisableCommand": "k home",
+
+  "If": [],
+  "Equals": [
+    "infected",
+    "=",
+    1
+  ],
+  "Skip": "Infection Loop",
+
+  "Comment": "Game Loop",
+
+  "BroadcastMessage": "Run For Your Life!",
+  "ProjectileHit": [
+    "Snowball"
+  ],
+  "SetPersistent": [
+    "infected",
+    1
+  ],
+  "AddPersistent": [
+    "infection",
+    "infected",
+    1
+  ],
+
+  "Comment": "Infection Loop",
+  "Teleport": [2003.5, 34.0, 577.5],
+  "Potion":[
+    "blindness",
+    200,
+    1
+  ],
+  "Potion":[
+    "nightvision",
+    200,
+    1
+  ],
+  "PersistentPotion": [
+    "glowing",
+    1
+  ],
+
+  "Comment": "Snowball Loop",
+  "If": [],
+  "HasItem": [
+    "Snowball",
+    3
+  ],
+  "Skip":"Full",
+  "GiveItem": [
+    "Snowball",
+    1,
+  ],
+  "Wait": 10,
+
+
+  "Comment": "If game time has lapsed.",
+  "If": [],
+  "Equals": [
+    "infection",
+    "timer",
+    15
+  ],
+  "Skip": "GameOver-3",
+
+  "Comment": "If game time is still starting.",
+  "If": [],
+  "Equals": [
+    "infection",
+    "participants",
+    1
+  ],
+  "Skip": "Snowball Loop",
+
+  "Comment": "All infected.",
+  "If": [],
+  "Equals": [
+    "infection",
+    "participants",
+    "[infection:infected]"
+  ],
+  "Skip": "GameOver-2",
+  "Skip": "Snowball Loop",
+
+  "Comment": "GameOver-1",
+
+  "Comment": "GameOver-2",
+  "BroadcastMessage": "The infected have taken over, &6Game Over",
+
+  "Comment": "GameOver-3",
+  "BroadcastMessage": "Game has gone on to long, &cGame Over"
+
+
+}

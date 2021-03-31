@@ -1,0 +1,51 @@
+{
+  "Key":"infection",
+	"Name":"&c&lGotta Catch 'em All~",
+  "Author": "SharkeyMyrl & PresDaGod",
+  "GlobalCommand": "infection",
+  "BroadcastMessage": "Ready to infect everyone?",
+  "DisableChat": [],
+  "SendMessageOptions": [
+    "%6Yes",
+    "%cNo"
+  ],
+  "Skip": "Ready",
+  "Leave": "infection",
+
+  "Comment": "Ready",
+  "Wait": 10,
+  "BroadcastMessage": "Alrighty~ Let us infect the world~",
+
+  "SetPersistent": [
+    "infection",
+    "running",
+    1
+  ],
+  "SetPersistent": [
+    "infected",
+    1
+  ],
+  "SetPersistent": [
+    "infection",
+    "participants",
+    1
+  ],
+  "SetPersistent": [
+    "infection",
+    "infected",
+    1
+  ],
+
+
+  "Comment": "Game Duration",
+  "Wait": 10000000,
+
+  "SetPersistent": [
+    "infection",
+    "timer",
+    15
+  ],
+  "BroadcastMessage": "Game Over",
+
+
+}

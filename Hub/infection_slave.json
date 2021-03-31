@@ -33,8 +33,8 @@
   "DisableChat": [],
   "BroadcastMessage": "A game of infection has started would you like to play?",
   "SendMessageOptions": [
-    "%6Yes",
-    "%cNo"
+    "&6Yes",
+    "&cNo"
   ],
   "Skip": "Participating",
   "Leave": "infection_slave",
@@ -58,7 +58,7 @@
     1
   ],
   "Skip": "Checked",
-
+  "Comment": "Test",
   "If": [],
   "Equals": [
     "infection",

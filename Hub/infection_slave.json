@@ -73,7 +73,6 @@
   "AddPersistent": [
     "infection",
     "participants",
-    "=",
     1
   ],
   "SaveInventory":[],
@@ -97,13 +96,11 @@
   ],
   "SetPersistent": [
     "infected",
-    "=",
     1
   ],
   "AddPersistent": [
     "infection",
     "infected",
-    "=",
     1
   ],
 

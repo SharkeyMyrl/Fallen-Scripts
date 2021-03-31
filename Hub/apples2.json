@@ -115,6 +115,7 @@
   "Skip": "Tails",
 
   "Comment": "Tie",
+  "Wait": 10,
   "GiveItem": {
     "material": "apple",
     "name": "&cApple",
@@ -125,6 +126,7 @@
   "Complete": "apples_everywhere",
 
   "Comment": "Heads",
+  "Wait": 10,
   "GiveItem": {
     "material": "apple",
     "name": "&cApple",
@@ -135,6 +137,7 @@
   "Complete": "apples_everywhere",
 
   "Comment": "Tails",
+  "Wait": 10,
   "GiveItem": {
     "material": "apple",
     "name": "&cApple",

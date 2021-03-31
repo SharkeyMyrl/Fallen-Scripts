@@ -9,7 +9,6 @@
   "Equals": [
     "infection",
     "running",
-    "=",
     1
   ],
   "Skip": "Game has started.",
@@ -25,7 +24,6 @@
   "If": [],
   "Equals": [
     "infected",
-    "=",
     1
   ],
   "Skip": "Participating",
@@ -82,7 +80,6 @@
   "If": [],
   "Equals": [
     "infected",
-    "=",
     1
   ],
   "Skip": "Infection Loop",

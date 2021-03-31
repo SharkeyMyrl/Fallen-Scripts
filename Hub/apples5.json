@@ -9,30 +9,30 @@
 
   "Comment": "intro",
   "Wait": 10,
-  "Dialog": [{"&6&bKnight of PumkinPie": "Heyyo~"}],
+  "Dialog": [{"&6&lKnight of PumkinPie": "Heyyo~"}],
   "Wait": 10,
-  "Dialog": [{"&6&bKnight of PumkinPie": "Keep an eye out while wandering around, there is a shady figure in hiding."}],
+  "Dialog": [{"&6&lKnight of PumkinPie": "Keep an eye out while wandering around, there is a shady figure in hiding."}],
   "Wait": 10,
-  "Dialog": [{"&6&bKnight of PumkinPie": "He is a wanted man and should be brought to justice."}],
+  "Dialog": [{"&6&lKnight of PumkinPie": "He is a wanted man and should be brought to justice."}],
   "Wait": 10,
-  "Dialog": [{"&6&bKnight of PumkinPie": "Would you mind helping me out and find him?"}],
+  "Dialog": [{"&6&lKnight of PumkinPie": "Would you mind helping me out and find him?"}],
   "Wait": 10,
   "SendMessageOptions": [ -1, "&6Yes", "&cNo" ],
   "Skip": "Yes",
   "Skip": "No",
 
   "Comment": "Yes",
-  "Dialog": [{"&6&bKnight of PumkinPie": "Awesome, if you find him please report him to the authories so they can arrest him."}],
+  "Dialog": [{"&6&lKnight of PumkinPie": "Awesome, if you find him please report him to the authories so they can arrest him."}],
   "Wait": 10,
-  "Dialog": [{"&6&bKnight of PumkinPie": "Come back when you have some apples for me."}],
+  "Dialog": [{"&6&lKnight of PumkinPie": "Come back when you have some apples for me."}],
   "Wait": 10,
   "SetPersistent": ["wmarket", 1],
   "Leave": "white_market",
 
   "Comment": "No",
-  "Dialog": [{"&6&bKnight of PumkinPie": "That's okay... We will find him with out your help..."}],
+  "Dialog": [{"&6&lKnight of PumkinPie": "That's okay... We will find him with out your help..."}],
   "Wait": 10,
-  "Dialog": [{"&6&bKnight of PumkinPie": "Come back when you have some apples for me."}],
+  "Dialog": [{"&6&lKnight of PumkinPie": "Come back when you have some apples for me."}],
   "Wait": 10,
   "SetPersistent": ["wmarket", 1],
   "Leave": "white_market",
@@ -55,15 +55,15 @@
     },
     false
   ],
-  "Dialog": [{"&c&bKnight of Apples": "0"}],
-  "Dialog": [{"&c&bKnight of Apples": "2"}],
-  "Dialog": [{"&c&bKnight of Apples": "3"}],
-  "Dialog": [{"&c&bKnight of Apples": "4"}],
-  "Dialog": [{"&c&bKnight of Apples": "5"}],
-  "Dialog": [{"&c&bKnight of Apples": "6"}],
-  "Dialog": [{"&c&bKnight of Apples": "8"}],
+  "Dialog": [{"&c&lKnight of Apples": "0"}],
+  "Dialog": [{"&c&lKnight of Apples": "2"}],
+  "Dialog": [{"&c&lKnight of Apples": "3"}],
+  "Dialog": [{"&c&lKnight of Apples": "4"}],
+  "Dialog": [{"&c&lKnight of Apples": "5"}],
+  "Dialog": [{"&c&lKnight of Apples": "6"}],
+  "Dialog": [{"&c&lKnight of Apples": "8"}],
 
-  "Dialog": [{"&c&bKnight of Apples": "Bye"}]
+  "Dialog": [{"&c&lKnight of Apples": "Bye"}]
 
 
 

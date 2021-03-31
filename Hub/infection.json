@@ -2,7 +2,7 @@
   "Key":"infection",
 	"Name":"&c&lGotta Catch 'em All~",
   "Author": "SharkeyMyrl & PresDaGod",
-  "GlobalCommand": "infection",
+  "Command": "infection",
   "BroadcastMessage": "Ready to infect everyone?",
   "DisableChat": [],
   "SendMessageOptions": [

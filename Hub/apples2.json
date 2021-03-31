@@ -109,6 +109,10 @@
   "If":[],
   "Chance": 0.20,
   "Skip": "Tie",
+  "Skip": "Slow",
+
+  "Comment": "Slow",
+  "Wait": 10,
   "If": [],
   "Chance": 0.50,
   "Skip": "Heads",

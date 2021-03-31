@@ -24,19 +24,22 @@
   "Wait": 10,
   "SetPersistent": [
     "infected",
-    1
+    1,
+    true
   ],
   "Wait": 10,
   "SetPersistent": [
     "infection",
     "participants",
-    1
+    1,
+    true
   ],
   "Wait": 10,
   "SetPersistent": [
     "infection",
     "infected",
-    1
+    1,
+    true
   ],
   "Wait": 10,
   "BroadcastMessage": "Environment Set.",
@@ -48,7 +51,8 @@
   "SetPersistent": [
     "infection",
     "timer",
-    15
+    15,
+    true
   ],
   "BroadcastMessage": "Game Over"
 

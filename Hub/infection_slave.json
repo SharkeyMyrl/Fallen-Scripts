@@ -76,7 +76,7 @@
   "SaveInventory":[],
   "ClearInventory":[],
 
-  "DisableAllCommands":[],
+  "DisableCommand": "kingdom",
 
   "If": [],
   "Equals": [

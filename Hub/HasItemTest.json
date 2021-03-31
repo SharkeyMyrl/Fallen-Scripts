@@ -4,14 +4,12 @@
   "Author": "SharkeyMyrl & PresDaGod",
   "PlayerJoin": [],
   "If"[],
-  "HasItem":[
-    {
+  "HasItem": [
       "material": "apple",
       "name": "&cApple",
       "description": "Gift from the Apple King.",
-      "glow": true
-    },
-    1
+      "glow": true,
+      "amount": 1
   ],
   "BroadcastMessage": "[PLAYER] has special apple.",
 

@@ -38,6 +38,7 @@
   "Leave": "infection_slave",
 
   "Comment": "Participating",
+  "Wait": 10,
 
   "If": [],
   "Equals": [
@@ -46,6 +47,7 @@
     0
   ],
   "Skip": "GameOver",
+  "Wait": 10,
 
   "If": [],
   "Equals": [
@@ -54,6 +56,7 @@
     1
   ],
   "Skip": "Checked",
+  "Wait": 10,
   "Comment": "Test",
   "If": [],
   "Equals": [
@@ -62,6 +65,7 @@
     "[infection:infected]"
   ],
   "Skip": "GameOver",
+  "Wait": 10,
 
   "Comment": "Checked",
   "SendToServer": "hub-1",
@@ -82,6 +86,7 @@
     1
   ],
   "Skip": "Infection Loop",
+  "Wait": 10,
 
   "Comment": "Game Loop",
 

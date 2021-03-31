@@ -10,7 +10,6 @@
   "Equals": [
     "infection",
     "running",
-    "=",
     1
   ],
   "Skip": "Game has started.",
@@ -26,7 +25,6 @@
   "If": [],
   "Equals": [
     "infected",
-    "=",
     1
   ],
   "Skip": "Participating",
@@ -45,7 +43,6 @@
   "Equals": [
     "infection",
     "participants",
-    "=",
     0
   ],
   "Skip": "GameOver",
@@ -54,7 +51,6 @@
   "Equals": [
     "infection",
     "participants",
-    "=",
     1
   ],
   "Skip": "Checked",
@@ -63,7 +59,6 @@
   "Equals": [
     "infection",
     "participants",
-    "=",
     "[infection:infected]"
   ],
   "Skip": "GameOver",
@@ -84,7 +79,6 @@
   "If": [],
   "Equals": [
     "infected",
-    "=",
     1
   ],
   "Skip": "Infection Loop",
@@ -151,7 +145,6 @@
   "Equals": [
     "infection",
     "participants",
-    "=",
     1
   ],
   "Skip": "Snowball Loop",
@@ -161,7 +154,6 @@
   "Equals": [
     "infection",
     "participants",
-    "=",
     "[infection:infected]"
   ],
   "Skip": "GameOver-2",

@@ -45,7 +45,7 @@
   "Equals": [
     "infection",
     "participants",
-    "!=",
+    "=",
     0
   ],
   "Skip": "GameOver",
@@ -54,10 +54,10 @@
   "Equals": [
     "infection",
     "participants",
-    "!=",
+    "=",
     1
   ],
-  "Skip": "GameOver",
+  "Skip": "Checked",
 
   "If": [],
   "Equals": [
@@ -68,6 +68,7 @@
   ],
   "Skip": "GameOver",
 
+  "Comment": "Checked",
   "SendToServer": "hub-1",
   "Teleport": [1985.5, 29.0, 638.5],
   "AddPersistent": [

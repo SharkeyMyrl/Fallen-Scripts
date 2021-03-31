@@ -1,5 +1,5 @@
 {
-  "key": "black_market",
+  "Key": "black_market",
   "HighlightClickEntity": "black_market_dealer",
 
   "If": [],

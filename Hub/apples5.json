@@ -1,5 +1,5 @@
 {
-  "key": "white_market",
+  "Key": "white_market",
   "HighlightClickEntity": "white_market_dealer",
 
   "If": [],

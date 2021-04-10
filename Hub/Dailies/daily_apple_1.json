@@ -30,7 +30,7 @@
     [1921.5,28.0,521.5]
     ]],
 
-  "PickupItem":["easy", "&aApple", "apple"],
+  "CumulativePickupItem":["easy", "&aApple", "apple"],
 
   "GiveItem": {
     "material": "apple",

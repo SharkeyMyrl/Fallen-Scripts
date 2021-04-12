@@ -1,0 +1,10 @@
+{
+  "GiveItem": {
+    "material": "apple",
+    "name": "&cApple",
+    "description": "Gift from the Apple King.",
+    "glow": true,
+    "amount": 3
+  },
+  "Progress": "daily_apple_3"
+}

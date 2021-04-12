@@ -50,10 +50,10 @@
   "Dialog": [{"David": "Come back to me in level five, to gather your rewards."}],
   "HighlightClickEntity": "kill_quest5",
   "SetPersistent": [ "kill_quest_five", 0 ],
-  "GiveItem": {
-    "material": "diamond",
-    "amount": 75
-  },
+  "Wait": 1,
+  "Start": "david_level_5_rewards",
+  "Hold": [],
+
   "Dialog": [{"David": "Thank you for helping me out [PLAYER], long live the king and queen."}],
   "CompleteKingdomQuest": []
 }

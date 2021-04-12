@@ -31,13 +31,9 @@
     ]],
 
   "CumulativePickupItem":["easy", "&aApple", "apple"],
+  "Wait": 1,
+  "Start": "daily_apple_1_rewards",
+  "Hold":[],
 
-  "GiveItem": {
-    "material": "apple",
-    "name": "&cApple",
-    "description": "Gift from the Apple King.",
-    "glow": true,
-    "amount": 1
-  },
   "Complete": "daily_apple_1"
 }

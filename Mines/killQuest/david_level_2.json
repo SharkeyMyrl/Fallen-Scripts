@@ -50,10 +50,10 @@
   "Dialog": [{"David": "Come back to me in level two, to gather your rewards."}],
   "HighlightClickEntity": "kill_quest2",
   "SetPersistent": [ "kill_quest_two", 0 ],
-  "GiveItem": {
-    "material": "spider_eye",
-    "amount": 30
-  },
+  "Wait": 1,
+  "Start": "david_level_2_rewards",
+  "Hold": [],
+
   "Dialog": [{"David": "Thank you for helping me out [PLAYER], long live the king and queen."}],
   "CompleteKingdomQuest": []
 }

@@ -50,10 +50,10 @@
   "Dialog": [{"David": "Come back to me in level three, to gather your rewards."}],
   "HighlightClickEntity": "kill_quest3",
   "SetPersistent": [ "kill_quest_three", 0 ],
-  "GiveItem": {
-    "material": "VenomousExtract",
-    "amount": 45
-  },
+  "Wait": 1,
+  "Start": "david_level_3_rewards",
+  "Hold": [],
+
   "Dialog": [{"David": "Thank you for helping me out [PLAYER], long live the king and queen."}],
   "CompleteKingdomQuest": []
 }

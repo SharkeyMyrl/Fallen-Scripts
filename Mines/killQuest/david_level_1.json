@@ -50,10 +50,10 @@
   "Dialog": [{"David": "Come back to me in level one, to gather your rewards."}],
   "HighlightClickEntity": "kill_quest1",
   "SetPersistent": [ "kill_quest_one", 0 ],
-  "GiveItem": {
-    "material": "rotten_flesh",
-    "amount": 15
-  },
+  "Wait": 1,
+  "Start": "david_level_1_rewards",
+  "Hold": [],
+
   "Dialog": [{"David": "Thank you for helping me out [PLAYER], long live the king and queen."}],
   "CompleteKingdomQuest": []
 }

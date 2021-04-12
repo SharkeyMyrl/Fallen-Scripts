@@ -1,5 +1,5 @@
 {
-  "Key":"markets",
+  "Key":"markets_handler",
   "Name":"&c&lMarket Timeslots",
   "ServerType": "hub",
   "Description":"Got the Apples?!",

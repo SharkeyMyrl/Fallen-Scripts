@@ -1,5 +1,5 @@
 {
-  "Key":"kill_quest_level_five_command",
+  "Key":"david_level_5_command",
   "AllowRejoining": false,
   "PlayerJoin":[],
   "Command": "progress five",

@@ -1,0 +1,59 @@
+{
+  "Key":"david_level_1",
+  "ServerType": "mines",
+	"Name":"&c&lSeek and Destroy lvl 1",
+	"Description":"Daily mob kill quest.",
+  "Author": "SharkeyMyrl",
+  "Quest":true,
+	"Icon":{
+		"material":"rotten_flesh"
+	},
+  "HasKingdomBuilding":[
+		"mine",
+		1
+	],
+  "NotCompleted": 6,
+
+  "AllowRejoining": true,
+
+  "CreateEntity": {
+    "key": "kill_quest1",
+    "skin": "FALLEN_MINER_LIGHT",
+    "location": [2329.5, 71, 469.5, 225],
+    "name": [
+			"&6&lDavid",
+			"&8&oQuest Giver"
+		],
+    "global": true
+  },
+
+  "AddProperty": ["kill_quest_one_p", "[kill_quest_one]"],
+
+  "SetPersistent": [ "kill_quest_one", 0 ],
+  "HighlightClickEntity": "kill_quest1",
+  "LookDialog": [{"David": "Can you please kill 10 zombies for me."},"kill_quest5"],
+
+  "Comment": "MobLoop",
+  "SendMessage": "&6&lYou have killed [kill_quest_one]/10 zombies.",
+
+  "KillMythicMob": ["ShamblerF1E", 1],
+  "AddPersistent": [ "kill_quest_one", 1 ],
+  "Wait": 1,
+
+  "If": [],
+  "Equals": ["kill_quest_one", 10],
+  "Skip": "MobKilled",
+  "Skip": "MobLoop",
+  "Comment": "MobKilled",
+  "SendMessage": "&2&lYou have killed 10/10 zombies.",
+
+  "Dialog": [{"David": "Come back to me in level one, to gather your rewards."}],
+  "HighlightClickEntity": "kill_quest1",
+  "SetPersistent": [ "kill_quest_one", 0 ],
+  "Wait": 1,
+  "Start": "david_level_1_rewards",
+  "Hold": [],
+
+  "Dialog": [{"David": "Thank you for helping me out [PLAYER], long live the king and queen."}],
+  "CompleteKingdomQuest": []
+}

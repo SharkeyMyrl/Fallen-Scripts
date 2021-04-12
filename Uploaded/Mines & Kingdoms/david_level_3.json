@@ -1,0 +1,59 @@
+{
+  "Key":"david_level_3",
+  "ServerType": "mines",
+	"Name":"&c&lSeek and Destroy lvl 3",
+	"Description":"Daily mob kill quest.",
+  "Author": "SharkeyMyrl",
+  "Quest":true,
+	"Icon":{
+		"material":"scute"
+	},
+  "HasKingdomBuilding":[
+		"mine",
+		3
+	],
+  "NotCompleted": 18,
+
+  "AllowRejoining": true,
+
+  "CreateEntity": {
+    "key": "kill_quest3",
+    "skin": "FALLEN_MINER_LIGHT",
+    "location": [2860.5, 66, 450.5, 225],
+    "name": [
+			"&6&lDavid",
+			"&8&oQuest Giver"
+		],
+    "global": true
+  },
+
+  "AddProperty": ["kill_quest_three_p", "[kill_quest_three]"],
+
+  "SetPersistent": [ "kill_quest_three", 0 ],
+  "HighlightClickEntity": "kill_quest3",
+  "LookDialog": [{"David": "Can you please kill 30 cave stalkers for me."},"kill_quest5"],
+
+  "Comment": "MobLoop",
+  "SendMessage": "&6&lYou have killed [kill_quest_three]/30 cave stalkers.",
+
+  "KillMythicMob": ["CaveStalkerF3", 1],
+  "AddPersistent": [ "kill_quest_three", 1 ],
+  "Wait": 1,
+
+  "If": [],
+  "Equals": ["kill_quest_three", 30],
+  "Skip": "MobKilled",
+  "Skip": "MobLoop",
+  "Comment": "MobKilled",
+  "SendMessage": "&2&lYou have killed 30/30 cave stalkers.",
+
+  "Dialog": [{"David": "Come back to me in level three, to gather your rewards."}],
+  "HighlightClickEntity": "kill_quest3",
+  "SetPersistent": [ "kill_quest_three", 0 ],
+  "Wait": 1,
+  "Start": "david_level_3_rewards",
+  "Hold": [],
+
+  "Dialog": [{"David": "Thank you for helping me out [PLAYER], long live the king and queen."}],
+  "CompleteKingdomQuest": []
+}

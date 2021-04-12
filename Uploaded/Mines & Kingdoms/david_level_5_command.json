@@ -1,0 +1,9 @@
+{
+  "Key":"david_level_5_command",
+  "AllowRejoining": false,
+  "PlayerJoin":[],
+  "Command": "progress five",
+  "In": "kill_quest_level_five",
+  "SendMessage": "You have killed atleast [kill_quest_five]/30 mimics.",
+  "Start": "kill_quest_level_five_command"
+}

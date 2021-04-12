@@ -1,0 +1,28 @@
+{
+  "Key":"daily_apple_4",
+	"Name":"&c&lDaily Apple #4",
+  "ServerType": "hub",
+	"Description":"Apples Apples Everywhere!",
+  "Author": "SharkeyMyrl",
+	"Icon":{
+		"material":"apple"
+	},
+  "PlayerJoin":[],
+  "AllowRejoining": false,
+  "NotCompleted": 24,
+
+  "StoreRandom": ["extreme",[
+    [1944.5,143.0,682.5],
+    [1962.0,34.0,525.5],
+    [2064.5,88.0,621.5]
+    ]],
+
+  "CumulativePickupItem":["extreme", "&dApple", "apple"],
+  "Wait": 1,
+  "Start": "daily_apple_4_rewards",
+  "Hold":[],
+  
+  "Complete": "daily_apple_4"
+
+
+}

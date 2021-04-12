@@ -1,5 +1,5 @@
-
-  "Key": "daily_apple_2_rewards",{
+{
+  "Key": "daily_apple_2_rewards",
   "GiveItem": {
     "material": "apple",
     "name": "&cApple",

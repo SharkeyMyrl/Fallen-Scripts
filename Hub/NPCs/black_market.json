@@ -37,7 +37,7 @@
   "Wait": 10,
   "Dialog": [{"&c&lKnight of Apples": "She burns so many of my kings subjects..."}],
   "Wait": 10,
-  "Dialog": [{"&c&lKnight of Apples": "If anyone is a murder between the two of us, she deservers to be hauled away in shackles."}],
+  "Dialog": [{"&c&lKnight of Apples": "If anyone is a murderer between the two of us, she deservers to be hauled away in shackles."}],
   "Wait": 10,
   "Dialog": [{"&c&lKnight of Apples": "Come find me when you have apples you wish to part with, I am a knight from the land of apples."}],
   "Wait": 10,
@@ -59,7 +59,8 @@
   "RandomDialog": [
     {"&c&lKnight of Apples": "Got more apples for me?"},
     {"&c&lKnight of Apples": "Can I help you?"},
-    {"&c&lKnight of Apples": "Hope that witch hasn't been causing you trouble."}
+    {"&c&lKnight of Apples": "Hope that witch hasn't been causing you trouble."},
+    {"&c&lKnight of Apples": "Hey... Got the goods?"}
 
   ],
   "Start": "black_market_menu",

@@ -7,5 +7,6 @@
     "glow": true,
     "amount": 2
   },
+  "Wait": 1,
   "Progress": "daily_apple_2"
 }

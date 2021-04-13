@@ -20,6 +20,7 @@
   "Skip": "No",
 
   "Comment": "Yes",
+  "SetPersistent": ["bprestige", -100],
   "Wait": 10,
   "Dialog": [{"&c&lKnight of Apples": "You can tell that witch to leave me alone!?"}],
   "SetPersistent": ["bmarket", 2],
@@ -28,6 +29,7 @@
   "Leave": "black_market",
 
   "Comment": "No",
+  "SetPersistent": ["bprestige", 0],
   "Wait": 10,
   "Dialog": [{"&c&lKnight of Apples": "Oh..."}],
   "Wait": 40,
@@ -44,6 +46,34 @@
   "Leave": "black_market",
 
   "Comment": "Menu",
+  "If": [],
+  "Equals":[
+    "bprestige",
+    ">=",
+    0
+  ],
+  "Skip": "Good",
+  "Skip": "Bad",
+
+  "Comment": "Good",
+  "RandomDialog": [
+    {"&c&lKnight of Apples": "Got more apples for me?"},
+    {"&c&lKnight of Apples": "Can I help you?"},
+    {"&c&lKnight of Apples": "Hope that witch hasn't been causing you trouble."},
+
+  ],
+  "Start": "black_market_menu",
+  "Leave": "black_market",
+
+  "Comment": "Bad",
+  "RandomDialog": [
+    {"&c&lKnight of Apples": "What do you want you scum?"},
+    {"&c&lKnight of Apples": "Oh it's you again..."},
+    {"&c&lKnight of Apples": "Why are you here..."}
+  ],
   "Start": "black_market_menu"
+
+
+
 
 }

@@ -34,7 +34,7 @@
     "menu_1",
     4,
     {
-      "10": {"name": "TBD", "material": "Iron Helmet"},
+      "10": {"name": "TBD", "material": "Iron Helmet"}
     },
     false
   ],
@@ -43,7 +43,7 @@
     "menu_2",
     4,
     {
-      "10": {"name": "TBD", "material": "Iron Helmet"},
+      "10": {"name": "TBD", "material": "Iron Helmet"}
     },
     false
   ],
@@ -52,7 +52,7 @@
     "menu_3",
     4,
     {
-      "10": {"name": "TBD", "material": "Iron Helmet"},
+      "10": {"name": "TBD", "material": "Iron Helmet"}
     },
     false
   ],
@@ -61,7 +61,7 @@
     "menu_4",
     4,
     {
-      "10": {"name": "TBD", "material": "Iron Helmet"},
+      "10": {"name": "TBD", "material": "Iron Helmet"}
     },
     false
   ],
@@ -70,7 +70,7 @@
     "menu_5",
     4,
     {
-      "10": {"name": "TBD", "material": "Iron Helmet"},
+      "10": {"name": "TBD", "material": "Iron Helmet"}
     },
     false
   ],
@@ -79,7 +79,7 @@
     "menu_6",
     4,
     {
-      "10": {"name": "TBD", "material": "Iron Helmet"},
+      "10": {"name": "TBD", "material": "Iron Helmet"}
     },
     false
   ]

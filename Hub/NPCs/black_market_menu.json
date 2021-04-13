@@ -5,7 +5,7 @@
   "Store": ["menu_3", "Place Holder"],
   "Store": ["menu_4", "Place Holder"],
   "Store": ["menu_5", "Place Holder"],
-  "Store": ["menu_6", "&cSell Apples"],
+  "Store": ["menu_6", "Sell Apples"],
 
   "Menu": [
     "Apple Kingdom Market",
@@ -17,7 +17,7 @@
       "5": {"name": "[menu_4]", "material": "End Crystal"},
       "6": {"name": "[menu_5]", "material": "End Crystal"},
 
-      "8": {"name": "[menu_6]", "material": "Apple"}
+      "8": {"name": "&c[menu_6]", "material": "Apple"}
     },
     false
   ],

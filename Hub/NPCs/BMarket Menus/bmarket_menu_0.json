@@ -1,0 +1,24 @@
+{
+  "Key": "bmarket_menu_0",
+  "Menu": [
+    "AppleBlackMarket",
+    1,
+    {
+      "2": {"name": "Apple Armory", "material": "Iron Sword", "glow": true},
+      "3": {"name": "Apple Brewery", "material": "Potion", "glow": true},
+      "4": {"name": "Place Holder", "material": "End Crystal"},
+      "5": {"name": "Place Holder", "material": "End Crystal"},
+      "6": {"name": "Place Holder", "material": "End Crystal"},
+
+      "8": {"name": "&cSell Apples", "material": "Apple"}
+    },
+    false
+  ],
+  "Start": "bmarket_menu_1",
+  "Start": "bmarket_menu_2",
+  "Start": "bmarket_menu_3",
+  "Start": "bmarket_menu_4",
+  "Start": "bmarket_menu_5",
+  "Start": "bmarket_menu_6"
+
+}

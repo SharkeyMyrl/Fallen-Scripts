@@ -1,0 +1,26 @@
+{
+  "Key": "wmarket_menu_0",
+  "Menu": [
+    "AppleWhiteMarket",
+    1,
+    {
+      "0": {"name": "&6Sell PumpkinPie", "material": "Pumpkin Pie"},
+
+      "2": {"name": "PumpkinPie Armory", "material": "Iron Sword", "glow": true},
+      "3": {"name": "PumpkinPie Brewery", "material": "Potion", "glow": true},
+      "4": {"name": "Place Holder", "material": "End Crystal"},
+      "5": {"name": "Place Holder", "material": "End Crystal"},
+      "6": {"name": "Place Holder", "material": "End Crystal"},
+
+      "8": {"name": "&cBurn Apples", "material": "Apple"}
+    },
+    false
+  ],
+  "Start": "wmarket_menu_1",
+  "Start": "wmarket_menu_2",
+  "Start": "wmarket_menu_3",
+  "Start": "wmarket_menu_4",
+  "Start": "wmarket_menu_5",
+  "Start": "wmarket_menu_6",
+  "Start": "wmarket_menu_7"
+}

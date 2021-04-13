@@ -4,10 +4,10 @@
 
   "If": [],
   "Equals": ["wmarket","=", 0],
-  "Skip": "intro",
-  "Skip": "deal",
+  "Skip": "Intro",
+  "Skip": "Menu",
 
-  "Comment": "intro",
+  "Comment": "Intro",
   "Wait": 10,
   "Dialog": [{"&6&lKnight of PumkinPie": "Heyyo~"}],
   "Wait": 10,
@@ -37,40 +37,7 @@
   "SetPersistent": ["wmarket", 1],
   "Leave": "white_market",
 
-  "Comment": "deal",
-
-  "Menu": [
-    "AppleWhiteMarket",
-    1,
-    {
-      "0": {"name": "&6Sell PumpkinPie", "description": ["0"], "material": "Pumpkin Pie"},
-
-      "2": {"name": "PumpkinPie Armory", "description": ["2"], "material": "Iron Sword", "glow": true},
-      "3": {"name": "PumpkinPie Brewery", "description": ["3"], "material": "Potion", "glow": true},
-      "4": {"name": "Place Holder", "description": ["4"], "material": "End Crystal"},
-      "5": {"name": "Place Holder", "description": ["5"], "material": "End Crystal"},
-      "6": {"name": "Place Holder", "description": ["6"], "material": "End Crystal"},
-
-      "8": {"name": "&cBurn Apples", "description": ["8"], "material": "Apple"}
-    },
-    false
-  ],
-  "Dialog": [{"&c&lKnight of Apples": "0"}],
-  "Dialog": [{"&c&lKnight of Apples": "2"}],
-  "Dialog": [{"&c&lKnight of Apples": "3"}],
-  "Dialog": [{"&c&lKnight of Apples": "4"}],
-  "Dialog": [{"&c&lKnight of Apples": "5"}],
-  "Dialog": [{"&c&lKnight of Apples": "6"}],
-  "Dialog": [{"&c&lKnight of Apples": "8"}],
-
-  "Dialog": [{"&c&lKnight of Apples": "Bye"}]
-
-
-
-
-
-
-
-
+  "Comment": "Menu",
+  "Start": "wmarket_menu_0"
 
 }

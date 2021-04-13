@@ -11,7 +11,7 @@
     "PumpkinPie Kingdom Market",
     1,
     {
-      "0": {"name": "&6[menu_1]", "material": "Pumkin Pie"}
+      "0": {"name": "&6[menu_1]", "material": "Pumkin Pie"},
 
       "2": {"name": "[menu_2]", "material": "Iron Sword", "glow": true},
       "3": {"name": "[menu_3]", "material": "Potion", "glow": true},

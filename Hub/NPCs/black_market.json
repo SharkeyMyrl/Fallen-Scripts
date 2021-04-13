@@ -15,7 +15,7 @@
   "Wait": 10,
   "Dialog": [{"&c&lKnight of Apples": "Did she send you to find me!?"}],
   "Wait": 10,
-  "SendMessageOptions": [ "&6Yes", "&cNo" ],
+  "SendMessageOptions": [ -1, "&6Yes", "&cNo" ],
   "Skip": "Yes",
   "Skip": "No",
 

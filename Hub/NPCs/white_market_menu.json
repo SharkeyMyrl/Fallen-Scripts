@@ -1,11 +1,12 @@
 {
   "Key": "white_market_menu",
-  "Store": ["menu_1", "PumpkinPie Armory"],
-  "Store": ["menu_2", "PumpkinPie Brewery"],
-  "Store": ["menu_3", "Place Holder"],
+  "Store": ["menu_1", "Sell Pumpkin Pie"],
+  "Store": ["menu_2", "Pumpkin Pie Armory"],
+  "Store": ["menu_3", "Pumpkin Pie Brewery"],
   "Store": ["menu_4", "Place Holder"],
   "Store": ["menu_5", "Place Holder"],
-  "Store": ["menu_6", "Burn Apples"],
+  "Store": ["menu_6", "Place Holder"],
+  "Store": ["menu_7", "Burn Apples"],
 
   "Menu": [
     "PumpkinPie Kingdom Market",

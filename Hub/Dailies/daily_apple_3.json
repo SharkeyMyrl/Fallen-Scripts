@@ -24,8 +24,6 @@
   "Wait": 1,
   "Start": "daily_apple_3_rewards",
   "Hold":[],
-  
-  "Complete": "apples_everywhere"
 
-
+  "Complete": "daily_apple_3"
 }

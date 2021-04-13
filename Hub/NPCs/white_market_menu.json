@@ -1,18 +1,25 @@
 {
   "Key": "white_market_menu",
+  "Store": ["menu_1", "PumpkinPie Armory"],
+  "Store": ["menu_2", "PumpkinPie Brewery"],
+  "Store": ["menu_3", "Place Holder"],
+  "Store": ["menu_4", "Place Holder"],
+  "Store": ["menu_5", "Place Holder"],
+  "Store": ["menu_6", "Burn Apples"],
+
   "Menu": [
-    "AppleWhiteMarket",
+    "PumpkinPie Kingdom Market",
     1,
     {
-      "0": {"name": "&6Sell PumpkinPie", "material": "Pumpkin Pie"},
+      "0": {"name": "&6[menu_1]", "material": "Pumkin Pie"}
 
-      "2": {"name": "Apple Armory", "material": "Iron Sword", "glow": true},
-      "3": {"name": "Apple Brewery", "material": "Potion", "glow": true},
-      "4": {"name": "Place Holder", "material": "End Crystal"},
-      "5": {"name": "Place Holder", "material": "End Crystal"},
-      "6": {"name": "Place Holder", "material": "End Crystal"},
+      "2": {"name": "[menu_2]", "material": "Iron Sword", "glow": true},
+      "3": {"name": "[menu_3]", "material": "Potion", "glow": true},
+      "4": {"name": "[menu_4]", "material": "End Crystal"},
+      "5": {"name": "[menu_5]", "material": "End Crystal"},
+      "6": {"name": "[menu_6]", "material": "End Crystal"},
 
-      "8": {"name": "&cSell Apples", "material": "Apple"}
+      "8": {"name": "&c[menu_7]", "material": "Apple"}
     },
     false
   ],
@@ -70,6 +77,15 @@
     false
   ],
   "Comment": "Menu_6",
+  "Menu": [
+    "menu_6",
+    4,
+    {
+      "10": {"name": "TBD", "material": "Iron Helmet"}
+    },
+    false
+  ],
+  "Comment": "Menu_7",
   "Menu": [
     "menu_6",
     4,

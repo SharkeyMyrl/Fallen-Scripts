@@ -59,7 +59,7 @@
   "RandomDialog": [
     {"&c&lKnight of Apples": "Got more apples for me?"},
     {"&c&lKnight of Apples": "Can I help you?"},
-    {"&c&lKnight of Apples": "Hope that witch hasn't been causing you trouble."},
+    {"&c&lKnight of Apples": "Hope that witch hasn't been causing you trouble."}
 
   ],
   "Start": "black_market_menu",

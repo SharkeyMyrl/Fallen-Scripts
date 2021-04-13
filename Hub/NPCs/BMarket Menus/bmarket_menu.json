@@ -1,16 +1,23 @@
 {
   "Key": "bmarket_menu",
+  "Store": ["menu_1", "Apple Armory"],
+  "Store": ["menu_2", "Apple Brewery"],
+  "Store": ["menu_3", "Place Holder"],
+  "Store": ["menu_4", "Place Holder"],
+  "Store": ["menu_5", "Place Holder"],
+  "Store": ["menu_6", "&cSell Apples"],
+
   "Menu": [
-    "AppleBlackMarket",
+    "Apple Kingdom Market",
     1,
     {
-      "2": {"name": "Apple Armory", "material": "Iron Sword", "glow": true},
-      "3": {"name": "Apple Brewery", "material": "Potion", "glow": true},
-      "4": {"name": "Place Holder", "material": "End Crystal"},
-      "5": {"name": "Place Holder", "material": "End Crystal"},
-      "6": {"name": "Place Holder", "material": "End Crystal"},
+      "2": {"name": "[menu_1]", "material": "Iron Sword", "glow": true},
+      "3": {"name": "[menu_2]", "material": "Potion", "glow": true},
+      "4": {"name": "[menu_3]", "material": "End Crystal"},
+      "5": {"name": "[menu_4]", "material": "End Crystal"},
+      "6": {"name": "[menu_5]", "material": "End Crystal"},
 
-      "8": {"name": "&cSell Apples", "material": "Apple"}
+      "8": {"name": "[menu_6]", "material": "Apple"}
     },
     false
   ],
@@ -24,114 +31,56 @@
 
   "Comment": "Menu_1",
   "Menu": [
-    "AppleBlackMarket",
-    1,
+    "menu_1",
+    4,
     {
-      "2": {"name": "Apple Armory", "material": "Iron Sword", "glow": true},
-      "3": {"name": "Apple Brewery", "material": "Potion", "glow": true},
-      "4": {"name": "Place Holder", "material": "End Crystal"},
-      "5": {"name": "Place Holder", "material": "End Crystal"},
-      "6": {"name": "Place Holder", "material": "End Crystal"},
-
-      "8": {"name": "&cSell Apples", "material": "Apple"}
+      "10": {"name": "TBD", "material": "Iron Helmet"},
     },
     false
   ],
-
-
-
-
-
-
   "Comment": "Menu_2",
   "Menu": [
-    "AppleBlackMarket",
-    1,
+    "menu_2",
+    4,
     {
-      "2": {"name": "Apple Armory", "material": "Iron Sword", "glow": true},
-      "3": {"name": "Apple Brewery", "material": "Potion", "glow": true},
-      "4": {"name": "Place Holder", "material": "End Crystal"},
-      "5": {"name": "Place Holder", "material": "End Crystal"},
-      "6": {"name": "Place Holder", "material": "End Crystal"},
-
-      "8": {"name": "&cSell Apples", "material": "Apple"}
+      "10": {"name": "TBD", "material": "Iron Helmet"},
     },
     false
   ],
-
-
-
-
   "Comment": "Menu_3",
   "Menu": [
-    "AppleBlackMarket",
-    1,
+    "menu_3",
+    4,
     {
-      "2": {"name": "Apple Armory", "material": "Iron Sword", "glow": true},
-      "3": {"name": "Apple Brewery", "material": "Potion", "glow": true},
-      "4": {"name": "Place Holder", "material": "End Crystal"},
-      "5": {"name": "Place Holder", "material": "End Crystal"},
-      "6": {"name": "Place Holder", "material": "End Crystal"},
-
-      "8": {"name": "&cSell Apples", "material": "Apple"}
+      "10": {"name": "TBD", "material": "Iron Helmet"},
     },
     false
   ],
-
-
-
-
   "Comment": "Menu_4",
   "Menu": [
-    "AppleBlackMarket",
-    1,
+    "menu_4",
+    4,
     {
-      "2": {"name": "Apple Armory", "material": "Iron Sword", "glow": true},
-      "3": {"name": "Apple Brewery", "material": "Potion", "glow": true},
-      "4": {"name": "Place Holder", "material": "End Crystal"},
-      "5": {"name": "Place Holder", "material": "End Crystal"},
-      "6": {"name": "Place Holder", "material": "End Crystal"},
-
-      "8": {"name": "&cSell Apples", "material": "Apple"}
+      "10": {"name": "TBD", "material": "Iron Helmet"},
     },
     false
   ],
-
-
-
-
   "Comment": "Menu_5",
   "Menu": [
-    "AppleBlackMarket",
-    1,
+    "menu_5",
+    4,
     {
-      "2": {"name": "Apple Armory", "material": "Iron Sword", "glow": true},
-      "3": {"name": "Apple Brewery", "material": "Potion", "glow": true},
-      "4": {"name": "Place Holder", "material": "End Crystal"},
-      "5": {"name": "Place Holder", "material": "End Crystal"},
-      "6": {"name": "Place Holder", "material": "End Crystal"},
-
-      "8": {"name": "&cSell Apples", "material": "Apple"}
+      "10": {"name": "TBD", "material": "Iron Helmet"},
     },
     false
   ],
-
   "Comment": "Menu_6",
   "Menu": [
-    "AppleBlackMarket",
-    1,
+    "menu_6",
+    4,
     {
-      "2": {"name": "Apple Armory", "material": "Iron Sword", "glow": true},
-      "3": {"name": "Apple Brewery", "material": "Potion", "glow": true},
-      "4": {"name": "Place Holder", "material": "End Crystal"},
-      "5": {"name": "Place Holder", "material": "End Crystal"},
-      "6": {"name": "Place Holder", "material": "End Crystal"},
-
-      "8": {"name": "&cSell Apples", "material": "Apple"}
+      "10": {"name": "TBD", "material": "Iron Helmet"},
     },
     false
   ],
-
-
-
 }

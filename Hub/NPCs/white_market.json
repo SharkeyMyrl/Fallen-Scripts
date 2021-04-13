@@ -38,6 +38,6 @@
   "Leave": "white_market",
 
   "Comment": "Menu",
-  "Start": "wmarket_menu_0"
+  "Start": "white_market_menu"
 
 }

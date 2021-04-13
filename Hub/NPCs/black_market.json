@@ -39,7 +39,7 @@
   "Wait": 10,
   "Dialog": [{"&c&lKnight of Apples": "If anyone is a murder between the two of us, she deservers to be hauled away in shackles."}],
   "Wait": 10,
-  "Dialog": [{"&cKnight of Apples": "Come find me when you have apples you wish to part with, I am a knight from the land of apples."}],
+  "Dialog": [{"&c&lKnight of Apples": "Come find me when you have apples you wish to part with, I am a knight from the land of apples."}],
   "Wait": 10,
   "Dialog": [{"&c&lKnight of Apples": "Just heed my warning. Don't let her kind words fool you."}],
   "SetPersistent": ["bmarket", 1],

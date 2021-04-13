@@ -12,6 +12,7 @@
 
   "Comment": "Yes",
   "Wait": 1,
+  "AddPersistent": ["specialApple", 1],
   "GiveItem": {
     "material": "apple",
     "name": "&cApple",

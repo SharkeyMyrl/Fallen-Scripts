@@ -1,5 +1,17 @@
 {
   "Key": "daily_apple_1_rewards",
+  "Wait": 1,
+  "If": [],
+  "Equals":[
+    "specialApple",
+    "=",
+    0
+  ],
+  "Skip": "Yes",
+  "Skip": "No",
+
+  "Comment": "Yes",
+  "Wait": 1,
   "GiveItem": {
     "material": "apple",
     "name": "&cApple",
@@ -7,6 +19,11 @@
     "glow": true,
     "amount": 1
   },
+
+  "Comment": "No",
   "Wait": 1,
+  "AddPersistent": ["apples", 1],
+
+
   "Progress": "daily_apple_1"
 }

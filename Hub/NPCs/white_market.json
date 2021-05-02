@@ -1,6 +1,24 @@
 {
   "Key": "white_market",
+  "Author": "SharkeyMyrl",
+
+  "Expire": [ "Sunday 00:00", "Sunday 24:00", "EST" ],
+  "ServerType": "hub",
   "HighlightClickEntity": "white_market_dealer",
+
+  "CreateEntity": {
+      "key": "white_market_dealer",
+      "skin": {
+  			"texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxNTc5MTUyNzAwNywKICAicHJvZmlsZUlkIiA6ICJlNzkzYjJjYTdhMmY0MTI2YTA5ODA5MmQ3Yzk5NDE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVfSG9zdGVyX01hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iNzBkNWRlNzBjODBlYTdiMGUxODAzOTFlYjRjOTdkMDY4NWNjZmZkNDg4MzgyYTZhYWE2NmM5ZWIzMzVkY2MzIgogICAgfQogIH0KfQ==",
+  			"signature": "APCwis5TR24cuwE3zgc4AYXwuFlauD7xwuerWsHWnzlw8oQlnK6bIPMTu3kDBmGmUatDbHzPQxVMqxMQAiQp1phRQ3Ig6s/trknLAC30nSWoPOYR6fTUD7/C5Aefo2hP7Q+yzgusAKhB2AEa90iOYEHVB3haA8IqB4ZsWPbE7F+5KscGAb/2Pkk3PWgF8Ze9bHq52pFfWLYf1fgpeCKSKauB/xSVphzGIphzCgUwHfWvaiGescejjZLtg4ypavtfHfxV+2qsgJAvZlNCYbqBANAlZqscZgbfnv++hSP6GmtDq8SI51d8A4DJAZeda3y3H2mJFr47pCgNlAjWOXqGy2cS5j3uplkZwtsv6x9haSXAKjEiheYONt2+BE3qIWiL/qpTYR1UgW3JZltPpW1VuL8KU3uQanA/9zIH/kQJv5pdMfTGrIsUEQbFUrPg5lWKlG+vShEVs9YEss9j622t8EIvt15/yqsp7J++ax/n9T1ymPa6Su8aSz56Vf7fk9tiUtWT32sC+ph1Tr09W50SoMclR5P0RbFWEJRkIrKxe4PV84gZ3t+gjRjxdZybMnn1LuBudrL6ELMurBr4kUWPcssHBLafIy//o38opWmpMFYvaeJPqXmzuKAn/Warg0pbvbgfK/VKMcADrj0VH2d7D9QyrztaGb07kqawklr/uDg="
+  		},
+      "location": [1986.5, 26.0, 594.5, 0],
+      "name": [
+  			"&6&lKnight of PumkinPie",
+  			"&8&oWhite Market"
+  		],
+      "global": true
+  },
 
   "If": [],
   "Equals": ["wmarket","=", 0],

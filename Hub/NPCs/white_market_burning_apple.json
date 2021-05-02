@@ -1,0 +1,20 @@
+{
+  "Key":"white_market_burning_apple",
+  "Author": "SharkeyMyrl",
+
+  "Expire": [ "Sunday 00:00", "Sunday 24:00", "EST" ],
+  "ServerType": "hub",
+
+  "CreateEntity": {
+      "key": "white_market_dealer_apple",
+      "entity": "item",
+      "item": "apple",
+      "location": [1987.5, 27.0, 594.5, 0],
+      "global": true
+  },
+  "Server": true,
+  "SetBlock": [1987,26,594,"campfire", true],
+  "Wait": 20,
+
+  "Hold": []
+}

@@ -1,6 +1,36 @@
 {
   "Key": "black_market",
+  "Author": "SharkeyMyrl",
+
+  "Expire": [ "Friday 00:00", "Friday 24:00", "EST" ],
+  "ServerType": "hub",
   "HighlightClickEntity": "black_market_dealer",
+
+  "Store": ["black",[
+    [1959.5, 34.0, 497.5, 0],
+    [1908.5, 23.0, 517.5, -51],
+    [1976.5, 98.0, 723.5, -90],
+    [1901.5, 78.0, 579.5, -15],
+    [2019.5, 104.0, 461.5, -180],
+    [2066.5, 56.0, 524.5, -135],
+    [2032.5, 21.0, 518.5, -20],
+    [1922.5, 61.0, 633.5, 0]
+  ]],
+
+  "CreateEntity": {
+    "key": "black_market_dealer",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxNTYwNjQ1NzE0MiwKICAicHJvZmlsZUlkIiA6ICJhYTZhNDA5NjU4YTk0MDIwYmU3OGQwN2JkMzVlNTg5MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiejE0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUzZjQ1MjEwYzExZDUwYWI1MDBjNGU4OGQxNGIzMGQwOTI1N2UyNDY3ZmU4YzZmMTJlOTg3YWY1OGQ5NDEwNzAiCiAgICB9CiAgfQp9",
+      "signature": "Hl6dV1+T0J9Yv7dLd0i2Y2LezmaeYPZxV5RuG1UZos+HLPVcZ0+PP0SIvcexNUsdjrtpmSApgFd+c1sFIJaoyEhtYdDsYXf5gfPAjquwVVWepgu1bRuC54WMzw1tPp2AFtWEAXcLfB9uIA8wNbm+M1TYXJcfgGJ0Xs4R0BEip69sTSPLhXPr6di5Xj/6+L8FecyxX+TZPFNevzeKgpUXm+F83ud0ZfeESMrUJKvrpX0e8DKzg3iXBOzHsSXBqq6munibrAydcI06TUs3jHWsVIir3/DVsQxQdzbmKMrhyHSBTx6SYkuB9tB3KR0/yYN6cG5Sovk6i6MdvfNfqpxXnoXDW5GOLkkzabJh44FM4KvVS+eg+6zHNgueIwM863yCJcmiRHa9bSQQcoYwfekf/n7VLPN9YEgbJm5xZLaOUJALwD3udec64vInAcE/uGEXfUBe1l9FdAt0MZiJtyFJGbGf3ghNpdXoJVptL9WLmdYACKo15E3D6wyLt/x/SncWtRmmz3ovraRWXTmCBcStZ/eEfQ/y32hy10YCesftYEP5ZXooAvMg+IFPSZolZr67P0yzCok58qpFe2liZ31wgznEbHxSbImRAppbVXCVAf8SFzsrsA/UI0OuqN6CZloGfKqcO6M0Rb6zl8ObK5e4dIFc8xN/RPze/t77rE7Ns1Y="
+    },
+    "location": "black",
+    "name": [
+      "&c&lKnight of Apples",
+      "&8&oBlack Market"
+    ],
+    "global": true
+  },
+
 
   "If": [],
   "Equals": ["bmarket","=", 0],

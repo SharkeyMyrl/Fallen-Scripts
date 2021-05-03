@@ -2,7 +2,7 @@
   "Key": "black_market",
   "Author": "SharkeyMyrl",
 
-  "Expire": [ "Friday 00:00", "Friday 24:00", "EST" ],
+  "Expire": [ "Monday 00:00", "Friday 24:00", "EST" ],
   "ServerType": "hub",
   "HighlightClickEntity": "black_market_dealer",
 

@@ -25,9 +25,7 @@
   "CumulativePickupItem":["mines_1", "&dPumpkin Pie", "pumpkin pie"],
   "Wait": 1,
   "Start": "daily_pie_1_rewards",
-  "Hold":[],
-
-  "Complete": "daily_apple_1"
+  "Hold":[]
 
 
 }

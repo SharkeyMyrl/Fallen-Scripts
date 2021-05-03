@@ -5,16 +5,6 @@
   "NotCompleted": 24,
   "AllowRejoining": true,
 
-  "CreateEntity": {
-    "key": "kill_quest4",
-    "skin": "FALLEN_MINER_LIGHT",
-    "location": [2699.5, 66, 441.5, 225],
-    "name": [
-			"&6&lDavid",
-			"&8&oQuest Giver"
-		],
-    "global": true
-  },
 
   "AddProperty": ["kill_quest_four_p", "[kill_quest_four]"],
 

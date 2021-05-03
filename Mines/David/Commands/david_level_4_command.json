@@ -3,7 +3,7 @@
   "AllowRejoining": false,
   "PlayerJoin":[],
   "Command": "progress four",
-  "In": "kill_quest_level_four",
+  "In": "david_level_4",
   "SendMessage": "You have killed atleast [kill_quest_four]/25 munchers.",
-  "Start": "kill_quest_level_four_command"
+  "Start": "david_level_4_command"
 }

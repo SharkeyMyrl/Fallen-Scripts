@@ -12,7 +12,7 @@
   "LookDialog": [{"David": "Can you please kill 10 zombies for me."},"kill_quest5"],
 
   "Comment": "MobLoop",
-  "SendMessage": "&6&lYou have killed [kill_quest_one]/10 zombies.",
+  "SendMessage": "&6&lYou have killed [kill_quest_one]&6&l/10 zombies.",
 
   "KillMythicMob": ["ShamblerF1E", 1],
   "AddPersistent": [ "kill_quest_one", 1 ],

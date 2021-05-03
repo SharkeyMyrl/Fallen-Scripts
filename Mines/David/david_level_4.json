@@ -12,7 +12,7 @@
   "LookDialog": [{"David": "Can you please kill 40 ore munchers for me."},"kill_quest5"],
 
   "Comment": "MobLoop",
-  "SendMessage": "&6&lYou have killed [kill_quest_four]/40 ore munchers.",
+  "SendMessage": "&6&lYou have killed [kill_quest_four]&6&l/40 ore munchers.",
 
   "KillMythicMob": ["CaveStalkerF3", 1],
   "AddPersistent": [ "kill_quest_four", 1 ],

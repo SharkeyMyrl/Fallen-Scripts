@@ -11,7 +11,7 @@
   "LookDialog": [{"David": "Can you please kill 50 mimics for me."},"kill_quest5"],
 
   "Comment": "MobLoop",
-  "SendMessage": "&6&lYou have killed [kill_quest_five]/50 mimics.",
+  "SendMessage": "&6&lYou have killed [kill_quest_five]&6&l/50 mimics.",
 
   "KillMythicMob": ["MimicF4", 1],
   "AddPersistent": [ "kill_quest_five", 1 ],

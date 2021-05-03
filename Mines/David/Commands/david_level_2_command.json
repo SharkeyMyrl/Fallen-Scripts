@@ -3,7 +3,7 @@
   "AllowRejoining": false,
   "PlayerJoin":[],
   "Command": "progress two",
-  "In": "kill_quest_level_two",
+  "In": "david_level_2",
   "SendMessage": "You have killed atleast [kill_quest_two]/15 crawlers.",
-  "Start": "kill_quest_level_two_command"
+  "Start": "david_level_2_command"
 }

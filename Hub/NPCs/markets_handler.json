@@ -51,7 +51,7 @@
   },
   "Server": true,
 
-  "Hide": ["white_market_dealer", "black_market_dealer"],
+  "Hide": ["white_market_dealer", "black_market_dealer", "white_market_dealer_apple"],
 
   "Wait": 1,
   "If":[],
@@ -65,7 +65,7 @@
   "Wait": 1,
   "Leave":[],
   "Comment": "Bruh",
-  "Show": "white_market_dealer",
+  "Show": ["white_market_dealer", "white_market_dealer_apple"],
   "SetBlock": [1987,26,594,"campfire", true],
   "Wait": 20,
 

@@ -53,6 +53,7 @@
 
   "Hide": ["white_market_dealer", "black_market_dealer"],
 
+  "Wait": 1,
   "If":[],
   "InDateRange": ["Friday"],
   "Show": "black_market_dealer",
@@ -60,6 +61,7 @@
   "InDateRange": ["Sunday"],
   "Skip": "In",
   "Hold":[],
+  "Wait": 1,
   "Leave":[],
   "Comment": "In",
   "Show": "white_market_dealer",

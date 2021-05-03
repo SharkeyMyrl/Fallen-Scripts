@@ -1,19 +1,9 @@
 {
   "Key":"david_level_5",
   "ServerType": "mines",
-	"Name":"&c&lSeek and Destroy lvl 5",
 	"Description":"Daily mob kill quest.",
   "Author": "SharkeyMyrl",
-  "Quest":true,
-	"Icon":{
-		"material":"diamond"
-	},
-  "HasKingdomBuilding":[
-		"mine",
-		5
-	],
   "NotCompleted": 50,
-
   "AllowRejoining": true,
 
   "CreateEntity": {

@@ -1,8 +1,7 @@
 {
   "Key":"david_level_2",
-  "ServerType": "mines",
-	"Description":"Daily mob kill quest.",
   "Author": "SharkeyMyrl",
+  "HighlightClickEntity": "kill_quest2",
   "NotCompleted": 12,
   "AllowRejoining": true,
 
@@ -20,7 +19,6 @@
   "AddProperty": ["kill_quest_two_p", "[kill_quest_two]"],
 
   "SetPersistent": [ "kill_quest_two", 0 ],
-  "HighlightClickEntity": "kill_quest2",
   "LookDialog": [{"David": "Can you please kill 20 crawlers for me."},"kill_quest5"],
 
   "Comment": "MobLoop",

@@ -1,8 +1,7 @@
 {
   "Key":"david_level_5",
-  "ServerType": "mines",
-	"Description":"Daily mob kill quest.",
   "Author": "SharkeyMyrl",
+  "HighlightClickEntity": "kill_quest5",
   "NotCompleted": 50,
   "AllowRejoining": true,
 
@@ -20,7 +19,6 @@
   "AddProperty": ["kill_quest_five_p", "[kill_quest_five]"],
 
   "SetPersistent": [ "kill_quest_five", 0 ],
-  "HighlightClickEntity": "kill_quest5",
   "LookDialog": [{"David": "Can you please kill 50 mimics for me."},"kill_quest5"],
 
   "Comment": "MobLoop",

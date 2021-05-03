@@ -1,8 +1,7 @@
 {
   "Key":"david_level_3",
-  "ServerType": "mines",
-	"Description":"Daily mob kill quest.",
   "Author": "SharkeyMyrl",
+  "HighlightClickEntity": "kill_quest3",
   "NotCompleted": 18,
   "AllowRejoining": true,
 
@@ -20,7 +19,6 @@
   "AddProperty": ["kill_quest_three_p", "[kill_quest_three]"],
 
   "SetPersistent": [ "kill_quest_three", 0 ],
-  "HighlightClickEntity": "kill_quest3",
   "LookDialog": [{"David": "Can you please kill 30 cave stalkers for me."},"kill_quest5"],
 
   "Comment": "MobLoop",

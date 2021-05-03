@@ -1,5 +1,5 @@
 {
-  "Key": "daily_pie_1_rewards",
+  "Key": "daily_pie_2_rewards",
   "Wait": 1,
   "If": [],
   "Equals":[
@@ -23,8 +23,8 @@
 
   "Comment": "No",
   "Wait": 1,
-  "AddPersistent": ["pies", 1],
+  "AddPersistent": ["pies", 2],
 
 
-  "Progress": "daily_pie_1"
+  "Progress": "daily_pie_2"
 }

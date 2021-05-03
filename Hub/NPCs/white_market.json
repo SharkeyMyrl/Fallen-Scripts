@@ -2,10 +2,6 @@
   "Key": "white_market",
   "Author": "SharkeyMyrl",
 
-  "Expire": [ "Sunday 00:00", "Sunday 24:00", "EST" ],
-  "ServerType": "hub",
-  "HighlightClickEntity": "white_market_dealer",
-
   "CreateEntity": {
       "key": "white_market_dealer",
       "skin": {
@@ -19,6 +15,9 @@
   		],
       "global": true
   },
+  "Expire": [ "Monday 00:00", "Sunday 24:00", "EST" ],
+  "ServerType": "hub",
+  "HighlightClickEntity": "white_market_dealer",
 
   "If": [],
   "Equals": ["wmarket","=", 0],

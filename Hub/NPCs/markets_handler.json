@@ -50,6 +50,15 @@
       "global": true
   },
   "Server": true,
+
+  "Hide": ["white_market_dealer", "black_market_dealer"],
+
+  "If":[],
+  "InDateRange": ["Friday"],
+  "Show": "black_market_dealer",
+  "If":[],
+  "InDateRange": ["Sunday"],
+  "Show": "white_market_dealer",
   "SetBlock": [1987,26,594,"campfire", true],
   "Wait": 20,
 

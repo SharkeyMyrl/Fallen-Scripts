@@ -57,6 +57,7 @@
   "If":[],
   "InDateRange": ["Friday"],
   "Show": "black_market_dealer",
+  "Wait": 1,
   "If":[],
   "InDateRange": ["Sunday"],
   "Skip": "Bruh",

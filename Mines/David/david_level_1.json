@@ -5,7 +5,7 @@
   "Author": "SharkeyMyrl",
   "NotCompleted": 6,
   "AllowRejoining": true,
-
+  "HighlightClickEntity": "kill_quest1",
   "CreateEntity": {
     "key": "kill_quest1",
     "skin": "FALLEN_MINER_LIGHT",
@@ -20,7 +20,7 @@
   "AddProperty": ["kill_quest_one_p", "[kill_quest_one]"],
 
   "SetPersistent": [ "kill_quest_one", 0 ],
-  "HighlightClickEntity": "kill_quest1",
+  
   "LookDialog": [{"David": "Can you please kill 10 zombies for me."},"kill_quest5"],
 
   "Comment": "MobLoop",

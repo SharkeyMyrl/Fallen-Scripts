@@ -3,7 +3,7 @@
   "Author": "SharkeyMyrl",
 
   "HighlightClickEntity": "black_market_dealer",
-  "Expire": [ "Monday 00:00", "Friday 24:00", "EST" ],
+  "Expire": [ "Friday 00:00", "Friday 24:00", "EST" ],
 
   "If": [],
   "Equals": ["bmarket","=", 0],

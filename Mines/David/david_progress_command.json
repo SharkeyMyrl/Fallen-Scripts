@@ -1,0 +1,31 @@
+{
+  "Key":"david_progress_command",
+  "AllowRejoining": false,
+  "PlayerJoin":[],
+  "Command": "david",
+
+  "If":[],
+  "In": "david_level_1",
+  "SendMessage": "You have killed atleast [kill_quest_one]/10 zombies.",
+  "Dummy":[],
+
+  "If":[],
+  "In": "david_level_2",
+  "SendMessage": "You have killed atleast [kill_quest_two]/20 crawlers.",
+  "Dummy":[],
+
+  "If":[],
+  "In": "david_level_3",
+  "SendMessage": "You have killed atleast [kill_quest_three]/30 lurkers.",
+  "Dummy":[],
+
+  "If":[],
+  "In": "david_level_4",
+  "SendMessage": "You have killed atleast [kill_quest_four]/40 munchers.",
+  "Dummy":[],
+
+  "If":[],
+  "In": "david_level_5",
+  "SendMessage": "You have killed atleast [kill_quest_five]/50 mimics.",
+  "Dummy":[],
+}

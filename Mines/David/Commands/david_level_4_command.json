@@ -1,9 +1,0 @@
-{
-  "Key":"david_level_4_command",
-  "AllowRejoining": false,
-  "PlayerJoin":[],
-  "Command": "progress four",
-  "In": "david_level_4",
-  "SendMessage": "You have killed atleast [kill_quest_four]/25 munchers.",
-  "Start": "david_level_4_command"
-}

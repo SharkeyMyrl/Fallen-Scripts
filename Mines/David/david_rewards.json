@@ -7,7 +7,7 @@
     "material": "rotten_flesh",
     "amount": 15
   },
-  "AddPersistent": ["David", "easyDavid", 1],
+  "AddPersistent": ["SharkQuest", "easyDavid", 1],
   "Progress": "david_level_1",
   "Wait":1,
   "Leave":[],
@@ -18,7 +18,7 @@
     "material": "spider_eye",
     "amount": 30
   },
-  "AddPersistent": ["David", "mediumDavid", 1],
+  "AddPersistent": ["SharkQuest", "mediumDavid", 1],
   "Progress": "david_level_2",
   "Wait":1,
   "Leave":[],
@@ -29,7 +29,7 @@
     "material": "VenomousExtract",
     "amount": 45
   },
-  "AddPersistent": ["David", "hardDavid", 1],
+  "AddPersistent": ["SharkQuest", "hardDavid", 1],
   "Progress": "david_level_3",
   "Wait":1,
   "Leave":[],
@@ -40,7 +40,7 @@
     "material": "ender_eye",
     "amount": 60
   },
-  "AddPersistent": ["David", "difficultDavid", 1],
+  "AddPersistent": ["SharkQuest", "difficultDavid", 1],
   "Progress": "david_level_4",
   "Wait":1,
   "Leave":[],
@@ -51,7 +51,7 @@
     "material": "diamond",
     "amount": 75
   },
-  "AddPersistent": ["David", "extremeDavid", 1],
+  "AddPersistent": ["SharkQuest", "extremeDavid", 1],
   "Progress": "david_level_5",
   "Wait":1,
   "Leave":[]

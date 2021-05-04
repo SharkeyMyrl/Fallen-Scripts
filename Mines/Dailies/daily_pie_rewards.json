@@ -2,7 +2,7 @@
   "Key": "daily_pie_rewards",
   "Comment": "One",
   "AddPersistent": ["pies", 1],
-  "AddPersistent": ["Pies", "easyPies", 1],
+  "AddPersistent": ["SharkQuest", "easyPies", 1],
   "SendMessage": "&a+1 &6Pie Coin",
   "Complete": "daily_pie_1",
   "Wait": 1,
@@ -10,7 +10,7 @@
 
   "Comment": "Two",
   "AddPersistent": ["pies", 2],
-  "AddPersistent": ["Pies", "mediumPies", 1],
+  "AddPersistent": ["SharkQuest", "mediumPies", 1],
   "SendMessage": "&a+2 &6Pie Coin",
   "Complete": "daily_pie_2",
   "Wait": 1,
@@ -18,7 +18,7 @@
 
   "Comment": "Three",
   "AddPersistent": ["pies", 3],
-  "AddPersistent": ["Pies", "hardPies", 1],
+  "AddPersistent": ["SharkQuest", "hardPies", 1],
   "SendMessage": "&a+3 &6Pie Coin",
   "Complete": "daily_pie_3",
   "Wait": 1,
@@ -26,7 +26,7 @@
 
   "Comment": "Four",
   "AddPersistent": ["pies", 4],
-  "AddPersistent": ["Pies", "difficultPies", 1],
+  "AddPersistent": ["SharkQuest", "difficultPies", 1],
   "SendMessage": "&a+4 &6Pie Coin",
   "Complete": "daily_pie_4",
   "Wait": 1,
@@ -34,7 +34,7 @@
 
   "Comment": "Five",
   "AddPersistent": ["pies", 5],
-  "AddPersistent": ["Pies", "extremePies", 1],
+  "AddPersistent": ["SharkQuest", "extremePies", 1],
   "SendMessage": "&a+5 &6Pie Coin",
   "Complete": "daily_pie_5",
   "Wait": 1,

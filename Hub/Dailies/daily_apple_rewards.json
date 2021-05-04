@@ -4,19 +4,22 @@
   "AddPersistent": ["apples", 1],
   "Wait": 1,
   "Skip": "Special",
+
   "Comment": "Two",
   "AddPersistent": ["apples", 2],
   "Wait": 1,
   "Skip": "Special",
+
   "Comment": "Three",
   "AddPersistent": ["apples", 3],
   "Wait": 1,
   "Skip": "Special",
+  
   "Comment": "Four",
   "AddPersistent": ["apples", 4],
   "Wait": 1,
   "Skip": "Special",
-  
+
   "Comment": "Special",
   "Wait": 1,
   "If": [],

@@ -18,12 +18,12 @@
     "name": "&cApple",
     "description": "Gift from the Apple King.",
     "glow": true,
-    "amount": "[apple_reward]"
+    "amount": 1
   },
 
   "Comment": "No",
   "Wait": 1,
-  "AddPersistent": ["apples", 1],
+  "AddPersistent": ["apples", "[apple_reward]"],
 
 
   "Complete": "daily_apple_1"

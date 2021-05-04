@@ -1,8 +1,0 @@
-{
-  "Key":"david_level_1_rewards",
-  "GiveItem": {
-    "material": "ender_eye",
-    "amount": 60
-  },
-  "Progress": "david_level_4"
-}

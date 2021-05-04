@@ -1,8 +1,0 @@
-{
-  "Key":"david_level_1_rewards",
-  "GiveItem": {
-    "material": "rotten_flesh",
-    "amount": 15
-  },
-  "Progress": "david_level_1"
-}

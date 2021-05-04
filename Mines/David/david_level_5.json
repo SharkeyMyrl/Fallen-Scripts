@@ -28,7 +28,7 @@
   "HighlightClickEntity": "kill_quest5",
   "SetPersistent": [ "kill_quest_five", 0 ],
   "Wait": 1,
-  "Start": "david_level_5_rewards",
+  "Start": ["david_rewards", "Five"],
   "Hold": [],
 
   "Dialog": [{"David": "Thank you for helping me out [PLAYER], long live the king and queen."}],

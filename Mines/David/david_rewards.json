@@ -1,0 +1,53 @@
+{
+  "Key":"david_rewards",
+
+  "Comment": "One",
+  "Wait":1,
+  "GiveItem": {
+    "material": "rotten_flesh",
+    "amount": 15
+  },
+  "Progress": "david_level_1",
+  "Wait":1,
+  "Leave":[],
+
+  "Comment": "Two",
+  "Wait":1,
+  "GiveItem": {
+    "material": "spider_eye",
+    "amount": 30
+  },
+  "Progress": "david_level_2",
+  "Wait":1,
+  "Leave":[],
+
+  "Comment": "Three",
+  "Wait":1,
+  "GiveItem": {
+    "material": "VenomousExtract",
+    "amount": 45
+  },
+  "Progress": "david_level_3",
+  "Wait":1,
+  "Leave":[],
+
+  "Comment": "Four",
+  "Wait":1,
+  "GiveItem": {
+    "material": "ender_eye",
+    "amount": 60
+  },
+  "Progress": "david_level_4",
+  "Wait":1,
+  "Leave":[],
+
+  "Comment": "Five",
+  "Wait":1,
+  "GiveItem": {
+    "material": "diamond",
+    "amount": 75
+  },
+  "Progress": "david_level_5",
+  "Wait":1,
+  "Leave":[]
+}

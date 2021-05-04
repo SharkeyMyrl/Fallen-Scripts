@@ -1,8 +1,0 @@
-{
-  "Key":"david_level_1_rewards",
-  "GiveItem": {
-    "material": "spider_eye",
-    "amount": 30
-  },
-  "Progress": "david_level_2"
-}

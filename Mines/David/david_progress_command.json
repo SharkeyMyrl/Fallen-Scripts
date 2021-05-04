@@ -6,26 +6,28 @@
 
   "If":[],
   "In": "david_level_1",
-  "SendMessage": "You have killed atleast [kill_quest_one]/10 zombies.",
+  "SendMessage": "You have killed atleast [kill_quest_one]/10 zombies, in mines level 1.",
   "Dummy":[],
 
   "If":[],
   "In": "david_level_2",
-  "SendMessage": "You have killed atleast [kill_quest_two]/20 crawlers.",
+  "SendMessage": "You have killed atleast [kill_quest_two]/20 crawlers, in mines level 2.",
   "Dummy":[],
 
   "If":[],
   "In": "david_level_3",
-  "SendMessage": "You have killed atleast [kill_quest_three]/30 lurkers.",
+  "SendMessage": "You have killed atleast [kill_quest_three]/30 lurkers, in mines level 3.",
   "Dummy":[],
 
   "If":[],
   "In": "david_level_4",
-  "SendMessage": "You have killed atleast [kill_quest_four]/40 munchers.",
+  "SendMessage": "You have killed atleast [kill_quest_four]/40 munchers, in mines level 4.",
   "Dummy":[],
 
   "If":[],
   "In": "david_level_5",
-  "SendMessage": "You have killed atleast [kill_quest_five]/50 mimics.",
+  "SendMessage": "You have killed atleast [kill_quest_five]/50 mimics, in mines level 5.",
   "Dummy":[],
+
+  "Start": "david_progress_command"
 }

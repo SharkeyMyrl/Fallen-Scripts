@@ -29,5 +29,10 @@
   "SendMessage": "&6You have killed [kill_quest_five]&6/50 &l&4Mimics&f&6a, in Mines V.",
   "Dummy":[],
 
+  "If":[],
+  "In": "david_level_*",
+  "Dummy":[],
+  "SendMessage": "&6It seems you are not currently in any of his quests.",
+
   "Start": "david_progress_command"
 }

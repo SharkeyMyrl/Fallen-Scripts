@@ -11,7 +11,7 @@
   "AllowRejoining": false,
   "NotCompleted": 24,
 
-  "Store": ["mines_1",[
+  "StoreRandom": ["mines_1",[
     [2336.5,	83.0,	492.5],
     [2319.5,	59.0,	580.5],
     [2231.5,	73.0,	593.5],

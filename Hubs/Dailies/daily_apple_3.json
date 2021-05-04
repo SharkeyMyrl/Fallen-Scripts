@@ -11,7 +11,7 @@
   "AllowRejoining": false,
   "NotCompleted": 24,
 
-  "Store": ["hard",[
+  "StoreRandom": ["hard",[
     [2061.5,118.0,658.5],
     [1988.5,99.0,529.5],
     [2048.5,42.0,550.5],

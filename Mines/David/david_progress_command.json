@@ -26,7 +26,7 @@
 
   "If":[],
   "In": "david_level_5",
-  "SendMessage": "&6You have killed [kill_quest_five]&6/50 &l&4Mimics&f&6, in Mines V.",
+  "SendMessage": "&6You have killed [kill_quest_five]&6/50 &l&4Mimics&f&6a, in Mines V.",
   "Dummy":[],
 
   "Start": "david_progress_command"

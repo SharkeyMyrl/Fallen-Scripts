@@ -13,7 +13,7 @@
   "LookDialog": [{"David": "Can you please kill 20 &l&4Crawlers&f for me."},"kill_quest5"],
 
   "Comment": "MobLoop",
-  "SendMessage": "&6You have killed [kill_quest_two]&6/20 &l&4Crawlers&f.",
+  "SendMessage": "&6You have killed [kill_quest_two]&6/20 &l&4Crawlers&f&6.",
 
   "KillMythicMob": ["CrawlerF2", 1],
   "AddPersistent": [ "kill_quest_two", 1 ],
@@ -24,7 +24,7 @@
   "Skip": "MobKilled",
   "Skip": "MobLoop",
   "Comment": "MobKilled",
-  "SendMessage": "&2You have killed 20/20 &l&4Crawlers&f.",
+  "SendMessage": "&2You have killed 20/20 &l&4Crawlers&f&2.",
 
   "Dialog": [{"David": "Come back to me in level two, to gather your rewards."}],
   "HighlightClickEntity": "kill_quest2",

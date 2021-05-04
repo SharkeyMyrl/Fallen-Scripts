@@ -11,7 +11,7 @@
   "LookDialog": [{"David": "Can you please kill 30 &l&4Cave Stalkers&f for me."},"kill_quest5"],
 
   "Comment": "MobLoop",
-  "SendMessage": "&6&lYou have killed [kill_quest_three]&6&l/30 &l&4Cave Stalkers&f.",
+  "SendMessage": "&6You have killed [kill_quest_three]&6/30 &l&4Cave Stalkers&f.",
 
   "KillMythicMob": ["CaveStalkerF3", 1],
   "AddPersistent": [ "kill_quest_three", 1 ],
@@ -22,7 +22,7 @@
   "Skip": "MobKilled",
   "Skip": "MobLoop",
   "Comment": "MobKilled",
-  "SendMessage": "&2&lYou have killed 30/30 &l&4Cave Stalkers&f.",
+  "SendMessage": "&2You have killed 30/30 &l&4Cave Stalkers&f.",
 
   "Dialog": [{"David": "Come back to me in level three, to gather your rewards."}],
   "HighlightClickEntity": "kill_quest3",

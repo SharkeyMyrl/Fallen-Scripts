@@ -12,7 +12,7 @@
   "LookDialog": [{"David": "Can you please kill 40 &l&4Ore Munchers&f for me."},"kill_quest5"],
 
   "Comment": "MobLoop",
-  "SendMessage": "&6&lYou have killed [kill_quest_four]&6&l/40 &l&4Ore Munchers&f.",
+  "SendMessage": "&6&lYou have killed [kill_quest_four]&6/40 &l&4Ore Munchers&f.",
 
   "KillMythicMob": ["CaveStalkerF3", 1],
   "AddPersistent": [ "kill_quest_four", 1 ],
@@ -23,7 +23,7 @@
   "Skip": "MobKilled",
   "Skip": "MobLoop",
   "Comment": "MobKilled",
-  "SendMessage": "&2&lYou have killed 40/40 &l&4Ore Munchers&f.",
+  "SendMessage": "&2You have killed 40/40 &l&4Ore Munchers&f.",
 
   "Dialog": [{"David": "Come back to me in level four, to gather your rewards."}],
   "HighlightClickEntity": "kill_quest4",

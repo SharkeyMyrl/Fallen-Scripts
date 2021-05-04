@@ -1,26 +1,30 @@
 {
-  "Key": "daily_pie_1_rewards",
+  "Key": "daily_pie_rewards",
   "Comment": "One",
   "AddPersistent": ["pies", 1],
   "Wait": 1,
   "Skip": "Special",
+
   "Comment": "Two",
   "AddPersistent": ["pies", 2],
   "Wait": 1,
   "Skip": "Special",
+
   "Comment": "Three",
   "AddPersistent": ["pies", 3],
   "Wait": 1,
   "Skip": "Special",
+
   "Comment": "Four",
   "AddPersistent": ["pies", 4],
   "Wait": 1,
   "Skip": "Special",
+  
   "Comment": "Five",
   "AddPersistent": ["pies", 5],
   "Wait": 1,
   "Skip": "Special",
-  
+
   "Comment": "Special",
   "Wait": 1,
   "If": [],

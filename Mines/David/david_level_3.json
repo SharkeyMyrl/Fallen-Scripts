@@ -5,8 +5,6 @@
   "NotCompleted": 18,
   "AllowRejoining": true,
 
-  "AddProperty": ["kill_quest_three_p", "[kill_quest_three]"],
-
   "SetPersistent": [ "kill_quest_three", 0 ],
   "LookDialog": [{"David": "Can you please kill 30 &l&4Cave Stalkers&f for me."},"kill_quest5"],
 

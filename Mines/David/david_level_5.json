@@ -5,8 +5,6 @@
   "NotCompleted": 50,
   "AllowRejoining": true,
 
-  "AddProperty": ["kill_quest_five_p", "[kill_quest_five]"],
-
   "SetPersistent": [ "kill_quest_five", 0 ],
   "LookDialog": [{"David": "Can you please kill 50 &l&4Mimics&f for me."},"kill_quest5"],
 

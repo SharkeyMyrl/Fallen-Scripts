@@ -5,9 +5,6 @@
   "NotCompleted": 24,
   "AllowRejoining": true,
 
-
-  "AddProperty": ["kill_quest_four_p", "[kill_quest_four]"],
-
   "SetPersistent": [ "kill_quest_four", 0 ],
   "LookDialog": [{"David": "Can you please kill 40 &l&4Ore Munchers&f for me."},"kill_quest5"],
 

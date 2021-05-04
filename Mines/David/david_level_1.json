@@ -5,8 +5,6 @@
   "NotCompleted": 6,
   "AllowRejoining": true,
 
-  "AddProperty": ["kill_quest_one_p", "[kill_quest_one]"],
-
   "SetPersistent": [ "kill_quest_one", 0 ],
 
   "LookDialog": [{"David": "Can you please kill 10 &l&4Shambler&f for me."},"kill_quest5"],

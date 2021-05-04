@@ -33,5 +33,6 @@
   "CumulativePickupItem":["easy", "&aApple", "apple"],
   "Wait": 1,
   "Start": ["daily_apple_rewards", 1.0, "One"],
-  "Hold":[]
+  "Wait": 1,
+  "Complete": []
 }

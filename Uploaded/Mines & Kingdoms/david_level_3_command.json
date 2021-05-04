@@ -1,9 +1,0 @@
-{
-  "Key":"david_level_3_command",
-  "AllowRejoining": false,
-  "PlayerJoin":[],
-  "Command": "progress three",
-  "In": "kill_quest_level_three",
-  "SendMessage": "You have killed atleast [kill_quest_three]/20 lurkers.",
-  "Start": "kill_quest_level_three_command"
-}

@@ -2,26 +2,36 @@
   "Key": "daily_pie_rewards",
   "Comment": "One",
   "AddPersistent": ["pies", 1],
+  "SendMessage": "&a+1 &6Pie Coin",
+  "Complete": "daily_pie_1",
   "Wait": 1,
   "Skip": "Special",
 
   "Comment": "Two",
   "AddPersistent": ["pies", 2],
+  "SendMessage": "&a+2 &6Pie Coin",
+  "Complete": "daily_pie_2",
   "Wait": 1,
   "Skip": "Special",
 
   "Comment": "Three",
   "AddPersistent": ["pies", 3],
+  "SendMessage": "&a+3 &6Pie Coin",
+  "Complete": "daily_pie_3",
   "Wait": 1,
   "Skip": "Special",
 
   "Comment": "Four",
   "AddPersistent": ["pies", 4],
+  "SendMessage": "&a+4 &6Pie Coin",
+  "Complete": "daily_pie_4",
   "Wait": 1,
   "Skip": "Special",
-  
+
   "Comment": "Five",
   "AddPersistent": ["pies", 5],
+  "SendMessage": "&a+5 &6Pie Coin",
+  "Complete": "daily_pie_5",
   "Wait": 1,
   "Skip": "Special",
 
@@ -47,10 +57,5 @@
     "amount": 1
   },
 
-  "Comment": "No",
-  "Wait": 1,
-  "AddPersistent": ["pies", 1],
-
-
-  "Complete": "daily_pie_1"
+  "Comment": "No"
 }

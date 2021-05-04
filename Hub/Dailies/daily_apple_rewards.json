@@ -2,21 +2,29 @@
   "Key": "daily_apple_rewards",
   "Comment": "One",
   "AddPersistent": ["apples", 1],
+  "SendMessage": "&a+1 &cApple Coin",
+  "Complete": "daily_apple_1",
   "Wait": 1,
   "Skip": "Special",
 
   "Comment": "Two",
   "AddPersistent": ["apples", 2],
+  "SendMessage": "&a+2 &cApple Coin",
+  "Complete": "daily_apple_2",
   "Wait": 1,
   "Skip": "Special",
 
   "Comment": "Three",
   "AddPersistent": ["apples", 3],
+  "SendMessage": "&a+3 &cApple Coin",
+  "Complete": "daily_apple_3",
   "Wait": 1,
   "Skip": "Special",
-  
+
   "Comment": "Four",
   "AddPersistent": ["apples", 4],
+  "SendMessage": "&a+4 &cApple Coin",
+  "Complete": "daily_apple_4",
   "Wait": 1,
   "Skip": "Special",
 
@@ -42,6 +50,5 @@
     "amount": 1
   },
 
-  "Comment": "No",
-  "Complete": "daily_apple_1"
+  "Comment": "No"
 }

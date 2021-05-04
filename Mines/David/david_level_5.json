@@ -8,10 +8,10 @@
   "AddProperty": ["kill_quest_five_p", "[kill_quest_five]"],
 
   "SetPersistent": [ "kill_quest_five", 0 ],
-  "LookDialog": [{"David": "Can you please kill 50 mimics for me."},"kill_quest5"],
+  "LookDialog": [{"David": "Can you please kill 50 &l&4Mimics&f for me."},"kill_quest5"],
 
   "Comment": "MobLoop",
-  "SendMessage": "&6&lYou have killed [kill_quest_five]&6&l/50 mimics.",
+  "SendMessage": "&6&lYou have killed [kill_quest_five]&6&l/50 &l&4Mimics&f.",
 
   "KillMythicMob": ["MimicF4", 1],
   "AddPersistent": [ "kill_quest_five", 1 ],
@@ -22,7 +22,7 @@
   "Skip": "MobKilled",
   "Skip": "MobLoop",
   "Comment": "MobKilled",
-  "SendMessage": "&2&lYou have killed 50/50 cave stalkers.",
+  "SendMessage": "&2&lYou have killed 50/50 &l&4Mimics&f.",
 
   "Dialog": [{"David": "Come back to me in level five, to gather your rewards."}],
   "HighlightClickEntity": "kill_quest5",

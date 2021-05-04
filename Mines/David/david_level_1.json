@@ -9,10 +9,10 @@
 
   "SetPersistent": [ "kill_quest_one", 0 ],
 
-  "LookDialog": [{"David": "Can you please kill 10 zombies for me."},"kill_quest5"],
+  "LookDialog": [{"David": "Can you please kill 10 &l&4Shambler&f for me."},"kill_quest5"],
 
   "Comment": "MobLoop",
-  "SendMessage": "&6&lYou have killed [kill_quest_one]&6&l/10 zombies.",
+  "SendMessage": "&6&lYou have killed [kill_quest_one]&6&l/10 &l&4Shambler&f.",
 
   "KillMythicMob": ["ShamblerF1E", 1],
   "AddPersistent": [ "kill_quest_one", 1 ],
@@ -23,7 +23,7 @@
   "Skip": "MobKilled",
   "Skip": "MobLoop",
   "Comment": "MobKilled",
-  "SendMessage": "&2&lYou have killed 10/10 zombies.",
+  "SendMessage": "&2&lYou have killed 10/10 &l&4Shambler&f.",
 
   "Dialog": [{"David": "Come back to me in level one, to gather your rewards."}],
   "HighlightClickEntity": "kill_quest1",

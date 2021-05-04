@@ -10,10 +10,10 @@
   "AddProperty": ["kill_quest_two_p", "[kill_quest_two]"],
 
   "SetPersistent": [ "kill_quest_two", 0 ],
-  "LookDialog": [{"David": "Can you please kill 20 crawlers for me."},"kill_quest5"],
+  "LookDialog": [{"David": "Can you please kill 20 &l&4Crawlers&f for me."},"kill_quest5"],
 
   "Comment": "MobLoop",
-  "SendMessage": "&6&lYou have killed [kill_quest_two]&6&l/20 crawlers.",
+  "SendMessage": "&6&lYou have killed [kill_quest_two]&6&l/20 &l&4Crawlers&f.",
 
   "KillMythicMob": ["CrawlerF2", 1],
   "AddPersistent": [ "kill_quest_two", 1 ],
@@ -24,7 +24,7 @@
   "Skip": "MobKilled",
   "Skip": "MobLoop",
   "Comment": "MobKilled",
-  "SendMessage": "&2&lYou have killed 20/20 cave stalkers.",
+  "SendMessage": "&2&lYou have killed 20/20 &l&4Crawlers&f.",
 
   "Dialog": [{"David": "Come back to me in level two, to gather your rewards."}],
   "HighlightClickEntity": "kill_quest2",

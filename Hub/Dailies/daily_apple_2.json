@@ -22,8 +22,7 @@
 
   "CumulativePickupItem":["medium", "&bApple", "apple"],
   "Wait": 1,
-  "SetPersistent": ["apple_reward", 2],
-  "Start": "daily_apple_rewards",
+  "Start": ["daily_apple_rewards", "Two"],
   "Hold":[]
 
 

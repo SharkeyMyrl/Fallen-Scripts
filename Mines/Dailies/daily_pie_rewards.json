@@ -1,0 +1,52 @@
+{
+  "Key": "daily_pie_1_rewards",
+  "Comment": "One",
+  "AddPersistent": ["pies", 1],
+  "Wait": 1,
+  "Skip": "Special",
+  "Comment": "Two",
+  "AddPersistent": ["pies", 2],
+  "Wait": 1,
+  "Skip": "Special",
+  "Comment": "Three",
+  "AddPersistent": ["pies", 3],
+  "Wait": 1,
+  "Skip": "Special",
+  "Comment": "Four",
+  "AddPersistent": ["pies", 4],
+  "Wait": 1,
+  "Skip": "Special",
+  "Comment": "Five",
+  "AddPersistent": ["pies", 5],
+  "Wait": 1,
+  "Skip": "Special",
+  
+  "Comment": "Special",
+  "Wait": 1,
+  "If": [],
+  "Equals":[
+    "specialPie",
+    "=",
+    0
+  ],
+  "Skip": "Yes",
+  "Skip": "No",
+
+  "Comment": "Yes",
+  "Wait": 1,
+  "AddPersistent": ["specialPie", 1],
+  "GiveItem": {
+    "material": "pumpkin pie",
+    "name": "&6Pumpkin Pie",
+    "description": "Gift from the Pie Army.",
+    "glow": true,
+    "amount": 1
+  },
+
+  "Comment": "No",
+  "Wait": 1,
+  "AddPersistent": ["pies", 1],
+
+
+  "Complete": "daily_pie_1"
+}

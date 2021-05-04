@@ -1,0 +1,27 @@
+{
+  "Key":"daily_pie_3",
+	"Name":"&c&lDaily Pie #3",
+  "ServerType": "mines",
+	"Description":"You want a piece of me?",
+  "Author": "SharkeyMyrl",
+	"Icon":{
+		"material":"pumpkin pie"
+	},
+  "PlayerJoin":[],
+  "AllowRejoining": false,
+  "NotCompleted": 24,
+
+  "Store": ["mines_3",[
+    [2860.5,	85.0,	450.5],
+    [2867.5,	80.0,	482.5],
+    [2866.0,	87.0,	445.5],
+    [2866.0,	84.0,	442.5]
+    ]],
+
+  "CumulativePickupItem":["mines_3", "&dPumpkin Pie", "pumpkin pie"],
+  "Wait": 1,
+  "Start": ["daily_pie_rewards", "Three"],
+  "Hold":[]
+
+
+}

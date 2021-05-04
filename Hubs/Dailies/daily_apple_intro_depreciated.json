@@ -48,10 +48,10 @@
   "CumulativePickupItem":[2010.5,	55.0,	587.5, "&cApple", "apple"],
   "CumulativePickupItem":[1996.5,	55.0,	587.5, "&cApple", "apple"],
   "CumulativePickupItem":[2041.5,	60.0,	537.0, "&cApple", "apple"],
-  "CumulativePickupItem":[1944.5	143.0	682.5, "&dApple", "apple"],
-  "CumulativePickupItem":[1962.0	34.0	525.5, "&dApple", "apple"],
-  "CumulativePickupItem":[2064.5	88.0	621.5, "&dApple", "apple"],
-  "CumulativePickupItem":[1964.5	34.0	521.5, "&dApple", "apple"],
+  "CumulativePickupItem":[1944.5,	143.0,	682.5, "&dApple", "apple"],
+  "CumulativePickupItem":[1962.0,	34.0,	525.5, "&dApple", "apple"],
+  "CumulativePickupItem":[2064.5,	88.0,	621.5, "&dApple", "apple"],
+  "CumulativePickupItem":[1964.5,	34.0,	521.5, "&dApple", "apple"],
 
   "Complete": "apples_everywhere_intro"
 }

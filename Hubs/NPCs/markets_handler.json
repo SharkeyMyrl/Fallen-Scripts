@@ -50,22 +50,7 @@
       "global": true
   },
   "Server": true,
-
-  "Hide": ["white_market_dealer", "black_market_dealer", "white_market_dealer_apple"],
-
   "Wait": 1,
-  "If":[],
-  "InDateRange": ["Friday"],
-  "Show": "black_market_dealer",
-  "Wait": 1,
-  "If":[],
-  "InDateRange": ["Sunday"],
-  "Skip": "Bruh",
-  "Hold":[],
-  "Wait": 1,
-  "Leave":[],
-  "Comment": "Bruh",
-  "Show": ["white_market_dealer", "white_market_dealer_apple"],
   "SetBlock": [1987,26,594,"campfire", true],
   "Wait": 20,
 

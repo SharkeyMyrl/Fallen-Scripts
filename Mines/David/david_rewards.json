@@ -48,7 +48,7 @@
   "Comment": "Five",
   "Wait":1,
   "GiveItem": {
-    "material": "diamond",
+    "material": "MummifiedBone",
     "amount": 75
   },
   "AddPersistent": ["SharkQuest", "extremeDavid", 1],

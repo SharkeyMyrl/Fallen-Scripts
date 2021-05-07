@@ -6,12 +6,12 @@
   "AllowRejoining": true,
 
   "SetPersistent": [ "kill_quest_five", 0 ],
-  "LookDialog": [{"David": "Can you please kill 50 &l&4Mimics&f for me."},"kill_quest5"],
+  "LookDialog": [{"David": "Can you please kill 50 &l&4Ankaras&f for me."},"kill_quest5"],
 
   "Comment": "MobLoop",
-  "SendMessage": "&6You have killed [kill_quest_five]&6/50 &l&4Mimics&f&6.",
+  "SendMessage": "&6You have killed [kill_quest_five]&6/50 &l&4Ankaras&f&6.",
 
-  "KillMythicMob": ["MimicF4", 1],
+  "KillMythicMob": ["AnkaraF5", 1],
   "AddPersistent": [ "kill_quest_five", 1 ],
   "Wait": 1,
 
@@ -20,7 +20,7 @@
   "Skip": "MobKilled",
   "Skip": "MobLoop",
   "Comment": "MobKilled",
-  "SendMessage": "&2You have killed 50/50 &l&4Mimics&f&2.",
+  "SendMessage": "&2You have killed 50/50 &l&4Ankaras&f&2.",
 
   "Dialog": [{"David": "Come back to me in level five, to gather your rewards."}],
   "HighlightClickEntity": "kill_quest5",

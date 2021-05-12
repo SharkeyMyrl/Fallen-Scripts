@@ -91,51 +91,18 @@
     "apples",
     {
       "0": {
-        {
-          "material": "apple",
-          "name": "&cApple",
-          "description": "Gift from the Apple King.",
-          "glow": true
-        },
+        "material": "apple",
+        "name": "&cApple",
+        "description": "Gift from the Apple King.",
+        "glow": true,
         "buy": 7,
         "sell": 3
       },
       "1": {
-        {
-          "material": "apple",
-          "name": "&cApple",
-          "description": "Gift from the Apple King.",
-          "glow": true
-        },
-        "buy": 7,
-        "sell": 3
-      },
-      "2": {
-        {
-          "material": "apple",
-          "name": "&cApple",
-          "description": "Gift from the Apple King.",
-          "glow": true
-        },
-        "buy": 7,
-        "sell": 3
-      },
-      "3": {
-        {
-          "material": "apple",
-          "name": "&cApple",
-          "description": "Gift from the Apple King.",
-          "glow": true
-        },
-        "buy": 7,
-        "sell": 3},
-      "4": {
-        {
-          "material": "apple",
-          "name": "&cApple",
-          "description": "Gift from the Apple King.",
-          "glow": true
-        },
+        "material": "apple",
+        "name": "&cApple",
+        "description": "Gift from the Apple King.",
+        "glow": true,
         "buy": 7,
         "sell": 3
       }

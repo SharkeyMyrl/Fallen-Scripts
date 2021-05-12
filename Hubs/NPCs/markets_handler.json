@@ -3,7 +3,7 @@
   "Author": "SharkeyMyrl",
   "ServerType": "hub",
 
-  "Store": ["black",[
+  "StoreRandom": ["black",[
     [1959.5, 34.0, 497.5, 0],
     [1908.5, 23.0, 517.5, -51],
     [1976.5, 98.0, 723.5, -90],

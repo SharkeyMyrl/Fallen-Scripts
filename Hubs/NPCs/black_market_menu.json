@@ -13,7 +13,7 @@
     "Apple Kingdom Market",
     1,
     {
-      "0": {"name": "&c[menu_1]", "material": "Apple", "description":["Apple Coin: [apples]", "Reputation: [bprestige]"]}
+      "0": {"name": "&c[menu_1]", "material": "Apple", "description":["Apple Coin: [apples]", "Reputation: [bprestige]"]},
 
       "2": {"name": "[menu_2]", "material": "Iron Sword"},
       "3": {"name": "[menu_3]", "material": "Potion"},

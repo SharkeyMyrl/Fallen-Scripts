@@ -95,6 +95,7 @@
         "name": "&cApple",
         "description": "Gift from the Apple King.",
         "glow": true,
+        "amount": 1,
         "buy": 7,
         "sell": 3
       },
@@ -103,6 +104,7 @@
         "name": "&cApple",
         "description": "Gift from the Apple King.",
         "glow": true,
+        "amount": 1,
         "buy": 7,
         "sell": 3
       }

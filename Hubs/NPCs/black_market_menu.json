@@ -1,43 +1,39 @@
 {
   "Key": "black_market_menu",
-  "Store": ["menu_1", "Apple Armory"],
-  "Store": ["menu_2", "Apple Brewery"],
-  "Store": ["menu_3", "Place Holder"],
+  "Store": ["menu_1", "Sell Pumpkin Pie"],
+  "Store": ["menu_2", "Apple Armory"],
+  "Store": ["menu_3", "Apple Brewery"],
   "Store": ["menu_4", "Place Holder"],
-  "Store": ["menu_5", "Place Holder"],
-  "Store": ["menu_6", "Sell Apples"],
+  "Store": ["menu_5", "Imports"],
+  "Store": ["menu_6", "Exports"],
+  "Store": ["menu_8", "Sell Apples"],
 
+  "Comment": "Menu_0",
   "Menu": [
     "Apple Kingdom Market",
     1,
     {
-      "2": {"name": "[menu_1]", "material": "Iron Sword", "glow": true},
-      "3": {"name": "[menu_2]", "material": "Potion", "glow": true},
-      "4": {"name": "[menu_3]", "material": "End Crystal"},
-      "5": {"name": "[menu_4]", "material": "End Crystal"},
-      "6": {"name": "[menu_5]", "material": "End Crystal"},
+      "0": {"name": "&c[menu_1]", "material": "Apple", "description":["Apple Coin: [apples]", "Reputation: [bprestige]"]}
 
-      "8": {"name": "&c[menu_6]", "material": "Apple"}
+      "2": {"name": "[menu_2]", "material": "Iron Sword"},
+      "3": {"name": "[menu_3]", "material": "Potion"},
+      "4": {"name": "[menu_4]", "material": "End Crystal"},
+      "5": {"name": "[menu_5]", "material": "Wheat"},
+      "6": {"name": "[menu_6]", "material": "Rotten Flesh"},
+
+      "8": {"name": "&c[menu_8]", "material": "PumpkinPie"}
     },
     false
   ],
-  "Skip": "Menu_1",
+  "Skip": "Menu_0",
   "Skip": "Menu_2",
   "Skip": "Menu_3",
   "Skip": "Menu_4",
   "Skip": "Menu_5",
   "Skip": "Menu_6",
+  "Skip": "Menu_8",
 
 
-  "Comment": "Menu_1",
-  "Menu": [
-    "menu_1",
-    4,
-    {
-      "10": {"name": "TBD", "material": "Iron Helmet"}
-    },
-    false
-  ],
   "Comment": "Menu_2",
   "Menu": [
     "menu_2",
@@ -47,6 +43,8 @@
     },
     false
   ],
+
+
   "Comment": "Menu_3",
   "Menu": [
     "menu_3",
@@ -56,6 +54,8 @@
     },
     false
   ],
+
+
   "Comment": "Menu_4",
   "Menu": [
     "menu_4",
@@ -65,6 +65,8 @@
     },
     false
   ],
+
+
   "Comment": "Menu_5",
   "Menu": [
     "menu_5",
@@ -74,13 +76,58 @@
     },
     false
   ],
+
+
   "Comment": "Menu_6",
-  "Menu": [
-    "menu_6",
+
+  "If": [],
+  "HasKingdomBuilding": [
+    "mine",
+    1
+  ],
+  "ShopMenu": [
+    "menu_5",
     4,
+    "apples",
     {
-      "10": {"name": "TBD", "material": "Iron Helmet"}
-    },
-    false
-  ]
+      "0": [
+        {
+          "material": "apple",
+          "name": "&cApple",
+          "description": "Gift from the Apple King.",
+          "glow": true
+        },
+        "buy": 7,
+        "sell": 3
+      ],
+      "1": [
+        {
+          "material": "apple",
+          "name": "&cApple",
+          "description": "Gift from the Apple King.",
+          "glow": true
+        },
+        "buy": 7,
+        "sell": 3
+      ],
+      "2": [
+        {
+          "material": "apple",
+          "name": "&cApple",
+          "description": "Gift from the Apple King.",
+          "glow": true
+        },
+        "buy": 7,
+        "sell": 3
+      ]
+    }
+  ],
+
+
+  "Comment": "Menu_8",
+
+
+  "Skip": "Menu_0",
+
+  "Dummy": []
 }

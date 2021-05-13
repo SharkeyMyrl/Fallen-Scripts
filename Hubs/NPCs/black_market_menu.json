@@ -93,8 +93,6 @@
     "mine",
     1
   ],
-
-  "Wait": 1,
   "ShopMenu": [
     "menu_6",
     4,
@@ -116,6 +114,7 @@
       }
     }
   ],
+  "Wait": 1,
   "Skip": "Menu_0",
 
 

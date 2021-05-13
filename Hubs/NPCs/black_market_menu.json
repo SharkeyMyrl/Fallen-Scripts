@@ -44,7 +44,7 @@
     },
     false
   ],
-
+  "Skip": "Menu_0",
 
   "Comment": "Menu_3",
   "Wait": 1,
@@ -56,6 +56,7 @@
     },
     false
   ],
+  "Skip": "Menu_0",
 
 
   "Comment": "Menu_4",
@@ -68,6 +69,7 @@
     },
     false
   ],
+  "Skip": "Menu_0",
 
 
   "Comment": "Menu_5",
@@ -80,6 +82,7 @@
     },
     false
   ],
+  "Skip": "Menu_0",
 
 
   "Comment": "Menu_6",
@@ -113,6 +116,7 @@
       }
     }
   ],
+  "Skip": "Menu_0",
 
 
   "Comment": "Menu_8",

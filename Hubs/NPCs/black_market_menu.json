@@ -35,7 +35,6 @@
 
 
   "Comment": "Menu_2",
-  "Wait": 1,
   "Menu": [
     "menu_2",
     4,
@@ -47,7 +46,6 @@
   "Skip": "Menu_0",
 
   "Comment": "Menu_3",
-  "Wait": 1,
   "Menu": [
     "menu_3",
     4,
@@ -60,7 +58,6 @@
 
 
   "Comment": "Menu_4",
-  "Wait": 1,
   "Menu": [
     "menu_4",
     4,
@@ -73,7 +70,6 @@
 
 
   "Comment": "Menu_5",
-  "Wait": 1,
   "Menu": [
     "menu_5",
     4,
@@ -86,43 +82,137 @@
 
 
   "Comment": "Menu_6",
-  "Wait": 1,
 
   "If": [],
-  "HasKingdomBuilding": [
-    "mine",
-    1
-  ],
-  "Dummy": [],
-  "Dummy": [],
+  "HasKingdomBuilding": ["mine", 5],
+  "Skip": "Mine_5_Exports",
+  "If": [],
+  "HasKingdomBuilding": ["mine", 4],
+  "Skip": "Mine_4_Exports",
+  "If": [],
+  "HasKingdomBuilding": ["mine", 3],
+  "Skip": "Mine_3_Exports",
+  "If": [],
+  "HasKingdomBuilding": ["mine", 2],
+  "Skip": "Mine_2_Exports",
+  "If": [],
+  "HasKingdomBuilding": ["mine", 1],
+  "Skip": "Mine_1_Exports",
+  "SendMessage": "You appear to not have a mines building.",
+  "Leave": [],
+
+  "Comment": "Mine_1_Exports",
+  "Store": ["item_0", 20],
+  "Store": ["item_1", 20],
+  "Store": ["item_2", 20],
+  "Store": ["item_3", 25],
+  "Store": ["item_4", 25],
+  "Store": ["item_5", 25],
+  "Store": ["item_6", 30],
+  "Store": ["item_7", 35],
+  "Store": ["item_8", 40],
+  "Store": ["item_9", 40],
+  "Store": ["item_10", 40],
+  "Store": ["item_11", 40],
+  "Store": ["item_12", 40],
+  "Skip": "Menu_Exports",
+
+  "Comment": "Mine_2_Exports",
+  "Store": ["item_0", 15],
+  "Store": ["item_1", 15],
+  "Store": ["item_2", 15],
+  "Store": ["item_3", 20],
+  "Store": ["item_4", 20],
+  "Store": ["item_5", 20],
+  "Store": ["item_6", 25],
+  "Store": ["item_7", 30],
+  "Store": ["item_8", 35],
+  "Store": ["item_9", 35],
+  "Store": ["item_10", 35],
+  "Store": ["item_11", 35],
+  "Store": ["item_12", 35],
+  "Skip": "Menu_Exports",
+
+  "Comment": "Mine_3_Exports",
+  "Store": ["item_0", 10],
+  "Store": ["item_1", 10],
+  "Store": ["item_2", 10],
+  "Store": ["item_3", 15],
+  "Store": ["item_4", 15],
+  "Store": ["item_5", 15],
+  "Store": ["item_6", 20],
+  "Store": ["item_7", 25],
+  "Store": ["item_8", 30],
+  "Store": ["item_9", 30],
+  "Store": ["item_10", 30],
+  "Store": ["item_11", 30],
+  "Store": ["item_12", 30],
+  "Skip": "Menu_Exports",
+
+  "Comment": "Mine_4_Exports",
+  "Store": ["item_0", 5],
+  "Store": ["item_1", 5],
+  "Store": ["item_2", 5],
+  "Store": ["item_3", 10],
+  "Store": ["item_4", 10],
+  "Store": ["item_5", 10],
+  "Store": ["item_6", 15],
+  "Store": ["item_7", 20],
+  "Store": ["item_8", 25],
+  "Store": ["item_9", 25],
+  "Store": ["item_10", 25],
+  "Store": ["item_11", 25],
+  "Store": ["item_12", 25],
+  "Skip": "Menu_Exports",
+
+  "Comment": "Mine_5_Exports",
+  "Store": ["item_0", 0],
+  "Store": ["item_1", 0],
+  "Store": ["item_2", 0],
+  "Store": ["item_3", 5],
+  "Store": ["item_4", 5],
+  "Store": ["item_5", 5],
+  "Store": ["item_6", 10],
+  "Store": ["item_7", 15],
+  "Store": ["item_8", 20],
+  "Store": ["item_9", 20],
+  "Store": ["item_10", 20],
+  "Store": ["item_11", 20],
+  "Store": ["item_12", 20],
+  "Skip": "Menu_Exports",
+
+
+  "Comment": "Menu_Exports",
   "ShopMenu": [
     "menu_6",
     4,
     "apples",
     {
-      "0": {
+      "10": {
         "material": "apple",
         "name": "&cApple",
         "description": "Gift from the Apple King.",
-        "buy": 7,
+        "buy": "[item_0]",
         "sell": 3
       },
-      "1": {
+      "11": {
         "material": "apple",
         "name": "&cApple",
         "description": "Gift from the Apple King.",
-        "buy": 7,
+        "buy": "[item_1]",
         "sell": 3
+      },
+      "30": {
+        "material": "arrow",
+        "name": "&cGo Back"
       }
     }
   ],
-  "Wait": 1,
+  "Dummy": [],
   "Skip": "Menu_0",
-
+  "Skip": "Menu_6",
 
   "Comment": "Menu_8",
-  "Wait": 1,
-
 
   "Skip": "Menu_0",
 

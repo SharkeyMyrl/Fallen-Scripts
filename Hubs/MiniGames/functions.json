@@ -1,0 +1,26 @@
+{
+  "Key": "functions",
+  "AllowRejoining": true,
+
+  "Comment": "Modulas",
+
+  "Set": ["a3", "[a0]"],
+  "Divide": ["a3", "[a1]"],
+
+  "Comment": "ModulasIfLoop",
+  "If": [],
+  "Equals": ["a3", ">=" 1],
+  "Skip": "GreaterThanOne",
+  "Skip": "LessThanOne",
+
+  "Comment": "GreaterThanOne",
+  "Subtract": ["a3", 1],
+  "Skip": "ModulasIfLoop",
+
+  "Comment": "LessThanOne",
+  "Multiply": ["a3", "[a1]"],
+  "Leave": [],
+
+  "Dummy":[]
+
+}

@@ -1,0 +1,33 @@
+{
+  "Key": "infection_blue",
+
+  "Say": "Welcome to team red, your job is to hunt down and tag the other players.",
+
+  "Comment": "SpeedLoop",
+
+  "ClickItem": [
+    "material": "apple",
+    "name": "&cApple",
+    "description": "Gift from the Apple King.",
+    "glow": true,
+    "amount": 1
+  ],
+  "TakeItem": [
+    "material": "apple",
+    "name": "&cApple",
+    "description": "Gift from the Apple King.",
+    "glow": true,
+    "amount": 1
+  ],
+
+  "Potion": [
+    "speed",
+    200,
+    2
+  ],
+
+  "Skip": "SpeedLoop",
+
+
+  "Dummy": []
+}

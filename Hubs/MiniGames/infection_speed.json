@@ -22,7 +22,7 @@
   "Store": ["speed", [1901.5,79.0,581.5]],
   "Store": ["speed", [1921.5,28.0,521.5]],
 
-  "CumulativePickupItem":["easy", "&aSpeed", "sugar"],
+  "CumulativePickupItem":["speed", "&aSpeed", "sugar"],
   "Wait": 1,
 
   "GiveItem": [

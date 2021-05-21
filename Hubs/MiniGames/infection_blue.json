@@ -1,7 +1,7 @@
 {
   "Key": "infection_blue",
 
-  "Say": "Welcome to team blue, your job is to run.",
+  "SendMessage": "Welcome to team blue, your job is to run.",
 
   "ProjectileHit": ["player", "infection_blue"],
 

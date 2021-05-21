@@ -1,7 +1,7 @@
 {
   "Key": "infection_blue",
 
-  "Say": "Welcome to team red, your job is to hunt down and tag the other players.",
+  "SendMessage": "Welcome to team red, your job is to hunt down and tag the other players.",
 
   "Comment": "SpeedLoop",
 

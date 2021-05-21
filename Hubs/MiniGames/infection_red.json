@@ -6,16 +6,16 @@
   "Comment": "SpeedLoop",
 
   "ClickItem": [
-    "material": "apple",
-    "name": "&cApple",
-    "description": "Gift from the Apple King.",
+    "material": "sugar",
+    "name": "&cSpeed",
+    "description": "Speed is Key.",
     "glow": true,
     "amount": 1
   ],
   "TakeItem": [
-    "material": "apple",
-    "name": "&cApple",
-    "description": "Gift from the Apple King.",
+    "material": "sugar",
+    "name": "&cSpeed",
+    "description": "Speed is Key.",
     "glow": true,
     "amount": 1
   ],

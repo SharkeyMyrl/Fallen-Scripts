@@ -7,7 +7,7 @@
 
   "If":[],
   "Equals": ["infection", "blue", "=", 1],
-  "Skip": "GameOverRed",
+  "Skip": "GameOverBlue",
   "Wait": 10,
 
   "If":[],

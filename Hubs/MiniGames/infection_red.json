@@ -6,12 +6,22 @@
   "Comment": "SpeedLoop",
 
   "ClickItem": [
-    "material": "sugar",
-    "amount": 1
+    {
+      "material": "sugar",
+      "name": "&cSpeed",
+      "description": "Speed is Key.",
+      "glow": true,
+      "amount": 1
+    }
   ],
   "TakeItem": [
-    "material": "sugar",
-    "amount": 1
+    {
+      "material": "sugar",
+      "name": "&cSpeed",
+      "description": "Speed is Key.",
+      "glow": true,
+      "amount": 1
+    }
   ],
 
   "Potion": [

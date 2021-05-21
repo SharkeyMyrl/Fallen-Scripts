@@ -7,16 +7,10 @@
 
   "ClickItem": [
     "material": "sugar",
-    "name": "&cSpeed",
-    "description": "Speed is Key.",
-    "glow": true,
     "amount": 1
   ],
   "TakeItem": [
     "material": "sugar",
-    "name": "&cSpeed",
-    "description": "Speed is Key.",
-    "glow": true,
     "amount": 1
   ],
 

@@ -30,8 +30,9 @@
   "Comment": "GameOverRed",
   "SetPersistent": ["infection", "red", 1],
   "SetPersistent": ["infection", "blue", 0],
-  "SendMessage": "GameOverBlue",
+  "SendMessage": "GameOverBlue [SCRIPT_PLAYER_COUNT]",
   "Leave": "infection_red_slave",
+  "Leave": "infection_speed",
   "Leave": [],
 
   "Dummy": []

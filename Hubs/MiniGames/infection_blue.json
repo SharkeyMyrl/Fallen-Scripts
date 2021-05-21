@@ -3,11 +3,7 @@
 
   "Say": "Welcome to team blue, your job is to run.",
 
-  "Comment": "TagLoop",
-  "If": [],
   "ProjectileHit": ["player", "infection_blue"],
-  "Skip": "Tagged",
-  "Skip": "TagLoop",
 
   "Comment": "Tagged",
   "Say": "Opp- you got tagged, switching teams.",

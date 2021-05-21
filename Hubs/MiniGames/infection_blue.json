@@ -6,7 +6,7 @@
   "ProjectileHit": ["player", "infection_blue"],
 
   "Comment": "Tagged",
-  "Say": "Opp- you got tagged, switching teams.",
+  "SendMessage": "Opp- you got tagged, switching teams.",
   "Start": "infection_red",
   "Leave": [],
 

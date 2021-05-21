@@ -1,0 +1,35 @@
+{
+  "Key": "infection_red_slave",
+
+  "Comment": "SpeedLoop",
+
+  "ClickItem": [
+    {
+      "material": "sugar",
+      "name": "&cSpeed",
+      "description": "Speed is Key.",
+      "glow": true,
+      "amount": 1
+    }
+  ],
+  "TakeItem": [
+    {
+      "material": "sugar",
+      "name": "&cSpeed",
+      "description": "Speed is Key.",
+      "glow": true,
+      "amount": 1
+    }
+  ],
+
+  "Potion": [
+    "speed",
+    200,
+    2
+  ],
+
+  "Skip": "SpeedLoop",
+
+
+  "Dummy": []
+}

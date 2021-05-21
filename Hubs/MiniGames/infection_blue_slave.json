@@ -1,0 +1,9 @@
+{
+  "Key": "infection_blue_slave",
+
+  "ProjectileHit": ["snowball", "infection_blue"],
+  "SendMessage": "Opp- you got tagged, switching teams.",
+  "Start": "infection_red",
+
+  "Leave": "infection_blue"
+}

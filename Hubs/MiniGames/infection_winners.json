@@ -1,0 +1,14 @@
+{
+  "Key": "infection_winners",
+
+  "Comment": "Red",
+  "If": [],
+  "In": "infection_region",
+
+  "Comment": "Blue",
+  "If": [],
+  "In": "infection_region",
+
+
+  "Dummy": []
+}

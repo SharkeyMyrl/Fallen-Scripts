@@ -1,0 +1,34 @@
+{
+  "Key": "infection_logic",
+
+  "Server": [],
+
+  "Comment": "Loop",
+
+  "If":[],
+  "Equals": ["infection", "blue", "=", 1],
+  "Skip": "GameOverRed",
+  "Wait": 10,
+
+  "If":[],
+  "Equals": ["infection", "red", "=", 1],
+  "Skip": "GameOverRed",
+  "Wait": 10,
+
+  "Skip": "Loop",
+
+  "Comment": "GameOverRed",
+  "SetPersistant": ["infection", "red", 0],
+  "SetPersistant": ["infection", "blue", 0],
+  "StartAll": [1.0, "Red", "infection_winners"],
+
+  "Comment": "GameOverBlue",
+  "SetPersistant": ["infection", "red", 0],
+  "SetPersistant": ["infection", "blue", 0],
+  "StartAll": [1.0, "Blue", "infection_winners"],
+
+
+
+
+  "Dummy": []
+}

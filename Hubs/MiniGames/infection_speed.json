@@ -3,6 +3,11 @@
 
   "Comment": "Restock",
 
+  "If": [],
+  "NotIn": ["infection_red"],
+  "Leave": [],
+  "Wait": 1,
+
   "RandomOption": 16,
 
   "CumulativePickupItem":[[1921.5,43.0,557.5], "&aSpeed", "sugar"],

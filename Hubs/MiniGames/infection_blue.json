@@ -1,13 +1,31 @@
 {
   "Key": "infection_blue",
 
+  "PvpRegion": [ 1500, 0, 400, 2000, 85, 800 ],
+
   "SendMessage": "Welcome to team blue, your job is to run.",
 
-  "ProjectileHit": ["snowball", "infection_blue"],
+  "Start": "infection_blue",
+  "Start": "infection_region",
 
-  "Comment": "Tagged",
-  "SendMessage": "Opp- you got tagged, switching teams.",
-  "Start": "infection_red",
+  "Server": [],
+  "Comment": "GameLogicLoop",
+
+  "If":[],
+  "Equals": ["SCRIPT_PLAYER_COUNT", "=", 0],
+  "Skip": "GameOverBlue",
+  "Wait": 10,
+
+  "If":[],
+  "Equals": ["infection", "red", "=", 1],
+  "Leave": [],
+  "Wait": 10,
+
+  "Skip": "GameLogicLoop",
+
+  "Comment": "GameOverBlue",
+  "SetPersistant": ["infection", "red", 0],
+  "SetPersistant": ["infection", "blue", 1],
   "Leave": [],
 
   "Dummy": []

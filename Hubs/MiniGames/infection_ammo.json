@@ -1,8 +1,23 @@
 {
-  "Key": "infection_red",
+  "Key": "infection_ammo",
 
   "Comment": "AmmoLoop",
 
+  "If": [],
+  "NotIn": ["infection_red"],
+  "Leave": [],
+  "Wait": 1,
+
+  "If": [],
+  "HasItem":[
+    {
+      "material": "snowball",
+      "name": "&cSplat",
+      "description": "White fluffy pain.",
+      "amount": 5
+    }
+  ],
+  "Wait": 1,
   "GiveItem": [
     {
       "material": "snowball",

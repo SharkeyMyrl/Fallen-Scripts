@@ -28,8 +28,8 @@
   "Skip": "GameLogicLoop",
 
   "Comment": "GameOverRed",
-  "SetPersistant": ["infection", "red", 1],
-  "SetPersistant": ["infection", "blue", 0],
+  "SetPersistent": ["infection", "red", 1],
+  "SetPersistent": ["infection", "blue", 0],
   "SendMessage": "GameOverBlue",
   "Leave": "infection_red_slave",
   "Leave": [],

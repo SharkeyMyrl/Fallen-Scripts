@@ -29,8 +29,8 @@
   "Skip": "GameLogicLoop",
 
   "Comment": "GameOverBlue",
-  "SetPersistant": ["infection", "red", 0],
-  "SetPersistant": ["infection", "blue", 1],
+  "SetPersistent": ["infection", "red", 0],
+  "SetPersistent": ["infection", "blue", 1],
   "Leave": [],
 
   "Dummy": []

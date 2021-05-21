@@ -1,0 +1,41 @@
+{
+  "Key":"infection_speed",
+
+  "Comment": "Restock",
+
+  "RandomOption": 16,
+
+  "Store": ["speed", [1921.5,43.0,557.5]],
+  "Store": ["speed", [2003.5,35.0,580.5]],
+  "Store": ["speed", [1990.5,39.0,608.5]],
+  "Store": ["speed", [1983.5,63.0,683.5]],
+  "Store": ["speed", [1976.5,63.0,683.5]],
+  "Store": ["speed", [2010.5,41.0,610.5]],
+  "Store": ["speed", [1926.5,26.0,540.5]],
+  "Store": ["speed", [2048.5,24.0,550.5]],
+  "Store": ["speed", [2026.5,37.0,630.5]],
+  "Store": ["speed", [1989.5,38.0,594.5]],
+  "Store": ["speed", [1954.5,43.0,550.5]],
+  "Store": ["speed", [1996.5,37.0,626.5]],
+  "Store": ["speed", [2003.5,55.0,536.5]],
+  "Store": ["speed", [2048.5,38.0,555.5]],
+  "Store": ["speed", [1901.5,79.0,581.5]],
+  "Store": ["speed", [1921.5,28.0,521.5]],
+
+  "CumulativePickupItem":["easy", "&aSpeed", "sugar"],
+  "Wait": 1,
+
+  "GiveItem": [
+    {
+      "material": "sugar",
+      "name": "&cSpeed",
+      "description": "Speed is Key.",
+      "glow": true,
+      "amount": 1
+    }
+  ],
+
+  "Skip": "Restock",
+
+  "Complete": []
+}

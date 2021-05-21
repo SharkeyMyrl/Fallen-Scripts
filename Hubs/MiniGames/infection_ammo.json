@@ -1,0 +1,21 @@
+{
+  "Key": "infection_red",
+
+  "Comment": "AmmoLoop",
+
+  "GiveItem": [
+    {
+      "material": "snowball",
+      "name": "&cSplat",
+      "description": "White fluffy pain.",
+      "amount": 1
+    }
+  ],
+
+  "Wait": 10,
+
+  "Skip": "AmmoLoop",
+
+
+  "Dummy": []
+}

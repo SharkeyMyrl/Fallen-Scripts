@@ -3,6 +3,11 @@
 
   "SendMessage": "Welcome to team red, your job is to hunt down and tag the other players.",
 
+  "SaveInventory": [],
+
+  "Start": ["infection_ammo"],
+  "Start": ["infection_speed"],
+
   "Comment": "SpeedLoop",
 
   "ClickItem": [

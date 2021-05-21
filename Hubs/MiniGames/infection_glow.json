@@ -1,0 +1,21 @@
+{
+  "Key": "infection_glow",
+
+  "Comment": "GlowLoop"
+
+  "If": [],
+  "NotIn": ["infection_blue"],
+  "Leave": [],
+  "Wait": 1,
+
+  "Potion": ["glowing", 9, 40],
+
+  "Wait": 400,
+
+  "Skip": "GlowLoop",
+
+
+  "Dummy": []
+
+
+}

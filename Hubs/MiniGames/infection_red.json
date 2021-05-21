@@ -12,11 +12,11 @@
   "Start": "infection_red_slave",
   "Start": "infection_region",
 
-  "Server": [],
+  "Server": true,
   "Comment": "GameLogicLoop",
 
   "If":[],
-  "Equals": ["SCRIPT_PLAYER_COUNT", "=", 0],
+  "Equals": ["SCRIPT_PLAYER_COUNT", "<=", 0],
   "Skip": "GameOverRed",
   "Wait": 10,
 
@@ -30,10 +30,11 @@
   "Comment": "GameOverRed",
   "SetPersistent": ["infection", "red", 1],
   "SetPersistent": ["infection", "blue", 0],
-  "SendMessage": "GameOverBlue [SCRIPT_PLAYER_COUNT]",
+  "SendMessage": "GameOverBlue PlayerCount:[SCRIPT_PLAYER_COUNT]",
   "Leave": "infection_red_slave",
   "Leave": "infection_speed",
   "Leave": [],
 
-  "Dummy": []
+  "Dummy": [],
+  "Hold":[]
 }

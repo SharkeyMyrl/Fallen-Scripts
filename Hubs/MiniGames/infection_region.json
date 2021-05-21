@@ -1,6 +1,6 @@
 {
   "Key": "infection_region",
-  "Comment": "Region"
+  "Comment": "Region",
   "RegionExit": [ 1500, 0, 400, 2000, 85, 800],
 
   "RelativeTeleport": [0.0, -1.0, 0.0, 0, 0],

@@ -7,12 +7,12 @@
 
   "If":[],
   "Equals": ["infection", "blue", "=", 1],
-  "Skip": "GameOverBlue",
+  "Skip": "GameOver_BlueWinner",
   "Wait": 10,
 
   "If":[],
   "Equals": ["infection", "red", "=", 1],
-  "Skip": "GameOverRed",
+  "Skip": "GameOver_RedWinner",
   "Wait": 10,
 
   "Skip": "Loop",

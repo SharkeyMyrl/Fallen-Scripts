@@ -15,6 +15,7 @@
   "Skip": "GameOver_RedWinner",
   "Wait": 10,
 
+  "Wait": 200,
   "Skip": "Loop",
 
   "Comment": "GameOver_RedWinner",

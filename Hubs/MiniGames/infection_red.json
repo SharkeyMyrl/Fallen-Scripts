@@ -11,7 +11,7 @@
   "Start": "infection_speed",
   "Start": "infection_red_slave",
   "Start": "infection_region",
-
+  "Wait": 1,
   "Hold":[],
   "Leave": "infection_red_slave",
   "Leave": "infection_speed",

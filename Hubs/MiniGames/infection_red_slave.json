@@ -25,7 +25,7 @@
   "Potion": [
     "speed",
     200,
-    2
+    4
   ],
 
   "Skip": "SpeedLoop",

@@ -8,27 +8,7 @@
   "Leave": [],
   "Wait": 1,
 
-  "RandomOption": 16,
-
-  "CumulativePickupItem":[[1921.5,43.0,557.5], "&aSpeed", "sugar"],
-  "Skip": "Item",
-  "CumulativePickupItem":[ [2003.5,35.0,580.5], "&aSpeed", "sugar"],
-  "CumulativePickupItem":[ [1990.5,39.0,608.5], "&aSpeed", "sugar"],
-  "CumulativePickupItem":[ [1983.5,63.0,683.5], "&aSpeed", "sugar"],
-  "CumulativePickupItem":[ [1976.5,63.0,683.5], "&aSpeed", "sugar"],
-  "CumulativePickupItem":[ [2010.5,41.0,610.5], "&aSpeed", "sugar"],
-  "CumulativePickupItem":[ [1926.5,26.0,540.5], "&aSpeed", "sugar"],
-  "CumulativePickupItem":[ [2048.5,24.0,550.5], "&aSpeed", "sugar"],
-  "CumulativePickupItem":[ [2026.5,37.0,630.5], "&aSpeed", "sugar"],
-  "CumulativePickupItem":[ [1989.5,38.0,594.5], "&aSpeed", "sugar"],
-  "CumulativePickupItem":[ [1954.5,43.0,550.5], "&aSpeed", "sugar"],
-  "CumulativePickupItem":[ [1996.5,37.0,626.5], "&aSpeed", "sugar"],
-  "CumulativePickupItem":[ [2003.5,55.0,536.5], "&aSpeed", "sugar"],
-  "CumulativePickupItem":[ [2048.5,38.0,555.5], "&aSpeed", "sugar"],
-  "CumulativePickupItem":[ [1901.5,79.0,581.5], "&aSpeed", "sugar"],
-  "CumulativePickupItem":[ [1921.5,28.0,521.5], "&aSpeed", "sugar"],
-  "Comment": "Item",
-  "Wait": 1,
+  "PickupItem":[1941.5,24.0,599.5, "&aSpeed", "sugar"],
 
   "GiveItem": [
     {
@@ -39,6 +19,7 @@
       "amount": 1
     }
   ],
+  "Wait": 600,
 
-  "Start": "infection_speed"
+  "Skip": "Restock"
 }

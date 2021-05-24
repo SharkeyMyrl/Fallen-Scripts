@@ -4,10 +4,14 @@
   "Comment": "Red",
   "If": [],
   "In": "infection_region",
+  "SendMessage": "",
+  "Leave": [],
 
   "Comment": "Blue",
   "If": [],
   "In": "infection_region",
+  "SendMessage": "",
+  "Leave": [],
 
 
   "Dummy": []

@@ -17,17 +17,17 @@
 
   "Skip": "Loop",
 
-  "Comment": "GameOverRed",
-  "SetPersistent": ["infection", "red", 0],
-  "SetPersistent": ["infection", "blue", 0],
+  "Comment": "GameOver_RedWinner",
   "StartAll": [1.0, "Red", "infection_winners"],
+  "Skip": "CleanUp",
 
-  "Comment": "GameOverBlue",
+  "Comment": "GameOver_BlueWinner",
+  "StartAll": [1.0, "Blue", "infection_winners"],
+  "Skip": "CleanUp",
+
+  "Comment": "CleanUp",
   "SetPersistent": ["infection", "red", 0],
   "SetPersistent": ["infection", "blue", 0],
-  "StartAll": [1.0, "Blue", "infection_winners"],
-
-
 
 
   "Dummy": []

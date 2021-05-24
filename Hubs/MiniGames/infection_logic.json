@@ -19,11 +19,11 @@
   "Skip": "Loop",
 
   "Comment": "GameOver_RedWinner",
-  "StartAll": [1.0, "Red", "infection_winners"],
+  "StartAll": [1.0, 7, "infection_winners"],
   "Skip": "CleanUp",
 
   "Comment": "GameOver_BlueWinner",
-  "StartAll": [1.0, "Blue", "infection_winners"],
+  "StartAll": [1.0, 7, "infection_winners"],
   "Skip": "CleanUp",
 
   "Comment": "CleanUp",

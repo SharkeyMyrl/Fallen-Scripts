@@ -1,9 +1,7 @@
 {
   "Key": "infection_logic",
 
-  "Server": true,
-
-  "Comment": "Loop",
+  "Repeat": 200,
 
   "If":[],
   "Equals": ["infection", "blue", "=", 1],
@@ -15,8 +13,7 @@
   "Skip": "GameOver_RedWinner",
   "Wait": 10,
 
-  "Wait": 200,
-  "Skip": "Loop",
+  "Hold":[],
 
   "Comment": "GameOver_RedWinner",
   "StartAll": [1.0, 7, "infection_winners"],

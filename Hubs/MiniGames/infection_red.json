@@ -13,7 +13,6 @@
   "Start": "infection_region",
 
   "Wait": 1,
-  "Hold":[],
 
   "Repeat": 10,
 

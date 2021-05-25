@@ -1,7 +1,7 @@
 {
   "Key": "infection_logic",
 
-  "Repeat": 200,
+  "Repeat": 20,
 
   "If":[],
   "Equals": ["infection", "blue", "=", 1],

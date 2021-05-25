@@ -37,6 +37,7 @@
   "Comment": "GameOver_RedWinner",
   "SetPersistent": ["infection", "red", 1],
   "SetPersistent": ["infection", "blue", 0],
+  "LeaveAll": "infection_glow",
   "LeaveAll": "infection_region",
   "LeaveAll": "infection_blue_slave",
   "LeaveAll": "infection_blue",

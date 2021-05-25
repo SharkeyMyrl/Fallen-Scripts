@@ -17,6 +17,7 @@
   "Repeat": 10,
 
   "Wait": 1,
+  "SendMessage": "Checking status of game. | Player Count: [SCRIPT_PLAYER_COUNT]",
 
   "If":[],
   "Equals": ["SCRIPT_PLAYER_COUNT", "=", 0],
@@ -33,8 +34,10 @@
   "Hold": [],
 
   "Comment": "GameOver_BlueWinner",
+  "SendMessage": "Leaving cause no players | Player Count: [SCRIPT_PLAYER_COUNT]",
   "SetPersistent": ["infection", "red", 0],
   "SetPersistent": ["infection", "blue", 1],
+  "LeaveAll": "infection_speed",
   "LeaveAll": "infection_region",
   "LeaveAll": "infection_red_slave",
   "LeaveAll": "infection_red",

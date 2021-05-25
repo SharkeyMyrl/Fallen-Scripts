@@ -11,16 +11,13 @@
   "Start": "infection_speed",
   "Start": "infection_red_slave",
   "Start": "infection_region",
+
   "Wait": 1,
   "Hold":[],
-  "Leave": "infection_red_slave",
-  "Leave": "infection_speed",
-  "Leave": [],
 
   "Repeat": 10,
 
   "Wait": 1,
-  "Comment": "GameLogicLoop",
 
   "If":[],
   "Equals": ["SCRIPT_PLAYER_COUNT", "=", 0],
@@ -29,15 +26,19 @@
 
   "If":[],
   "Equals": ["infection", "red", "=", 1],
-  "Leave": [],
+  "LeaveAll": "infection_region",
+  "LeaveAll": "infection_red_slave",
+  "LeaveAll": "infection_red",
   "Wait": 10,
 
-  "Skip": "GameLogicLoop",
+  "Hold": [],
 
   "Comment": "GameOver_BlueWinner",
   "SetPersistent": ["infection", "red", 0],
   "SetPersistent": ["infection", "blue", 1],
-  "Leave": [],
+  "LeaveAll": "infection_region",
+  "LeaveAll": "infection_red_slave",
+  "LeaveAll": "infection_red",
 
   "Dummy": []
 }

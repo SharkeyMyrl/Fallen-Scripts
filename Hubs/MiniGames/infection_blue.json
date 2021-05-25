@@ -14,30 +14,33 @@
   "Start": "infection_glow",
   "Start": "infection_region",
 
+  "Wait": 1,
   "Hold":[],
-  "Leave": [],
 
   "Repeat": 10,
 
   "Wait": 1,
-  "Comment": "GameLogicLoop",
 
   "If":[],
   "Equals": ["SCRIPT_PLAYER_COUNT", "=", 0],
-  "Skip": "GameOverRed",
+  "Skip": "GameOver_RedWinner",
   "Wait": 10,
 
   "If":[],
   "Equals": ["infection", "red", "=", 1],
-  "Leave": [],
+  "LeaveAll": "infection_region",
+  "LeaveAll": "infection_blue_slave",
+  "LeaveAll": "infection_blue",
   "Wait": 10,
 
-  "Skip": "GameLogicLoop",
+  "Hold": [],
 
-  "Comment": "GameOverRed",
+  "Comment": "GameOver_RedWinner",
   "SetPersistent": ["infection", "red", 1],
   "SetPersistent": ["infection", "blue", 0],
-  "Leave": [],
+  "LeaveAll": "infection_region",
+  "LeaveAll": "infection_blue_slave",
+  "LeaveAll": "infection_blue",
 
   "Dummy": []
 }

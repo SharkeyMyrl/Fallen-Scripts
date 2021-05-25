@@ -4,13 +4,13 @@
   "Comment": "Red",
   "If": [],
   "In": "infection_region",
-  "SendMessage": "",
+  "SendMessage": "Congradulations Team Red!!",
   "Leave": [],
 
   "Comment": "Blue",
   "If": [],
   "In": "infection_region",
-  "SendMessage": "",
+  "SendMessage": "Congradulations Team Blue!!",
   "Leave": [],
 
 

@@ -3,6 +3,11 @@
 
   "Comment": "SpeedLoop",
 
+  "If": [],
+  "NotIn": ["infection_red"],
+  "Leave": [],
+  "Wait": 1,
+
   "ClickItem": [
     {
       "material": "sugar",

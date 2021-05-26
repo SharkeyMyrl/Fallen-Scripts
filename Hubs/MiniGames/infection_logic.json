@@ -4,12 +4,12 @@
   "Repeat": 20,
 
   "If":[],
-  "Equals": ["infection", "blue", "=", 1],
+  "Equals": ["server", "infection_blue", "=", 1],
   "Skip": "GameOver_BlueWinner",
   "Wait": 10,
 
   "If":[],
-  "Equals": ["infection", "red", "=", 1],
+  "Equals": ["server", "infection_red", "=", 1],
   "Skip": "GameOver_RedWinner",
   "Wait": 10,
 

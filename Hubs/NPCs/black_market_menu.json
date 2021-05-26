@@ -1,12 +1,12 @@
 {
   "Key": "black_market_menu",
-  "Set": ["menu_1", "Sell Pumpkin Pie"],
+  "Set": ["menu_1", "Apple Kingdom"],
   "Set": ["menu_2", "Apple Armory"],
   "Set": ["menu_3", "Apple Brewery"],
   "Set": ["menu_4", "Place Holder"],
   "Set": ["menu_5", "Imports"],
   "Set": ["menu_6", "Exports"],
-  "Set": ["menu_8", "Sell Apples"],
+  "Set": ["menu_8", "Trade Pumpkins"],
 
   "Comment": "Menu_0",
   "Menu": [
@@ -105,16 +105,13 @@
   "Set": ["item_0", 20],
   "Set": ["item_1", 20],
   "Set": ["item_2", 20],
-  "Set": ["item_3", 25],
-  "Set": ["item_4", 25],
-  "Set": ["item_5", 25],
-  "Set": ["item_6", 30],
-  "Set": ["item_7", 35],
-  "Set": ["item_8", 40],
-  "Set": ["item_9", 40],
-  "Set": ["item_10", 40],
-  "Set": ["item_11", 40],
-  "Set": ["item_12", 40],
+  "Set": ["item_3", -1],
+  "Set": ["item_4", -1],
+  "Set": ["item_5", -1],
+  "Set": ["item_6", -1],
+  "Set": ["item_7", -1],
+  "Set": ["item_8", -1],
+  "Set": ["item_9", -1],
   "Skip": "Menu_Exports",
 
   "Comment": "Mine_2_Exports",
@@ -124,13 +121,10 @@
   "Set": ["item_3", 20],
   "Set": ["item_4", 20],
   "Set": ["item_5", 20],
-  "Set": ["item_6", 25],
-  "Set": ["item_7", 30],
-  "Set": ["item_8", 35],
-  "Set": ["item_9", 35],
-  "Set": ["item_10", 35],
-  "Set": ["item_11", 35],
-  "Set": ["item_12", 35],
+  "Set": ["item_6", -1],
+  "Set": ["item_7", -1],
+  "Set": ["item_8", -1],
+  "Set": ["item_9", -1],
   "Skip": "Menu_Exports",
 
   "Comment": "Mine_3_Exports",
@@ -141,12 +135,9 @@
   "Set": ["item_4", 15],
   "Set": ["item_5", 15],
   "Set": ["item_6", 20],
-  "Set": ["item_7", 25],
-  "Set": ["item_8", 30],
-  "Set": ["item_9", 30],
-  "Set": ["item_10", 30],
-  "Set": ["item_11", 30],
-  "Set": ["item_12", 30],
+  "Set": ["item_7", -1],
+  "Set": ["item_8", -1],
+  "Set": ["item_9", -1],
   "Skip": "Menu_Exports",
 
   "Comment": "Mine_4_Exports",
@@ -158,11 +149,8 @@
   "Set": ["item_5", 10],
   "Set": ["item_6", 15],
   "Set": ["item_7", 20],
-  "Set": ["item_8", 25],
-  "Set": ["item_9", 25],
-  "Set": ["item_10", 25],
-  "Set": ["item_11", 25],
-  "Set": ["item_12", 25],
+  "Set": ["item_8", -1],
+  "Set": ["item_9", -1],
   "Skip": "Menu_Exports",
 
   "Comment": "Mine_5_Exports",
@@ -176,9 +164,6 @@
   "Set": ["item_7", 15],
   "Set": ["item_8", 20],
   "Set": ["item_9", 20],
-  "Set": ["item_10", 20],
-  "Set": ["item_11", 20],
-  "Set": ["item_12", 20],
   "Skip": "Menu_Exports",
 
 
@@ -189,18 +174,44 @@
     "apples",
     {
       "10": {
-        "material": "apple",
-        "name": "&cApple",
-        "description": "Gift from the Apple King.",
-        "buy": "[item_0]",
-        "sell": 3
+        "material": "bones",
+        "buy": "[item_0]"
       },
       "11": {
-        "material": "apple",
-        "name": "&cApple",
-        "description": "Gift from the Apple King.",
-        "buy": "[item_1]",
-        "sell": 3
+        "material": "rotten flesh",
+        "buy": "[item_1]"
+      },
+      "12": {
+        "material": "gun powder",
+        "buy": "[item_2]"
+      },
+      "13": {
+        "material": "spider eye",
+        "buy": "[item_3]"
+      },
+      "14": {
+        "material": "string",
+        "buy": "[item_4]"
+      },
+      "15": {
+        "material": "VenomousExtract",
+        "buy": "[item_5]"
+      },
+      "16": {
+        "material": "ender eye",
+        "buy": "[item_6]"
+      },
+      "19": {
+        "material": "slime ball",
+        "buy": "[item_7]"
+      },
+      "20": {
+        "material": "phantom membrane",
+        "buy": "[item_8]"
+      },
+      "21": {
+        "material": "MummifiedBone",
+        "buy": "[item_9]"
       },
       "30": {
         "material": "arrow",
@@ -208,7 +219,15 @@
       }
     }
   ],
-  "Dummy": [],
+  "Skip": "Menu_0",
+  "Skip": "Menu_0",
+  "Skip": "Menu_0",
+  "Skip": "Menu_0",
+  "Skip": "Menu_0",
+  "Skip": "Menu_0",
+  "Skip": "Menu_0",
+  "Skip": "Menu_0",
+  "Skip": "Menu_0",
   "Skip": "Menu_0",
   "Skip": "Menu_6",
 

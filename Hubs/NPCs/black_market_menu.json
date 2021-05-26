@@ -175,43 +175,53 @@
     {
       "10": {
         "material": "bones",
-        "buy": "[item_0]"
+        "buy": "[item_0]",
+        "amount": 32
       },
       "11": {
         "material": "rotten flesh",
-        "buy": "[item_1]"
+        "buy": "[item_1]",
+        "amount": 32
       },
       "12": {
         "material": "gun powder",
-        "buy": "[item_2]"
+        "buy": "[item_2]",
+        "amount": 32
       },
       "13": {
         "material": "spider eye",
-        "buy": "[item_3]"
+        "buy": "[item_3]",
+        "amount": 32
       },
       "14": {
         "material": "string",
-        "buy": "[item_4]"
+        "buy": "[item_4]",
+        "amount": 32
       },
       "15": {
         "material": "VenomousExtract",
-        "buy": "[item_5]"
+        "buy": "[item_5]",
+        "amount": 32
       },
       "16": {
         "material": "ender eye",
-        "buy": "[item_6]"
+        "buy": "[item_6]",
+        "amount": 32
       },
       "19": {
         "material": "slime ball",
-        "buy": "[item_7]"
+        "buy": "[item_7]",
+        "amount": 32
       },
       "20": {
         "material": "phantom membrane",
-        "buy": "[item_8]"
+        "buy": "[item_8]",
+        "amount": 32
       },
       "21": {
         "material": "MummifiedBone",
-        "buy": "[item_9]"
+        "buy": "[item_9]",
+        "amount": 32
       },
       "30": {
         "material": "arrow",

@@ -6,8 +6,6 @@
   "Leave": [],
   "Wait": 10,
 
-  "PvpRegion": [ 1500, 0, 400, 2000, 85, 800 ],
-
   "SendMessage": "Welcome to team blue, your job is to run.",
 
   "Start": "infection_blue_slave",

@@ -1,8 +1,6 @@
 {
   "Key": "infection_red",
 
-  "PvpRegion": [ 1500, 0, 400, 2000, 85, 800 ],
-
   "SendMessage": "Welcome to team red, your job is to hunt down and tag the other players.",
 
   "SaveInventory": [],

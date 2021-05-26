@@ -33,8 +33,8 @@
 
   "Comment": "GameOver_BlueWinner",
   "SendMessage": "Leaving cause no players | Player Count: [SCRIPT_PLAYER_COUNT]",
-  "SetPersistent": ["server", "infection_red", 0],
-  "SetPersistent": ["server", "infection_blue", 1],
+  "Set": ["server", "infection_red", 0],
+  "Set": ["server", "infection_blue", 1],
   "LeaveAll": "infection_speed",
   "LeaveAll": "infection_region",
   "LeaveAll": "infection_red_slave",

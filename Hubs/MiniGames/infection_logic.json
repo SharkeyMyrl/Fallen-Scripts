@@ -24,8 +24,8 @@
   "Skip": "CleanUp",
 
   "Comment": "CleanUp",
-  "SetPersistent": ["infection", "red", 0],
-  "SetPersistent": ["infection", "blue", 0],
+  "Set": ["server", "infection_red", 0],
+  "Set": ["server", "infection_blue", 0],
 
 
   "Dummy": []

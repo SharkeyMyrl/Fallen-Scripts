@@ -1,0 +1,45 @@
+{
+  "Comment": "Menu_Exports",
+  "ShopMenu": [
+    "menu_6",
+    4,
+    "apples",
+    {
+      "10": {
+        "material": "bones",
+        "buy": 15,
+        "amount": 32
+      },
+      "11": {
+        "material": "rotten flesh",
+        "buy": 15,
+        "amount": 32
+      },
+      "12": {
+        "material": "gunpowder",
+        "buy": 20,
+        "amount": 32
+      },
+      "13": {
+        "material": "spider eye",
+        "buy": 20,
+        "amount": 32
+      },
+      "14": {
+        "material": "string",
+        "buy": 20,
+        "amount": 32
+      },
+      "30": {
+        "material": "arrow",
+        "name": "&cGo Back"
+      }
+    }
+  ],
+  "Skip": "Menu_0",
+  "Skip": "Menu_0",
+  "Skip": "Menu_0",
+  "Skip": "Menu_0",
+  "Skip": "Menu_0",
+  "Start": ["black_market_menu", 1.0 ,"Menu_6"]
+}

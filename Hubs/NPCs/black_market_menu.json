@@ -1,12 +1,12 @@
 {
   "Key": "black_market_menu",
   "Store": ["menu_1", "Apple Kingdom"],
-  "Store": ["menu_2", "Apple Armory"],
-  "Store": ["menu_3", "Apple Brewery"],
-  "Store": ["menu_4", "Place Holder"],
-  "Store": ["menu_5", "Imports"],
+  "Store": ["menu_2", "[WIP] Apple Armory"],
+  "Store": ["menu_3", "[WIP] Apple Brewery"],
+  "Store": ["menu_4", "[WIP] Place Holder"],
+  "Store": ["menu_5", "[WIP] Imports"],
   "Store": ["menu_6", "Exports"],
-  "Store": ["menu_8", "Trade Pumpkins"],
+  "Store": ["menu_8", "[WIP] Trade Pumpkins"],
 
   "Comment": "Menu_0",
   "Menu": [
@@ -85,161 +85,22 @@
 
   "If": [],
   "HasKingdomBuilding": ["mine", 5],
-  "Skip": "Mine_5_Exports",
+  "Start": "black_market_menu_slave_5",
   "If": [],
   "HasKingdomBuilding": ["mine", 4],
-  "Skip": "Mine_4_Exports",
+  "Start": "black_market_menu_slave_4",
   "If": [],
   "HasKingdomBuilding": ["mine", 3],
-  "Skip": "Mine_3_Exports",
+  "Start": "black_market_menu_slave_3",
   "If": [],
   "HasKingdomBuilding": ["mine", 2],
-  "Skip": "Mine_2_Exports",
+  "Start": "black_market_menu_slave_2",
   "If": [],
   "HasKingdomBuilding": ["mine", 1],
-  "Skip": "Mine_1_Exports",
+  "Start": "black_market_menu_slave_1",
   "SendMessage": "You appear to not have a mines building.",
-  "Leave": [],
 
-  "Comment": "Mine_1_Exports",
-  "Store": ["item_0", 20],
-  "Store": ["item_1", 20],
-  "Store": ["item_2", 20],
-  "Store": ["item_3", -1],
-  "Store": ["item_4", -1],
-  "Store": ["item_5", -1],
-  "Store": ["item_6", -1],
-  "Store": ["item_7", -1],
-  "Store": ["item_8", -1],
-  "Store": ["item_9", -1],
-  "Skip": "Menu_Exports",
-
-  "Comment": "Mine_2_Exports",
-  "Store": ["item_0", 15],
-  "Store": ["item_1", 15],
-  "Store": ["item_2", 15],
-  "Store": ["item_3", 20],
-  "Store": ["item_4", 20],
-  "Store": ["item_5", 20],
-  "Store": ["item_6", -1],
-  "Store": ["item_7", -1],
-  "Store": ["item_8", -1],
-  "Store": ["item_9", -1],
-  "Skip": "Menu_Exports",
-
-  "Comment": "Mine_3_Exports",
-  "Store": ["item_0", 10],
-  "Store": ["item_1", 10],
-  "Store": ["item_2", 10],
-  "Store": ["item_3", 15],
-  "Store": ["item_4", 15],
-  "Store": ["item_5", 15],
-  "Store": ["item_6", 20],
-  "Store": ["item_7", -1],
-  "Store": ["item_8", -1],
-  "Store": ["item_9", -1],
-  "Skip": "Menu_Exports",
-
-  "Comment": "Mine_4_Exports",
-  "Store": ["item_0", 5],
-  "Store": ["item_1", 5],
-  "Store": ["item_2", 5],
-  "Store": ["item_3", 10],
-  "Store": ["item_4", 10],
-  "Store": ["item_5", 10],
-  "Store": ["item_6", 15],
-  "Store": ["item_7", 20],
-  "Store": ["item_8", -1],
-  "Store": ["item_9", -1],
-  "Skip": "Menu_Exports",
-
-  "Comment": "Mine_5_Exports",
-  "Store": ["item_0", 0],
-  "Store": ["item_1", 0],
-  "Store": ["item_2", 0],
-  "Store": ["item_3", 5],
-  "Store": ["item_4", 5],
-  "Store": ["item_5", 5],
-  "Store": ["item_6", 10],
-  "Store": ["item_7", 15],
-  "Store": ["item_8", 20],
-  "Store": ["item_9", 20],
-  "Skip": "Menu_Exports",
-
-
-  "Comment": "Menu_Exports",
-  "ShopMenu": [
-    "menu_6",
-    4,
-    "apples",
-    {
-      "10": {
-        "material": "bones",
-        "buy": "[item_0]",
-        "amount": 32
-      },
-      "11": {
-        "material": "rotten flesh",
-        "buy": "[item_1]",
-        "amount": 32
-      },
-      "12": {
-        "material": "gun powder",
-        "buy": "[item_2]",
-        "amount": 32
-      },
-      "13": {
-        "material": "spider eye",
-        "buy": "[item_3]",
-        "amount": 32
-      },
-      "14": {
-        "material": "string",
-        "buy": "[item_4]",
-        "amount": 32
-      },
-      "15": {
-        "material": "VenomousExtract",
-        "buy": "[item_5]",
-        "amount": 32
-      },
-      "16": {
-        "material": "ender eye",
-        "buy": "[item_6]",
-        "amount": 32
-      },
-      "19": {
-        "material": "slime ball",
-        "buy": "[item_7]",
-        "amount": 32
-      },
-      "20": {
-        "material": "phantom membrane",
-        "buy": "[item_8]",
-        "amount": 32
-      },
-      "21": {
-        "material": "MummifiedBone",
-        "buy": "[item_9]",
-        "amount": 32
-      },
-      "30": {
-        "material": "arrow",
-        "name": "&cGo Back"
-      }
-    }
-  ],
   "Skip": "Menu_0",
-  "Skip": "Menu_0",
-  "Skip": "Menu_0",
-  "Skip": "Menu_0",
-  "Skip": "Menu_0",
-  "Skip": "Menu_0",
-  "Skip": "Menu_0",
-  "Skip": "Menu_0",
-  "Skip": "Menu_0",
-  "Skip": "Menu_0",
-  "Skip": "Menu_6",
 
   "Comment": "Menu_8",
 

@@ -2,16 +2,11 @@
   "Comment": "Menu_Exports",
   "ShopMenu": [
     "menu_6",
-    4,
+    3,
     "apples",
     {
       "10": {
-        "material": "bones",
-        "buy": 20,
-        "amount": 32
-      },
-      "11": {
-        "material": "rotten flesh",
+        "material": "coal",
         "buy": 20,
         "amount": 32
       },
@@ -21,7 +16,6 @@
       }
     }
   ],
-  "Skip": "Menu_Exports",
   "Skip": "Menu_Exports",
   "Start": ["black_market_menu", 1.0 ,"Menu_0"]
 }

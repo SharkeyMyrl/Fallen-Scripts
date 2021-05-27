@@ -2,56 +2,31 @@
   "Comment": "Menu_Exports",
   "ShopMenu": [
     "menu_6",
-    4,
+    3,
     "apples",
     {
       "10": {
-        "material": "bones",
-        "buy": 0,
+        "material": "coal",
+        "buy": 1,
         "amount": 32
       },
       "11": {
-        "material": "rotten flesh",
-        "buy": 0,
+        "material": "iron ore",
+        "buy": 5,
         "amount": 32
       },
       "12": {
-        "material": "gunpowder",
-        "buy": 5,
-        "amount": 32
-      },
-      "13": {
-        "material": "spider eye",
-        "buy": 5,
-        "amount": 32
-      },
-      "14": {
-        "material": "string",
-        "buy": 5,
-        "amount": 32
-      },
-      "15": {
-        "material": "VenomousExtract",
+        "material": "gold ore",
         "buy": 10,
         "amount": 32
       },
-      "16": {
-        "material": "ender eye",
+      "13": {
+        "material": "diamonds",
         "buy": 15,
         "amount": 32
       },
-      "19": {
-        "material": "slime ball",
-        "buy": 15,
-        "amount": 32
-      },
-      "20": {
-        "material": "phantom membrane",
-        "buy": 20,
-        "amount": 32
-      },
-      "21": {
-        "material": "MummifiedBone",
+      "14": {
+        "material": "emerald ore",
         "buy": 20,
         "amount": 32
       },
@@ -61,11 +36,6 @@
       }
     }
   ],
-  "Skip": "Menu_Exports",
-  "Skip": "Menu_Exports",
-  "Skip": "Menu_Exports",
-  "Skip": "Menu_Exports",
-  "Skip": "Menu_Exports",
   "Skip": "Menu_Exports",
   "Skip": "Menu_Exports",
   "Skip": "Menu_Exports",

@@ -1,8 +1,8 @@
 {
   "Key": "black_market_menu",
-  "Store": ["menu_1", "Apple Kingdom"],
-  "Store": ["menu_2", "[WIP] Apple Armory"],
-  "Store": ["menu_3", "[WIP] Apple Brewery"],
+  "Store": ["menu_1", "Apple Kingdom Stats"],
+  "Store": ["menu_2", "[WIP] Place Holder"],
+  "Store": ["menu_3", "[WIP] Place Holder"],
   "Store": ["menu_4", "[WIP] Place Holder"],
   "Store": ["menu_5", "[WIP] Imports"],
   "Store": ["menu_6", "Exports"],

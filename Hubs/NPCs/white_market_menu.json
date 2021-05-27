@@ -1,24 +1,24 @@
 {
   "Key": "white_market_menu",
-  "Store": ["menu_1", "Sell Pumpkin Pie"],
-  "Store": ["menu_2", "Pumpkin Pie Armory"],
-  "Store": ["menu_3", "Pumpkin Pie Brewery"],
-  "Store": ["menu_4", "Place Holder"],
-  "Store": ["menu_5", "Place Holder"],
-  "Store": ["menu_6", "Place Holder"],
-  "Store": ["menu_7", "Burn Apples"],
+  "Store": ["menu_1", "Pumpkin Kingdom Stats"],
+  "Store": ["menu_2", "[WIP] Place Holder"],
+  "Store": ["menu_3", "[WIP] Place Holder"],
+  "Store": ["menu_4", "[WIP] Place Holder"],
+  "Store": ["menu_5", "[WIP] Imports"],
+  "Store": ["menu_6", "Exports"],
+  "Store": ["menu_7", "[WIP] Burn Apples"],
 
   "Menu": [
     "PumpkinPie Kingdom Market",
     1,
     {
-      "0": {"name": "&6[menu_1]", "material": "Pumpkin Pie"},
+      "0": {"name": "&c[menu_1]", "material": "Pumpkin Pie", "description":["Pumpkin Coin: [pies]", "Reputation: [wprestige]"]},
 
-      "2": {"name": "[menu_2]", "material": "Iron Sword", "glow": true},
-      "3": {"name": "[menu_3]", "material": "Potion", "glow": true},
+      "2": {"name": "[menu_2]", "material": "End Crystal"},
+      "3": {"name": "[menu_3]", "material": "End Crystal"},
       "4": {"name": "[menu_4]", "material": "End Crystal"},
       "5": {"name": "[menu_5]", "material": "End Crystal"},
-      "6": {"name": "[menu_6]", "material": "End Crystal"},
+      "6": {"name": "[menu_6]", "material": "Diamond Ore"},
 
       "8": {"name": "&c[menu_7]", "material": "Apple"}
     },
@@ -42,6 +42,8 @@
     false
   ],
 
+  "Skip": "Menu_0",
+
 
   "Comment": "Menu_2",
   "Menu": [
@@ -52,6 +54,8 @@
     },
     false
   ],
+
+  "Skip": "Menu_0",
 
 
   "Comment": "Menu_3",
@@ -64,6 +68,8 @@
     false
   ],
 
+  "Skip": "Menu_0",
+
 
   "Comment": "Menu_4",
   "Menu": [
@@ -74,6 +80,8 @@
     },
     false
   ],
+
+  "Skip": "Menu_0",
 
 
   "Comment": "Menu_5",
@@ -86,16 +94,29 @@
     false
   ],
 
+  "Skip": "Menu_0",
+
 
   "Comment": "Menu_6",
-  "Menu": [
-    "menu_6",
-    4,
-    {
-      "10": {"name": "TBD", "material": "Iron Helmet"}
-    },
-    false
-  ],
+
+  "If": [],
+  "HasKingdomBuilding": ["mine", 5],
+  "Start": "black_market_menu_slave_5",
+  "If": [],
+  "HasKingdomBuilding": ["mine", 4],
+  "Start": "black_market_menu_slave_4",
+  "If": [],
+  "HasKingdomBuilding": ["mine", 3],
+  "Start": "black_market_menu_slave_3",
+  "If": [],
+  "HasKingdomBuilding": ["mine", 2],
+  "Start": "black_market_menu_slave_2",
+  "If": [],
+  "HasKingdomBuilding": ["mine", 1],
+  "Start": "black_market_menu_slave_1",
+  "SendMessage": "You appear to not have a mines building.",
+
+  "Skip": "Menu_0",
 
 
   "Comment": "Menu_7",
@@ -107,6 +128,8 @@
     },
     false
   ],
+
+  "Skip": "Menu_0",
 
   "Dummy": []
 }

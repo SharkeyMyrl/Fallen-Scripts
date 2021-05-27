@@ -11,17 +11,17 @@
         "amount": 32
       },
       "11": {
-        "material": "iron ore",
+        "material": "iron ingot",
         "buy": 10,
         "amount": 32
       },
       "12": {
-        "material": "gold ore",
+        "material": "gold ingot",
         "buy": 15,
         "amount": 32
       },
       "13": {
-        "material": "diamonds",
+        "material": "diamond",
         "buy": 20,
         "amount": 32
       },

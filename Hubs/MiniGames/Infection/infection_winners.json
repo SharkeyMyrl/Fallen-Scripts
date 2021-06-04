@@ -3,16 +3,16 @@
 
   "Comment": "Red",
   "If": [],
-  "In": "infection_region",
+  "In": "infection",
   "SendMessage": "Congradulations Team Red!!",
-  "Leave": "infection_region",
+  "Leave": "infection",
   "Leave": [],
 
   "Comment": "Blue",
   "If": [],
-  "In": "infection_region",
+  "In": "infection",
   "SendMessage": "Congradulations Team Blue!!",
-  "Leave": "infection_region",
+  "Leave": "infection",
   "Leave": [],
 
 

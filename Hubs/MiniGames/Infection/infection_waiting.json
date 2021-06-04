@@ -1,0 +1,18 @@
+{
+  "Key": "infection_waiting",
+
+  "If":[],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_red", "=", 0.0],
+  "Start": "infection_red",
+  "Start": "infection_blue",
+
+  "Comment": "WaitingLoop",
+
+  "If":[],
+  "Equals": ["server", "infection_lobby_timer", "=", 9.0],
+  "Leave": [],
+  "Wait": 100,
+  "Skip": "WaitingLoop",
+
+  "Dummy": []
+}

@@ -1,6 +1,13 @@
 {
   "Key": "infection_blue",
 
+  "Comment": "WaitingLoop",
+  "If": [],
+  "NotIn": "infection_waiting",
+  "Dummy": [],
+  "Wait": 100,
+  "Skip": "WaitingLoop",
+
   "If":[],
   "In": ["infection_red"],
   "Leave": [],

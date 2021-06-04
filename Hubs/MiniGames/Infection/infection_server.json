@@ -3,14 +3,37 @@
 
   "Repeat": 10,
 
+  "If": [],
+  "Equals": ["server", "infection_timer", "=", -1.0],
+  "Dummy": [],
+  "Skip": "GameTimer",
+
+  "Comment": "LobbyTimer",
+  "If": [],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_waiting", "=" 0.0],
+  "Skip": "NoLobby",
+  "Skip": "LobbyOn",
+
+  "Comment": "NoLobby",
+  "Set": ["server", "infection_lobby_timer", -1.0],
+  "Hold": [],
+  "Comment":"LobbyOn",
+  "Add": ["server", "infection_lobby_timer", 1.0],
+
+  "If": [],
+  "Equals": ["server", "infection_lobby_timer", ">=", 9.0],
+  "Dummy": [],
+  "Hold": [],
+
+  "Comment": "GameTimer",
   "Comment": "Is anyone playing or has game even started",
   "If":[],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection", "=", 0],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection", "=", 0.0],
   "Skip": "NoGame",
   "Skip": "GameOn",
 
   "Comment": "NoGame",
-  "Set": ["server", "infection_timer", 0.0],
+  "Set": ["server", "infection_timer", -1.0],
   "Set": ["server", "infection_timer_max", 18.0],
   "Hold":[],
   "Comment": "GameOn",
@@ -20,19 +43,19 @@
   "If": [],
   "Equals": ["server", "infection_timer", ">=", "[server:infection_timer_max]"],
   "Skip": "BlueWins",
-  "Wait": 1,
+  "Dummy": [],
 
   "Comment": "Did red lose?",
   "If":[],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_red", "=", 0],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_red", "=", 0.0],
   "Skip": "BlueWins",
-  "Wait": 1,
+  "Dummy": [],
 
   "Comment": "Did blue lose?",
   "If":[],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_blue", "=", 0],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_blue", "=", 0.0],
   "Skip": "RedWins",
-  "Wait": 1,
+  "Dummy": [],
 
   "Comment": "BlueWins",
   "StartAll": [1.0, 7, "infection_winners"],
@@ -44,9 +67,10 @@
 ,
   "Comment": "CleanUp",
   "LeaveAll": ["infection_blue", "infection_blue_slave", "infection_glow"],
-  "LeaveAll": ["infection_red", "infection_red_slave", "infection_ammo", "infection_speed"]
+  "LeaveAll": ["infection_red", "infection_red_slave", "infection_ammo", "infection_speed"],
+  "Set": ["server", "infection_timer", -1.0],
 
 
 
-
+  "Dummy": []
 }

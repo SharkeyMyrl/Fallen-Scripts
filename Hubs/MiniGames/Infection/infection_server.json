@@ -6,7 +6,20 @@
   "Comment": "Is anyone playing or has game even started",
   "If":[],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection", "=", 0],
-  "Hold": [],
+  "Skip": "NoGame",
+  "Skip": "GameOn",
+
+  "Comment": "NoGame",
+  "Set": ["server", "infection_timer", 0.0],
+  "Set": ["server", "infection_timer_max", 18.0],
+  "Hold":[],
+  "Comment": "GameOn",
+  "Add": ["server", "infection_timer", 1.0],
+
+  "Comment": "Did timer go over?",
+  "If": [],
+  "Equals": ["server", "infection_timer", ">=", "[server:infection_timer_max]"],
+  "Skip": "BlueWins",
   "Wait": 1,
 
   "Comment": "Did red lose?",

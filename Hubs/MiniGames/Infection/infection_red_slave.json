@@ -1,13 +1,15 @@
 {
   "Key": "infection_red_slave",
 
+  "Comment": "SpeedLoop",
+
   "If": [],
   "NotIn": ["infection_red"],
   "Leave": [],
   "Wait": 1,
 
   "SetItem": [
-    0,
+    1,
     {
       "material": "sugar",
       "name": "&cSpeed",
@@ -19,13 +21,6 @@
     1.0
   ],
 
-  "Comment": "SpeedLoop",
-
-  "If": [],
-  "NotIn": ["infection_red"],
-  "Leave": [],
-  "Wait": 1,
-
   "ClickItem": [
     {
       "material": "sugar",
@@ -34,6 +29,19 @@
       "glow": true,
       "amount": 1
     }
+  ],
+
+  "SetItem": [
+    1,
+    {
+      "material": "sugar",
+      "name": "&cSpeed",
+      "description": "Speed is Key.",
+      "glow": false,
+      "amount": 1
+    },
+    true,
+    1.0
   ],
 
   "Potion": [

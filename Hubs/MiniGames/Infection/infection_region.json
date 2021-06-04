@@ -1,12 +1,8 @@
 {
   "Key": "infection_region",
-  "Comment": "Region",
-  "Wait":1,
   "RegionExit": [ 1500, 0, 400, 2500, 85, 800],
-
+  "If": [],
+  "In": "infection",
   "RelativeTeleport": [0.0, -1.0, 0.0, 0, 0],
-
-
-  "Skip": "Region"
-
+  "Dummy":[]
 }

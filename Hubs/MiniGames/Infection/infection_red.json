@@ -1,0 +1,70 @@
+{
+  "Key": "infection_red",
+
+  "SendMessage": "Welcome to team red, your job is to hunt down and tag the other players.",
+
+  "SaveInventory": [],
+  "ClearInventroy": [],
+
+  "SetItem": [
+    "chestplate",
+    {
+      "material": "Leather Chestplate",
+      "color": "Red"
+    },
+    1.0
+  ],
+  "SetItem": [
+    "leggings",
+    {
+      "material": "Leather Leggings",
+      "color": "Red"
+    },
+    1.0
+  ],
+  "SetItem": [
+    "boots",
+    {
+      "material": "Leather Boots",
+      "color": "Red"
+    },
+    1.0
+  ],
+
+
+  "Start": "infection_red_slave",
+
+  "Wait": 1,
+
+  "Comment": "AmmoLoop",
+
+  "If": [],
+  "NotIn": ["infection_red"],
+  "Leave": [],
+  "Wait": 1,
+
+  "If": [],
+  "HasItem":[
+    {
+      "material": "snowball",
+      "name": "&cSplat",
+      "description": "White fluffy pain.",
+      "amount": 5
+    }
+  ],
+  "Wait": 1,
+  "GiveItem": [
+    {
+      "material": "snowball",
+      "name": "&cSplat",
+      "description": "White fluffy pain.",
+      "amount": 1
+    }
+  ],
+
+  "Wait": 10,
+
+  "Skip": "AmmoLoop",
+
+  "Dummy": []
+}

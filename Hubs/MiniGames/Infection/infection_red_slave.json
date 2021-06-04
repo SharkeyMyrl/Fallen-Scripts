@@ -8,6 +8,19 @@
   "Leave": [],
   "Wait": 1,
 
+  "SetItem": [
+    0,
+    {
+      "material": "sugar",
+      "name": "&cSpeed",
+      "description": "Speed is Key.",
+      "glow": true,
+      "amount": 1
+    },
+    true,
+    1.0
+  ],
+
   "ClickItem": [
     {
       "material": "sugar",

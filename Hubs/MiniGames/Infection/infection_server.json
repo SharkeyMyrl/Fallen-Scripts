@@ -1,0 +1,39 @@
+{
+  "Key": "infection_server",
+
+  "Repeat": 10,
+
+  "Comment": "Is anyone playing or has game even started",
+  "If":[],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection", "=", 0],
+  "Hold": [],
+  "Wait": 1,
+
+  "Comment": "Did red lose?",
+  "If":[],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_red", "=", 0],
+  "Skip": "BlueWins",
+  "Wait": 1,
+
+  "Comment": "Did blue lose?",
+  "If":[],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_blue", "=", 0],
+  "Skip": "RedWins",
+  "Wait": 1,
+
+  "Comment": "BlueWins",
+  "StartAll": [1.0, 7, "infection_winners"],
+  "Skip": "CleanUp",
+
+  "Comment": "RedWins",
+  "StartAll": [1.0, 2, "infection_winners"],
+  "Skip": "Cleanup"
+,
+  "Comment": "CleanUp",
+  "LeaveAll": ["infection_blue", "infection_blue_slave", "infection_glow"],
+  "LeaveAll": ["infection_red", "infection_red_slave", "infection_ammo", "infection_speed"]
+
+
+
+
+}

@@ -1,0 +1,24 @@
+{
+  "Key": "infection_blue",
+
+  "If":[],
+  "In": ["infection_red"],
+  "Leave": [],
+  "Wait": 10,
+
+  "SendMessage": "Welcome to team blue, your job is to run.",
+
+  "Start": "infection_blue_slave",
+
+  "Wait": 1,
+
+  "Comment": "GlowLoop",
+
+  "Potion": ["glowing", 9, 40],
+
+  "Wait": 400,
+
+  "Skip": "GlowLoop",
+
+  "Dummy": []
+}

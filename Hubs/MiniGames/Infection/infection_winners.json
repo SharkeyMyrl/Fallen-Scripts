@@ -5,12 +5,14 @@
   "If": [],
   "In": "infection_region",
   "SendMessage": "Congradulations Team Red!!",
+  "Leave": "infection_region",
   "Leave": [],
 
   "Comment": "Blue",
   "If": [],
   "In": "infection_region",
   "SendMessage": "Congradulations Team Blue!!",
+  "Leave": "infection_region",
   "Leave": [],
 
 

@@ -1,8 +1,6 @@
 {
   "Key": "infection_red_slave",
 
-  "Comment": "SpeedLoop",
-
   "If": [],
   "NotIn": ["infection_red"],
   "Leave": [],
@@ -21,16 +19,14 @@
     1.0
   ],
 
+  "Comment": "SpeedLoop",
+
+  "If": [],
+  "NotIn": ["infection_red"],
+  "Leave": [],
+  "Wait": 1,
+
   "ClickItem": [
-    {
-      "material": "sugar",
-      "name": "&cSpeed",
-      "description": "Speed is Key.",
-      "glow": true,
-      "amount": 1
-    }
-  ],
-  "TakeItem": [
     {
       "material": "sugar",
       "name": "&cSpeed",
@@ -45,6 +41,8 @@
     200,
     4
   ],
+
+  "Wait": 300,
 
   "Skip": "SpeedLoop",
 

@@ -56,11 +56,11 @@
       "material": "snowball",
       "name": "&cSplat",
       "description": "White fluffy pain.",
-      "amount": 5
+      "amount": 1
     }
   ],
   "Wait": 1,
-  "GiveItem": [
+  "SetItem": [
     {
       "material": "snowball",
       "name": "&cSplat",

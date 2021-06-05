@@ -66,8 +66,8 @@
   "Skip": "Cleanup",
 
   "Comment": "CleanUp",
-  "LeaveAll": ["infection_blue", "infection_blue_slave", "infection_glow"],
-  "LeaveAll": ["infection_red", "infection_red_slave", "infection_ammo", "infection_speed"],
+  "LeaveAll": ["infection_blue", "infection_blue_slave"],
+  "LeaveAll": ["infection_red", "infection_red_slave"],
   "Set": ["server", "infection_timer", -1.0],
 
 

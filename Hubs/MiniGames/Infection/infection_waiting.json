@@ -6,6 +6,8 @@
   "Start": "infection_red",
   "Start": "infection_blue",
 
+  "Start": "infection",
+
   "Comment": "WaitingLoop",
 
   "If":[],

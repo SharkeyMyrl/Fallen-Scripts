@@ -61,12 +61,14 @@
   ],
   "Wait": 1,
   "SetItem": [
+    1,
     {
       "material": "snowball",
       "name": "&cSplat",
       "description": "White fluffy pain.",
       "amount": 1
-    }
+    },
+    true
   ],
 
   "Wait": 10,

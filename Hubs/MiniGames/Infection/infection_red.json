@@ -61,7 +61,7 @@
   ],
   "Wait": 1,
   "SetItem": [
-    1,
+    0,
     {
       "material": "snowball",
       "name": "&cSplat",

@@ -63,8 +63,8 @@
 
   "Comment": "RedWins",
   "StartAll": [1.0, 2, "infection_winners"],
-  "Skip": "Cleanup"
-,
+  "Skip": "Cleanup",
+  
   "Comment": "CleanUp",
   "LeaveAll": ["infection_blue", "infection_blue_slave", "infection_glow"],
   "LeaveAll": ["infection_red", "infection_red_slave", "infection_ammo", "infection_speed"],

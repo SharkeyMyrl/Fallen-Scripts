@@ -14,28 +14,28 @@
   "ClearInventroy": [],
 
   "SetItem": [
-    "chestplate",
+    38,
     {
       "material": "Leather Chestplate",
       "color": "Red"
     },
-    1.0
+    true
   ],
   "SetItem": [
-    "leggings",
+    37,
     {
       "material": "Leather Leggings",
       "color": "Red"
     },
-    1.0
+    true
   ],
   "SetItem": [
-    "boots",
+    36,
     {
       "material": "Leather Boots",
       "color": "Red"
     },
-    1.0
+    true
   ],
 
 

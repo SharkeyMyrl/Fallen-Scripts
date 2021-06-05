@@ -17,8 +17,7 @@
       "glow": true,
       "amount": 1
     },
-    true,
-    1.0
+    true
   ],
 
   "ClickItem": [
@@ -40,8 +39,7 @@
       "glow": false,
       "amount": 1
     },
-    true,
-    1.0
+    true
   ],
 
   "Potion": [

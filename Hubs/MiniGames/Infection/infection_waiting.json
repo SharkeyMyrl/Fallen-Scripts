@@ -1,5 +1,6 @@
 {
   "Key": "infection_waiting",
+  "SendMessage": "Entering Waiting",
 
   "If":[],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_red", "=", 0.0],
@@ -9,6 +10,7 @@
   "Start": "infection",
 
   "Comment": "WaitingLoop",
+  "SendMessage": "Entering WaitingLoop",
 
   "If":[],
   "Equals": ["server", "infection_lobby_timer", "=", 9.0],

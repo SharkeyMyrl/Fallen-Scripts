@@ -15,15 +15,18 @@
   "Skip": "LobbyOn",
 
   "Comment": "NoLobby",
+  "If": [],
+  "Equals":["server", "infection_lobby_timer", "=", -1.0],
+  "Wait": 220,
   "Set": ["server", "infection_lobby_timer", -1.0],
-  "Hold": [],
+  "Wait": 220,
   "Comment":"LobbyOn",
   "Add": ["server", "infection_lobby_timer", 1.0],
 
   "If": [],
   "Equals": ["server", "infection_lobby_timer", ">=", 9.0],
   "Dummy": [],
-  "Hold": [],
+  "Wait": 220,
 
   "Comment": "GameTimer",
   "Comment": "Is anyone playing or has game even started",
@@ -35,7 +38,7 @@
   "Comment": "NoGame",
   "Set": ["server", "infection_timer", -1.0],
   "Set": ["server", "infection_timer_max", 18.0],
-  "Hold":[],
+  "Wait": 220,
   "Comment": "GameOn",
   "Add": ["server", "infection_timer", 1.0],
 

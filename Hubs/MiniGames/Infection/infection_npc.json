@@ -19,7 +19,7 @@
 
   "HighlightClickEntity": "infection_referee",
 
-  "Comment": "Is a game running?"
+  "Comment": "Is a game running?",
   "If": [],
   "Equals": [],
   "Skip": "NoGame",

@@ -8,13 +8,7 @@
   "Start": "infection",
   "Start": "infection_region",
 
-  "Comment": "WaitingLoop",
-
-  "If":[],
   "Equals": ["server", "infection_lobby_timer", ">=", 9.0],
-  "Skip": "LobbyTimerOver",
-  "Wait": 100,
-  "Skip": "WaitingLoop",
 
   "Comment": "LobbyTimerOver",
   "SendMessage": "Sending you to your team.",

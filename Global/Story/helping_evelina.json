@@ -1,0 +1,74 @@
+{
+  "Key": "helping_evelina",
+  "Author": "SharkeyMyrl",
+
+  "PlayerJoin":[],
+  "If": [],
+  "KingdomEquals": ["apples", ">=", 30.0],
+  "Dummy":[],
+  "Leave":[],
+
+  "CreateEntity": {
+    "key": "evelina",
+    "skin": "FALLEN_FARMER",
+    "location": [2329.5, 71, 469.5, 225],
+    "name": [
+			"&6&Evelina",
+			"&8&oOrchardist of Sylvestris"
+		],
+    "global": false
+  },
+
+  "HighlightClickEntity": "evelina",
+
+  "Dialog": "Could you help me? I seem to have gotten myself into a peculiar situation...",
+  "Wait": 10,
+
+  "Dialog": "I recently got a large piece of land to start growing my lovely trees in, but the land is decrypted and covered in debris from some anbondoned village...",
+  "Wait": 10,
+
+  "SendMessageOptions": ["What do you want from me...", "How can I help you?"],
+  "Skip": "OptionOne",
+  "Skip": "OptionTwo",
+
+  "Comment": "OptionOne",
+  "Dialog": "If you could just help me gather 32 Rotten Flesh and 64 Oak Logs",
+  "Wait": 10,
+  "SendMessageOptions": ["Yea I can do that...", "..."],
+  "Skip": "RewardTrackOne",
+  "Dialog": "Oh... Okay I'll leave you alone...",
+  "Leave":[],
+
+  "Comment": "OptionTwo",
+  "Dialog": "Well it is a rather tall order, I need a lot of Rotten Flesh and Logs.",
+  "Wait": 10,
+  "Dialog": "I need about 128 Rotten Flesh and 246 Oak Logs.",
+  "Wait": 10,
+  "SendMessageOptions": ["I can get that for you, no problem.", "..."],
+  "Skip": "OptionThree",
+  "Skip": "OptionFour",
+
+  "Comment": "OptionThree",
+  "Dialog": "Thank you so much! I need to buy some more supplies so I'll meet you back here when I'm done.",
+  "Wait": 10,
+  "Skip": "RewardTrackTwo",
+
+  "Comment": "OptionFour",
+  "Dialog": "Stupid! Stupid Evelina! of course their to busy to help you...",
+  "Wait": 10,
+  "Skip": "OptionOne",
+
+  "Comment": "RewardTrackOne",
+
+
+
+  "Comment": "RewardTrackTwo",
+
+
+
+
+
+
+
+  "Dummy":[]
+}

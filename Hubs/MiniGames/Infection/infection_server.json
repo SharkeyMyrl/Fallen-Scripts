@@ -5,7 +5,7 @@
   "Repeat": 10.0,
 
   "If": [],
-  "Equals": ["server", "infection_timer", "=", -1.0],
+  "Equals": ["server", "infection_game_on", "=", 1.0],
   "Dummy": [],
   "Skip": "GameTimer",
 

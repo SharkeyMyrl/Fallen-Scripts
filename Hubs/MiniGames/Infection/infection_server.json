@@ -2,7 +2,7 @@
   "Key": "infection_server",
   "Author": "SharkeyMyrl",
 
-  "Repeat": 10,
+  "Repeat": 10.0,
 
   "If": [],
   "Equals": ["server", "infection_timer", "=", -1.0],
@@ -11,7 +11,7 @@
 
   "Comment": "LobbyTimer",
   "If": [],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_waiting", ">=", 2.0],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_waiting", "<=", 2.0],
   "Skip": "NoLobby",
   "Skip": "LobbyOn",
 

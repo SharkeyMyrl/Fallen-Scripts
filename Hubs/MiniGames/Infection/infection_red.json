@@ -2,7 +2,7 @@
   "Key": "infection_red",
   "Author": "SharkeyMyrl",
 
-  "In": ["infection_red"],
+  "In": ["infection"],
 
   "SendMessage": "Welcome to team red, your job is to hunt down and tag the other players.",
 
@@ -40,7 +40,7 @@
   "Wait": 1,
 
   "Comment": "AmmoLoop",
-  "In": ["infection_red"],
+  "In": ["infection"],
 
   "If": [],
   "HasItem":[

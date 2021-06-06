@@ -2,7 +2,7 @@
   "Key": "infection_blue",
   "Author": "SharkeyMyrl",
 
-  "In": ["infection_red"],
+  "In": ["infection"],
 
   "NotIn": ["infection_red"],
 

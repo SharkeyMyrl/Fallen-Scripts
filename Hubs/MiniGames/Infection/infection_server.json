@@ -2,7 +2,7 @@
   "Key": "infection_server",
   "Author": "SharkeyMyrl",
 
-  "Repeat": 10.0,
+  "Repeat": 10,
 
   "If": [],
   "Equals": ["server", "infection_game_on", "=", 1.0],

@@ -45,7 +45,7 @@
 
   "Comment": "Did timer go over?",
   "If": [],
-  "Equals": ["server", "infection_timer", ">=", "[server:infection_timer_max]"],
+  "Equals": ["server", "infection_timer", ">=", 18.0],
   "Skip": "BlueWins",
   "Dummy": [],
 
@@ -74,6 +74,7 @@
   "Wait": 10,
   "LeaveAll": ["infection_blue", "infection_red"],
   "Set": ["server", "infection_timer", -1.0],
+  "Set": ["server", "infection_lobby_timer", -1.0],
 
 
 

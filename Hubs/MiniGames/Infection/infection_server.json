@@ -11,7 +11,7 @@
 
   "Comment": "LobbyTimer",
   "If": [],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_waiting", "=", 0.0],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_waiting", ">=", 2.0],
   "Skip": "NoLobby",
   "Skip": "LobbyOn",
 

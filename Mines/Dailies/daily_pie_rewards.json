@@ -1,5 +1,6 @@
 {
   "Key": "daily_pie_rewards",
+  "Author": "SharkeyMyrl",
   "Comment": "One",
   "AddPersistent": ["pies", 1],
   "AddPersistent": ["SharkQuest", "easyPies", 1],

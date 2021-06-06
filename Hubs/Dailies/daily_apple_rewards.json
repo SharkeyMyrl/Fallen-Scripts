@@ -1,5 +1,6 @@
 {
   "Key": "daily_apple_rewards",
+  "Author": "SharkeyMyrl",
   "Comment": "One",
   "AddPersistent": ["apples", 1],
   "AddPersistent": ["SharkQuest", "easyApples", 1],

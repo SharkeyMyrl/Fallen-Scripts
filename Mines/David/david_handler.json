@@ -1,5 +1,6 @@
 {
   "Key": "david_handler",
+  "Author": "SharkeyMyrl",
   "CreateEntity": {
     "key": "kill_quest1",
     "skin": "FALLEN_MINER_LIGHT",

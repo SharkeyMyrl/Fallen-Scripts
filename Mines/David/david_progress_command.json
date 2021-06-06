@@ -1,5 +1,6 @@
 {
   "Key":"david_progress_command",
+  "Author": "SharkeyMyrl",
   "AllowRejoining": false,
   "PlayerJoin":[],
   "Command": "david",

@@ -77,9 +77,7 @@
   "Skip": "Cleanup",
 
   "Comment": "CleanUp",
-  "LeaveAll": ["infection_blue_slave", "infection_red_slave", "infection_region", "infection_waiting"],
-  "Wait": 1,
-  "LeaveAll": ["infection_blue", "infection_red"],
+  "LeaveAll": ["infection_blue_slave", "infection_red_slave", "infection_region", "infection_waiting", "infection_blue", "infection_red"],
   "Set": ["server", "infection_timer", -1.0],
   "Set": ["server", "infection_lobby_timer", -1.0],
   "Set": ["server", "infection_game_on", -1.0],

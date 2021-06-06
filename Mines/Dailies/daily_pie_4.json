@@ -1,6 +1,6 @@
 {
-  "Key":"daily_pie_3",
-	"Name":"&c&lDaily Pie #3",
+  "Key":"daily_pie_4",
+	"Name":"&c&lDaily Pie #4",
   "ServerType": "mines",
 	"Description":"You want a piece of me?",
   "Author": "SharkeyMyrl",
@@ -11,16 +11,16 @@
   "AllowRejoining": false,
   "NotCompleted": 24,
 
-  "StoreRandom": ["mines_3",[
+  "StoreRandom": ["mines_4",[
     [2860.5,	85.0,	450.5],
     [2867.5,	80.0,	482.5],
     [2866.0,	87.0,	445.5],
     [2866.0,	84.0,	442.5]
     ]],
 
-  "CumulativePickupItem":["mines_3", "&dPumpkin Pie", "pumpkin pie"],
+  "CumulativePickupItem":["mines_4", "&dPumpkin Pie", "pumpkin pie"],
   "Wait": 1,
-  "Start": ["daily_pie_rewards", "Three"],
+  "Start": ["daily_pie_rewards", "Four"],
   "Wait": 1,
   "Complete": []
 

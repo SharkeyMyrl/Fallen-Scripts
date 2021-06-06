@@ -1,23 +1,24 @@
 {
   "Key": "infection_waiting",
   "Author": "SharkeyMyrl",
-  "SendMessage": "Entering Waiting",
-
-  "If":[],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_red", "=", 0.0],
-  "Start": "infection_red",
-  "Start": "infection_blue",
+  "SendMessage": "Entering Lobby",
 
   "Start": "infection",
 
   "Comment": "WaitingLoop",
-  "SendMessage": "Entering WaitingLoop",
 
   "If":[],
-  "Equals": ["server", "infection_lobby_timer", "=", 9.0],
-  "Leave": [],
+  "Equals": ["server", "infection_lobby_timer", ">=", 9.0],
+  "Skip": "LobbyTimerOver",
   "Wait": 100,
   "Skip": "WaitingLoop",
+
+  "Comment": "LobbyTimerOver",
+  "SendMessage": "Sending you to your team.",
+  "If":[],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_red", "=", 0.0],
+  "Start": "infection_red",
+  "Start": "infection_blue",
 
   "Dummy": []
 }

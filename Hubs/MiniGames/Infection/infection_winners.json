@@ -3,14 +3,12 @@
   "Author": "SharkeyMyrl",
 
   "Comment": "Red",
-  "If": [],
   "In": "infection",
   "SendMessage": "Congradulations Team Red!!",
   "Leave": "infection",
   "Leave": [],
 
   "Comment": "Blue",
-  "If": [],
   "In": "infection",
   "SendMessage": "Congradulations Team Blue!!",
   "Leave": "infection",

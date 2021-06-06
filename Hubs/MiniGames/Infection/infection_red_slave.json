@@ -4,10 +4,7 @@
 
   "Comment": "SpeedLoop",
 
-  "If": [],
-  "NotIn": ["infection_red"],
-  "Leave": [],
-  "Wait": 1,
+  "In": ["infection_red"],
 
   "SetItem": [
     1,

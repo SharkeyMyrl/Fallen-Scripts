@@ -2,12 +2,7 @@
   "Key": "infection_red",
   "Author": "SharkeyMyrl",
 
-  "Comment": "WaitingLoop",
-  "If": [],
-  "NotIn": "infection_waiting",
-  "Dummy": [],
-  "Wait": 100,
-  "Skip": "WaitingLoop",
+  "In": ["infection_red"],
 
   "SendMessage": "Welcome to team red, your job is to hunt down and tag the other players.",
 
@@ -45,11 +40,7 @@
   "Wait": 1,
 
   "Comment": "AmmoLoop",
-
-  "If": [],
-  "NotIn": ["infection_red"],
-  "Leave": [],
-  "Wait": 1,
+  "In": ["infection_red"],
 
   "If": [],
   "HasItem":[

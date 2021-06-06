@@ -1,12 +1,5 @@
 {
   "Key": "infection",
   "Author": "SharkeyMyrl",
-  "If":[],
-  "In": "infection_red",
-  "Hold": [],
-  "Dummy": [],
-  "If": [],
-  "In": "infection_blue",
-  "Hold":[],
-  "Dummy": []
+  "Hold": []
 }

@@ -2,17 +2,9 @@
   "Key": "infection_blue",
   "Author": "SharkeyMyrl",
 
-  "Comment": "WaitingLoop",
-  "If": [],
-  "NotIn": "infection_waiting",
-  "Dummy": [],
-  "Wait": 100,
-  "Skip": "WaitingLoop",
-
-  "If":[],
   "In": ["infection_red"],
-  "Leave": [],
-  "Wait": 10,
+
+  "NotIn": ["infection_red"],
 
   "SendMessage": "Welcome to team blue, your job is to run.",
 

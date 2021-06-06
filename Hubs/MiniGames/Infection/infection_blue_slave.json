@@ -1,6 +1,7 @@
 {
   "Key": "infection_blue_slave",
   "Author": "SharkeyMyrl",
+  "Wait": 1,
 
   "ProjectileHit": ["snowball", "infection_blue"],
   "SendMessage": "Opp- you got tagged, switching teams.",

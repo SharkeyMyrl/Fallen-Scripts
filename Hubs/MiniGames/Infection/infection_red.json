@@ -40,7 +40,6 @@
   "Wait": 1,
 
   "Comment": "AmmoLoop",
-  "In": ["infection"],
 
   "If": [],
   "HasItem":[

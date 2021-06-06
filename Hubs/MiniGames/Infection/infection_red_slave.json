@@ -4,8 +4,6 @@
 
   "Comment": "SpeedLoop",
 
-  "In": ["infection_red"],
-
   "SetItem": [
     1,
     {

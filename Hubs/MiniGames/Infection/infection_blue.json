@@ -2,9 +2,7 @@
   "Key": "infection_blue",
   "Author": "SharkeyMyrl",
 
-  "In": ["infection"],
-
-  "NotIn": ["infection_red"],
+  "NotIn": ["infection_red", "You are already on team red..."],
 
   "SendMessage": "Welcome to team blue, your job is to run.",
 

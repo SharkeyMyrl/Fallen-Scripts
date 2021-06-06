@@ -1,5 +1,6 @@
 {
   "Key": "infection_region",
+  "Author": "SharkeyMyrl",
   "RegionExit": [ 1500, 0, 400, 2500, 85, 800],
   "If": [],
   "In": "infection",

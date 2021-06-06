@@ -1,5 +1,6 @@
 {
   "Key": "infection_waiting",
+  "Author": "SharkeyMyrl",
   "SendMessage": "Entering Waiting",
 
   "If":[],

@@ -1,5 +1,6 @@
 {
   "Key": "infection_npc",
+  "Author": "SharkeyMyrl",
 
   "Store": ["location", [1000,86,1000]],
   "CreateEntity": {

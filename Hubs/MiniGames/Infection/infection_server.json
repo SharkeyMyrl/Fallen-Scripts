@@ -46,7 +46,7 @@
   "Add": ["server", "infection_timer", 1.0],
 
   "If": [],
-  "Equals": ["server", "infection_timer", ">=", 3.0],
+  "Equals": ["server", "infection_timer", ">=", 6.0],
   "Dummy": [],
   "Wait": 220,
 

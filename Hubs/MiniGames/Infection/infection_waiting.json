@@ -8,7 +8,7 @@
   "Start": "infection",
   "Start": "infection_region",
 
-  "Equals": ["server", "infection_lobby_timer", ">=", 9.0],
+  "Equals": ["server", "infection_game_on", ">=", 1.0],
 
   "Comment": "LobbyTimerOver",
   "SendMessage": "Sending you to your team.",

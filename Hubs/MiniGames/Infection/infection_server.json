@@ -29,7 +29,7 @@
   "Dummy": [],
   "Wait": 220,
 
-  "Broadcast": "Starting game.",
+  "BroadcastMessage": "Starting game.",
   "Comment": "GameTimer",
   "Comment": "Is anyone playing or has game even started",
   "If":[],

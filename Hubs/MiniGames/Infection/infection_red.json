@@ -3,8 +3,8 @@
   "Author": "SharkeyMyrl",
 
   "SendMessage": "Welcome to team red, your job is to hunt down and tag the other players.",
-  
-  "Teleport": [2003.5, 54, 536.5, 0, 0],
+
+  "Teleport": [2003.5, 54.0, 536.5, 0, 0],
 
   "SaveInventory": [],
   "ClearInventory": [],

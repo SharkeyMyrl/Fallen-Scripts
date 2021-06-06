@@ -2,9 +2,9 @@
   "Key": "infection_red",
   "Author": "SharkeyMyrl",
 
-  "In": ["infection"],
-
   "SendMessage": "Welcome to team red, your job is to hunt down and tag the other players.",
+  
+  "Teleport": [2003.5, 54, 536.5, 0, 0],
 
   "SaveInventory": [],
   "ClearInventory": [],

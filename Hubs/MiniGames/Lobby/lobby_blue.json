@@ -10,7 +10,7 @@
     636
   ],
 
-  "In": "lobby",
+  "In": ["lobby", false],
 
   "SendMessage": "Picking &1Blue Team.",
   "StayInRegion": [

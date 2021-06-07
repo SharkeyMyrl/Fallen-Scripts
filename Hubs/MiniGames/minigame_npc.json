@@ -58,7 +58,7 @@
   "If": [],
   "Equals": ["server", "infection_game_on", ">=", 0.0],
   "Skip": "GameInProgress",
-  "StartOffline": "infection_waiting",
+  "OfflineStart": "infection_waiting",
   "Leave": [],
 
   "Comment": "GameInProgress",

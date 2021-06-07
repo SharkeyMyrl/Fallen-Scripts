@@ -74,7 +74,7 @@
 
   "Comment": "RedWins",
   "StartAll": [1.0, 3, "infection_winners"],
-  "Skip": "Cleanup",
+  "Skip": "CleanUp",
 
   "Comment": "CleanUp",
   "LeaveAll": ["infection_blue_slave", "infection_red_slave", "infection_region", "infection_waiting", "infection_blue", "infection_red"],

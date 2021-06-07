@@ -5,12 +5,14 @@
   "Comment": "Red",
   "In": ["infection", " "],
   "SendMessage": "Congradulations Team Red!!",
+  "Leave": ["infection_blue_slave", "infection_red_slave", "infection_region", "infection_waiting", "infection_blue", "infection_red"],
   "Leave": "infection",
   "Leave": [],
 
   "Comment": "Blue",
   "In": ["infection", " "],
   "SendMessage": "Congradulations Team Blue!!",
+  "Leave": ["infection_blue_slave", "infection_red_slave", "infection_region", "infection_waiting", "infection_blue", "infection_red"],
   "Leave": "infection",
   "Leave": [],
 

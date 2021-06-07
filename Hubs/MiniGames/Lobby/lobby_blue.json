@@ -12,6 +12,13 @@
 
   "In": ["lobby", false],
 
+  "Set": ["temp", "[SCRIPT_PLAYER_COUNT]"],
+
+  "Subtract": ["temp", 1.0],
+
+  "If": [],
+  "Equals": ["SCRIPT_PLAYER_COUNT", "lobby_red", "<", "[temp]"],
+
   "SendMessage": "Picking &1Blue Team.",
   "StayInRegion": [
     1987,

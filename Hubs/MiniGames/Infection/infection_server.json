@@ -59,7 +59,7 @@
   "Leave": [],
 
   "Comment": "BlueWins",
-  "StartAll": [1.0, 8, "infection_winners"],
+  "StartAll": [1.0, 14, "infection_winners"],
   "Skip": "CleanUp",
 
   "Comment": "RedWins",

@@ -3,57 +3,18 @@
   "Author": "SharkeyMyrl",
 
   "Comment": "AmmoLoop",
+  "SetItem": [
+    0,
+    {
+      "material": "snowball",
+      "name": "&cPaintBall",
+      "description": "White icy pain.",
+      "amount": 1
+    },
+    true
+  ],
+  
   "Wait": 2,
-  "SetItem": [
-    0,
-    {
-      "material": "snowball",
-      "name": "&cPaintBall",
-      "description": "White icy pain.",
-      "amount": 1
-    },
-    true
-  ],
-
-  "ClickItem": [
-    {
-      "material": "snowball",
-      "name": "&cPaintBall",
-      "description": "White icy pain.",
-      "amount": 1
-    }
-  ],
-
-  "Subtract": ["paintballs", 1.0],
-
-  "If": [],
-  "Equals": ["paintballs", "<=", 0.0],
-  "Skip": "Reload",
-  "Skip": "AmmoLoop",
-
-  "Comment": "Reload",
-  "SetItem": [
-    0,
-    {
-      "material": "stick",
-      "name": "&cReload",
-      "description": "Hi.",
-      "amount": 1
-    },
-    true
-  ],
-  "SendMessage": "Right click to reload.",
-  "ClickItem": [
-    {
-      "material": "stick",
-      "name": "&cReload",
-      "description": "Hi.",
-      "amount": 1
-    }
-  ],
-  "SendMessage": "Reloading...",
-  "Wait": 3.0,
-  "Set": ["paintballs", 15.0],
   "Skip": "AmmoLoop",
 
   "Dummy": []

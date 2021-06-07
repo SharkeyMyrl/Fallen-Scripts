@@ -12,7 +12,8 @@
 
   "Comment": "LobbyTimerOver",
   "SendMessage": "Sending you to your team.",
-  "Window": [1990, 54, 549, 1990, 58, 543],
+
+  "Leave": "lobby",
   "If":[],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_red", "=", 0.0],
   "Start": "infection_red",

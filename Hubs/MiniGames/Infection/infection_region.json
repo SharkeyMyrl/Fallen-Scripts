@@ -1,6 +1,7 @@
 {
   "Key": "infection_region",
   "Author": "SharkeyMyrl",
+  "Wait": 1,
   "Hold":[],
   "Window": [ 1987, 62, 552, 1987, 65, 550],
   "Window": [ 1984, 71, 542, 1984, 74, 539],

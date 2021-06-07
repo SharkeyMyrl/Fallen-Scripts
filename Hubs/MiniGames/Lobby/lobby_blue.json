@@ -1,5 +1,28 @@
 {
   "Key": "lobby_blue",
 
+  "RegionEntry": [
+    1987,
+    28,
+    640,
+    1991,
+    31,
+    636
+  ],
+
+  "In": "lobby",
+
+  "SendMessage": "Picking &1Blue Team.",
+  "StayInRegion": [
+    1987,
+    28,
+    640,
+    1991,
+    31,
+    636,
+    "&7Picking Random Team."
+  ],
+  "Hold": [],
+
   "Dummy": []
 }

@@ -1,6 +1,12 @@
 {
   "Key": "paintball_red_slave",
-  "Hold": [],
+  "Author": "SharkeyMyrl",
+  "Wait": 1,
 
-  "Dummy": []
+  "ProjectileHit": ["snowball", "paintball_red"],
+  "SendMessage": "Opp- you got hit.",
+
+  "Freeze": [],
+
+  "Hold": []
 }

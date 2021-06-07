@@ -6,8 +6,8 @@
 
   "If": [],
   "Equals": ["server", "infection_game_on", "=", 1.0],
-  "Wait": 1.0,
   "Skip": "GameTimer",
+  "Wait": 1.0,
 
   "Comment": "LobbyTimer",
   "If": [],

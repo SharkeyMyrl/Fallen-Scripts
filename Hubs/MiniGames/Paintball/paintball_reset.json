@@ -1,0 +1,18 @@
+{
+  "Key": "paintball_reset",
+
+  "In": "paintball",
+
+  "If": [],
+  "In": "paintball_red",
+  "Start": ["paintball_red", 1.0, "ResetPlayers"],
+
+  "If": [],
+  "In": "paintball_blue",
+  "Start": ["paintball_blue", 1.0, "ResetPlayers"],
+
+  "SendMessage": "... How...",
+
+
+  "Dummy": []
+}

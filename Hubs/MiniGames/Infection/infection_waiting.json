@@ -3,7 +3,7 @@
   "Author": "SharkeyMyrl",
   "SendMessage": "Entering Lobby",
 
-  "Teleport": [2003.5, 54.0, 536.5, 0, 0],
+  "Start": "lobby",
 
   "Start": "infection",
   "Start": "infection_region",

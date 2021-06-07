@@ -3,7 +3,8 @@
   "Author": "SharkeyMyrl",
 
   "SendMessage": "Welcome to team blue.",
-
+  "Comment": "ResetPlayers",
+  "Unfreeze": [],
   "Teleport": [2081.5, 27.0, 587.0, 90, 0],
 
   "SaveInventory": [],

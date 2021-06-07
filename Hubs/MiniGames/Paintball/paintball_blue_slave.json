@@ -5,7 +5,7 @@
 
   "ProjectileHit": ["snowball", "paintball_blue"],
   "SendMessage": "Opp- you got hit.",
-
+  "Add": ["server", "paintball_red", 1.0],
   "Freeze": [],
 
   "Hold": []

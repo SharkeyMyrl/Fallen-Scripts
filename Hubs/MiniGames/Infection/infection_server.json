@@ -11,23 +11,23 @@
 
   "Comment": "LobbyTimer",
   "If": [],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_waiting", "<=", 2.0],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_waiting", "<=", 1.0],
   "Skip": "NoLobby",
   "Skip": "LobbyOn",
 
   "Comment": "NoLobby",
   "If": [],
   "Equals":["server", "infection_lobby_timer", "=", -1.0],
-  "Leave": [],
+  "Hold": [],
   "Set": ["server", "infection_lobby_timer", -1.0],
-  "Leave": [],
+  "Hold": [],
   "Comment":"LobbyOn",
   "Add": ["server", "infection_lobby_timer", 1.0],
 
   "If": [],
   "Equals": ["server", "infection_lobby_timer", ">=", 9.0],
   "Wait": 1.0,
-  "Leave": [],
+  "Hold": [],
 
   "Set": ["server", "infection_game_on", 1.0],
 
@@ -41,7 +41,7 @@
   "Comment": "NoGame",
   "Set": ["server", "infection_timer", -1.0],
   "Set": ["server", "infection_timer_max", 18.0],
-  "Leave": [],
+  "Hold": [],
   "Comment": "GameOn",
   "Add": ["server", "infection_timer", 1.0],
 

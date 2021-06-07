@@ -6,12 +6,10 @@
 
   "SendMessage": "Welcome to team blue, your job is to run.",
 
-  "RandomOption": 5,
-  "Teleport": [2003.5, 80.0, 552.5, 180, 0],
-  "Teleport": [1986.5, 78.0, 551.5, -90, 0],
-  "Teleport": [2003.5, 72.0, 553.5, 180, 50],
-  "Teleport": [2003.5, 73.0, 528.5, 0, 0],
-  "Teleport": [2015.5, 77.0, 559.5, -50, 0],
+  "RandomOption": 3,
+  "Teleport": [1912.5, 38.0, 564.5, 90, 0],
+  "Teleport": [2048.5, 37.0, 558.5, 0, 0],
+  "Teleport": [1979.5, 62.0, 662.5, 180, 0],
 
   "Start": "infection_blue_slave",
 

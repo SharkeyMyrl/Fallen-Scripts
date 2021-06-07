@@ -2,14 +2,13 @@
   "Key": "infection_npc",
   "Author": "SharkeyMyrl",
 
-  "Store": ["location", [1000,86,1000]],
   "CreateEntity": {
-    "key": "infection_referee",
+    "key": "referee",
     "skin": {
       "texture": "eyJ0aW1lc3RhbXAiOjE1NzU4MTMyMzAxNTgsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGY2ZjVhZmJlNjc0YjI3Y2M5OWQ4NGY3NTU1M2U2NDU0MjZmYTNmMmM1NDUyOWFmYzdmYjA5MWQwYzUzMTM4ZiJ9fX0=",
       "signature": "A8NWBAU4vs2c0sf0GY7KjeCgLQuIHNmJCunI9YaBzDdA8mMzTd4EWLsohGS3KSPNBm9qOY0px7ARhO8PJJG4WvsfvjrARUpzf9bpKJiZ5TOSOiBn0NCBg96ESCkCYADhHH7A4SYsaOCdifd51jLij5SEic7wGmqzZuA7sy7wLvROBLJ2baeXw4Y8dCKYHvA2il0VGrxZ9/Xe7bcUCsaExD/slqEGyMuTI9zQDuYV+uwQs12O6tua/R/UQILoMKkyImMjT6XqjGXrHyfkCC9CuFyS1BvZj0HJezuoEG4JRvbuuxDJNafMy7+AnCsLD7WsBUn5zcO8ZclxBZxp0omqPCEMcPZyHiXE7sqq7qDyd6kOubB//i9MTA5KjlsNrnJ49vgbVrAGB5w90zWZgA81WnQ/M9Mb/HyqVWf/jUKbIICZBlazeDE7iUUmX3+x3jORhg48KodzXwXxL90OGrG3En/4aOSxBkZhTyckKpJ03rOdZkUaStjGpaJn+bMaG2CjT+fn6TSZ4p6Ifas3trKDMXsPCxIbWxsAw7BmVfsipVgepIDnApMJuYRC0osf+0trcxeHw95gRnrpSpFiWsUPWsLLZJo9crCacjJoSBdUOnh1+yxKOIcXXc6DfaoKk92E04NEvFC6mGT36M5L7pN+fza2eIwnHbKRhqr8nwa10iE="
     },
-    "location": "location",
+    "location": [1961.5, 26.0, 615.5, -180],
     "name": [
       "Game Master",
       "&8&oMiniGame Referee"
@@ -17,61 +16,53 @@
     "global": true
   },
 
-  "HighlightClickEntity": "infection_referee",
+  "HighlightClickEntity": "referee",
 
-  "Comment": "Is a game running?",
-  "If": [],
-  "Equals": [],
-  "Skip": "NoGame",
-  "Skip": "JoinGame",
-
-  "Comment": "NoGame",
   "SendMessage": "Welcome to Fallen Kingdoms mini-games. How may I help you today?",
-
-  "Comment": "JoinGame",
-  "SendMessage": "Do you wish to join the game that is running?",
-
-  "Menu": {
-    "name": "options",
+  "Comment": "MainMenu",
+  "Menu": [
+    "MiniGames",
     1,
-    "0": {"material": "Green Stained Glass Pane"},
-    "1": {"material": "Green Stained Glass Pane"},
-    "2": {"material": "Green Stained Glass Pane"},
-    "3": {"material": "Green Stained Glass Pane"},
+    {
+      "3": {
+        "material": "Ice",
+        "name": "Freeze Tag"
+      },
+      "4": {
+        "material": "Snowball",
+        "name": "Paintball"
+      },
+      "5": {
+        "material": "Rotten Flesh",
+        "name": "Freeze Tag"
+      }
+    }
+  ],
+  "Skip": "FreezeTag",
+  "Skip": "PaintballTag",
+  "Skip": "InfectionTag",
 
-    "4": {},
+  "Comment": "FreezeTag",
+  "SendMessage": "Not Yet Implemented",
+  "Skip": "MainMenu",
 
-    "5": {"material": "Red Stained Glass Pane"},
-    "6": {"material": "Red Stained Glass Pane"},
-    "7": {"material": "Red Stained Glass Pane"},
-    "8": {"material": "Red Stained Glass Pane"},
-
-  },
-
-  "Dummy": [],
-  "Dummy": [],
-  "Dummy": [],
-  "Skip": "Yes",
-
-  "Dummy": [],
-  "Dummy": [],
-  "Dummy": [],
-  "Skip": "No",
-
-  "Comment": "Yes",
-  "SendMessage": "Okay sending you to your team.",
-  "StartEmptiest": [ 0.0, "infection_red", "infection_blue"],
+  "Comment": "PaintballTag",
+  "If": [],
+  "Equals": ["server", "paintball_game_on", ">=", 0.0],
+  "Skip": "GameInProgress",
+  "StartOffline": "paintball_waiting",
   "Leave": [],
 
-
-  "Comment": "No",
-  "SendMessage": "Okay come back when you wish to participate or once the current game is done.",
+  "Comment": "InfectionTag",
+  "If": [],
+  "Equals": ["server", "infection_game_on", ">=", 0.0],
+  "Skip": "GameInProgress",
+  "StartOffline": "infection_waiting",
   "Leave": [],
 
-
-
-
-
+  "Comment": "GameInProgress",
+  "SendMessage": "There is already a game in progress.",
+  "Skip": "MainMenu",
 
   "Dummy": []
 }

@@ -1,0 +1,19 @@
+{
+  "Key": "paintball_waiting",
+  "Author": "SharkeyMyrl",
+  "SendMessage": "Entering Lobby",
+
+  "Teleport": [2003.5, 54.0, 536.5, 0, 0],
+
+  "Start": "paintball",
+  "Start": "paintball_region",
+
+  "Equals": ["server", "paintball_game_on", ">=", 1.0],
+
+  "Comment": "LobbyTimerOver",
+  "SendMessage": "Sending you to your team.",
+  "Window": [1990, 54, 549, 1990, 58, 543],
+  "StartEmptiest": ["paintball_red", "paintball_blue"],
+
+  "Dummy": []
+}

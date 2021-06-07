@@ -1,0 +1,31 @@
+{
+  "Key": "paintball_winners",
+  "Author": "SharkeyMyrl",
+
+  "Comment": "Red",
+  "In": ["paintball", " "],
+  "SendMessage": "Congratulations Team Red!!",
+  "Leave": ["paintball"],
+  "Leave": ["paintball_region"],
+  "Leave": ["paintball_red"],
+  "Leave": ["paintball_red_slave"],
+  "Leave": ["paintball_blue"],
+  "Leave": ["paintball_blue_slave"],
+  "Leave": ["paintball_waiting"],
+  "Leave": [],
+
+  "Comment": "Blue",
+  "In": ["paintball", " "],
+  "SendMessage": "Congratulations Team Blue!!",
+  "Leave": ["paintball"],
+  "Leave": ["paintball_region"],
+  "Leave": ["paintball_red"],
+  "Leave": ["paintball_red_slave"],
+  "Leave": ["paintball_blue"],
+  "Leave": ["paintball_blue_slave"],
+  "Leave": ["paintball_waiting"],
+  "Leave": [],
+
+
+  "Dummy": []
+}

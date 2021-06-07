@@ -1,6 +1,41 @@
 {
   "Key": "paintball_red",
+  "Author": "SharkeyMyrl",
 
+  "SendMessage": "Welcome to team red.",
 
+  "SaveInventory": [],
+  "ClearInventory": [],
 
+  "SetItem": [
+    38,
+    {
+      "material": "Leather Chestplate",
+      "color": "Red"
+    },
+    true
+  ],
+  "SetItem": [
+    37,
+    {
+      "material": "Leather Leggings",
+      "color": "Red"
+    },
+    true
+  ],
+  "SetItem": [
+    36,
+    {
+      "material": "Leather Boots",
+      "color": "Red"
+    },
+    true
+  ],
+
+  "Start": "paintball_red_slave",
+  "Start": "paintball_ammo",
+
+  "Skip": "AmmoLoop",
+
+  "Dummy": []
 }

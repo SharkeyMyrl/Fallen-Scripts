@@ -51,7 +51,7 @@
   "If": [],
   "Equals": ["server", "paintball_game_on", ">=", 0.0],
   "Skip": "GameInProgress",
-  "StartOffline": "paintball_waiting",
+  "OfflineStart": "paintball_waiting",
   "Leave": [],
 
   "Comment": "InfectionTag",

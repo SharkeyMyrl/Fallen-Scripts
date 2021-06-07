@@ -6,7 +6,7 @@
 
   "If": [],
   "Equals": ["server", "infection_game_on", "=", 1.0],
-  "Dummy": [],
+  "Wait": 1.0,
   "Skip": "GameTimer",
 
   "Comment": "LobbyTimer",
@@ -24,7 +24,10 @@
   "Comment":"LobbyOn",
   "Add": ["server", "infection_lobby_timer", 1.0],
 
+  "If": [],
   "Equals": ["server", "infection_lobby_timer", ">=", 9.0],
+  "Wait": 1.0,
+  "Wait": 220.0,
 
   "Set": ["server", "infection_game_on", 1.0],
 
@@ -44,26 +47,26 @@
 
   "If": [],
   "Equals": ["server", "infection_timer", ">=", 6.0],
-  "Dummy": [],
+  "Wait": 1.0,
   "Wait": 220.0,
 
   "Comment": "Did timer go over?",
   "If": [],
   "Equals": ["server", "infection_timer", ">=", 18.0],
   "Skip": "BlueWins",
-  "Dummy": [],
+  "Wait": 1.0,
 
   "Comment": "Did red lose?",
   "If":[],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_red", "=", 0.0],
   "Skip": "BlueWins",
-  "Dummy": [],
+  "Wait": 1.0,
 
   "Comment": "Did blue lose?",
   "If":[],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_blue", "=", 0.0],
   "Skip": "RedWins",
-  "Dummy": [],
+  "Wait": 1.0,
 
   "Comment": "BlueWins",
   "StartAll": [1.0, 8, "infection_winners"],

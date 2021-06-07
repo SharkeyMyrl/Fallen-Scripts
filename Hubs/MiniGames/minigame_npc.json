@@ -36,7 +36,8 @@
         "material": "Rotten Flesh",
         "name": "Freeze Tag"
       }
-    }
+    },
+    false
   ],
   "Skip": "FreezeTag",
   "Skip": "PaintballTag",

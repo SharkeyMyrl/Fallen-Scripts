@@ -42,8 +42,15 @@
     },
     true
   ],
-  "SendMessage": "Hit 'R' to reload.",
-  "KeyPressed": "R",
+  "SendMessage": "Right click to reload.",
+  "ClickItem": [
+    {
+      "material": "stick",
+      "name": "&cReload",
+      "description": "Hi.",
+      "amount": 1
+    }
+  ],
   "SendMessage": "Reloading...",
   "Wait": 3.0,
   "Set": ["paintballs", 15.0],

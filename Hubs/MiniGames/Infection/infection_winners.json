@@ -3,7 +3,7 @@
   "Author": "SharkeyMyrl",
 
   "Comment": "Red",
-  "In": ["infection", " "],
+  "In": ["infection", false],
   "SendMessage": "Congratulations Team Red!!",
   "Leave": ["infection"],
   "Leave": ["infection_region"],
@@ -15,7 +15,7 @@
   "Leave": [],
 
   "Comment": "Blue",
-  "In": ["infection", " "],
+  "In": ["infection", false],
   "SendMessage": "Congratulations Team Blue!!",
   "Leave": ["infection"],
   "Leave": ["infection_region"],

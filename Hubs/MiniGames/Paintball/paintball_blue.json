@@ -4,6 +4,8 @@
 
   "SendMessage": "Welcome to team blue.",
 
+  "Teleport": [2081.5, 27.0, 587.0, 90, 0],
+
   "SaveInventory": [],
   "ClearInventory": [],
 

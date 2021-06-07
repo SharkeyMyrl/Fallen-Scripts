@@ -12,18 +12,6 @@
 
   "In": ["lobby", false],
 
-  "Set": ["temp", "[SCRIPT_PLAYER_COUNT]"],
-
-  "If": [],
-  "Equals": ["temp", "=", 1.0],
-  "Dummy": [],
-  "Subtract": ["temp", 1.0],
-
-  "If": [],
-  "Equals": ["SCRIPT_PLAYER_COUNT", "lobby_blue", "<", "[temp]"],
-  "Teleport": [1985.5, 29.0, 638.5, -180, 0],
-
-
   "SendMessage": "Picking &4Red Team.",
   "StayInRegion": [
     1983,

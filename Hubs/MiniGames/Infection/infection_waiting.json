@@ -19,13 +19,18 @@
 
   "If": [],
   "In": "lobby_red",
-  "Start": "infection_red",
+  "Skip": "Balance",
+  "Skip": "Balance",
 
   "Leave": "lobby",
+
+  "Comment": "Balance",
   "If":[],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_red", "=", 0.0],
   "Start": "infection_red",
   "Start": "infection_blue",
+
+  "Leave": "lobby",
 
   "Dummy": []
 }

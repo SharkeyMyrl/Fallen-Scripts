@@ -51,7 +51,6 @@
   "If": [],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_blue", "=", 0.0],
   "Skip": "RedWins",
-  "Leave": [],
 
   "If": [],
   "Equals": ["server", "paintball_timer", ">=", 18.0],
@@ -71,6 +70,7 @@
   "Add": ["server", "paintball_round", 1.0],
   "Set": ["server", "paintball_red", 0.0],
   "Set": ["server", "paintball_blue", 0.0],
+  "Set": ["server", "paintball_timer", 0.0],
   "Skip": "CheckWinner",
 
   "Comment": "RedPoints",
@@ -78,6 +78,7 @@
   "Add": ["server", "paintball_round", 1.0],
   "Set": ["server", "paintball_red", 0.0],
   "Set": ["server", "paintball_blue", 0.0],
+  "Set": ["server", "paintball_timer", 0.0],
   "Skip": "CheckWinner",
 
   "Comment": "BluePoints",
@@ -85,6 +86,7 @@
   "Add": ["server", "paintball_round", 1.0],
   "Set": ["server", "paintball_red", 0.0],
   "Set": ["server", "paintball_blue", 0.0],
+  "Set": ["server", "paintball_timer", 0.0],
   "Skip": "CheckWinner",
 
   "Comment": "CheckWinner",

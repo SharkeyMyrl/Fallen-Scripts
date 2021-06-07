@@ -2,8 +2,6 @@
   "Key": "infection_blue",
   "Author": "SharkeyMyrl",
 
-  "NotIn": ["infection_red", false],
-
   "SendMessage": "Welcome to team blue, your job is to run.",
 
   "RandomOption": 3,

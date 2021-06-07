@@ -2,11 +2,11 @@
   "Key": "paintball_blue_slave",
   "Author": "SharkeyMyrl",
   "Wait": 1,
+  
+  "Teleport": [2081.5, 27.0, 587.0, 90, 0],
 
   "ProjectileHit": ["snowball", "paintball_blue"],
   "SendMessage": "Opp- you got hit.",
   "Add": ["server", "paintball_red", 1.0],
-  "Freeze": [],
-
-  "Hold": []
+  "Freeze": []
 }

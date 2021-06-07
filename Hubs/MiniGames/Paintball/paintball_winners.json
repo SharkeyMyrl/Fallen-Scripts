@@ -12,6 +12,7 @@
   "Leave": ["paintball_blue"],
   "Leave": ["paintball_blue_slave"],
   "Leave": ["paintball_waiting"],
+  "Leave": ["paintball_ammo"],
   "Leave": [],
 
   "Comment": "Blue",
@@ -24,6 +25,7 @@
   "Leave": ["paintball_blue"],
   "Leave": ["paintball_blue_slave"],
   "Leave": ["paintball_waiting"],
+  "Leave": ["paintball_ammo"],
   "Leave": [],
 
 

@@ -21,8 +21,9 @@
   "In": "lobby_red",
   "Start": "paintball_red",
 
-  "Leave": "lobby",
   "StartEmptiest": ["paintball_red", "paintball_blue"],
+  "Leave": "lobby",
+
 
   "Dummy": []
 }

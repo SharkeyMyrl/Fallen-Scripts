@@ -5,14 +5,15 @@
 
   "If": [],
   "In": "paintball_red",
-  "Start": ["paintball_red", 1.0, "ResetPlayers"],
+  "Start": "paintball_red_slave",
 
   "If": [],
   "In": "paintball_blue",
-  "Start": ["paintball_blue", 1.0, "ResetPlayers"],
+  "Start": "paintball_blue_slave",
 
   "SendMessage": "... How...",
 
+  "Unfreeze": [],
 
   "Dummy": []
 }

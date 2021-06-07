@@ -37,7 +37,7 @@
   "Start": "paintball_red_slave",
   "Start": "paintball_ammo",
 
-  "Skip": "AmmoLoop",
+  "Hold": [],
 
   "Dummy": []
 }

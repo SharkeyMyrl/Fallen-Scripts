@@ -3,7 +3,7 @@
   "Author": "SharkeyMyrl",
 
   "Comment": "Red",
-  "In": ["paintball", " "],
+  "In": ["paintball", false],
   "SendMessage": "Congratulations Team Red!!",
   "Leave": ["paintball"],
   "Leave": ["paintball_region"],
@@ -15,7 +15,7 @@
   "Leave": [],
 
   "Comment": "Blue",
-  "In": ["paintball", " "],
+  "In": ["paintball", false],
   "SendMessage": "Congratulations Team Blue!!",
   "Leave": ["paintball"],
   "Leave": ["paintball_region"],

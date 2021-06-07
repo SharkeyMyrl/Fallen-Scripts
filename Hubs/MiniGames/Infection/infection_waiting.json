@@ -13,6 +13,14 @@
   "Comment": "LobbyTimerOver",
   "SendMessage": "Sending you to your team.",
 
+  "If": [],
+  "In": "lobby_blue",
+  "Start": "infection_blue",
+
+  "If": [],
+  "In": "lobby_red",
+  "Start": "infection_red",
+
   "Leave": "lobby",
   "If":[],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_red", "=", 0.0],

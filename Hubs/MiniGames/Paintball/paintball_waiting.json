@@ -13,6 +13,14 @@
   "Comment": "LobbyTimerOver",
   "SendMessage": "Sending you to your team.",
 
+  "If": [],
+  "In": "lobby_blue",
+  "Start": "paintball_blue",
+
+  "If": [],
+  "In": "lobby_red",
+  "Start": "paintball_red",
+
   "Leave": "lobby",
   "StartEmptiest": ["paintball_red", "paintball_blue"],
 

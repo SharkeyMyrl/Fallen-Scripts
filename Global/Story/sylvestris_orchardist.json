@@ -1,5 +1,5 @@
 {
-  "Key": "evelina",
+  "Key": "sylvestris_orchardist",
   "Author": "SharkeyMyrl",
 
   "Store": ["appleFarmer", "Evelina"],
@@ -15,11 +15,11 @@
   "Dummy":[],
   "Leave":[],
 
-  "Show": "sylvestris_orchardist",
+  "Show": "evelina_npc",
 
-  "HighlightClickEntity": "sylvestris_orchardist",
+  "HighlightClickEntity": "evelina_npc",
 
-  "EntityLookAtPlayer": "sylvestris_orchardist",
+  "EntityLookAtPlayer": "evelina_npc",
 
   "Dialog": [{"&c&l[appleFarmer]":"Oh hey [PLAYER], I've heard you've been quiet useful to &6&lDavid."}],
   "Wait": 10,

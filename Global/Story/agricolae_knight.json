@@ -4,7 +4,7 @@
 
   "Store": ["pumpkinKnight", "Melony"],
 
-  "HighlightClickEntity": "white_market_dealer",
+  "HighlightClickEntity": "melony_npc",
 
   "Comment": "Intro",
   "Wait": 10,

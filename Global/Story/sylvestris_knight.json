@@ -4,7 +4,7 @@
 
   "Store": ["appleKnight", "Melony"],
 
-  "HighlightClickEntity": "sylvestris_knight",
+  "HighlightClickEntity": "malus_npc",
 
   "Comment": "Intro",
   "Wait": 10,
@@ -23,9 +23,9 @@
   "Wait": 10,
   "Dialog": [{"&c&l[appleKnight]": "You can tell that witch to leave me alone!?"}],
   "SetPersistent": ["bmarket", 2],
-  "Show": {"black_market_dealer": false},
+  "Hide": "malus_npc",
   "Wait": 10,
-  "Leave": "black_market",
+  "Leave": [],
 
   "Comment": "No",
   "SetPersistent": ["bprestige", 0],
@@ -42,7 +42,7 @@
   "Wait": 10,
   "Dialog": [{"&c&l[appleKnight]": "Just heed my warning. Don't let her kind words fool you."}],
   "SetPersistent": ["bmarket", 1],
-  "Leave": "black_market",
+  "Leave": [],
 
   "Dummy": []
 }

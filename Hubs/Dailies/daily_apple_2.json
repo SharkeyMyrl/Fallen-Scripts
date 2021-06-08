@@ -29,10 +29,10 @@
 
   "CumulativePickupItem":["medium", "&bApple", "apple"],
   "Wait": 1,
-  "If": [],
-  "KingdomEquals": ["daily_apple_two_count", ">=", 4],
-  "Leave": [],
   "KingdomAdd": ["daily_apple_two_count", 1],
+  "If": [],
+  "KingdomEquals": ["daily_apple_two_count", "<=", 4],
+  "Leave": [],
   "Start": ["daily_apple_rewards", 1.0, "Two"],
   "Wait": 1,
   "Complete": []

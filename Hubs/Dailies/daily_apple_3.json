@@ -30,7 +30,7 @@
   "Wait": 1,
   "KingdomAdd": ["daily_apple_three_count", 1],
   "If": [],
-  "KingdomEquals": ["daily_apple_three_count", "<=", 4],
+  "KingdomEquals": ["daily_apple_three_count", ">", 4],
   "Leave": [],
   "Start": ["daily_apple_rewards", 1.0, "Three"],
   "Wait": 1,

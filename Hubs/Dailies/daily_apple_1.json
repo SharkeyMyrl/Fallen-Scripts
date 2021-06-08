@@ -41,7 +41,7 @@
   "Wait": 1,
   "KingdomAdd": ["daily_apple_one_count", 1],
   "If": [],
-  "KingdomEquals": ["daily_apple_one_count", "<=", 4],
+  "KingdomEquals": ["daily_apple_one_count", ">", 4],
   "Leave": [],
   "Start": ["daily_apple_rewards", 1.0, "One"],
   "Wait": 1,

@@ -13,6 +13,7 @@
     "global": false
   },
   "Hide": "evelina",
+
   "PlayerJoin":[],
   "If": [],
   "KingdomEquals": ["apples", ">=", 30.0],

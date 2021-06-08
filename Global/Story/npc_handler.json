@@ -1,9 +1,11 @@
 {
-  "Key":"markets_handler",
+  "Key":"npc_handler",
   "Author": "SharkeyMyrl",
   "ServerType": "hub",
 
-  "StoreRandom": ["black",[
+  "Server": true,
+
+  "StoreRandom": ["inHiding",[
     [1959.5, 34.0, 497.5, 0],
     [1908.5, 23.0, 517.5, -51],
     [1976.5, 98.0, 723.5, -90],
@@ -13,13 +15,14 @@
     [2032.5, 21.0, 518.5, -20],
     [1922.5, 61.0, 633.5, 0]
   ]],
+
   "CreateEntity": {
-    "key": "malus",
+    "key": "sylvestris_knight",
     "skin": {
       "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMDk1Njc0NDY5NCwKICAicHJvZmlsZUlkIiA6ICIyYzEwNjRmY2Q5MTc0MjgyODRlM2JmN2ZhYTdlM2UxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYWVtZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lM2ZmZDIyZWE2ZWMzZTBmYzJiMmE0YjMwNjcwOWQ5YmM0YjkwYmU5NWQ0M2U5MWJjNjYyNmUwZmIwODg2M2NiIgogICAgfQogIH0KfQ==",
       "signature": "JiGPP3Dj7ZvzVzX6ObT6dpSjfumbUnsbmFePlqcDMH99mzOiPbxAacKuSO1AwE0VfrGS13lVd/zeu6NKGYyPxhCgXXrmyo36EUr53n+0xKD63t3DDt8lS4/kcTYGkvnWWGD1JTlh468ZCbpvuQL9m2luhGUWtj5SrNHM16RSukUt1dWJTSE+LOubx6BvRrfFZp8oK4zuUGc0b1+BbPQ0EyC47Cn/0yNKumzf6VYIDWgsVKnTZCZwdwgUl6OuRQzML9dOktgg+wUmRE3dJpNd8O0hLLoIHF/7xOl2Ide5w2uz6YX1Cc4kbaJV5GUGb5J5YcIaWL0YG+QghCVPjyb2dRuzkybL/OzTZ+jewg/5beyKJXO1gLSWNYxtdBHfwY3n4PFR82w3PPLJFDOV3n2sRKoowDz6ww1Y5/E4lIn6g0aHlIpy/6VuhC1HSxQyTAdkFxejosIBucApUBVEyvf1L+SqCI+VHC5eOBv/VTlbrBPq1hZljzDebLFB/Us1H1DQjCWZTrq03vrG4aG9xzxnuQoSZkL8Kow5+J2WIVcvo8GDiFK0B+vRETimBGjWeaYwgO6908rqOfGlwYMEafStsEQwt5git/WrF9lrD9UTO95xyktYL0gOThD7lCrUxO2+HWWxr8EVHjuXXgaKREzX/5aRodo11CJfbKskCP4J3Bw="
     },
-    "location": "black",
+    "location": "inHiding",
     "name": [
       "&c&lMalus",
       "&7&oKnight of Sylvestris"
@@ -27,9 +30,8 @@
     "global": true
   },
 
-
   "CreateEntity": {
-      "key": "melony",
+      "key": "agricolae_knight",
       "skin": {
   			"texture": "ewogICJ0aW1lc3RhbXAiIDogMTYxNTc5MTUyNzAwNywKICAicHJvZmlsZUlkIiA6ICJlNzkzYjJjYTdhMmY0MTI2YTA5ODA5MmQ3Yzk5NDE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVfSG9zdGVyX01hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iNzBkNWRlNzBjODBlYTdiMGUxODAzOTFlYjRjOTdkMDY4NWNjZmZkNDg4MzgyYTZhYWE2NmM5ZWIzMzVkY2MzIgogICAgfQogIH0KfQ==",
   			"signature": "APCwis5TR24cuwE3zgc4AYXwuFlauD7xwuerWsHWnzlw8oQlnK6bIPMTu3kDBmGmUatDbHzPQxVMqxMQAiQp1phRQ3Ig6s/trknLAC30nSWoPOYR6fTUD7/C5Aefo2hP7Q+yzgusAKhB2AEa90iOYEHVB3haA8IqB4ZsWPbE7F+5KscGAb/2Pkk3PWgF8Ze9bHq52pFfWLYf1fgpeCKSKauB/xSVphzGIphzCgUwHfWvaiGescejjZLtg4ypavtfHfxV+2qsgJAvZlNCYbqBANAlZqscZgbfnv++hSP6GmtDq8SI51d8A4DJAZeda3y3H2mJFr47pCgNlAjWOXqGy2cS5j3uplkZwtsv6x9haSXAKjEiheYONt2+BE3qIWiL/qpTYR1UgW3JZltPpW1VuL8KU3uQanA/9zIH/kQJv5pdMfTGrIsUEQbFUrPg5lWKlG+vShEVs9YEss9j622t8EIvt15/yqsp7J++ax/n9T1ymPa6Su8aSz56Vf7fk9tiUtWT32sC+ph1Tr09W50SoMclR5P0RbFWEJRkIrKxe4PV84gZ3t+gjRjxdZybMnn1LuBudrL6ELMurBr4kUWPcssHBLafIy//o38opWmpMFYvaeJPqXmzuKAn/Warg0pbvbgfK/VKMcADrj0VH2d7D9QyrztaGb07kqawklr/uDg="
@@ -43,16 +45,20 @@
   },
 
   "CreateEntity": {
-      "key": "white_market_dealer_apple",
-      "entity": "item",
-      "item": "apple",
-      "location": [1987.5, 27.0, 594.5, 0],
-      "global": true
+    "key": "sylvestris_orchardist",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMzE3ODg0Nzk1OSwKICAicHJvZmlsZUlkIiA6ICIzOWEzOTMzZWE4MjU0OGU3ODQwNzQ1YzBjNGY3MjU2ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZW1pbmVjcmFmdGVybG9sIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E1MGQ1YjBhZDI1ZDc0NDk5ZGMxYzg1ODA3ZGUyMmQ1MGM5MWNjNzZkYjVmN2Y2ZTQxNGExY2Q3OWYxMzk0NTQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+      "signature": "Qc4tmVEnzlIq2kBxwskShBTdvUPqbSOzK7HuA1d0076h01b0K0kOKj8Pn7+ZxIkkZrDiWTHZO7kaIyO8xSgqgB1n//wjcP7nVx3eQivHJPyBZIS0sL8+7723Cayp3AVxmRAIcraBCXTQR1Q/KJzyUzZ+M8n7Y0Jzw4S1QJe6iq6x3P/EgJnLzhjFGgbxOoGDezTSQsu3IWbguHEl2POwcvXbBNJUMF/aZDiOd9yMShr5RXnHlownk55Du6jYxrGT76DSNiB2SSZP3NVbQCdDgxRRmMnaxr5OzPPSchAwW8qiB04808xyVmPlhBc0Pntq3W18QjYoRbeVT2hzlWS4olGcr/12eFM0U1xqk6gew2IyUBP5gC36BLVwLJ4J3TMHYUtpjtXAcIxbK9Y9O8uw5S04cVnHxy41TdEGEHOIA4hZG6mPj/2S5KXktZkim4UcRqoJryfoxWGD4Pl3QUkFj1nAprFJQLgv3IRKYSbpEkDUxxWXoUZs7Db/e46qeWT1NU3CEOaf8XTKni+Nz9+9yax6eNC4+w5rlOB+gs3gvSHt/Iz4tGn1q7b7PnnF+IXUOnZ+unODchuMyVD3NJPtnYj6bzb//xZFpnk4nt+S/otbwpblfUCOzfoZyB+R65Ve/k5loc3RYeETt1ftvxNUFWfzzZNMla6kY891jC7y8yo="
+    },
+    "location": [2005.5, 26, 594.5, 0],
+    "name": [
+			"&6&lEvelina",
+			"&7&oOrchardist of Sylvestris"
+		],
+    "global": true
   },
-  "Server": true,
-  "Wait": 1,
-  "SetBlock": [1987,26,594,"campfire", true],
-  "Wait": 20,
 
-  "Hold": []
+  "Hide": ["sylvestris_knight", "sylvestris_orchardist", "agricolae_knight"],
+
+  "Dummy": []
 }

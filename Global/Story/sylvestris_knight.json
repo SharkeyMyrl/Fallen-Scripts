@@ -1,13 +1,8 @@
 {
-  "Key": "black_market",
+  "Key": "sylvestris_knight",
   "Author": "SharkeyMyrl",
 
   "HighlightClickEntity": "black_market_dealer",
-
-  "If": [],
-  "Equals": ["bmarket","=", 0],
-  "Skip": "Intro",
-  "Skip": "Menu",
 
   "Comment": "Intro",
   "Wait": 10,
@@ -47,36 +42,5 @@
   "SetPersistent": ["bmarket", 1],
   "Leave": "black_market",
 
-  "Comment": "Menu",
-  "If": [],
-  "Equals":[
-    "bprestige",
-    ">=",
-    0
-  ],
-  "Skip": "Good",
-  "Skip": "Bad",
-
-  "Comment": "Good",
-  "RandomDialog": [
-    {"&c&lKnight of Apples": "Got more apples for me?"},
-    {"&c&lKnight of Apples": "Can I help you?"},
-    {"&c&lKnight of Apples": "Hope that witch hasn't been causing you trouble."},
-    {"&c&lKnight of Apples": "Hey... Got the goods?"}
-
-  ],
-  "Start": "black_market_menu",
-  "Leave": "black_market",
-
-  "Comment": "Bad",
-  "RandomDialog": [
-    {"&c&lKnight of Apples": "What do you want you scum?"},
-    {"&c&lKnight of Apples": "Oh it's you again..."},
-    {"&c&lKnight of Apples": "Why are you here..."}
-  ],
-  "Start": "black_market_menu"
-
-
-
-
+  "Dummy": []
 }

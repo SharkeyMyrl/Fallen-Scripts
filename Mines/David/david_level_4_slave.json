@@ -12,7 +12,7 @@
   "Dummy": [],
   "SendMessage": "&6&lYou have killed [david_four]&6/40 &l&4Ore Munchers&f&6.",
 
-  "KillMythicMob": ["CaveStalkerF3", 1],
+  "KillMythicMob": ["MimicF4", 1],
   "AddPersistent": ["david_four", 1],
   "Wait": 1,
 

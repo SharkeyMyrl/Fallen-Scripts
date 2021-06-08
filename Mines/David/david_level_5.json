@@ -1,30 +1,30 @@
 {
   "Key":"david_level_5",
   "Author": "SharkeyMyrl",
-  "HighlightClickEntity": "kill_quest5",
+  "HighlightClickEntity": "david_5",
   "NotCompleted": 50,
   "AllowRejoining": true,
 
-  "SetPersistent": [ "kill_quest_five", 0 ],
-  "LookDialog": [{"David": "Can you please kill 50 &l&4Ankaras&f for me."},"kill_quest5"],
+  "SetPersistent": [ "david_five", 0 ],
+  "LookDialog": [{"David": "Can you please kill 50 &l&4Ankaras&f for me."},"david_5"],
 
   "Comment": "MobLoop",
-  "SendMessage": "&6You have killed [kill_quest_five]&6/50 &l&4Ankaras&f&6.",
+  "SendMessage": "&6You have killed [david_five]&6/50 &l&4Ankaras&f&6.",
 
   "KillMythicMob": ["AnkaraF5", 1],
-  "AddPersistent": [ "kill_quest_five", 1 ],
+  "AddPersistent": [ "david_five", 1 ],
   "Wait": 1,
 
   "If": [],
-  "Equals": ["kill_quest_five", 50],
+  "Equals": ["david_five", 50],
   "Skip": "MobKilled",
   "Skip": "MobLoop",
   "Comment": "MobKilled",
   "SendMessage": "&2You have killed 50/50 &l&4Ankaras&f&2.",
 
   "Dialog": [{"David": "Come back to me in level five, to gather your rewards."}],
-  "HighlightClickEntity": "kill_quest5",
-  "SetPersistent": [ "kill_quest_five", 0 ],
+  "HighlightClickEntity": "david_5",
+  "SetPersistent": [ "david_five", 0 ],
   "Wait": 1,
   "Start": ["david_rewards", 1.0, "Five"],
   "Hold": [],

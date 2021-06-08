@@ -1,31 +1,31 @@
 {
   "Key":"david_level_1",
   "Author": "SharkeyMyrl",
-  "HighlightClickEntity": "kill_quest1",
+  "HighlightClickEntity": "david_1",
   "NotCompleted": 6,
   "AllowRejoining": true,
 
-  "SetPersistent": [ "kill_quest_one", 0 ],
+  "SetPersistent": [ "david_one", 0 ],
 
-  "LookDialog": [{"David": "Can you please kill 10 &l&4Shambler&f for me."},"kill_quest5"],
+  "LookDialog": [{"David": "Can you please kill 10 &l&4Shambler&f for me."},"david_1"],
 
   "Comment": "MobLoop",
-  "SendMessage": "&6You have killed [kill_quest_one]&6/10 &l&4Shambler&f&6.",
+  "SendMessage": "&6You have killed [david_one]&6/10 &l&4Shambler&f&6.",
 
   "KillMythicMob": ["ShamblerF1E", 1],
-  "AddPersistent": [ "kill_quest_one", 1 ],
+  "AddPersistent": [ "david_one", 1 ],
   "Wait": 1,
 
   "If": [],
-  "Equals": ["kill_quest_one", 10],
+  "Equals": ["david_one", 10],
   "Skip": "MobKilled",
   "Skip": "MobLoop",
   "Comment": "MobKilled",
   "SendMessage": "&2You have killed 10/10 &l&4Shambler&f&2.",
 
   "Dialog": [{"David": "Come back to me in level one, to gather your rewards."}],
-  "HighlightClickEntity": "kill_quest1",
-  "SetPersistent": [ "kill_quest_one", 0 ],
+  "HighlightClickEntity": "david_1",
+  "SetPersistent": [ "david_one", 0 ],
   "Wait": 1,
   "Start": ["david_rewards", 1.0, "One"],
   "Hold": [],

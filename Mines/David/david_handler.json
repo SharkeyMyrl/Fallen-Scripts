@@ -2,7 +2,7 @@
   "Key": "david_handler",
   "Author": "SharkeyMyrl",
   "CreateEntity": {
-    "key": "kill_quest1",
+    "key": "david_1",
     "skin": "FALLEN_MINER_LIGHT",
     "location": [2329.5, 71, 469.5, 225],
     "name": [
@@ -12,7 +12,7 @@
     "global": true
   },
   "CreateEntity": {
-    "key": "kill_quest2",
+    "key": "david_2",
     "skin": "FALLEN_MINER_LIGHT",
     "location": [2503.5, 64, 460.5, 225],
     "name": [
@@ -22,7 +22,7 @@
     "global": true
   },
   "CreateEntity": {
-    "key": "kill_quest3",
+    "key": "david_3",
     "skin": "FALLEN_MINER_LIGHT",
     "location": [2860.5, 66, 450.5, 225],
     "name": [
@@ -32,7 +32,7 @@
     "global": true
   },
   "CreateEntity": {
-    "key": "kill_quest4",
+    "key": "david_4",
     "skin": "FALLEN_MINER_LIGHT",
     "location": [2699.5, 66, 441.5, 225],
     "name": [
@@ -42,7 +42,7 @@
     "global": true
   },
   "CreateEntity": {
-    "key": "kill_quest5",
+    "key": "david_5",
     "skin": "FALLEN_MINER_LIGHT",
     "location": [2959.5, 93, 517.5, 225],
     "name": [

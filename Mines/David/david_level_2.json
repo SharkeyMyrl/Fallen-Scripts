@@ -1,30 +1,30 @@
 {
   "Key":"david_level_2",
   "Author": "SharkeyMyrl",
-  "HighlightClickEntity": "kill_quest2",
+  "HighlightClickEntity": "david_2",
   "NotCompleted": 12,
   "AllowRejoining": true,
 
-  "SetPersistent": [ "kill_quest_two", 0 ],
-  "LookDialog": [{"David": "Can you please kill 20 &l&4Crawlers&f for me."},"kill_quest5"],
+  "SetPersistent": [ "david_two", 0 ],
+  "LookDialog": [{"David": "Can you please kill 20 &l&4Crawlers&f for me."},"david_2"],
 
   "Comment": "MobLoop",
-  "SendMessage": "&6You have killed [kill_quest_two]&6/20 &l&4Crawlers&f&6.",
+  "SendMessage": "&6You have killed [david_two]&6/20 &l&4Crawlers&f&6.",
 
   "KillMythicMob": ["CrawlerF2", 1],
-  "AddPersistent": [ "kill_quest_two", 1 ],
+  "AddPersistent": [ "david_two", 1 ],
   "Wait": 1,
 
   "If": [],
-  "Equals": ["kill_quest_two", 20],
+  "Equals": ["david_two", 20],
   "Skip": "MobKilled",
   "Skip": "MobLoop",
   "Comment": "MobKilled",
   "SendMessage": "&2You have killed 20/20 &l&4Crawlers&f&2.",
 
   "Dialog": [{"David": "Come back to me in level two, to gather your rewards."}],
-  "HighlightClickEntity": "kill_quest2",
-  "SetPersistent": [ "kill_quest_two", 0 ],
+  "HighlightClickEntity": "david_2",
+  "SetPersistent": [ "david_two", 0 ],
   "Wait": 1,
   "Start": ["david_rewards", 1.0, "Two"],
   "Hold": [],

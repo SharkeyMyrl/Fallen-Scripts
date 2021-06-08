@@ -22,7 +22,7 @@
     "location": "black",
     "name": [
       "&c&lKnight of Apples",
-      "&8&oBlack Market"
+      "&7&oBlack Market"
     ],
     "global": true
   },
@@ -37,7 +37,7 @@
       "location": [1986.5, 26.0, 594.5, 0],
       "name": [
   			"&6&lKnight of PumkinPie",
-  			"&8&oWhite Market"
+  			"&7&oWhite Market"
   		],
       "global": true
   },

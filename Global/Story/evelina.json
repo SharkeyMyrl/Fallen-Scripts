@@ -1,5 +1,5 @@
 {
-  "Key": "sylvestris_orchardist",
+  "Key": "evelina",
   "Author": "SharkeyMyrl",
 
   "Store": ["appleFarmer", "Evelina"],
@@ -21,14 +21,14 @@
 
   "EntityLookAtPlayer": "sylvestris_orchardist",
 
-  "Dialog": [{"&c&l[appleFarmer]":"Oh hey [PLAYER], &6&lDavid tells me you are quiet helpful."}],
+  "Dialog": [{"&c&l[appleFarmer]":"Oh hey [PLAYER], I've heard you've been quiet useful to &6&lDavid."}],
   "Wait": 10,
 
-  "SendMessageOptions": ["How do you know David?", "Oh did you?"],
-  "Dialog": [{"&c&l[appleFarmer]":"Oh um... &6&lDavid's an old childhood friend..."}],
+  "SendMessageOptions": ["How do you know &6&lDavid?", "Oh did you?"],
+  "Dialog": [{"&c&l[appleFarmer]":"..."}],
   "Dummy": [],
 
-  "Dialog": [{"&c&l[appleFarmer]":"Would you ming helping me out? I seem to have gotten myself into a peculiar situation..."}],
+  "Dialog": [{"&c&l[appleFarmer]":"Would you mind helping me out? I seem to have gotten myself into a peculiar situation..."}],
   "Wait": 10,
 
   "Dialog": [{"&c&l[appleFarmer]":"I recently got a large piece of land to start growing my lovely trees in, but the land is decrypted and covered in debris from some anbondoned village..."}],

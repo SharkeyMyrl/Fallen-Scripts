@@ -9,7 +9,10 @@
 	},
   "PlayerJoin":[],
   "AllowRejoining": false,
-  "NotCompleted": 24,
+  "NotCompleted": [24, false],
+
+  "KingdomAdd": ["daily_apple_two_count", 0],
+  "KingdomEquals": ["daily_apple_two_count", "<", 4],
 
   "StoreRandom": ["medium",[
     [1906.5, 56.0, 529.0],
@@ -26,6 +29,10 @@
 
   "CumulativePickupItem":["medium", "&bApple", "apple"],
   "Wait": 1,
+  "If": [],
+  "KingdomEquals": ["daily_apple_two_count", ">=", 4],
+  "Leave": [],
+  "KingdomAdd": ["daily_apple_two_count", 1],
   "Start": ["daily_apple_rewards", 1.0, "Two"],
   "Wait": 1,
   "Complete": []

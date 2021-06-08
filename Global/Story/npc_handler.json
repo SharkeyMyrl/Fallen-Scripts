@@ -59,7 +59,7 @@
     "global": true
   },
 
-  "Hide": ["sylvestris_knight", "sylvestris_orchardist", "agricolae_knight"],
+  "Hide": ["evelina_npc", "malus_npc", "melony_npc"],
 
   "Dummy": []
 }

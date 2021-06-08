@@ -39,7 +39,7 @@
   "Skip": "Reward",
 
   "If": [],
-  "NotIn": "david_level_5_slave",
+  "NotIn": ["david_level_5_slave", false],
   "Start": "david_level_5_slave",
   "Start": "david_progress",
   "Skip": "TalkLoop",

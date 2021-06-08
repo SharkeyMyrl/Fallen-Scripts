@@ -25,7 +25,7 @@
     "location": "inHiding",
     "name": [
       "&c&lMalus",
-      "&7&oKnight of Sylvestris"
+      "&7&oKnight"
     ],
     "global": true
   },
@@ -39,7 +39,7 @@
       "location": [1986.5, 26.0, 594.5, 0],
       "name": [
   			"&6&lMelony",
-  			"&7&oKnight of Agricolae"
+  			"&7&oKnight"
   		],
       "global": true
   },
@@ -53,7 +53,7 @@
     "location": [2009.5, 26, 597.5, -90],
     "name": [
 			"&6&lEvelina",
-			"&7&oOrchardist of Sylvestris"
+			"&7&oOrchardist"
 		],
     "look": false,
     "global": true

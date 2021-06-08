@@ -35,16 +35,17 @@
   "AllowRejoining": true,
 
   "If": [],
-  "Completed": ["david_level_5_slave", false],
-  "Skip": "Reward",
+  "Equals": ["david_five", "=", 0.0],
+  "Start": "david_level_5_slave",
 
   "If": [],
-  "NotIn": ["david_level_5_slave", false],
-  "Start": "david_level_5_slave",
+  "Equals": ["david_five", ">=", 10.0],
+  "Skip": "RewardForSlave",
   "Start": "david_progress",
+
   "Skip": "TalkLoop",
 
-  "Comment": "Reward",
+  "Comment": "RewardForSlave",
   "Leave": "david_level_5_slave",
 
   "Start": ["david_rewards", 1.0, "Five"],

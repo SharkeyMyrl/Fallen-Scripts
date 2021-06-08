@@ -2,22 +2,25 @@
   "Key": "helping_evelina",
   "Author": "SharkeyMyrl",
 
-  "PlayerJoin":[],
-  "If": [],
-  "KingdomEquals": ["apples", ">=", 30.0],
-  "Dummy":[],
-  "Leave":[],
-
   "CreateEntity": {
     "key": "evelina",
     "skin": "FALLEN_FARMER",
     "location": [2329.5, 71, 469.5, 225],
     "name": [
 			"&6Evelina",
-			"&8&oOrchardist of Sylvestris"
+			"&7&oOrchardist of Sylvestris"
 		],
     "global": false
   },
+
+  "PlayerJoin":[],
+  "Hide": "evelina",
+  "If": [],
+  "KingdomEquals": ["apples", ">=", 30.0],
+  "Dummy":[],
+  "Leave":[],
+
+  "Show": "evelina",
 
   "HighlightClickEntity": "evelina",
 

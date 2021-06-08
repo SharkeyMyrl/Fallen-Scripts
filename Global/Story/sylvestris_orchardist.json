@@ -2,17 +2,7 @@
   "Key": "sylvestris_orchardist",
   "Author": "SharkeyMyrl",
 
-  "CreateEntity": {
-    "key": "evelina",
-    "skin": "FALLEN_FARMER",
-    "location": [2005.5, 26, 594.5, 0],
-    "name": [
-			"&6Evelina",
-			"&7&oOrchardist of Sylvestris"
-		],
-    "global": false
-  },
-  "Hide": "evelina",
+  "Store": ["appleFarmer", "Evelina"],
 
   "PlayerJoin":[],
   "If": [],
@@ -20,14 +10,28 @@
   "Dummy":[],
   "Leave":[],
 
-  "Show": "evelina",
+  "If": [],
+  "Equals": ["helped_david", "=", 1.0],
+  "Dummy":[],
+  "Leave":[],
 
-  "HighlightClickEntity": "evelina",
+  "Show": "sylvestris_orchardist",
 
-  "Dialog": [{"&c&lEvelina":"Could you help me? I seem to have gotten myself into a peculiar situation..."}],
+  "HighlightClickEntity": "sylvestris_orchardist",
+
+  "EntityLookAtPlayer": "sylvestris_orchardist",
+
+  "Dialog": [{"&c&l[appleFarmer]":"Oh hey [PLAYER], &6&lDavid tells me you are quiet helpful."}],
   "Wait": 10,
 
-  "Dialog": [{"&c&lEvelina":"I recently got a large piece of land to start growing my lovely trees in, but the land is decrypted and covered in debris from some anbondoned village..."}],
+  "SendMessageOptions": ["How do you know David?", "Oh did you?"],
+  "Dialog": [{"&c&l[appleFarmer]":"Oh um... &6&lDavid's an old childhood friend..."}],
+  "Dummy": [],
+
+  "Dialog": [{"&c&l[appleFarmer]":"Would you ming helping me out? I seem to have gotten myself into a peculiar situation..."}],
+  "Wait": 10,
+
+  "Dialog": [{"&c&l[appleFarmer]":"I recently got a large piece of land to start growing my lovely trees in, but the land is decrypted and covered in debris from some anbondoned village..."}],
   "Wait": 10,
 
   "SendMessageOptions": ["What do you want from me...", "How can I help you?"],
@@ -35,29 +39,29 @@
   "Skip": "OptionTwo",
 
   "Comment": "OptionOne",
-  "Dialog": [{"&c&lEvelina":"If you could just help me gather 32 Rotten Flesh and 64 Oak Logs"}],
+  "Dialog": [{"&c&l[appleFarmer]":"If you could just help me gather 32 Rotten Flesh and 64 Oak Logs"}],
   "Wait": 10,
   "SendMessageOptions": ["Yea I can do that...", "..."],
   "Skip": "RewardTrackOne",
-  "Dialog": [{"&c&lEvelina":"Oh... Okay I'll leave you alone..."}],
+  "Dialog": [{"&c&l[appleFarmer]":"Oh... Okay I'll leave you alone..."}],
   "Leave":[],
 
   "Comment": "OptionTwo",
-  "Dialog": [{"&c&lEvelina":"Well it is a rather tall order, I need a lot of Rotten Flesh and Logs."}],
+  "Dialog": [{"&c&l[appleFarmer]":"Well it is a rather tall order, I need a lot of Rotten Flesh and Logs."}],
   "Wait": 10,
-  "Dialog": [{"&c&lEvelina":"I need about 128 Rotten Flesh and 246 Oak Logs."}],
+  "Dialog": [{"&c&l[appleFarmer]":"I need about 128 Rotten Flesh and 246 Oak Logs."}],
   "Wait": 10,
   "SendMessageOptions": ["I can get that for you, no problem.", "..."],
   "Skip": "OptionThree",
   "Skip": "OptionFour",
 
   "Comment": "OptionThree",
-  "Dialog": [{"&c&lEvelina":"Thank you so much! I need to buy some more supplies so I'll meet you back here when I'm done."}],
+  "Dialog": [{"&c&l[appleFarmer]":"Thank you so much! I need to buy some more supplies so I'll meet you back here when I'm done."}],
   "Wait": 10,
   "Skip": "RewardTrackTwo",
 
   "Comment": "OptionFour",
-  "Dialog": [{"&c&lEvelina":"Stupid! Stupid Evelina! of course their to busy to help you..."}],
+  "Dialog": [{"&c&l[appleFarmer]":"Stupid! Stupid Evelina! of course their to busy to help you..."}],
   "Wait": 10,
   "Skip": "OptionOne",
 

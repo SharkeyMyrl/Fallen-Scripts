@@ -15,7 +15,7 @@
   "Skip": "Reset",
   "Leave": [],
 
-  "Commnet": "Reset",
+  "Comment": "Reset",
   "KingdomSet": ["daily_apple_one_count", 0],
   "KingdomSet": ["daily_apple_two_count", 0],
   "KingdomSet": ["daily_apple_three_count", 0],

@@ -1,34 +1,63 @@
 {
   "Key":"david_level_4",
   "Author": "SharkeyMyrl",
+
+  "CreateEntity": {
+    "key": "david_4",
+    "skin": "FALLEN_MINER_LIGHT",
+    "location": [2699.5, 66.0, 441.5, 225],
+    "name": [
+			"&e&lDavid",
+			"&7&oMiner"
+		],
+    "global": true
+  },
+
+  "CreateEntity": {
+    "key": "david_4_ani",
+    "skin": "FALLEN_MINER_LIGHT",
+    "location": [2699.5, 66.0, 441.5, 225],
+    "name": [
+			"&e&lDavid",
+			"&7&oMiner"
+		]
+  },
+  "Hide": ["david_4", "david_4_ani"],
+
+  "PlayerJoin":[],
+
+  "Show": "david_4",
+
+  "NotCompleted": [24, false],
+
+  "Comment": "TalkLoop",
   "HighlightClickEntity": "david_4",
-  "NotCompleted": 24,
   "AllowRejoining": true,
 
-  "SetPersistent": [ "david_four", 0 ],
-  "LookDialog": [{"David": "Can you please kill 40 &l&4Ore Munchers&f for me."},"david_4"],
-
-  "Comment": "MobLoop",
-  "SendMessage": "&6&lYou have killed [david_four]&6/40 &l&4Ore Munchers&f&6.",
-
-  "KillMythicMob": ["CaveStalkerF3", 1],
-  "AddPersistent": [ "david_four", 1 ],
-  "Wait": 1,
+  "If": [],
+  "Completed": ["david_level_4_slave", false],
+  "Skip": "Reward",
 
   "If": [],
-  "Equals": ["david_four", 40],
-  "Skip": "MobKilled",
-  "Skip": "MobLoop",
-  "Comment": "MobKilled",
-  "SendMessage": "&2You have killed 40/40 &l&4Ore Munchers&f&2.",
+  "NotIn": "david_level_4_slave",
+  "Start": "david_level_4_slave",
+  "Start": "david_progress",
+  "Skip": "TalkLoop",
 
-  "Dialog": [{"David": "Come back to me in level four, to gather your rewards."}],
-  "HighlightClickEntity": "david_4",
-  "SetPersistent": [ "david_four", 0 ],
-  "Wait": 1,
+  "Comment": "Reward",
+  "Leave": "david_level_4_slave",
+
   "Start": ["david_rewards", 1.0, "Four"],
-  "Hold": [],
 
   "Dialog": [{"David": "Thank you for helping me out [PLAYER], long live the king and queen."}],
+
+  "Hide": "david_4",
+  "Show": "david_4_ani",
+  "MoveEntity": ["david_4_ani", 2699.5, 66.0, 441.5],
+  "MoveEntity": ["david_4_ani", 2705.0, 66.0, 433.5],
+  "MoveEntity": ["david_4_ani", 2705.0, 67.0, 432.5],
+  "MoveEntity": ["david_4_ani", 2705.0, 67.0, 431.5],
+  "Hide": "david_4_ani",
+
   "Complete": []
 }

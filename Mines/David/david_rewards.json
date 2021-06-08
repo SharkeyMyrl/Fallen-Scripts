@@ -9,8 +9,6 @@
     "amount": 15
   },
   "AddPersistent": ["SharkQuest", "easyDavid", 1],
-  "Progress": "david_level_1",
-  "Wait":1,
   "Leave":[],
 
   "Comment": "Two",
@@ -20,8 +18,6 @@
     "amount": 30
   },
   "AddPersistent": ["SharkQuest", "mediumDavid", 1],
-  "Progress": "david_level_2",
-  "Wait":1,
   "Leave":[],
 
   "Comment": "Three",
@@ -31,8 +27,6 @@
     "amount": 45
   },
   "AddPersistent": ["SharkQuest", "hardDavid", 1],
-  "Progress": "david_level_3",
-  "Wait":1,
   "Leave":[],
 
   "Comment": "Four",
@@ -42,8 +36,6 @@
     "amount": 60
   },
   "AddPersistent": ["SharkQuest", "difficultDavid", 1],
-  "Progress": "david_level_4",
-  "Wait":1,
   "Leave":[],
 
   "Comment": "Five",
@@ -53,7 +45,5 @@
     "amount": 75
   },
   "AddPersistent": ["SharkQuest", "extremeDavid", 1],
-  "Progress": "david_level_5",
-  "Wait":1,
   "Leave":[]
 }

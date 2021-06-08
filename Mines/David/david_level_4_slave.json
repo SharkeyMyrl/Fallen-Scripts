@@ -1,0 +1,29 @@
+{
+  "Key":"david_level_4_slave",
+  "Author": "SharkeyMyrl",
+
+  "SetPersistent": [ "david_four", 0 ],
+
+  "LookDialog": [{"David": "Can you please kill 40 &l&4Ore Munchers&f for me."},"david_4"],
+
+  "Comment": "MobLoop",
+  "If": [],
+  "Equals": ["david_four", 0],
+  "Dummy": [],
+  "SendMessage": "&6&lYou have killed [david_four]&6/40 &l&4Ore Munchers&f&6.",
+
+  "KillMythicMob": ["CaveStalkerF3", 1],
+  "AddPersistent": ["david_four", 1],
+  "Wait": 1,
+
+  "If": [],
+  "Equals": ["david_four", 40],
+  "Skip": "MobKilled",
+  "Skip": "MobLoop",
+  "Comment": "MobKilled",
+  "SendMessage": "&2You have killed 40/40 &l&4Ore Munchers&f&2.",
+
+  "Dialog": [{"David": "Come back to me in level four, to gather your rewards."}],
+
+  "Complete": []
+}

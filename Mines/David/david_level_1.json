@@ -1,35 +1,63 @@
 {
   "Key":"david_level_1",
   "Author": "SharkeyMyrl",
+
+  "CreateEntity": {
+    "key": "david_1",
+    "skin": "FALLEN_MINER_LIGHT",
+    "location": [2329.5, 71.0, 469.5, 225],
+    "name": [
+			"&e&lDavid",
+			"&7&oMiner"
+		],
+    "global": true
+  },
+
+  "CreateEntity": {
+    "key": "david_1_ani",
+    "skin": "FALLEN_MINER_LIGHT",
+    "location": [2329.5, 71.0, 469.5, 225],
+    "name": [
+			"&e&lDavid",
+			"&7&oMiner"
+		]
+  },
+  "Hide": ["david_1", "david_1_ani"],
+
+  "PlayerJoin":[],
+
+  "Show": "david_1",
+
+  "NotCompleted": [6, false],
+
+  "Comment": "TalkLoop",
   "HighlightClickEntity": "david_1",
-  "NotCompleted": 6,
   "AllowRejoining": true,
 
-  "SetPersistent": [ "david_one", 0 ],
-
-  "LookDialog": [{"David": "Can you please kill 10 &l&4Shambler&f for me."},"david_1"],
-
-  "Comment": "MobLoop",
-  "SendMessage": "&6You have killed [david_one]&6/10 &l&4Shambler&f&6.",
-
-  "KillMythicMob": ["ShamblerF1E", 1],
-  "AddPersistent": [ "david_one", 1 ],
-  "Wait": 1,
+  "If": [],
+  "Completed": ["david_level_1_slave", false],
+  "Skip": "Reward",
 
   "If": [],
-  "Equals": ["david_one", 10],
-  "Skip": "MobKilled",
-  "Skip": "MobLoop",
-  "Comment": "MobKilled",
-  "SendMessage": "&2You have killed 10/10 &l&4Shambler&f&2.",
+  "NotIn": "david_level_1_slave",
+  "Start": "david_level_1_slave",
+  "Start": "david_progress",
+  "Skip": "TalkLoop",
 
-  "Dialog": [{"David": "Come back to me in level one, to gather your rewards."}],
-  "HighlightClickEntity": "david_1",
-  "SetPersistent": [ "david_one", 0 ],
-  "Wait": 1,
+  "Comment": "Reward",
+  "Leave": "david_level_1_slave",
+
   "Start": ["david_rewards", 1.0, "One"],
-  "Hold": [],
 
   "Dialog": [{"David": "Thank you for helping me out [PLAYER], long live the king and queen."}],
+
+  "Hide": "david_1",
+  "Show": "david_1_ani",
+  "MoveEntity": ["david_1_ani", 2329.5, 71.0, 466.5],
+  "MoveEntity": ["david_1_ani", 2335.0, 71.0, 458.5],
+  "MoveEntity": ["david_1_ani", 2335.0, 72.0, 457.5],
+  "MoveEntity": ["david_1_ani", 2335.0, 72.0, 456.5],
+  "Hide": "david_1_ani",
+
   "Complete": []
 }

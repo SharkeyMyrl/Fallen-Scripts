@@ -1,0 +1,29 @@
+{
+  "Key":"david_level_3_slave",
+  "Author": "SharkeyMyrl",
+
+  "SetPersistent": [ "david_three", 0 ],
+
+  "LookDialog": [{"David": "Can you please kill 30 &l&4Cave Stalkers&f for me."},"david_3"],
+
+  "Comment": "MobLoop",
+  "If": [],
+  "Equals": ["david_three", 0],
+  "Dummy": [],
+  "SendMessage": "&6You have killed [david_three]&6/30 &l&4Cave Stalkers&f&6.",
+
+  "KillMythicMob": ["CaveStalkerF3", 1],
+  "AddPersistent": ["david_three", 1],
+  "Wait": 1,
+
+  "If": [],
+  "Equals": ["david_three", 30],
+  "Skip": "MobKilled",
+  "Skip": "MobLoop",
+  "Comment": "MobKilled",
+  "SendMessage": "&2You have killed 30/30 &l&4Cave Stalkers&f&2.",
+
+  "Dialog": [{"David": "Come back to me in level three, to gather your rewards."}],
+
+  "Complete": []
+}

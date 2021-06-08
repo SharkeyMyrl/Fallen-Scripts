@@ -1,0 +1,29 @@
+{
+  "Key":"david_level_5_slave",
+  "Author": "SharkeyMyrl",
+
+  "SetPersistent": [ "david_five", 0 ],
+
+  "LookDialog": [{"David": "Can you please kill 50 &l&4Ankaras&f for me."},"david_5"],
+
+  "Comment": "MobLoop",
+  "If": [],
+  "Equals": ["david_five", 0],
+  "Dummy": [],
+  "SendMessage": "&6You have killed [david_five]&6/50 &l&4Ankaras&f&6.",
+
+  "KillMythicMob": ["AnkaraF5", 1],
+  "AddPersistent": ["david_five", 1],
+  "Wait": 1,
+
+  "If": [],
+  "Equals": ["david_five", 50],
+  "Skip": "MobKilled",
+  "Skip": "MobLoop",
+  "Comment": "MobKilled",
+  "SendMessage": "&2You have killed 50/50 &l&4Ankaras&f&2.",
+
+  "Dialog": [{"David": "Come back to me in level five, to gather your rewards."}],
+
+  "Complete": []
+}

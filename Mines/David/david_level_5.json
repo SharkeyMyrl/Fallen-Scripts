@@ -1,34 +1,63 @@
 {
   "Key":"david_level_5",
   "Author": "SharkeyMyrl",
+
+  "CreateEntity": {
+    "key": "david_5",
+    "skin": "FALLEN_MINER_LIGHT",
+    "location": [2959.5, 93.0, 517.5, 225],
+    "name": [
+			"&e&lDavid",
+			"&7&oMiner"
+		],
+    "global": true
+  },
+
+  "CreateEntity": {
+    "key": "david_5_ani",
+    "skin": "FALLEN_MINER_LIGHT",
+    "location": [2959.5, 93.0, 517.5, 225],
+    "name": [
+			"&e&lDavid",
+			"&7&oMiner"
+		]
+  },
+  "Hide": ["david_5", "david_5_ani"],
+
+  "PlayerJoin":[],
+
+  "Show": "david_5",
+
+  "NotCompleted": [30, false],
+
+  "Comment": "TalkLoop",
   "HighlightClickEntity": "david_5",
-  "NotCompleted": 50,
   "AllowRejoining": true,
 
-  "SetPersistent": [ "david_five", 0 ],
-  "LookDialog": [{"David": "Can you please kill 50 &l&4Ankaras&f for me."},"david_5"],
-
-  "Comment": "MobLoop",
-  "SendMessage": "&6You have killed [david_five]&6/50 &l&4Ankaras&f&6.",
-
-  "KillMythicMob": ["AnkaraF5", 1],
-  "AddPersistent": [ "david_five", 1 ],
-  "Wait": 1,
+  "If": [],
+  "Completed": ["david_level_5_slave", false],
+  "Skip": "Reward",
 
   "If": [],
-  "Equals": ["david_five", 50],
-  "Skip": "MobKilled",
-  "Skip": "MobLoop",
-  "Comment": "MobKilled",
-  "SendMessage": "&2You have killed 50/50 &l&4Ankaras&f&2.",
+  "NotIn": "david_level_5_slave",
+  "Start": "david_level_5_slave",
+  "Start": "david_progress",
+  "Skip": "TalkLoop",
 
-  "Dialog": [{"David": "Come back to me in level five, to gather your rewards."}],
-  "HighlightClickEntity": "david_5",
-  "SetPersistent": [ "david_five", 0 ],
-  "Wait": 1,
+  "Comment": "Reward",
+  "Leave": "david_level_5_slave",
+
   "Start": ["david_rewards", 1.0, "Five"],
-  "Hold": [],
 
   "Dialog": [{"David": "Thank you for helping me out [PLAYER], long live the king and queen."}],
+
+  "Hide": "david_5",
+  "Show": "david_5_ani",
+  "MoveEntity": ["david_5_ani", 2959.5, 93.0, 517.5],
+  "MoveEntity": ["david_5_ani", 2965.0, 93.0, 509.5],
+  "MoveEntity": ["david_5_ani", 2965.0, 94.0, 508.5],
+  "MoveEntity": ["david_5_ani", 2965.0, 94.0, 507.5],
+  "Hide": "david_5_ani",
+
   "Complete": []
 }

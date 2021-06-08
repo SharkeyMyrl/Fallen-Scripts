@@ -1,0 +1,31 @@
+{
+  "Key":"david_level_1_slave",
+  "Author": "SharkeyMyrl",
+
+  "AllowRejoining": true,
+
+  "SetPersistent": [ "david_one", 0 ],
+
+  "LookDialog": [{"David": "Can you please kill 10 &l&4Shambler&f for me."},"david_1"],
+
+  "Comment": "MobLoop",
+  "If": [],
+  "Equals": ["david_one", 0],
+  "Dummy": [],
+  "SendMessage": "&6You have killed [david_one]&6/10 &l&4Shambler&f&6.",
+
+  "KillMythicMob": ["ShamblerF1E", 1],
+  "AddPersistent": ["david_one", 1],
+  "Wait": 1,
+
+  "If": [],
+  "Equals": ["david_one", 10],
+  "Skip": "MobKilled",
+  "Skip": "MobLoop",
+  "Comment": "MobKilled",
+  "SendMessage": "&2You have killed 10/10 &l&4Shambler&f&2.",
+
+  "Dialog": [{"David": "Come back to me in level one, to gather your rewards."}],
+
+  "Complete": []
+}

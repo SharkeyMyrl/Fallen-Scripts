@@ -1,0 +1,29 @@
+{
+  "Key":"david_level_2_slave",
+  "Author": "SharkeyMyrl",
+
+  "SetPersistent": [ "david_two", 0 ],
+
+  "LookDialog": [{"David": "Can you please kill 20 &l&4Crawlers&f for me."},"david_2"],
+
+  "Comment": "MobLoop",
+  "If": [],
+  "Equals": ["david_two", 0],
+  "Dummy": [],
+  "SendMessage": "&6You have killed [david_two]&6/20 &l&4Crawlers&f&6.",
+
+  "KillMythicMob": ["CrawlerF2", 1],
+  "AddPersistent": ["david_two", 1],
+  "Wait": 1,
+
+  "If": [],
+  "Equals": ["david_two", 20],
+  "Skip": "MobKilled",
+  "Skip": "MobLoop",
+  "Comment": "MobKilled",
+  "SendMessage": "&2You have killed 20/20 &l&4Crawlers&f&2.",
+
+  "Dialog": [{"David": "Come back to me in level two, to gather your rewards."}],
+
+  "Complete": []
+}

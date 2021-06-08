@@ -11,6 +11,9 @@
   "AllowRejoining": false,
   "NotCompleted": 24,
 
+  "KingdomAdd": ["daily_pie_five_count", 0],
+  "KingdomEquals": ["daily_pie_five_count", "<", 4],
+
   "StoreRandom": ["mines_5",[
     [2860.5,	85.0,	450.5],
     [2867.5,	80.0,	482.5],
@@ -20,6 +23,10 @@
 
   "CumulativePickupItem":["mines_5", "&dPumpkin Pie", "pumpkin pie"],
   "Wait": 1,
+  "KingdomAdd": ["daily_pie_five_count", 1],
+  "If": [],
+  "KingdomEquals": ["daily_pie_five_count", ">", 4],
+  "Leave": [],
   "Start": ["daily_pie_rewards", "Five"],
   "Wait": 1,
   "Complete": []

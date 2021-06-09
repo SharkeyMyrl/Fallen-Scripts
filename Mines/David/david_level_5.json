@@ -29,7 +29,7 @@
   "Start": "david_level_5_slave",
 
   "If": [],
-  "Equals": ["david_five", ">=", 10.0],
+  "Equals": ["david_five", ">=", 50.0],
   "Skip": "RewardForSlave",
   "Start": "david_progress",
 

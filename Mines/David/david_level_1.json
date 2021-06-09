@@ -12,17 +12,7 @@
 		],
     "global": true
   },
-
-  "CreateEntity": {
-    "key": "david_1_ani",
-    "skin": "FALLEN_MINER_LIGHT",
-    "location": [2329.5, 71.0, 469.5, 225],
-    "name": [
-			"&e&lDavid",
-			"&7&oMiner"
-		]
-  },
-  "Hide": ["david_1", "david_1_ani"],
+  "Hide": "david_1",
 
   "PlayerJoin":[],
 
@@ -51,13 +41,11 @@
 
   "Dialog": [{"David": "Thank you for helping me out [PLAYER], long live the king and queen."}],
 
+  "MoveEntity": ["david_1", 2329.5, 71.0, 466.5],
+  "MoveEntity": ["david_1", 2335.0, 71.0, 458.5],
+  "MoveEntity": ["david_1", 2335.0, 72.0, 457.5],
+  "MoveEntity": ["david_1", 2335.0, 72.0, 456.5],
   "Hide": "david_1",
-  "Show": "david_1_ani",
-  "MoveEntity": ["david_1_ani", 2329.5, 71.0, 466.5],
-  "MoveEntity": ["david_1_ani", 2335.0, 71.0, 458.5],
-  "MoveEntity": ["david_1_ani", 2335.0, 72.0, 457.5],
-  "MoveEntity": ["david_1_ani", 2335.0, 72.0, 456.5],
-  "Hide": "david_1_ani",
 
   "Complete": []
 }

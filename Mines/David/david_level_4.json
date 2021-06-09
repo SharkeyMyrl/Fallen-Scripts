@@ -2,18 +2,6 @@
   "Key":"david_level_4",
   "Author": "SharkeyMyrl",
 
-  "CreateEntity": {
-    "key": "david_4",
-    "skin": "FALLEN_MINER_LIGHT",
-    "location": [2699.5, 66.0, 441.5, 225],
-    "name": [
-			"&6&lDavid",
-			"&7&oMiner"
-		],
-    "global": true
-  },
-  "Hide": "david_4",
-
   "PlayerJoin":[],
 
   "Show": "david_4",

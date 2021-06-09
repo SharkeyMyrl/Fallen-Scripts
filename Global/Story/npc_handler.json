@@ -59,7 +59,22 @@
     "global": true
   },
 
-  "Hide": ["evelina_npc", "malus_npc", "melony_npc"],
+  "CreateEntity": {
+    "key": "caltha_npc",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMzE5NTQyMDAxNSwKICAicHJvZmlsZUlkIiA6ICJmNDY0NTcxNDNkMTU0ZmEwOTkxNjBlNGJmNzI3ZGNiOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWxhcGFnbzA1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2IwNTNhMTQ1ZjNhOTlhYmZmNDY2ODYyYTRhMWE1MDBjOWUyZTFmOWRhMWQxNjdkMzA5ZTJlMDgyZjBmZDUzMSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+      "signature": "Qc4tmVEnzlIq2kBxwskShBTdvUPqbSOzK7HuA1d0076h01b0K0kOKj8Pn7+ZxIkkZrDiWTHZO7kaIyO8xSgqgB1n//wjcP7nVx3eQivHJPyBZIS0sL8+7723Cayp3AVxmRAIcraBCXTQR1Q/KJzyUzZ+M8n7Y0Jzw4S1QJe6iq6x3P/EgJnLzhjFGgbxOoGDezTSQsu3IWbguHEl2POwcvXbBNJUMF/aZDiOd9yMShr5RXnHlownk55Du6jYxrGT76DSNiB2SSZP3NVbQCdDgxRRmMnaxr5OzPPSchAwW8qiB04808xyVmPlhBc0Pntq3W18QjYoRbeVT2hzlWS4olGcr/12eFM0U1xqk6gew2IyUBP5gC36BLVwLJ4J3TMHYUtpjtXAcIxbK9Y9O8uw5S04cVnHxy41TdEGEHOIA4hZG6mPj/2S5KXktZkim4UcRqoJryfoxWGD4Pl3QUkFj1nAprFJQLgv3IRKYSbpEkDUxxWXoUZs7Db/e46qeWT1NU3CEOaf8XTKni+Nz9+9yax6eNC4+w5rlOB+gs3gvSHt/Iz4tGn1q7b7PnnF+IXUOnZ+unODchuMyVD3NJPtnYj6bzb//xZFpnk4nt+S/otbwpblfUCOzfoZyB+R65Ve/k5loc3RYeETt1ftvxNUFWfzzZNMla6kY891jC7y8yo="
+    },
+    "location": [1986.5, 29.0, 629.5, 0],
+    "name": [
+			"&6&lLady Caltha",
+			"&7&oOrchardist"
+		],
+    "look": false,
+    "global": true
+  },
+
+  "Hide": ["evelina_npc", "malus_npc", "melony_npc", "caltha_npc"],
 
   "Dummy": []
 }

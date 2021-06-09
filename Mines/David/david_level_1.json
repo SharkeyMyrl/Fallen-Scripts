@@ -39,7 +39,7 @@
 
   "Start": ["david_rewards", 1.0, "One"],
 
-  "Dialog": [{"David": "Thank you for helping me out [PLAYER], long live the king and queen."}],
+  "Dialog": [{"David": "Thank you for helping me out [PLAYER]."}],
 
   "MoveEntity": ["david_1", 2329.5, 71.0, 466.5],
   "MoveEntity": ["david_1", 2335.0, 71.0, 458.5],

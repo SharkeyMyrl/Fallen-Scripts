@@ -56,5 +56,7 @@
     "global": true
   },
 
+  "Hide": ["david_1", "david_2", "david_3", "david_4", "david_5"],
+
   "Dummy": []
 }

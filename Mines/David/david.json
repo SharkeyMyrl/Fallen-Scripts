@@ -1,0 +1,23 @@
+{
+  "Key":"david",
+  "Author": "SharkeyMyrl",
+  
+  "PlayerJoin":[],
+  "AllowRejoining": false,
+
+  "If": [],
+  "NotCompletedKingdom": [24, false],
+  "Skip": "Reset",
+  "Leave": [],
+
+  "Comment": "Reset",
+  "KingdomSet": ["david_level_one_count", 0],
+  "KingdomSet": ["david_level_two_count", 0],
+  "KingdomSet": ["david_level_three_count", 0],
+  "KingdomSet": ["david_level_four_count", 0],
+  "KingdomSet": ["david_level_five_count", 0],
+
+  "CompleteKingdomQuest": [],
+
+  "Dummy": []
+}

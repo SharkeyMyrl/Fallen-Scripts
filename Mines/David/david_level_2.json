@@ -20,6 +20,9 @@
 
   "NotCompleted": [12, false],
 
+  "KingdomAdd": ["david_level_two_count", 0],
+  "KingdomEquals": ["david_level_two_count", "<", 4],
+
   "Comment": "TalkLoop",
   "HighlightClickEntity": "david_2",
   "AllowRejoining": true,
@@ -36,6 +39,10 @@
   "Skip": "TalkLoop",
 
   "Comment": "RewardForSlave",
+  "KingdomAdd": ["david_level_two_count", 1],
+  "If": [],
+  "KingdomEquals": ["david_level_two_count", ">", 4],
+  "Leave": [],
   "Leave": "david_level_2_slave",
 
   "Start": ["david_rewards", 1.0, "Two"],

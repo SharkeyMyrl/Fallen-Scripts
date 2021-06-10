@@ -23,6 +23,10 @@
     "Blue Wool"
   ],
 
+  "Start": "lobby_blue",
+  "Start": "lobby_red",
+  "Start": "lobby_neutral",
+
   "Teleport": [1985.5, 29.0, 638.5, -180, 0],
 
   "Hold": [],

@@ -31,6 +31,10 @@
 
   "Hold": [],
 
+  "Leave": "lobby_blue",
+  "Leave": "lobby_red",
+  "Leave": "lobby_neutral",
+
   "Window": [1978, 29, 635, 1992, 31, 635],
   "Window": [1992, 29, 635, 1992, 31, 641],
   "Window": [1978, 29, 641, 1992, 31, 641],

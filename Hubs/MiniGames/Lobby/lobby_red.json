@@ -1,28 +1,15 @@
 {
   "Key": "lobby_red",
 
-  "RegionEntry": [
-    1983,
-    28,
-    640,
-    1979,
-    31,
-    636
-  ],
+  "SetBlock": [1979, 30, 638, {"material": "oak button", "face": "East"}],
 
   "In": ["lobby", false],
 
-  "SendMessage": "Picking &4Red Team.",
-  "StayInRegion": [
-    1983,
-    28,
-    640,
-    1979,
-    31,
-    636,
-    "&7Picking Random Team."
-  ],
-  "Hold": [],
+  "ClickBlock": [1979, 30, 638],
+
+  "SendMessage": "Picking &cRed Team.",
+  "Set": ["team", "red"],
+  "Start": [],
 
   "Dummy": []
 }

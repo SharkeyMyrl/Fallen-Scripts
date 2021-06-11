@@ -8,21 +8,77 @@
   "Start": "paintball",
   "Start": "paintball_region",
 
+  "Comment": "Loop",
+
+  "If": [],
   "Equals": ["server", "paintball_game_on", ">=", 1.0],
+  "Skip": "SendToTeams",
+  "Skip": "PickTeams",
 
-  "Comment": "LobbyTimerOver",
-  "SendMessage": "Sending you to your team.",
+  "Comment": "SendToTeams",
+  "Wait": 1,
+  "If": [],
+  "In": "paintball_red",
+  "Progress": "paintball_red",
 
   "If": [],
-  "In": "lobby_blue",
+  "In": "paintball_blue",
+  "Progress": "paintball_blue",
+  "Skip": "PickTeams",
+
+  "Leave": [],
+
+  "Comment": "PickTeams",
+  "Wait": 1,
+  "If": [],
+  "Equals": ["team", "red"],
+  "Skip": "Red",
+
+  "If": [],
+  "Equals": ["team", "blue"],
+  "Skip": "Blue",
+
+  "If": [],
+  "Equals": ["team", "rand"],
+  "Skip": "Neutral",
+
+  "If": [],
+  "Equals": ["team", ""],
+  "If": [],
+  "Equals": ["server", "paintball_game_on", ">=", 1.0],
+  "StartEmptiest": ["paintball_red", "paintball_blue"],
+  "Dummmy": [],
+  "Dummmy": [],
+
+  "Skip": "Loop",
+
+  "Comment": "Blue",
+  "If": [],
+  "In": "paintball_blue",
+  "Skip": "Loop",
+
   "Start": "paintball_blue",
+  "Set": ["team", ""],
+  "Skip": "Loop",
 
+  "Comment": "Red",
   "If": [],
-  "In": "lobby_red",
+  "In": "paintball_red",
+  "Skip": "Loop",
+
   "Start": "paintball_red",
+  "Set": ["team", ""],
+  "Skip": "Loop",
+
+
+  "Comment": "Neutral",
+  "Leave": "paintball_red",
+  "Leave": "paintball_blue",
 
   "StartEmptiest": ["paintball_red", "paintball_blue"],
-  "Leave": "lobby",
+  "Set": ["team", ""],
+  "Skip": "Loop",
+
 
 
   "Dummy": []

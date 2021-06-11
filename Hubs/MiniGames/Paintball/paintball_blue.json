@@ -2,7 +2,7 @@
   "Key": "paintball_blue",
   "Author": "SharkeyMyrl",
 
-  "SendMessage": "Welcome to team blue.",
+  "SendMessage": "Welcome to Team Blue.",
 
   "SaveInventory": [],
   "ClearInventory": [],
@@ -12,6 +12,7 @@
     {
       "material": "Leather Chestplate",
       "color": "Blue"
+      "description": [ "Team Blue overalls.", "", "&a&oMiniGame Item" ],
     },
     true
   ],
@@ -20,6 +21,7 @@
     {
       "material": "Leather Leggings",
       "color": "Blue"
+      "description": [ "Team Blue overalls.", "", "&a&oMiniGame Item" ],
     },
     true
   ],
@@ -28,14 +30,18 @@
     {
       "material": "Leather Boots",
       "color": "Blue"
+      "description": [ "Team Blue overalls.", "", "&a&oMiniGame Item" ],
     },
     true
   ],
+  "Hold": [],
 
   "Start": "paintball_blue_slave",
   "Start": "paintball_ammo",
 
   "Hold": [],
+
+  "Leave": [],
 
   "Dummy": []
 }

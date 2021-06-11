@@ -2,19 +2,35 @@
   "Key": "paintball_ammo",
   "Author": "SharkeyMyrl",
 
+  "Dummy": [],
+
   "Comment": "AmmoLoop",
   "SetItem": [
     0,
     {
-      "material": "snowball",
+      "material": "stick",
       "name": "&cPaintBall",
-      "description": "White icy pain.",
+      "description": ["White icy pain.", "", "&a&oMiniGame Item"],
       "amount": 1
     },
     true
   ],
-  
-  "Wait": 2,
+
+  "ClickItem": [
+    {
+      "material": "stick",
+      "name": "&cPaintBall",
+      "description": ["White icy pain.", "", "&a&oMiniGame Item"],
+      "amount": 1
+    }
+  ],
+
+  "LaunchProjectile": ["Snowball", 2.0],
+  "LaunchProjectile": ["Snowball", 2.0],
+  "LaunchProjectile": ["Snowball", 2.0],
+
+
+  "Wait": 1,
   "Skip": "AmmoLoop",
 
   "Dummy": []

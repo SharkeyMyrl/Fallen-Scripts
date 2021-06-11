@@ -2,78 +2,52 @@
   "Key": "sylvestris_orchardist",
   "Author": "SharkeyMyrl",
 
-  "Store": ["appleFarmer", "Evelina"],
-
-  "PlayerJoin":[],
-  "If": [],
-  "KingdomEquals": ["apples", ">=", 30.0],
-  "Dummy":[],
-  "Leave":[],
-
-  "If": [],
   "Equals": ["helped_david", "=", 1.0],
-  "Dummy":[],
-  "Leave":[],
-  
   "Wait": 10,
-
   "Show": "evelina_npc",
 
+  "Comment": "TalkLoop",
   "HighlightClickEntity": "evelina_npc",
 
   "EntityLookAtPlayer": "evelina_npc",
+  "Freeze": [],
+  "DisableChat": [],
 
-  "LookDialog":[{"&c&l[appleFarmer]":"Oh hey [PLAYER], I've heard you've been quiet useful to &6&lDavid."}, "evelina_npc"],
+  "Dialog":[{"&c&lEvelina":"Oh hey [PLAYER], I've heard you've been quiet useful to &6&lDavid."}],
   "Wait": 10,
 
-  "SendMessageOptions": ["How do you know &6&lDavid?", "Oh did you?"],
-  "LookDialog":[{"&c&l[appleFarmer]":"..."}, "evelina_npc"],
+  "SendMessageOptions": [-1, "&oHow do you know &6&lDavid?", "&oOh did you?"],
+  "Skip": "BackStory",
+  "Skip": "Mission",
+
+  "Comment": "BackStory",
+  "Wait": 10,
+  "Dialog":[{"&c&lEvelina":"Well it is a bit of a long story..."}],
+  "Wait": 10,
+  "SendMessageOptions": [-1, "&oI got time.", "&oHm okay, what do you need?"],
   "Dummy": [],
+  "Skip": "Mission",
 
-  "LookDialog":[{"&c&l[appleFarmer]":"Would you mind helping me out? I seem to have gotten myself into a peculiar situation..."}, "evelina_npc"],
   "Wait": 10,
-
-  "LookDialog":[{"&c&l[appleFarmer]":"I recently got a large piece of land to start growing my lovely trees in, but the land is decrypted and covered in debris from some anbondoned village..."}, "evelina_npc"],
+  "Dialog":[{"&c&lEvelina":"Well... I don't have that much time at this time..."}],
   "Wait": 10,
-
-  "SendMessageOptions": ["What do you want from me...", "How can I help you?"],
-  "Skip": "OptionOne",
-  "Skip": "OptionTwo",
-
-  "Comment": "OptionOne",
-  "LookDialog":[{"&c&l[appleFarmer]":"If you could just help me gather 32 Rotten Flesh and 64 Oak Logs"}, "evelina_npc"],
+  "Dialog":[{"&c&lEvelina":"Can you help me or not?"}],
+  "SendMessageOptions": [-1, "&oI got time.", "&oHm okay, what do you need?"],
+  "Dummy": [],
+  "Skip": "Mission",
+  "Dialog":[{"&c&lEvelina":"Fine, comeback if you change your mind."}],
   "Wait": 10,
-  "SendMessageOptions": ["Yea I can do that...", "..."],
-  "Skip": "RewardTrackOne",
-  "LookDialog":[{"&c&l[appleFarmer]":"Oh... Okay I'll leave you alone..."}, "evelina_npc"],
-  "Leave":[],
+  "Unfreeze": [],
+  "Skip": "TalkLoop",
 
-  "Comment": "OptionTwo",
-  "LookDialog":[{"&c&l[appleFarmer]":"Well it is a rather tall order, I need a lot of Rotten Flesh and Logs."}, "evelina_npc"],
-  "Wait": 10,
-  "LookDialog":[{"&c&l[appleFarmer]":"I need about 128 Rotten Flesh and 246 Oak Logs."}, "evelina_npc"],
-  "Wait": 10,
-  "SendMessageOptions": ["I can get that for you, no problem.", "..."],
-  "Skip": "OptionThree",
-  "Skip": "OptionFour",
 
-  "Comment": "OptionThree",
-  "LookDialog":[{"&c&l[appleFarmer]":"Thank you so much! I need to buy some more supplies so I'll meet you back here when I'm done."}, "evelina_npc"],
+  "Comment": "Mission",
   "Wait": 10,
-  "Skip": "RewardTrackTwo",
-
-  "Comment": "OptionFour",
-  "LookDialog":[{"&c&l[appleFarmer]":"Stupid! Stupid Evelina! of course their to busy to help you..."}, "evelina_npc"],
+  "Dialog":[{"&c&lEvelina":"Comeback when you've gathered the supplies."}],
   "Wait": 10,
-  "Skip": "OptionOne",
-
-  "Comment": "RewardTrackOne",
   "EntityLook": ["evelina_npc", 2010, 27, 597],
+  "Unfreeze": [],
 
-
-
-  "Comment": "RewardTrackTwo",
-  "EntityLook": ["evelina_npc", 2010, 27, 597],
 
 
 

@@ -13,7 +13,7 @@
   "Freeze": [],
   "DisableChat": [],
 
-  "Dialog":[{"&c&lEvelina":"Oh hey [PLAYER], I've heard you've been quiet useful to &6&lDavid."}],
+  "Dialog":[{"&c&lEvelina":"Oh hey [PLAYER], I've heard you've been quite useful to &6&lDavid."}],
   "Wait": 10,
 
   "SendMessageOptions": [-1, "&oHow do you know &6&lDavid?", "&oOh did you?"],
@@ -45,7 +45,7 @@
   "Wait": 10,
   "Dialog":[{"&c&lEvelina":"Comeback when you've gathered the supplies."}],
   "Wait": 10,
-  "EntityLook": ["evelina_npc", 2010, 27, 597],
+  "EntityLook": ["evelina_npc", 2010, 26, 597],
   "Unfreeze": [],
 
 

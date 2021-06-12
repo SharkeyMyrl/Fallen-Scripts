@@ -2,6 +2,7 @@
   "Key": "paintball_blue",
   "Author": "SharkeyMyrl",
 
+  "NotIn": "paintball_red",
   "SendMessage": "Welcome to Team Blue.",
 
   "SaveInventory": [],
@@ -11,8 +12,8 @@
     38,
     {
       "material": "Leather Chestplate",
-      "color": "Blue"
-      "description": [ "Team Blue overalls.", "", "&a&oMiniGame Item" ],
+      "color": "Blue",
+      "description": [ "Team Blue overalls.", "", "&a&oMiniGame Item" ]
     },
     true
   ],
@@ -20,8 +21,8 @@
     37,
     {
       "material": "Leather Leggings",
-      "color": "Blue"
-      "description": [ "Team Blue overalls.", "", "&a&oMiniGame Item" ],
+      "color": "Blue",
+      "description": [ "Team Blue overalls.", "", "&a&oMiniGame Item" ]
     },
     true
   ],
@@ -29,8 +30,8 @@
     36,
     {
       "material": "Leather Boots",
-      "color": "Blue"
-      "description": [ "Team Blue overalls.", "", "&a&oMiniGame Item" ],
+      "color": "Blue",
+      "description": [ "Team Blue overalls.", "", "&a&oMiniGame Item" ]
     },
     true
   ],

@@ -20,6 +20,7 @@
   "If": [],
   "In": "paintball_red",
   "Progress": "paintball_red",
+  "Dummy": [],
 
   "If": [],
   "In": "paintball_blue",
@@ -33,22 +34,30 @@
   "If": [],
   "Equals": ["team", "red"],
   "Skip": "Red",
+  "Dummy": [],
 
   "If": [],
   "Equals": ["team", "blue"],
   "Skip": "Blue",
+  "Dummy": [],
 
   "If": [],
   "Equals": ["team", "rand"],
   "Skip": "Neutral",
+  "Dummy": [],
 
   "If": [],
   "Equals": ["team", ""],
+  "Skip": "First",
+  "Skip": "Second",
+
+  "Comment": "First",
   "If": [],
   "Equals": ["server", "paintball_game_on", ">=", 1.0],
   "StartEmptiest": ["paintball_red", "paintball_blue"],
-  "Dummmy": [],
-  "Dummmy": [],
+  "Dummy": [],
+
+  "Comment": "Second",
 
   "Skip": "Loop",
 
@@ -56,7 +65,6 @@
   "If": [],
   "In": "paintball_blue",
   "Skip": "Loop",
-
   "Start": "paintball_blue",
   "Set": ["team", ""],
   "Skip": "Loop",
@@ -65,7 +73,6 @@
   "If": [],
   "In": "paintball_red",
   "Skip": "Loop",
-
   "Start": "paintball_red",
   "Set": ["team", ""],
   "Skip": "Loop",

@@ -7,6 +7,10 @@
 
   "ClickBlock": [1979, 30, 638],
 
+  "If": [],
+  "Equals": ["team", "=", "red"],
+  "SendMessage": "Seriously? You're already on this team.",
+
   "SendMessage": "Picking &cRed Team.",
   "Set": ["team", "red"],
   "Start": [],

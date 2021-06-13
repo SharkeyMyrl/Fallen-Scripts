@@ -3,7 +3,7 @@
 
   "AllowRejoining": true,
 
-  "Set": ["count", -1, true],
+  "SetPersistent": ["count", -1, true],
 
   "Comment": "TalkLoop",
   "HighlightClickEntity": "warrior",

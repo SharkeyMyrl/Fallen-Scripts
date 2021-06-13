@@ -1,0 +1,54 @@
+{
+  "Key": "warrior_kill_showcase",
+
+  "AllowRejoining": true,
+
+  "Set": ["count", -1, true],
+
+  "Comment": "TalkLoop",
+  "HighlightClickEntity": "warrior",
+
+  "If": [],
+  "Equals": ["task", 0],
+  "Skip": "FirstTask",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["task", 1],
+  "Skip": "SecondTask",
+  "Dummy": [],
+
+
+  "Comment": "FirstTask",
+
+  "If": [],
+  "Equals": ["count", -1],
+  "Skip": "taskOneStart",
+  "Skip": "taskOneMid",
+
+  "Comment": "taskOneStart",
+  "Dialog": [{"Warrior": "Hello dear [PLAYER], could you go into the mines and clear out some of the goblin  infestation?"}],
+  "Set": ["count", 0, true],
+  "Set": ["kills", 25, true],
+  "Skip": "TalkLoop",
+
+  "Comment": "taskOneMid",
+  "If": [],
+  "NotIn": "warrior_kill_showcase_mines",
+  "Start": "warrior_kill_showcase_mines",
+  "Dummy": [],
+
+  "Dialog": [{"Warrior": "Did you forget?"},
+              {"Warrior": "I had asked you to kill 25 goblins in the mines for me."},
+              {"Warrior": "You've only killed [count]/[kills]"}],
+  "Skip": "TalkLoop",
+
+
+
+  "Comment": "SecondTask",
+  "SendMessage": "Not ready yet.",
+  "Skip": "TalkLoop",
+
+
+  "Dummy": []
+}

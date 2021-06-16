@@ -4,9 +4,10 @@
 
   "PlayerJoin":[],
 
-  "Show": "david_1",
-
   "NotCompleted": [6, false],
+
+  "Wait": 10,
+  "Show": "david_1",
 
   "KingdomAdd": ["david_level_one_count", 0],
   "KingdomEquals": ["david_level_one_count", "<", 4],

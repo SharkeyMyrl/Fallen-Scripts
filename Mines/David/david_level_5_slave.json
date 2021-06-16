@@ -2,9 +2,11 @@
   "Key":"david_level_5_slave",
   "Author": "SharkeyMyrl",
 
-  "SetPersistent": [ "david_five", 0 ],
-
+  "If": [],
+  "Equals": ["david_five", -1.0],
+  "AddPersistent": ["david_five", 1.0],
   "LookDialog": [{"David": "Can you please kill 50 &l&4Ankaras&f for me."},"david_5"],
+  "Dummy": [],
 
   "Comment": "MobLoop",
   "If": [],

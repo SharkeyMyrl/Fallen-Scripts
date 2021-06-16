@@ -21,7 +21,12 @@
   "AllowRejoining": true,
 
   "If": [],
-  "Equals": ["david_one", "=", 0.0],
+  "Equals": ["david_one", "=", -1.0],
+  "Start": "david_level_1_slave",
+  "Dummy": [],
+
+  "If": [],
+  "NotIn": "david_level_1_slave",
   "Start": "david_level_1_slave",
   "Dummy": [],
 
@@ -33,7 +38,7 @@
   "Skip": "TalkLoop",
 
   "Comment": "RewardForSlave",
-  "SetPersistent": [ "david_one", 0 ],
+  "SetPersistent": [ "david_one", -1.0 ],
   "KingdomAdd": ["david_level_one_count", 1],
   "If": [],
   "KingdomEquals": ["david_level_one_count", ">", 4],

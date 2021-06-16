@@ -6,7 +6,6 @@
   "Start": "lobby",
 
   "Start": "infection",
-  "Start": "infection_region",
 
   "Equals": ["server", "infection_game_on", ">=", 1.0],
 

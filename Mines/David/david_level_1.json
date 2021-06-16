@@ -2,7 +2,7 @@
   "Key":"david_level_1",
   "Author": "SharkeyMyrl",
 
-  "RegionEntry": [
+  "InRegion": [
     2329, 69, 469,
     2340, 73, 463
   ],
@@ -32,6 +32,7 @@
   "Skip": "TalkLoop",
 
   "Comment": "RewardForSlave",
+  "SetPersistent": [ "david_one", 0 ],
   "KingdomAdd": ["david_level_one_count", 1],
   "If": [],
   "KingdomEquals": ["david_level_one_count", ">", 4],

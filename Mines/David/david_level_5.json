@@ -32,6 +32,7 @@
   "Skip": "TalkLoop",
 
   "Comment": "RewardForSlave",
+  "SetPersistent": [ "david_five", 0 ],
   "KingdomAdd": ["david_level_five_count", 1],
   "If": [],
   "KingdomEquals": ["david_level_five_count", ">", 4],

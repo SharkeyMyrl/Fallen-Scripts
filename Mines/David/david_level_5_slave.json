@@ -2,6 +2,8 @@
   "Key":"david_level_5_slave",
   "Author": "SharkeyMyrl",
 
+  "AllowRejoining": true,
+
   "If": [],
   "Equals": ["david_five", -1.0],
   "AddPersistent": ["david_five", 1.0],

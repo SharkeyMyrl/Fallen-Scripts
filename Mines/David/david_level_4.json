@@ -2,7 +2,8 @@
   "Key":"david_level_4",
   "Author": "SharkeyMyrl",
 
-  "RegionEntry": [
+  "PlayerJoin": [],
+  "InRegion": [
     2699, 64, 441,
     2710, 68, 435
   ],

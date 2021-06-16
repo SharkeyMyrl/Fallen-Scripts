@@ -2,8 +2,6 @@
   "Key":"david_level_1_slave",
   "Author": "SharkeyMyrl",
 
-  "AllowRejoining": true,
-
   "If": [],
   "Equals": ["david_one", -1.0],
   "AddPersistent": ["david_one", 1.0],
@@ -16,8 +14,8 @@
   "Dummy": [],
   "SendMessage": "&6You have killed [david_one]&6/10 &l&4Shambler&f&6.",
 
-  "KillMythicMob": ["ShamblerF1E", 1.0],
-  "AddPersistent": ["david_one", 1.0],
+  "KillMythicMob": ["ShamblerF1E", 1],
+  "AddPersistent": ["david_one", 1],
   "Wait": 1,
 
   "If": [],

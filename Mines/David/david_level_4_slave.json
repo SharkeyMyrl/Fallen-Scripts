@@ -12,9 +12,9 @@
   "If": [],
   "Equals": ["david_four", 0],
   "Dummy": [],
-  "SendMessage": "&6&lYou have killed [david_four]&6/40 &l&4Ore Munchers&f&6.",
+  "SendMessage": "&6You have killed [david_four]&6/40 &l&4Ore Munchers&f&6.",
 
-  "KillMythicMob": ["MimicF4", 1],
+  "KillMythicMob": ["OreMuncherF4", 1],
   "AddPersistent": ["david_four", 1],
   "Wait": 1,
 

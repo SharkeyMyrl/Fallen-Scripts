@@ -2,7 +2,10 @@
   "Key":"david_level_4",
   "Author": "SharkeyMyrl",
 
-  "PlayerJoin":[],
+  "RegionEntry": [
+    2699, 64, 441,
+    2710, 68, 435
+  ],
 
   "NotCompleted": [24, false],
 

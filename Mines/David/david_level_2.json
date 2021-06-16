@@ -49,10 +49,10 @@
 
   "Dialog": [{"David": "Thank you for helping me out [PLAYER]."}],
 
-  "MoveEntity": ["david_2_ani", 2503.5, 64.0, 457.5],
-  "MoveEntity": ["david_2_ani", 2509.0, 64.0, 449.5],
-  "MoveEntity": ["david_2_ani", 2509.0, 65.0, 448.5],
-  "MoveEntity": ["david_2_ani", 2509.0, 65.0, 447.5],
+  "MoveEntity": ["david_2", 2503.5, 64.0, 457.5],
+  "MoveEntity": ["david_2", 2509.0, 64.0, 449.5],
+  "MoveEntity": ["david_2", 2509.0, 65.0, 448.5],
+  "MoveEntity": ["david_2", 2509.0, 65.0, 447.5],
   "Hide": "david_2",
 
   "Complete": []

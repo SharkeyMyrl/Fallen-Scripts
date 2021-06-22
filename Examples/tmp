@@ -2,43 +2,49 @@
 
 
 IF
-Equals
-break
+Equals tmp_loop 1
 dummy
+skip 2
+break
 
 IF
-Equals
-break
+Equals tmp_loop 2
 dummy
+skip 2
+break
 
 IF
-Equals
-break
+Equals tmp_loop 3
 dummy
+skip 2
+break
 
 IF
-Equals
-break
+Equals tmp_loop 4
 dummy
+skip 2
+break
 
 IF
-Equals
-break
+Equals tmp_loop 5
 dummy
+skip 2
+break
 
 IF
-Equals
-break
+Equals tmp_loop 6
 dummy
+skip 2
+break
 
-
+add tmp_count 1
 
 if
-equals count 32
+equals tmp_count 32
 skip finish
 skip begin
 
-count -1
+tmp_count -1
 
 
 

@@ -24,6 +24,7 @@
   "If": [],
   "In": "paintball_blue",
   "Progress": "paintball_blue",
+  "Set": ["team", "rand"],
   "Skip": "PickTeams",
 
   "Leave": [],
@@ -47,17 +48,11 @@
 
   "If": [],
   "Equals": ["team", ""],
-  "Skip": "First",
-  "Skip": "Second",
-
-  "Comment": "First",
-  "If": [],
-  "Equals": ["server", "paintball_game_on", ">=", 1.0],
-  "StartEmptiest": ["paintball_red", "paintball_blue"],
+  "Skip": "Loop",
   "Dummy": [],
 
-  "Comment": "Second",
-
+  "SendMessage": "How did you get here?",
+  "Set": ["team", ""],
   "Skip": "Loop",
 
   "Comment": "Blue",
@@ -83,11 +78,12 @@
   "Leave": "paintball_red",
   "Leave": "paintball_blue",
 
+  "RandomOption": 2,
+  "StartEmptiest": ["paintball_blue", "paintball_red"],
   "StartEmptiest": ["paintball_red", "paintball_blue"],
+
   "Set": ["team", ""],
   "Skip": "Loop",
-
-
 
   "Dummy": []
 }

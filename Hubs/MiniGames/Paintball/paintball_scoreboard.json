@@ -1,0 +1,53 @@
+{
+  "Key": "paintball_scoreboard",
+
+  "Comment": "Loop",
+
+  "If": [],
+  "In": ["paintball_waiting", false],
+  "Skip": "Lobby",
+  "Dummy": [],
+
+  "If": [],
+  "In": ["paintball_blue", false],
+  "Skip": "TeamBlue",
+  "Dummy": [],
+
+  "If": [],
+  "In": ["paintball_red", false],
+  "Skip": "TeamRed",
+  "Dummy": [],
+
+  "Comment": "Lobby",
+  "SetScoreboard": [
+    "PAINTBALL LOBBY",
+    "_______________",
+    "Red Team: [SCRIPT_PLAYER_COUNT:paintball_red]",
+    "Blue Team: [SCRIPT_PLAYER_COUNT:paintball_blue]",
+    "Game Starts In: [paintball_lobby_timer]"
+  ],
+  "Wait": 10.0,
+  "Skip": "Loop",
+
+  "Comment": "TeamRed",
+  "SetScoreboard": [
+
+  ],
+  "Wait": 10.0,
+  "Skip": "Loop",
+
+
+  "Comment": "TeamBlue",
+  "SetScoreboard": [
+
+  ],
+  "Wait": 10.0,
+  "Skip": "Loop",
+
+
+
+
+
+
+  "Dummy": []
+}

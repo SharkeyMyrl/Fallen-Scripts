@@ -59,6 +59,13 @@
 
   "Comment": "Blue",
   "If": [],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_red", ">", "[SCRIPT_PLAYER_COUNT:infection_blue]"],
+  "Skip": 2,
+  "SendMessage": "Sorry but at this time the team you picked is full please pick again.",
+  "Set": ["team", ""],
+  "Skip": "Loop",
+
+  "If": [],
   "In": ["paintball_blue", false],
   "Skip": "Loop",
   "Leave": "paintball_red",
@@ -68,13 +75,19 @@
 
   "Comment": "Red",
   "If": [],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_blue", ">", "[SCRIPT_PLAYER_COUNT:infection_red]"],
+  "Skip": 2,
+  "SendMessage": "Sorry but at this time the team you picked is full please pick again.",
+  "Set": ["team", ""],
+  "Skip": "Loop",
+
+  "If": [],
   "In": ["paintball_red", false],
   "Skip": "Loop",
   "Leave": "paintball_blue",
   "Start": "paintball_red",
   "Set": ["team", ""],
   "Skip": "Loop",
-
 
   "Comment": "Neutral",
   "Leave": "paintball_red",

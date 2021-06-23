@@ -26,7 +26,25 @@
     }
   ],
 
+  "If": [],
+  "In": ["paintball_red", false],
+  "Dummy": [],
+  "Skip": 4,
+
+  "If": [],
+  "In": ["paintball_red_slave", false],
   "LaunchProjectile": ["Snowball", 2.0],
+  "Dummy": [],
+
+  "If": [],
+  "In": ["paintball_red", false],
+  "Dummy": [],
+  "Skip": 4,
+
+  "If": [],
+  "In": ["paintball_red_slave", false],
+  "LaunchProjectile": ["Snowball", 2.0],
+  "Dummy": [],
 
   "Wait": 10,
   "Skip": "AmmoLoop",

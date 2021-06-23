@@ -11,14 +11,7 @@
 
   "If": [],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_waiting", "<=", 2.0],
-  "Skip": "NoLobby",
-  "Skip": "LobbyOn",
-
-  "Comment": "NoLobby",
-  "Set": ["server", "paintball_lobby_timer", -1.0],
   "Leave": [],
-
-  "Comment":"LobbyOn",
   "Add": ["server", "paintball_lobby_timer", 1.0],
 
   "If": [],
@@ -27,42 +20,37 @@
   "Set": ["server", "paintball_game_on", 1.0],
 
   "Comment": "GameTimer",
-  "Comment": "Is anyone playing or has game even started",
   "If": [],
   "Equals": ["paintball_game_on", "=", -1.0],
-  "Skip": "NoGame",
-  "Skip": "GameOn",
-
-  "Comment": "NoGame",
-  "Set": ["server", "paintball_timer", -1.0],
-  "Set": ["server", "paintball_timer_max", 30.0],
   "Leave": [],
-
-  "Comment": "GameOn",
   "Add": ["server", "paintball_timer", 1.0],
 
   "If": [],
   "Equals": ["server", "paintball_timer", "<=", 2.0],
   "Leave": [],
+  "Dummy": [],
 
   "If": [],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_red", "=", 0.0],
   "Skip": "BlueWins",
+  "Dummy": [],
 
   "If": [],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_blue", "=", 0.0],
   "Skip": "RedWins",
+  "Dummy": [],
 
   "If": [],
   "Equals": ["server", "paintball_timer", ">=", 18.0],
   "Skip": "CheckPoints",
+  "Dummy": [], 
 
   "Comment": "CheckPoints",
   "If": [],
   "Equals":["server", "paintball_red", "=", "[server:paintball_blue]"],
   "Skip": "Draw",
   "Dummy":[],
-  
+
   "If": [],
   "Equals":["server", "paintball_red", ">", "[server:paintball_blue]"],
   "Skip": "RedPoints",

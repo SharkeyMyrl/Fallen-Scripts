@@ -19,11 +19,10 @@
   "Equals": ["server", "paintball_lobby_timer", "<=", 12.0],
   "Leave": [],
   "Set": ["server", "paintball_game_on", 1.0],
+  "BroadcastMessage": "GAME ON",
 
   "Comment": "GameTimer",
-  "If": [],
-  "Equals": ["paintball_game_on", "=", -1.0],
-  "Leave": [],
+  "BroadcastMessage": "10 seconds passed",
   "Add": ["server", "paintball_timer", 1.0],
 
   "If": [],
@@ -42,7 +41,7 @@
   "Dummy": [],
 
   "If": [],
-  "Equals": ["server", "paintball_timer", ">=", 18.0],
+  "Equals": ["server", "paintball_timer", ">=", 60.0],
   "Skip": "CheckPoints",
   "Dummy": [],
 
@@ -72,6 +71,7 @@
   "Skip": "CheckWinner",
 
   "Comment": "CheckWinner",
+  "BroadcastMessage": "Checking winners",
   "Set": ["server", "paintball_red", 0.0],
   "Set": ["server", "paintball_blue", 0.0],
   "Set": ["server", "paintball_timer", 0.0],
@@ -87,7 +87,7 @@
   "Skip": "BlueWins",
 
   "Comment": "ResetPlayers",
-  "StartAll": [1.0, 0, "paintball_reset"],
+  "StartAll": [1.0, 1, "paintball_reset"],
   "Leave": [],
 
   "Comment": "BlueWins",

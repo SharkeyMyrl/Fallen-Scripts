@@ -13,6 +13,7 @@
   "Skip": "CleanUp",
 
   "Comment": "CleanUp",
+  "Unfreeze": [],
   "Leave": ["paintball"],
   "Leave": ["paintball_red"],
   "Leave": ["paintball_red_slave"],

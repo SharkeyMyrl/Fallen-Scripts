@@ -31,10 +31,12 @@
 
   "Comment": "ProgRed",
   "Progress": "paintball_red",
+  "Progress": "lobby",
   "Leave": [],
 
   "Comment": "ProgBlue",
   "Progress": "paintball_blue",
+  "Progress": "lobby",
   "Leave": [],
 
   "Comment": "PickTeams",
@@ -70,7 +72,7 @@
   "Dummy": [],
 
   "If": [],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_red", ">=", "[SCRIPT_PLAYER_COUNT:infection_blue]"],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_red", ">=", "[SCRIPT_PLAYER_COUNT:paintball_blue]"],
   "Skip": 3,
   "SendMessage": "Sorry but at this time the team you picked is full please pick again.",
   "Set": ["team", ""],
@@ -88,7 +90,7 @@
   "Dummy": [],
 
   "If": [],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_blue", ">=", "[SCRIPT_PLAYER_COUNT:infection_red]"],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_blue", ">=", "[SCRIPT_PLAYER_COUNT:paintball_red]"],
   "Skip": 3,
   "SendMessage": "Sorry but at this time the team you picked is full please pick again.",
   "Set": ["team", ""],

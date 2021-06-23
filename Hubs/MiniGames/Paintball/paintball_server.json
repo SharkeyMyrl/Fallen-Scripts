@@ -8,6 +8,7 @@
   "If": [],
   "Equals": ["server", "paintball_game_on", "=", 1.0],
   "Skip": "GameTimer",
+  "Dummy": [],
 
   "If": [],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_waiting", "<=", 2.0],
@@ -43,7 +44,7 @@
   "If": [],
   "Equals": ["server", "paintball_timer", ">=", 18.0],
   "Skip": "CheckPoints",
-  "Dummy": [], 
+  "Dummy": [],
 
   "Comment": "CheckPoints",
   "If": [],
@@ -78,6 +79,8 @@
   "If": [],
   "Equals": ["server", "paintball_round", "<", 7.0],
   "Skip": "ResetPlayers",
+  "Dummy": [],
+
   "If": [],
   "Equals": ["server", "paintball_redwin", ">", "[server:paintball_bluewin]"],
   "Skip": "RedWins",

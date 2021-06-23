@@ -1,14 +1,15 @@
 {
   "Key": "paintball_reset",
+  "Description": "Reset game, for next round.",
 
-  "In": "paintball",
+  "In": ["paintball", false],
 
   "If": [],
-  "In": "paintball_red",
+  "In": ["paintball_red", false],
   "Start": "paintball_red_slave",
 
   "If": [],
-  "In": "paintball_blue",
+  "In": ["paintball_blue", false],
   "Start": "paintball_blue_slave",
 
   "SendMessage": "... How...",

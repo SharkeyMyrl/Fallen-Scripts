@@ -1,6 +1,7 @@
 {
   "Key": "paintball_red_slave",
   "Author": "SharkeyMyrl",
+  "Description": "Team red hit detection.",
   "Wait": 1,
 
   "Teleport": [1903.5, 38.0, 529.0, -90, 0],

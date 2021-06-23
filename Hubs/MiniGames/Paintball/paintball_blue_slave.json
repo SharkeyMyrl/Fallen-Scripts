@@ -1,8 +1,9 @@
 {
   "Key": "paintball_blue_slave",
   "Author": "SharkeyMyrl",
+  "Description": "Team blue hit detection.",
   "Wait": 1,
-  
+
   "Teleport": [2081.5, 27.0, 587.0, 90, 0],
 
   "ProjectileHit": ["snowball", "paintball_blue"],

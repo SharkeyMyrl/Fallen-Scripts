@@ -1,6 +1,7 @@
 {
   "Key": "paintball_server",
   "Author": "SharkeyMyrl",
+  "Description": "Gamemode controller and ruler.",
 
   "Repeat": 10.0,
 
@@ -104,7 +105,7 @@
   "Leave": [],
 
   "Comment": "BlueWins",
-  "StartAll": [1.0, 14, "paintball_winners"],
+  "StartAll": [1.0, 7, "paintball_winners"],
   "Skip": "CleanUp",
 
   "Comment": "RedWins",

@@ -1,8 +1,9 @@
 {
   "Key": "paintball_blue",
   "Author": "SharkeyMyrl",
+  "Description": "Holder of blue player count.",
 
-  "NotIn": "paintball_red",
+  "NotIn": ["paintball_red", false],
   "SendMessage": "Welcome to Team Blue.",
 
   "SaveInventory": [],

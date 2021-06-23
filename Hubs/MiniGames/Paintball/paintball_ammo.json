@@ -1,10 +1,10 @@
 {
   "Key": "paintball_ammo",
   "Author": "SharkeyMyrl",
+  "Description": "Centralized gun controller.",
 
   "Dummy": [],
 
-  "Comment": "AmmoLoop",
   "SetItem": [
     0,
     {
@@ -16,6 +16,7 @@
     true
   ],
 
+  "Comment": "AmmoLoop",
   "ClickItem": [
     {
       "material": "stick",
@@ -26,11 +27,8 @@
   ],
 
   "LaunchProjectile": ["Snowball", 2.0],
-  "LaunchProjectile": ["Snowball", 2.0],
-  "LaunchProjectile": ["Snowball", 2.0],
 
-
-  "Wait": 1,
+  "Wait": 10,
   "Skip": "AmmoLoop",
 
   "Dummy": []

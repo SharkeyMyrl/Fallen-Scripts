@@ -1,6 +1,8 @@
 {
   "Key": "paintball_waiting",
   "Author": "SharkeyMyrl",
+  "Description": "Lobby for paintball game.",
+
   "SendMessage": "Entering Lobby",
 
   "Start": "lobby",
@@ -17,12 +19,12 @@
   "Comment": "SendToTeams",
   "Wait": 1,
   "If": [],
-  "In": "paintball_red",
+  "In": ["paintball_red", false],
   "Progress": "paintball_red",
   "Dummy": [],
 
   "If": [],
-  "In": "paintball_blue",
+  "In": ["paintball_blue", false],
   "Progress": "paintball_blue",
   "Set": ["team", "rand"],
   "Skip": "PickTeams",
@@ -57,7 +59,7 @@
 
   "Comment": "Blue",
   "If": [],
-  "In": "paintball_blue",
+  "In": ["paintball_blue", false],
   "Skip": "Loop",
   "Leave": "paintball_red",
   "Start": "paintball_blue",
@@ -66,7 +68,7 @@
 
   "Comment": "Red",
   "If": [],
-  "In": "paintball_red",
+  "In": ["paintball_red", false],
   "Skip": "Loop",
   "Leave": "paintball_blue",
   "Start": "paintball_red",

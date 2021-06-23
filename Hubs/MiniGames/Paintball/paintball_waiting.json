@@ -20,15 +20,21 @@
   "Wait": 1,
   "If": [],
   "In": ["paintball_red", false],
-  "Progress": "paintball_red",
+  "Skip": "ProgRed",
   "Dummy": [],
 
   "If": [],
   "In": ["paintball_blue", false],
-  "Progress": "paintball_blue",
+  "Skip": "ProgBlue",
   "Set": ["team", "rand"],
   "Skip": "PickTeams",
 
+  "Comment": "ProgRed",
+  "Progress": "paintball_red",
+  "Leave": [],
+
+  "Comment": "ProgBlue",
+  "Progress": "paintball_blue",
   "Leave": [],
 
   "Comment": "PickTeams",
@@ -59,15 +65,17 @@
 
   "Comment": "Blue",
   "If": [],
+  "In": ["paintball_blue", false],
+  "Skip": "Loop",
+  "Dummy": [],
+
+  "If": [],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_red", ">=", "[SCRIPT_PLAYER_COUNT:infection_blue]"],
-  "Skip": 2,
+  "Skip": 3,
   "SendMessage": "Sorry but at this time the team you picked is full please pick again.",
   "Set": ["team", ""],
   "Skip": "Loop",
 
-  "If": [],
-  "In": ["paintball_blue", false],
-  "Skip": "Loop",
   "Leave": "paintball_red",
   "Start": "paintball_blue",
   "Set": ["team", ""],
@@ -75,15 +83,17 @@
 
   "Comment": "Red",
   "If": [],
+  "In": ["paintball_red", false],
+  "Skip": "Loop",
+  "Dummy": [],
+
+  "If": [],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_blue", ">=", "[SCRIPT_PLAYER_COUNT:infection_red]"],
-  "Skip": 2,
+  "Skip": 3,
   "SendMessage": "Sorry but at this time the team you picked is full please pick again.",
   "Set": ["team", ""],
   "Skip": "Loop",
 
-  "If": [],
-  "In": ["paintball_red", false],
-  "Skip": "Loop",
   "Leave": "paintball_blue",
   "Start": "paintball_red",
   "Set": ["team", ""],

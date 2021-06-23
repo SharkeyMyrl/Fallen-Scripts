@@ -7,6 +7,7 @@
   "If": [],
   "Equals": ["server", "infection_game_on", "=", 1.0],
   "Skip": "GameTimer",
+  "Dummy": [],
 
   "If": [],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_waiting", "<=", 2.0],
@@ -43,15 +44,18 @@
   "If": [],
   "Equals": ["server", "infection_timer", "<=", 2.0],
   "Leave": [],
+  "Dummy": [],
 
 
   "If": [],
   "Equals": ["server", "infection_timer", ">=", 18.0],
   "Skip": "BlueWins",
+  "Dummy": [],
 
   "If":[],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_red", "=", 0.0],
   "Skip": "BlueWins",
+  "Dummy": [],
 
   "If":[],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_blue", "=", 0.0],

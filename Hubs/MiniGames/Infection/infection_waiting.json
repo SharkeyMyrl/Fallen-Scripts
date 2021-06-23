@@ -133,7 +133,7 @@
   "Skip": "Blue",
   "Skip": "Red",
 
-  "Comment": "TeamFull",
+  "Comment": "FullTeam",
   "SendMessage": "Sorry but at this time the team you picked is full please pick again.",
   "Set": ["team", ""],
   "Skip": "Loop",

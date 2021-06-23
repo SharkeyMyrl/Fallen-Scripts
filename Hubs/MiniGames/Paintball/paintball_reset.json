@@ -7,12 +7,12 @@
   "If": [],
   "In": ["paintball_red", false],
   "Start": "paintball_red_slave",
+  "Dummy": [],
 
   "If": [],
   "In": ["paintball_blue", false],
   "Start": "paintball_blue_slave",
-
-  "SendMessage": "... How...",
+  "Dummy": [],
 
   "Unfreeze": [],
 

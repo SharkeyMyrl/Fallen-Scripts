@@ -11,7 +11,7 @@
 
   "If": [],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_waiting", "<=", 2.0],
-  "Leave"": [],
+  "Leave": [],
   "Add": ["server", "infection_lobby_timer", 1.0],
 
   "If": [],

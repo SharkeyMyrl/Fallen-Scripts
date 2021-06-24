@@ -11,14 +11,7 @@
 
   "If": [],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_waiting", "<=", 2.0],
-  "Skip": "NoLobby",
-  "Skip": "LobbyOn",
-
-  "Comment": "NoLobby",
-  "Set": ["server", "infection_lobby_timer", -1.0],
-  "Leave": [],
-
-  "Comment":"LobbyOn",
+  "Leave"": [],
   "Add": ["server", "infection_lobby_timer", 1.0],
 
   "If": [],
@@ -27,25 +20,12 @@
   "Set": ["server", "infection_game_on", 1.0],
 
   "Comment": "GameTimer",
-  "Comment": "Is anyone playing or has game even started",
-  "If":[],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "infection_game_on", "=", -1.0],
-  "Skip": "NoGame",
-  "Skip": "GameOn",
-
-  "Comment": "NoGame",
-  "Set": ["server", "infection_timer", -1.0],
-  "Set": ["server", "infection_timer_max", 60.0],
-  "Leave": [],
-
-  "Comment": "GameOn",
   "Add": ["server", "infection_timer", 1.0],
 
   "If": [],
   "Equals": ["server", "infection_timer", "<=", 2.0],
   "Leave": [],
   "Dummy": [],
-
 
   "If": [],
   "Equals": ["server", "infection_timer", ">=", 18.0],
@@ -74,8 +54,6 @@
   "Set": ["server", "infection_timer", -1.0],
   "Set": ["server", "infection_lobby_timer", -1.0],
   "Set": ["server", "infection_game_on", -1.0],
-
-
 
   "Dummy": []
 }

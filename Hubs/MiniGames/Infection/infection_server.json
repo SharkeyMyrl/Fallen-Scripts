@@ -28,7 +28,7 @@
   "Dummy": [],
 
   "If": [],
-  "Equals": ["server", "infection_timer", ">=", 18.0],
+  "Equals": ["server", "infection_timer", ">=", 60.0],
   "Skip": "BlueWins",
   "Dummy": [],
 

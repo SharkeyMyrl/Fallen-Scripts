@@ -35,7 +35,7 @@
 
   "Comment": "NoGame",
   "Set": ["server", "infection_timer", -1.0],
-  "Set": ["server", "infection_timer_max", 18.0],
+  "Set": ["server", "infection_timer_max", 60.0],
   "Leave": [],
 
   "Comment": "GameOn",

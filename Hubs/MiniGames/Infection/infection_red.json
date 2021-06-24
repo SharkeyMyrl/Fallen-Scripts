@@ -4,7 +4,6 @@
 
   "SendMessage": "Welcome to team red, your job is to hunt down and tag the other players.",
 
-
   "SaveInventory": [],
   "ClearInventory": [],
 
@@ -34,7 +33,7 @@
   ],
 
   "Hold": [],
-  
+
   "Teleport": [1985.5, 29.0, 638.5, -180, 0],
 
 

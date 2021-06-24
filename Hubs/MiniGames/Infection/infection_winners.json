@@ -14,10 +14,10 @@
 
   "Comment": "Cleanup",
   "Leave": ["infection"],
-  "Leave": ["infection_red"],
-  "Leave": ["infection_red_slave"],
-  "Leave": ["infection_blue"],
   "Leave": ["infection_blue_slave"],
+  "Leave": ["infection_red_slave"],
+  "Leave": ["infection_red"],
+  "Leave": ["infection_blue"],
   "Leave": ["infection_waiting"],
   "Leave": [],
 

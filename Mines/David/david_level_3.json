@@ -2,6 +2,20 @@
   "Key":"david_level_3",
   "Author": "SharkeyMyrl",
 
+  "CreateEntity": {
+    "key": "david_3",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMzIyMTEwODg0NiwKICAicHJvZmlsZUlkIiA6ICI5MWZlMTk2ODdjOTA0NjU2YWExZmMwNTk4NmRkM2ZlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJoaGphYnJpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81OGI4Y2YxYjU2M2I3ODUzNGQ3NDliYTg0MWUxMjJhZjUwZTJiMjFiYzRkNTVhM2EzMmMwN2Q0ZTJkNTZiZTg0IgogICAgfQogIH0KfQ==",
+      "signature": "ATrLZSJDeD6qyTYdA7x3kK6Q3OQgM4HzV0qtAvTT0QoABfvMFxZPFZZmYki/rLDju+9zODe+MlgMsafAKE80XZs3357UpnGW7Luj09N3k/mZCn9PX5aigS/8z3J+D3MNnFHv8Iy+boCdiZ6cwE1jPC06wQ4dLyantrM1u3eeIzZmnRMKqE4+1F+dOijVPDQ20Pn2c5bAT7P6YCqnzcL7zup43c4oL/2t/N8zElm20vbSLU4vw6aW59oeSc29knAotL7KVJxAPivf8cbfzA5YxlgdwGf1Iu9Pjdyhge6pGNFLgpeN0IXdIpDwyk6cpWy7KCfSNxy7z6D0zJSJG5mTCtVtGcch4xlvn5bbW/0ASwaqRTp5UVk75UV7+ao96Fpb3n5HFgJoeQyln44JoqRjD+yX96fsLmNC+duyAyBeXRL1wBSRaEM4xwFfqXsL0C6qZrdi+n4Cl27iecHFutsIHtulMBf4MB/EIsjxcycOjYmskxnle5Zrm11+IWKGkJ/SYMVk+XFOQPqJv7dzmCw7yY65yoLqN3zQ4HqaWgYo+yj8qcPrHadn4MeFFNgEnEyqhuWp+ItHUwJkzXvrnOHa5dHHUtHupkJiy32zTxxdYvgy2ZogCA00fzfDN7A6tBo4am0acMF0ZMAYCdidDR++/znvQ7B09oAJDWXnHblKgXA="
+    },
+    "location": [2860.5, 66.0, 450.5, 225],
+    "name": [
+			"&6&lDavid",
+			"&7&oMiner"
+		]
+  },
+  "Hide": ["david_3"],
+
   "PlayerJoin": [],
   "InRegion": [
     2860, 64, 450,

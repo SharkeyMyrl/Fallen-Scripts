@@ -26,15 +26,15 @@
   ],
   "Wait": 10,
   "Show": "david",
-  "EntityLook": ["david_1", 2329.5, 69.0, 499.5, -140],
+  "EntityLook": ["david", 2329.5, 69.0, 499.5],
 
   "HighlightClickEntity": "david",
   "Dialog": [{"David": "Sooo hungery..."}],
   "Wait": 10,
   "Dialog": [{"David": "Think you could spare me some food?"}],
   "Wait": 10,
-  "SendMessageOptions": [-1, "Yea", "Not right now...",],
-  "Skip": "",
+  "SendMessageOptions": [-1, "Yea", "Not right now..."],
+  "Skip": "FoodOffer",
   "Wait": 10,
   "Dialog": [{"David": "Okay..."}],
   "Wait": 10,
@@ -43,7 +43,7 @@
 
   "Comment": "FoodOffer",
   "SendMessage": "What do you offer?",
-  "SendMessageOptions": [-1, "Offer Melon Slices", "Offer Apples", "Offer Bread",],
+  "SendMessageOptions": [-1, "Offer Melon Slices", "Offer Apples", "Offer Bread"],
   "Skip": "Slices",
   "Skip": "Apples",
   "Skip": "Bread",
@@ -72,7 +72,6 @@
   "Comment": "HoldPlayer",
   "Dialog": [{"David": "Come back to the mines in a while, and we will talk some more."}],
 
-  "Hold": [],
   "Complete": [],
   "Dummy": []
 }

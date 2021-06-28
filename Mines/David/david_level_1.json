@@ -21,7 +21,8 @@
     2329, 69, 469,
     2340, 73, 463
   ],
-
+  
+  "Completed": ["david_intro", false],
   "NotCompleted": [6, false],
 
   "Wait": 10,

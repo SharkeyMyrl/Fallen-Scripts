@@ -22,6 +22,7 @@
     2970, 95, 511
   ],
 
+  "Completed": ["david_intro", false],
   "NotCompleted": [30, false],
 
   "Wait": 10,

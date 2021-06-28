@@ -84,7 +84,7 @@
   "Wait": 10,
   "Dialog": [{"David": "It is just killing monsters in the mines, nothing to hard for someone like you."}],
   "Wait": 10,
-  "SendMessageOptions": [-1, "Sure", "Sorry",],
+  "SendMessageOptions": [-1, "Sure", "Sorry"],
   "Skip": "IntroDone",
   "Dialog": [{"David": "Okay, well come back if you ever change your mind."}],
   "Skip": "AnimateLeave"

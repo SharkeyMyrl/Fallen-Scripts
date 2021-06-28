@@ -49,22 +49,22 @@
   "Skip": "Bread",
 
   "Comment": "Slices",
-  "RandomDialog": [{"David": "Oooo~ watermelon~?",
-                    "David": "How did you know I loved watermelon!?",
-                    "David": "Thank you for this meal!"}],
+  "RandomDialog": [{"David": "Oooo~ watermelon~?"},
+                   {"David": "How did you know I loved watermelon!?"},
+                   {"David": "Thank you for this meal!"}],
 
   "Skip": "HoldPlayer",
 
   "Comment": "Apples",
-  "RandomDialog": [{"David": "Apples... Not my first choice but still food I guess...",
-                    "David": "I should go see her...",
-                    "David": "Thank you for this meal!"}],
+  "RandomDialog": [{"David": "Apples... Not my first choice but still food I guess..."},
+                   {"David": "I should go see her..."},
+                   {"David": "Thank you for this meal!"}],
 
   "Skip": "HoldPlayer",
 
   "Comment": "Bread",
-  "RandomDialog": [{"David": "Bread... I guess it is food.",
-                    "David": "Thank you for this meal!"}],
+  "RandomDialog": [{"David": "Bread... I guess it is food."},
+                   {"David": "Thank you for this meal!"}],
 
   "Skip": "HoldPlayer",
 

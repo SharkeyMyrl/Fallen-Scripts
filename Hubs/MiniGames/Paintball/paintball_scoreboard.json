@@ -3,47 +3,6 @@
 
   "Comment": "Loop",
 
-  "Set": ["redteam", 0.0],
-  "Set": ["blueteam", 0.0],
-  "Set": ["lobbytimer", 0.0],
-  "Set": ["timer", 0.0],
-
-  "Comment": "RedLoop",
-
-  "If": [],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_red", "=", 0.0],
-  "Skip": "BlueLoop",
-  "Dummy": [],
-
-  "If": [],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_red", ">", "redteam"],
-  "Add": ["redteam", 1.0],
-  "Skip": "BlueLoop",
-  "Skip": "RedLoop",
-
-  "Comment": "BlueLoop",
-
-  "If": [],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_blue", "=", 0.0],
-  "Skip": "Timer",
-  "Dummy": [],
-
-  "If": [],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_blue", ">", "blue_team"],
-  "Add": ["red_team", 1.0],
-  "Skip": "Timer",
-  "Skip": "BlueLoop",
-
-  "Comment": "Timer",
-  "Set": ["lobbytimer", "[server:paintball_lobby_timer]"],
-  "Set": ["timer", "[server:paintball_timer]"],
-  "Subtract": ["lobbytimer", 60.0],
-  "Multiply": ["lobbytimer", -1.0],
-
-  "Subtract": ["timer", 60.0],
-  "Multiply": ["timer", -1.0],
-
-
   "If": [],
   "In": ["paintball_waiting", false],
   "Skip": "Lobby",
@@ -61,29 +20,52 @@
 
   "Comment": "Lobby",
   "SetScoreboard": [
-    "PAINTBALL LOBBY",
-    "_______________",
-    "Red Team: [redteam]",
-    "Blue Team: [blueteam]",
-    "Game Starts In: [lobbytimer]",
-    "[SCRIPT_SERVER_PLAYER_COUNT]"
+    "---PAINTBALL---",
+    "---------------",
+    "",
+    "Lobby Timer: [server:paintball_lobby_timer]",
+    "",
+    "&cRed Team: &f[SCRIPT_PLAYER_COUNT:paintball_red]",
+    "&9Blue Team: &f[SCRIPT_PLAYER_COUNT:paintball_blue]"
   ],
-  "Wait": 10.0,
+  "Wait": 10,
   "Skip": "Loop",
 
   "Comment": "TeamRed",
   "SetScoreboard": [
-
+    "---PAINTBALL---",
+    "---------------",
+    "",
+    "Game Timer: [server:paintball_timer]",
+    "",
+    "Round: &f[server:paintball_round]",
+    "&cScore: &f[server:paintball_redwin]",
+    "&9Score: &f[server:paintball_bluewin]",
+    "",
+    "&lPlayers",
+    "&cTeam: &f[SCRIPT_PLAYER_COUNT:paintball_red]",
+    "&9Team: &f[SCRIPT_PLAYER_COUNT:paintball_blue]"
   ],
-  "Wait": 10.0,
+  "Wait": 10,
   "Skip": "Loop",
 
 
   "Comment": "TeamBlue",
   "SetScoreboard": [
-
+    "---PAINTBALL---",
+    "---------------",
+    "",
+    "Game Timer: [server:paintball_timer]",
+    "",
+    "Round: &f[server:paintball_round]",
+    "&9Score: &f[server:paintball_bluewin]",
+    "&cScore: &f[server:paintball_redwin]",
+    "",
+    "&lPlayers",
+    "&9Team: &f[SCRIPT_PLAYER_COUNT:paintball_blue]",
+    "&cTeam: &f[SCRIPT_PLAYER_COUNT:paintball_red]"
   ],
-  "Wait": 10.0,
+  "Wait": 10,
   "Skip": "Loop",
 
 

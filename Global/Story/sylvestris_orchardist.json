@@ -2,8 +2,7 @@
   "Key": "sylvestris_orchardist",
   "Author": "SharkeyMyrl",
 
-  "Equals": ["helped_david", "=", 1.0],
-  "Wait": 10,
+  "Completed": "david_intro",
   "Show": "evelina_npc",
 
   "Comment": "TalkLoop",

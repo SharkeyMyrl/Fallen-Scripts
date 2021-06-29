@@ -7,70 +7,104 @@
       "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMzIyMTEwODg0NiwKICAicHJvZmlsZUlkIiA6ICI5MWZlMTk2ODdjOTA0NjU2YWExZmMwNTk4NmRkM2ZlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJoaGphYnJpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81OGI4Y2YxYjU2M2I3ODUzNGQ3NDliYTg0MWUxMjJhZjUwZTJiMjFiYzRkNTVhM2EzMmMwN2Q0ZTJkNTZiZTg0IgogICAgfQogIH0KfQ==",
       "signature": "ATrLZSJDeD6qyTYdA7x3kK6Q3OQgM4HzV0qtAvTT0QoABfvMFxZPFZZmYki/rLDju+9zODe+MlgMsafAKE80XZs3357UpnGW7Luj09N3k/mZCn9PX5aigS/8z3J+D3MNnFHv8Iy+boCdiZ6cwE1jPC06wQ4dLyantrM1u3eeIzZmnRMKqE4+1F+dOijVPDQ20Pn2c5bAT7P6YCqnzcL7zup43c4oL/2t/N8zElm20vbSLU4vw6aW59oeSc29knAotL7KVJxAPivf8cbfzA5YxlgdwGf1Iu9Pjdyhge6pGNFLgpeN0IXdIpDwyk6cpWy7KCfSNxy7z6D0zJSJG5mTCtVtGcch4xlvn5bbW/0ASwaqRTp5UVk75UV7+ao96Fpb3n5HFgJoeQyln44JoqRjD+yX96fsLmNC+duyAyBeXRL1wBSRaEM4xwFfqXsL0C6qZrdi+n4Cl27iecHFutsIHtulMBf4MB/EIsjxcycOjYmskxnle5Zrm11+IWKGkJ/SYMVk+XFOQPqJv7dzmCw7yY65yoLqN3zQ4HqaWgYo+yj8qcPrHadn4MeFFNgEnEyqhuWp+ItHUwJkzXvrnOHa5dHHUtHupkJiy32zTxxdYvgy2ZogCA00fzfDN7A6tBo4am0acMF0ZMAYCdidDR++/znvQ7B09oAJDWXnHblKgXA="
     },
-    "location": [2328.5, 70.0, 500.5, -140],
+    "location": [2324.5, 69.9, 596.5, -143],
     "name": [
 			"&6&lDavid",
 			"&7&oSpelunker"
 		],
-    "look": false,
-    "sitting": true
+    "look": false
   },
   "Hide": "david",
 
   "AllowRejoining": true,
-  "PlayerJoin": [],
-  "NotCompleted": [false],
   "InRegion": [
     2329, 69, 469,
     2340, 73, 463
   ],
+  "NotCompleted": [false],
   "Wait": 10,
   "Show": "david",
-  "EntityLook": ["david", 2329.5, 69.0, 499.5],
+
+  "SetBlocks": [
+    2326,
+    70,
+    596,
+    2326,
+    71,
+    596,
+    "Black Concrete"
+  ],
 
   "HighlightClickEntity": "david",
-  "Dialog": [{"David": "Sooo hungery..."}],
+  "Dialog": [{"&6&lDavid": "Sooo hungery..."}],
   "Wait": 10,
-  "Dialog": [{"David": "Think you could spare me some food?"}],
+  "Dialog": [{"&6&lDavid": "Think you could spare me some food?"}],
   "Wait": 10,
-  "SendMessageOptions": [-1, "Yea", "Not right now..."],
+  "SendMessageOptions": [-1, "&2Yea", "&4Not right now..."],
   "Skip": "FoodOffer",
   "Wait": 10,
-  "Dialog": [{"David": "Okay..."}],
+  "Dialog": [{"&6&lDavid": "Okay..."}],
   "Wait": 10,
   "HighlightClickEntity": "david",
+  "Dialog": [{"&6&lDavid": "Think you could spare me some food, now?"}],
   "Skip": -7,
 
+  "Comment": "DontHave",
+  "Dummy": [],
+  "SendMessage": "You do not have enough of that to give to &6&lDavid?",
+  "SendMessage": "What do you offer &6&lDavid&f, instead?",
+  "Skip": 2,
+
   "Comment": "FoodOffer",
-  "SendMessage": "What do you offer?",
-  "SendMessageOptions": [-1, "Offer Melon Slices", "Offer Apples", "Offer Bread"],
+  "SendMessage": "What do you offer &6&lDavid?",
+  "SendMessageOptions": [-1, "&6Offer Melon Slices", "&cOffer Apples", "&8Offer Bread", "&8I'll be back"],
   "Skip": "Slices",
   "Skip": "Apples",
   "Skip": "Bread",
+  "Skip": -13,
 
   "Comment": "Slices",
-  "RandomDialog": [{"David": "Oooo~ watermelon~?"},
-                   {"David": "How did you know I loved watermelon!?"},
-                   {"David": "Thank you for this meal!"}],
+  "If": [],
+  "HasBalance": ["currency_melon_slice", 25],
+  "Dummy": [],
+  "Skip": "DontHave",
+  "RemoveBalance" : ["currency_melon_slice", 25],
+  "RandomDialog": [{"&6&lDavid": "Oooo~ watermelon~?"},
+                   {"&6&lDavid": "How did you know I loved watermelon!?"},
+                   {"&6&lDavid": "Thank you for this meal!"}],
 
   "Skip": "HoldPlayer",
 
+
   "Comment": "Apples",
-  "RandomDialog": [{"David": "Apples... Not my first choice but still food I guess..."},
-                   {"David": "I should go see her..."},
-                   {"David": "Thank you for this meal!"}],
+  "If": [],
+  "HasItem": ["apples", 25],
+  "Dummy": [],
+  "Skip": "DontHave",
+  "TakeItem" : ["apples", 25],
+  "RandomDialog": [{"&6&lDavid": "Apples... Not my first choice but still food I guess..."},
+                   {"&6&lDavid": "I should go see her..."},
+                   {"&6&lDavid": "Thank you for this meal!"}],
 
   "Skip": "HoldPlayer",
 
   "Comment": "Bread",
-  "RandomDialog": [{"David": "Bread... I guess it is food."},
-                   {"David": "Thank you for this meal!"}],
+  "If": [],
+  "HasBalance": ["currency_wheat", 25],
+  "Dummy": [],
+  "Skip": "DontHave",
+  "RemoveBalance" : ["currency_wheat", 25],
+  "RandomDialog": [{"&6&lDavid": "Bread... I guess it is food."},
+                   {"&6&lDavid": "Thank you for this meal!"}],
 
   "Skip": "HoldPlayer",
 
 
   "Comment": "HoldPlayer",
-  "Dialog": [{"David": "Come back to the mines in a while, and we will talk some more."}],
+  "Dialog": [{"&6&lDavid": "Come back to the mines in a while, and we will talk some more."}],
+
+  "MoveEntity": ["david", 2326.5, 70.0, 596.5],
+  "Hide": "david",
 
   "Complete": [],
   "Dummy": []

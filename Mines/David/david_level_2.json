@@ -21,7 +21,7 @@
     2514, 66, 454
   ],
 
-  "Completed": ["david_intro", false],
+  "Completed": ["david_intro", ""],
   "NotCompletedKingdom": [12, false],
 
   "Wait": 10,

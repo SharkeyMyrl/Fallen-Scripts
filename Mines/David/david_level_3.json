@@ -16,20 +16,16 @@
   },
   "Hide": ["david_3"],
 
-  "PlayerJoin": [],
   "InRegion": [
     2860, 64, 450,
     2871, 68, 444
   ],
 
   "Completed": ["david_intro", false],
-  "NotCompleted": [18, false],
+  "NotCompletedKingdom": [18, false],
 
   "Wait": 10,
   "Show": "david_3",
-
-  "KingdomAdd": ["david_level_three_count", 0],
-  "KingdomEquals": ["david_level_three_count", "<", 4],
 
   "Comment": "TalkLoop",
   "HighlightClickEntity": "david_3",
@@ -54,21 +50,16 @@
 
   "Comment": "RewardForSlave",
   "SetPersistent": [ "david_three", -1.0 ],
-  "KingdomAdd": ["david_level_three_count", 1],
-  "If": [],
-  "KingdomEquals": ["david_level_three_count", ">", 4],
-  "Leave": [],
-  "Leave": "david_level_3_slave",
-
   "Start": ["david_rewards", 1.0, "Three"],
 
   "Dialog": [{"David": "Thank you for helping me out [PLAYER]."}],
 
+  "Comment": "AnimateLeave",
   "MoveEntity": ["david_3", 2860.5, 66.0, 450.5],
   "MoveEntity": ["david_3", 2866.0, 66.0, 442.5],
   "MoveEntity": ["david_3", 2866.0, 67.0, 441.5],
   "MoveEntity": ["david_3", 2866.0, 67.0, 440.5],
   "Hide": "david_3",
 
-  "Complete": []
+  "KingdomComplete": []
 }

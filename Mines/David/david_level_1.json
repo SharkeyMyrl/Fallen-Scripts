@@ -16,29 +16,19 @@
   },
   "Hide": ["david_1"],
 
-  "PlayerJoin": [],
   "InRegion": [
     2329, 69, 469,
     2340, 73, 463
   ],
-  
+
   "Completed": ["david_intro", false],
-  "NotCompleted": [6, false],
+  "NotCompletedKingdom": [6, false],
 
   "Wait": 10,
   "Show": "david_1",
 
-  "KingdomAdd": ["david_level_one_count", 0],
-  "KingdomEquals": ["david_level_one_count", "<", 4],
-
-  "If": [],
-  "NotCompleted": ["david_intro", false],
-  "Dummy": [],
-  "Skip": "Intro",
-
   "Comment": "TalkLoop",
   "HighlightClickEntity": "david_1",
-  "Comment": "IntroDone",
   "AllowRejoining": true,
 
   "If": [],
@@ -60,10 +50,6 @@
 
   "Comment": "RewardForSlave",
   "SetPersistent": [ "david_one", -1.0 ],
-  "KingdomAdd": ["david_level_one_count", 1],
-  "If": [],
-  "KingdomEquals": ["david_level_one_count", ">", 4],
-  "Leave": [],
   "Start": ["david_rewards", 1.0, "One"],
 
   "Dialog": [{"David": "Thank you for helping me out [PLAYER]."}],
@@ -75,18 +61,5 @@
   "MoveEntity": ["david_1", 2335.0, 72.0, 456.5],
   "Hide": "david_1",
 
-  "Complete": [],
-
-  "Comment": "Intro",
-  "HighlightClickEntity": "david_1",
-  "Dialog": [{"David": "Thank you so much for lending me some food [PLAYER]."}],
-  "Wait": 10,
-  "Dialog": [{"David": "I was wondering if you wouldn't mind helping me on occasion."}],
-  "Wait": 10,
-  "Dialog": [{"David": "It is just killing monsters in the mines, nothing to hard for someone like you."}],
-  "Wait": 10,
-  "SendMessageOptions": [-1, "Sure", "Sorry"],
-  "Skip": "IntroDone",
-  "Dialog": [{"David": "Okay, well come back if you ever change your mind."}],
-  "Skip": "AnimateLeave"
+  "KingdomComplete": []
 }

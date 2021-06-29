@@ -61,5 +61,5 @@
   "MoveEntity": ["david_2", 2509.0, 65.0, 447.5],
   "Hide": "david_2",
 
-  "KingdomComplete": []
+  "CompleteKingdomQuest": []
 }

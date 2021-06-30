@@ -36,7 +36,7 @@
   ],
 
   "HighlightClickEntity": "david",
-  "Dialog": [{"&6&lDavid": "Sooo hungery..."}],
+  "Dialog": [{"&6&lDavid": "Sooo hungry..."}],
   "Wait": 10,
   "Dialog": [{"&6&lDavid": "Think you could spare me some food?"}],
   "Wait": 10,

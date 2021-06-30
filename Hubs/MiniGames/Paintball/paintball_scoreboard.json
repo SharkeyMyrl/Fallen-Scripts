@@ -67,7 +67,7 @@
     "",
     "Lobby Timer:",
     "Minutes: [lobby_timer_minutes]",
-    "Seconds: [lobby_timer_seconds]",
+    "Seconds: [lobby_timer_seconds]"
   ],
   "Wait": 10,
   "Skip": "Loop",
@@ -83,7 +83,7 @@
     "",
     "Round: &f[server:paintball_round]",
     "&cScore: &f[server:paintball_redwin]",
-    "&9Score: &f[server:paintball_bluewin]",
+    "&9Score: &f[server:paintball_bluewin]"
   ],
   "Wait": 10,
   "Skip": "Loop",
@@ -100,7 +100,7 @@
     "",
     "Round: &f[server:paintball_round]",
     "&9Score: &f[server:paintball_bluewin]",
-    "&cScore: &f[server:paintball_redwin]",
+    "&cScore: &f[server:paintball_redwin]"
   ],
   "Wait": 10,
   "Skip": "Loop",

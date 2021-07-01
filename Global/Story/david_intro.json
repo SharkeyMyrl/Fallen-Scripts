@@ -78,10 +78,10 @@
 
   "Comment": "Apples",
   "If": [],
-  "HasItem": ["apples", 25],
+  "HasItem": ["apple", 25],
   "Dummy": [],
   "Skip": "DontHave",
-  "TakeItem" : ["apples", 25],
+  "TakeItem" : [{"material":"apple", "amount": 25}],
   "RandomDialog": [{"&6&lDavid": "Apples... Not my first choice but still food I guess..."},
                    {"&6&lDavid": "I should go see her..."},
                    {"&6&lDavid": "Thank you for this meal!"}],

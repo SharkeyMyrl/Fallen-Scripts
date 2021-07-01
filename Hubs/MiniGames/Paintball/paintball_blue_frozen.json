@@ -1,7 +1,7 @@
 {
-  "Key": "paintball",
+  "Key": "paintball_blue_frozen",
   "Author": "SharkeyMyrl",
   "Description": "Holder of player count.",
-  "HidePlayer": "Not In Script",
+  "SendMessage": "Blue Frozen",
   "Hold": []
 }

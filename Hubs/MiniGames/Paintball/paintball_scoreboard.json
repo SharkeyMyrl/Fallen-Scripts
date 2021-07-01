@@ -8,26 +8,6 @@
   "Skip": "Lobby",
   "Dummy": [],
 
-  "Set": ["timer_minutes", 0.0, true],
-  "Set": ["timer_seconds", 0.0, true],
-  "Comment": "Timer",
-
-  "If": [],
-  "Equals": ["server", "paintball_timer", ">", "[timer_minutes]"],
-  "Dummy": [],
-  "Skip": 3,
-
-  "Add": ["timer_minutes", 1.0, true],
-  "Add": ["timer_seconds", 1.0, true],
-  "Skip": "Timer",
-
-  "Divide": ["timer_minutes", 6],
-  "RoundDown": "timer_minutes",
-  "Add": ["timer_minutes", 0.0, true],
-  "Remainder": ["timer_seconds", 6],
-  "Multiply": ["timer_seconds", 10, true],
-  "Add": ["timer_seconds", 0.0, true],
-
   "If": [],
   "In": ["paintball_blue", false],
   "Skip": "TeamBlue",
@@ -40,50 +20,31 @@
 
   "Comment": "Lobby",
 
-  "Set": ["lobby_timer_minutes", 0.0, true],
-  "Set": ["lobby_timer_seconds", 0.0, true],
-  "Comment": "LobbyTimer",
-
-  "If": [],
-  "Equals": ["server", "paintball_lobby_timer", ">", "[lobby_timer_minutes]"],
-  "Dummy": [],
-  "Skip": 3,
-
-  "Add": ["lobby_timer_minutes", 1.0, true],
-  "Add": ["lobby_timer_seconds", 1.0, true],
-  "Skip": "LobbyTimer",
-
-  "Divide": ["lobby_timer_minutes", 6, true],
-  "RoundDown": "lobby_timer_minutes",
-  "Add": ["lobby_timer_minutes", 0.0, true],
-  "Remainder": ["lobby_timer_seconds", 6],
-  "Multiply": ["lobby_timer_seconds", 10, true],
-  "Add": ["lobby_timer_seconds", 0.0, true],
-
-
   "SetScoreboard": [
-    "---PAINTBALL---",
-    "---------------",
+    "   &lPAINTBALL",
     "",
     "Lobby Timer:",
-    "Minutes: [lobby_timer_minutes]",
-    "Seconds: [lobby_timer_seconds]"
+    "Minutes: [server:paintball_lobby_timer_minutes]",
+    "Seconds: [server:paintball_lobby_timer_seconds]",
+    "",
+    "&eplay.fallenkingdom.co"
   ],
   "Wait": 10,
   "Skip": "Loop",
 
   "Comment": "TeamRed",
   "SetScoreboard": [
-    "---PAINTBALL---",
-    "---------------",
+    "   &lPAINTBALL",
     "",
     "Timer:",
-    "Minutes: [timer_minutes]",
-    "Seconds: [timer_seconds]",
+    "Minutes: [server:paintball_timer_minutes]",
+    "Seconds: [server:paintball_timer_seconds]",
     "",
     "Round: &f[server:paintball_round]",
     "&cScore: &f[server:paintball_redwin]",
-    "&9Score: &f[server:paintball_bluewin]"
+    "&9Score: &f[server:paintball_bluewin]",
+    "",
+    "&eplay.fallenkingdom.co"
   ],
   "Wait": 10,
   "Skip": "Loop",
@@ -91,16 +52,17 @@
 
   "Comment": "TeamBlue",
   "SetScoreboard": [
-    "---PAINTBALL---",
-    "---------------",
+    "   &lPAINTBALL",
     "",
     "Timer:",
-    "Minutes: [timer_minutes]",
-    "Seconds: [timer_seconds]",
+    "Minutes: [server:paintball_timer_minutes]",
+    "Seconds: [server:paintball_timer_seconds]",
     "",
     "Round: &f[server:paintball_round]",
     "&9Score: &f[server:paintball_bluewin]",
-    "&cScore: &f[server:paintball_redwin]"
+    "&cScore: &f[server:paintball_redwin]",
+    "",
+    "&eplay.fallenkingdom.co"
   ],
   "Wait": 10,
   "Skip": "Loop",

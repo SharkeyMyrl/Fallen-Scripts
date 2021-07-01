@@ -3,7 +3,7 @@
   "Author": "SharkeyMyrl",
   "Description": "Gamemode controller and ruler.",
 
-  "Repeat": 10.0,
+  "Repeat": 1.0,
 
   "If": [],
   "Equals": ["server", "paintball_game_on", "=", 1.0],
@@ -11,7 +11,7 @@
   "Dummy": [],
 
   "If": [],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_waiting", "<=", 2.0],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_waiting", "<=", 3.0],
   "Leave": [],
   "Subtract": ["server", "paintball_lobby_timer", 1.0, true],
 
@@ -19,14 +19,20 @@
   "Equals": ["server", "paintball_lobby_timer", ">=", 0.0],
   "Leave": [],
   "Set": ["server", "paintball_game_on", 1.0, true],
-  "BroadcastMessage": "GAME ON",
 
   "Comment": "GameTimer",
-  "BroadcastMessage": "10 seconds passed",
   "Subtract": ["server", "paintball_timer", 1.0, true],
 
   "If": [],
-  "Equals": ["server", "paintball_timer", ">=", 58.0],
+  "Equals": ["server", "paintball_timer_seconds", "=", 0.0],
+  "Skip": 2,
+  "Subtract": ["server", "paintball_timer_seconds", 1.0, true],
+  "Skip": 2,
+  "Subtract": ["server", "paintball_timer_minutes", 1.0, true],
+  "Set": ["server", "paintball_timer_seconds", 59.0, true],
+
+  "If": [],
+  "Equals": ["server", "paintball_timer", ">=", 580.0],
   "Leave": [],
   "Dummy": [],
 
@@ -41,36 +47,50 @@
   "Dummy": [],
 
   "If": [],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_red_frozen", "=", "[SCRIPT_PLAYER_COUNT:paintball_red]"],
+  "Skip": "BluePoints",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_blue_frozen", "=", "[SCRIPT_PLAYER_COUNT:paintball_blue]"],
+  "Skip": "RedPoints",
+  "Dummy": [],
+
+  "If": [],
   "Equals": ["server", "paintball_timer", "<=", 0.0],
   "Skip": "CheckPoints",
   "Leave": [],
 
   "Comment": "CheckPoints",
+
   "If": [],
-  "Equals":["[SCRIPT_PLAYER_COUNT]", "paintball_red_slave", "=", "[SCRIPT_PLAYER_COUNT:paintball_blue_slave]"],
+  "Equals":["[SCRIPT_PLAYER_COUNT]", "paintball_red_frozen", "=", "[SCRIPT_PLAYER_COUNT:paintball_blue_frozen]"],
   "Skip": "Draw",
   "Dummy": [],
 
   "If": [],
-  "Equals":["server", "paintball_red_slave", "=", "[SCRIPT_PLAYER_COUNT:paintball_blue]"],
-  "Skip": "Draw",
-  "Dummy": [],
-
-  "If": [],
-  "Equals":["server", "paintball_red_slave", ">", "[SCRIPT_PLAYER_COUNT:paintball_blue_slave]"],
+  "Equals":["[SCRIPT_PLAYER_COUNT]", "paintball_red_frozen", ">", "[SCRIPT_PLAYER_COUNT:paintball_blue_frozen]"],
   "Skip": "RedPoints",
+  "Dummy": [],
+
+  "If": [],
+  "Equals":["[SCRIPT_PLAYER_COUNT]", "paintball_blue_frozen", ">", "[SCRIPT_PLAYER_COUNT:paintball_red_frozen]"],
   "Skip": "BluePoints",
+  "Skip": "Draw",
 
   "Comment": "Draw",
+  "BroadcastMessage": "Draw",
   "Add": ["server", "paintball_round", 1.0, true],
   "Skip": "CheckWinner",
 
   "Comment": "RedPoints",
+  "BroadcastMessage": "Red",
   "Add": ["server", "paintball_redwin", 1.0, true],
   "Add": ["server", "paintball_round", 1.0, true],
   "Skip": "CheckWinner",
 
   "Comment": "BluePoints",
+  "BroadcastMessage": "Blue",
   "Add": ["server", "paintball_bluewin", 1.0, true],
   "Add": ["server", "paintball_round", 1.0, true],
   "Skip": "CheckWinner",
@@ -79,7 +99,9 @@
   "BroadcastMessage": "Checking winners",
   "Set": ["server", "paintball_red", 0.0, true],
   "Set": ["server", "paintball_blue", 0.0, true],
-  "Set": ["server", "paintball_timer", 0.0, true],
+  "Set": ["server", "paintball_timer", 600.0, true],
+  "Set": ["server", "paintball_timer_minutes", 10.0, true],
+  "Set": ["server", "paintball_timer_seconds", 0.0, true],
 
   "If": [],
   "Equals": ["server", "paintball_round", "<=", 7.0],
@@ -92,7 +114,10 @@
   "Skip": "BlueWins",
 
   "Comment": "ResetPlayers",
+  "LeaveAll": ["paintball_red_frozen"],
+  "LeaveAll": ["paintball_blue_frozen"],
   "StartAll": [1.0, 1, "paintball_reset"],
+  "Wait": 10,
   "Leave": [],
 
   "Comment": "BlueWins",
@@ -104,8 +129,12 @@
   "Skip": "CleanUp",
 
   "Comment": "CleanUp",
-  "Set": ["server", "paintball_timer", 60.0, true],
-  "Set": ["server", "paintball_lobby_timer", 12.0, true],
+  "Set": ["server", "paintball_timer", 600.0, true],
+  "Set": ["server", "paintball_lobby_timer", 120.0, true],
+  "Set": ["server", "paintball_timer_minutes", 10.0, true],
+  "Set": ["server", "paintball_lobby_timer_minutes", 2.0, true],
+  "Set": ["server", "paintball_timer_seconds", 0.0, true],
+  "Set": ["server", "paintball_lobby_timer_seconds", 0.0, true],
   "Set": ["server", "paintball_game_on", -1.0, true],
 
   "Set": ["server", "paintball_redwin", 0.0, true],

@@ -4,10 +4,12 @@
   "Description": "Team blue hit detection.",
   "Wait": 1,
 
-  "Teleport": [2081.5, 27.0, 587.0, 90, 0],
+  "Teleport": [2026.5, 26.0, 592.0, 90, 0],
 
   "ProjectileHit": ["snowball", "paintball_blue"],
   "SendMessage": "Opp- you got hit.",
   "Add": ["server", "paintball_red", 1.0],
-  "Freeze": []
+  "Freeze": [],
+  "Start": "paintball_blue_frozen",
+  "Hold": []
 }

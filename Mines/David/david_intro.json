@@ -51,13 +51,13 @@
 
   "Comment": "DontHave",
   "Dummy": [],
-  "SendMessage": "You do not have enough of that to give to &6&lDavid?",
+  "SendMessage": "&4You do not have enough of that to give to &6&lDavid&4.",
   "SendMessage": "What do you offer &6&lDavid&f, instead?",
   "Skip": 2,
 
   "Comment": "FoodOffer",
-  "SendMessage": "What do you offer &6&lDavid?",
-  "SendMessageOptions": [-1, "&6Offer Melon Slices", "&cOffer Apples", "&8Offer Bread", "&8I'll be back"],
+  "SendMessage": "&bWhat do you offer &6&lDavid&b?",
+  "SendMessageOptions": [-1, "&6Offer 25 Melon Slices", "&cOffer 25 Apples", "&eOffer 25 Bread", "&8I'll be right back"],
   "Skip": "Slices",
   "Skip": "Apples",
   "Skip": "Bread",

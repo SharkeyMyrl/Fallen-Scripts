@@ -13,7 +13,7 @@
       ],
       "name":[
          "&6&lDylan",
-         "&7&oInventory Eater"
+         "&7&oChicken Stripper"
       ]
    },
    "CreateEntity":{
@@ -30,7 +30,7 @@
       ],
       "name":[
          "&6&lDylan",
-         "&7&oInventory Eater"
+         "&7&oChicken Stripper"
       ]
    },
    "CreateEntity":{
@@ -47,7 +47,7 @@
       ],
       "name":[
          "&6&lDylan",
-         "&7&oInventory Eater"
+         "&7&oChicken Stripper"
       ]
    },
    "CreateEntity":{
@@ -64,7 +64,7 @@
       ],
       "name":[
          "&6&lDylan",
-         "&7&oInventory Eater"
+         "&7&oChicken Stripper"
       ]
    },
    "CreateEntity":{
@@ -81,11 +81,89 @@
       ],
       "name":[
          "&6&lDylan",
-         "&7&oInventory Eater"
+         "&7&oChicken Stripper"
       ]
    },
 
    "ClickEntity": ["dylan_1", "dylan_2", "dylan_3", "dylan_4", "dylan_5"],
-   "ClearInventory": []
+   "ClearInventory": [],
 
+   "If": [],
+   "InRange": ["dylan_1", 10.0],
+   "Skip": "LevelOne",
+   "Dummy": [],
+
+   "If": [],
+   "InRange": ["dylan_2", 10.0],
+   "Skip": "LevelTwo",
+   "Dummy": [],
+
+   "If": [],
+   "InRange": ["dylan_3", 10.0],
+   "Skip": "LevelThree",
+   "Dummy": [],
+
+   "If": [],
+   "InRange": ["dylan_4", 10.0],
+   "Skip": "LevelFour",
+   "Dummy": [],
+
+   "If": [],
+   "InRange": ["dylan_5", 10.0],
+   "Skip": "LevelFive",
+   "Dummy": [],
+
+   "Leave": [],
+
+   "Comment": "LevelOne",
+   "GiveItem": [ "fallen_leather_helmet", 1 ],
+   "GiveItem": [ "fallen_leather_chestplate", 1 ],
+   "GiveItem": [ "fallen_leather_leggings", 1 ],
+   "GiveItem": [ "fallen_leather_boots", 1 ],
+
+   "GiveItem": [ "fallen_stone_sword", 1 ],
+   "GiveItem": [ "fallen_stone_pickaxe", 1 ],
+   "GiveItem": [ "fallen_stone_axe", 1 ],
+
+   "Comment": "LevelTwo",
+   "GiveItem": [ "fallen_iron_helmet", 1 ],
+   "GiveItem": [ "fallen_iron_chestplate", 1 ],
+   "GiveItem": [ "fallen_iron_leggings", 1 ],
+   "GiveItem": [ "fallen_iron_boots", 1 ],
+
+   "GiveItem": [ "fallen_iron_sword", 1 ],
+   "GiveItem": [ "fallen_iron_pickaxe", 1 ],
+   "GiveItem": [ "fallen_iron_axe", 1 ],
+
+   "Comment": "LevelThree",
+   "GiveItem": [ "fallen_gold_helmet", 1 ],
+   "GiveItem": [ "fallen_gold_chestplate", 1 ],
+   "GiveItem": [ "fallen_gold_leggings", 1 ],
+   "GiveItem": [ "fallen_gold_boots", 1 ],
+
+   "GiveItem": [ "fallen_gold_sword", 1 ],
+   "GiveItem": [ "fallen_iron_pickaxe", 1 ],
+   "GiveItem": [ "fallen_gold_axe", 1 ],
+
+   "Comment": "LevelFour",
+   "GiveItem": [ "fallen_diamond_helmet", 1 ],
+   "GiveItem": [ "fallen_diamond_chestplate", 1 ],
+   "GiveItem": [ "fallen_diamond_leggings", 1 ],
+   "GiveItem": [ "fallen_diamond_boots", 1 ],
+
+   "GiveItem": [ "fallen_gold_sword", 1 ],
+   "GiveItem": [ "fallen_iron_pickaxe", 1 ],
+   "GiveItem": [ "fallen_gold_axe", 1 ],
+
+   "Comment": "LevelFive",
+   "GiveItem": [ "fallen_emerald_helmet", 1 ],
+   "GiveItem": [ "fallen_emerald_chestplate", 1 ],
+   "GiveItem": [ "fallen_emerald_leggings", 1 ],
+   "GiveItem": [ "fallen_emerald_boots", 1 ],
+
+   "GiveItem": [ "fallen_diamond_sword", 1 ],
+   "GiveItem": [ "fallen_diamond_pickaxe", 1 ],
+   "GiveItem": [ "fallen_diamond_axe", 1 ],
+
+   "Dummy": []
 }

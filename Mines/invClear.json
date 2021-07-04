@@ -1,5 +1,6 @@
 {
-   "CreateEntity":{
+  "Key": "chicken_stripper",
+  "CreateEntity":{
       "key":"dylan_1",
       "skin":{
          "texture":"ewogICJ0aW1lc3RhbXAiIDogMTYxNjEzNTY5OTg4OSwKICAicHJvZmlsZUlkIiA6ICIxNWQ5MGUwNTlmZjI0Y2Y4OTFiZWI4OGU1MGEwZTQwZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJkdWNpdHltcCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85OTg4NmUxNDAyMTkwZGFiZWU0ZTk2M2E3OWU2MzhiMzFmMWUwMDhiMWY1NmY5ZTIyNGQ0YTQ3ODdjZjRiNDk3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
@@ -9,7 +10,7 @@
          2329.5,
          71.0,
          460.5,
-         220
+         -45
       ],
       "name":[
          "&6&lDylan",
@@ -26,7 +27,7 @@
          2503.5,
          64.0,
          451.5,
-         225
+         -45
       ],
       "name":[
          "&6&lDylan",
@@ -43,7 +44,7 @@
          2860.5,
          66.0,
          441.5,
-         225
+         -45
       ],
       "name":[
          "&6&lDylan",
@@ -60,7 +61,7 @@
          2699.5,
          66.0,
          432.5,
-         225
+         -45
       ],
       "name":[
          "&6&lDylan",
@@ -77,7 +78,7 @@
          2959.5,
          93.0,
          508.5,
-         225
+         -45
       ],
       "name":[
          "&6&lDylan",
@@ -116,53 +117,193 @@
    "Leave": [],
 
    "Comment": "LevelOne",
-   "GiveItem": [ "fallen_stone_sword", 1 ],
-   "GiveItem": [ "fallen_stone_pickaxe", 1 ],
-   "GiveItem": [ "fallen_stone_axe", 1 ],
-   "GiveItem": [ "fallen_leather_helmet", 1 ],
-   "GiveItem": [ "fallen_leather_chestplate", 1 ],
-   "GiveItem": [ "fallen_leather_leggings", 1 ],
-   "GiveItem": [ "fallen_leather_boots", 1 ],
+   "SetItem": [
+     39,
+     {
+       "material": "fallen_leather_helmet",
+       "name": "&bStrippers Helmet"
+     },
+     true
+   ],
+   "SetItem": [
+     38,
+     {
+       "material": "fallen_leather_chestplate",
+       "name": "&bStrippers Chestplate"
+     },
+     true
+   ],
+   "SetItem": [
+     37,
+     {
+       "material": "fallen_leather_leggings",
+       "name": "&bStrippers Leggings"
+     },
+     true
+   ],
+   "SetItem": [
+     36,
+     {
+       "material": "fallen_leather_boots",
+       "name": "&bStrippers Boots"
+     },
+     true
+   ],
+   "GiveItem": [{ "material": "fallen_stone_sword", "name": "Strippers Axe"}, 1],
+   "GiveItem": [{ "material": "fallen_stone_pickaxe", "name": "Strippers Pickaxe"}, 1],
+   "GiveItem": [{ "material": "fallen_stone_axe", "name": "Strippers Axe"}, 1],
    "Leave": [],
 
    "Comment": "LevelTwo",
-   "GiveItem": [ "fallen_iron_sword", 1 ],
-   "GiveItem": [ "fallen_iron_pickaxe", 1 ],
-   "GiveItem": [ "fallen_iron_axe", 1 ],
-   "GiveItem": [ "fallen_iron_helmet", 1 ],
-   "GiveItem": [ "fallen_iron_chestplate", 1 ],
-   "GiveItem": [ "fallen_iron_leggings", 1 ],
-   "GiveItem": [ "fallen_iron_boots", 1 ],
+   "SetItem": [
+     39,
+     {
+       "material": "fallen_iron_helmet",
+       "name": "&bStrippers Helmet"
+     },
+     true
+   ],
+   "SetItem": [
+     38,
+     {
+       "material": "fallen_iron_chestplate",
+       "name": "&bStrippers Chestplate"
+     },
+     true
+   ],
+   "SetItem": [
+     37,
+     {
+       "material": "fallen_iron_leggings",
+       "name": "&bStrippers Leggings"
+     },
+     true
+   ],
+   "SetItem": [
+     36,
+     {
+       "material": "fallen_iron_boots",
+       "name": "&bStrippers Boots"
+     },
+     true
+   ],
+   "GiveItem": [{ "material": "fallen_iron_sword", "name": "Strippers Axe"}, 1],
+   "GiveItem": [{ "material": "fallen_iron_pickaxe", "name": "Strippers Pickaxe"}, 1],
+   "GiveItem": [{ "material": "fallen_iron_axe", "name": "Strippers Axe"}, 1],
    "Leave": [],
 
    "Comment": "LevelThree",
-   "GiveItem": [ "fallen_golden_sword", 1 ],
-   "GiveItem": [ "fallen_iron_pickaxe", 1 ],
-   "GiveItem": [ "fallen_golden_axe", 1 ],
-   "GiveItem": [ "fallen_golden_helmet", 1 ],
-   "GiveItem": [ "fallen_golden_chestplate", 1 ],
-   "GiveItem": [ "fallen_golden_leggings", 1 ],
-   "GiveItem": [ "fallen_golden_boots", 1 ],
+   "SetItem": [
+     39,
+     {
+       "material": "fallen_golden_helmet",
+       "name": "&bStrippers Helmet"
+     },
+     true
+   ],
+   "SetItem": [
+     38,
+     {
+       "material": "fallen_golden_chestplate",
+       "name": "&bStrippers Chestplate"
+     },
+     true
+   ],
+   "SetItem": [
+     37,
+     {
+       "material": "fallen_golden_leggings",
+       "name": "&bStrippers Leggings"
+     },
+     true
+   ],
+   "SetItem": [
+     36,
+     {
+       "material": "fallen_golden_boots",
+       "name": "&bStrippers Boots"
+     },
+     true
+   ],
+   "GiveItem": [{ "material": "fallen_golden_sword", "name": "Strippers Axe"}, 1],
+   "GiveItem": [{ "material": "fallen_iron_pickaxe", "name": "Strippers Pickaxe"}, 1],
+   "GiveItem": [{ "material": "fallen_golden_axe", "name": "Strippers Axe"}, 1],
    "Leave": [],
 
    "Comment": "LevelFour",
-   "GiveItem": [ "fallen_golden_sword", 1 ],
-   "GiveItem": [ "fallen_iron_pickaxe", 1 ],
-   "GiveItem": [ "fallen_golden_axe", 1 ],
-   "GiveItem": [ "fallen_diamond_helmet", 1 ],
-   "GiveItem": [ "fallen_diamond_chestplate", 1 ],
-   "GiveItem": [ "fallen_diamond_leggings", 1 ],
-   "GiveItem": [ "fallen_diamond_boots", 1 ],
+   "SetItem": [
+     39,
+     {
+       "material": "fallen_diamond_helmet",
+       "name": "&bStrippers Helmet"
+     },
+     true
+   ],
+   "SetItem": [
+     38,
+     {
+       "material": "fallen_diamond_chestplate",
+       "name": "&bStrippers Chestplate"
+     },
+     true
+   ],
+   "SetItem": [
+     37,
+     {
+       "material": "fallen_diamond_leggings",
+       "name": "&bStrippers Leggings"
+     },
+     true
+   ],
+   "SetItem": [
+     36,
+     {
+       "material": "fallen_diamond_boots",
+       "name": "&bStrippers Boots"
+     },
+     true
+   ],
+   "GiveItem": [{ "material": "fallen_golden_sword", "name": "Strippers Axe"}, 1],
+   "GiveItem": [{ "material": "fallen_iron_pickaxe", "name": "Strippers Pickaxe"}, 1],
+   "GiveItem": [{ "material": "fallen_golden_axe", "name": "Strippers Axe"}, 1],
    "Leave": [],
 
    "Comment": "LevelFive",
-   "GiveItem": [ "fallen_diamond_sword", 1 ],
-   "GiveItem": [ "fallen_diamond_pickaxe", 1 ],
-   "GiveItem": [ "fallen_diamond_axe", 1 ],
-   "GiveItem": [ "fallen_emerald_helmet", 1 ],
-   "GiveItem": [ "fallen_emerald_chestplate", 1 ],
-   "GiveItem": [ "fallen_emerald_leggings", 1 ],
-   "GiveItem": [ "fallen_emerald_boots", 1 ],
+   "SetItem": [
+     39,
+     {
+       "material": "fallen_emerald_helmet",
+       "name": "&bStrippers Helmet"
+     },
+     true
+   ],
+   "SetItem": [
+     38,
+     {
+       "material": "fallen_emerald_chestplate",
+       "name": "&bStrippers Chestplate"
+     },
+     true
+   ],
+   "SetItem": [
+     37,
+     {
+       "material": "fallen_emerald_leggings",
+       "name": "&bStrippers Leggings"
+     },
+     true
+   ],
+   "SetItem": [
+     36,
+     {
+       "material": "fallen_emerald_boots",
+       "name": "&bStrippers Boots"
+     },
+     true
+   ],
+   "GiveItem": [{ "material": "fallen_diamond_sword", "name": "Strippers Axe"}, 1],
+   "GiveItem": [{ "material": "fallen_diamond_pickaxe", "name": "Strippers Pickaxe"}, 1],
+   "GiveItem": [{ "material": "fallen_diamond_axe", "name": "Strippers Axe"}, 1],
    "Leave": [],
 
    "Dummy": []

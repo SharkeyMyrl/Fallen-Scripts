@@ -88,6 +88,7 @@
 
    "ClickEntity": ["dylan_1", "dylan_2", "dylan_3", "dylan_4", "dylan_5"],
    "ClearInventory": [],
+   "SendMessage": "&cYou've been stripped and given appropriate items for this level.",
 
    "If": [],
    "InRange": ["dylan_1", 10.0],
@@ -149,9 +150,9 @@
      },
      true
    ],
-   "GiveItem": [{ "material": "fallen_stone_sword", "name": "Strippers Axe"}, 1],
-   "GiveItem": [{ "material": "fallen_stone_pickaxe", "name": "Strippers Pickaxe"}, 1],
-   "GiveItem": [{ "material": "fallen_stone_axe", "name": "Strippers Axe"}, 1],
+   "SetItem": [ 0, { "material": "fallen_stone_sword", "name": "&bStrippers Sword"}, true],
+   "SetItem": [ 1, { "material": "fallen_stone_pickaxe", "name": "&bStrippers Pickaxe"}, true],
+   "SetItem": [ 2, { "material": "fallen_stone_axe", "name": "&bStrippers Axe"}, true],
    "Leave": [],
 
    "Comment": "LevelTwo",
@@ -187,9 +188,9 @@
      },
      true
    ],
-   "GiveItem": [{ "material": "fallen_iron_sword", "name": "Strippers Axe"}, 1],
-   "GiveItem": [{ "material": "fallen_iron_pickaxe", "name": "Strippers Pickaxe"}, 1],
-   "GiveItem": [{ "material": "fallen_iron_axe", "name": "Strippers Axe"}, 1],
+   "SetItem": [ 0, { "material": "fallen_iron_sword", "name": "&bStrippers Sword"}, true],
+   "SetItem": [ 1, { "material": "fallen_iron_pickaxe", "name": "&bStrippers Pickaxe"}, true],
+   "SetItem": [ 2, { "material": "fallen_iron_axe", "name": "&bStrippers Axe"}, true],
    "Leave": [],
 
    "Comment": "LevelThree",
@@ -225,9 +226,9 @@
      },
      true
    ],
-   "GiveItem": [{ "material": "fallen_golden_sword", "name": "Strippers Axe"}, 1],
-   "GiveItem": [{ "material": "fallen_iron_pickaxe", "name": "Strippers Pickaxe"}, 1],
-   "GiveItem": [{ "material": "fallen_golden_axe", "name": "Strippers Axe"}, 1],
+   "SetItem": [ 0, { "material": "fallen_golden_sword", "name": "&bStrippers Sword"}, true],
+   "SetItem": [ 1, { "material": "fallen_iron_pickaxe", "name": "&bStrippers Pickaxe"}, true],
+   "SetItem": [ 2, { "material": "fallen_golden_axe", "name": "&bStrippers Axe"}, true],
    "Leave": [],
 
    "Comment": "LevelFour",
@@ -263,9 +264,9 @@
      },
      true
    ],
-   "GiveItem": [{ "material": "fallen_golden_sword", "name": "Strippers Axe"}, 1],
-   "GiveItem": [{ "material": "fallen_iron_pickaxe", "name": "Strippers Pickaxe"}, 1],
-   "GiveItem": [{ "material": "fallen_golden_axe", "name": "Strippers Axe"}, 1],
+   "SetItem": [ 0, { "material": "fallen_golden_sword", "name": "&bStrippers Sword"}, true],
+   "SetItem": [ 1, { "material": "fallen_iron_pickaxe", "name": "&bStrippers Pickaxe"}, true],
+   "SetItem": [ 2, { "material": "fallen_golden_axe", "name": "&bStrippers Axe"}, true],
    "Leave": [],
 
    "Comment": "LevelFive",
@@ -301,9 +302,9 @@
      },
      true
    ],
-   "GiveItem": [{ "material": "fallen_diamond_sword", "name": "Strippers Axe"}, 1],
-   "GiveItem": [{ "material": "fallen_diamond_pickaxe", "name": "Strippers Pickaxe"}, 1],
-   "GiveItem": [{ "material": "fallen_diamond_axe", "name": "Strippers Axe"}, 1],
+   "SetItem": [ 0, { "material": "fallen_diamond_sword", "name": "&bStrippers Sword"}, true],
+   "SetItem": [ 1, { "material": "fallen_diamond_pickaxe", "name": "&bStrippers Pickaxe"}, true],
+   "SetItem": [ 2, { "material": "fallen_diamond_axe", "name": "&bStrippers Axe"}, true],
    "Leave": [],
 
    "Dummy": []

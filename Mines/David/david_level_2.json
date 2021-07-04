@@ -1,6 +1,15 @@
 {
   "Key":"david_level_2",
   "Author": "SharkeyMyrl",
+  "HasKingdomBuilding": [ "mine", 2 ],
+  "Icon": {
+    "material": "Player Head",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNTI3MDQwNTg4OCwKICAicHJvZmlsZUlkIiA6ICJhNjFjODdkYzBhYTE0ODE2YTZmNzMyODM3YWI1ZjQ4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJfTW9ydGltZWlyXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MzI2ZTVlZGU1ODlmYjIwMzk0OGQwZDhkYzgxNDFiZWNlMWMxYTgzYzczOTI3YTZiMGE3MGU2Y2JkZWJhYmYwIgogICAgfQogIH0KfQ==",
+      "signature": "mZ8TOB3mxeOlT+Ag4Zbq2Yq2ZtlDv16nOckmxSLh76bLpsQxOHFTBTTl7NZShP8GGgG0yF8U4LuDDQQboLFTGRrje2dsRHbUv8xFKmF516+/wWAAhirCgGdSObkaEHJdKlHO2OlTVdJ0uD3JS//9eeJjWfIPiHa3b/p9a9bMLEjVJ2C5OORbnmNvCXfbZJUK0+YkWOMBYlfVD3kwWFLfovQ2YpculXPYEamzevQ8e0gdWMNn0r2qGGDW875p658Xufscktm8CUjOihOVNDl7jezwbJa/kj2m4pu7RcqPLseycro6zyqR+0WEF7PsMXTL5EXy1O+ZDr3/ljkY2lSVh0yMQ7sCUJhx0Gn+qM7fkT2oVDNhfQpMUFXDBJT/DQ+ujFh9QTUzlgYD9/CfcPWhArtypLwmEHrIvOaFxmLkHaSCYRbCWpvgVFJ4WWCZFwzt9n7AQXnZfmMnhhMHAyIwHcE6oNvJI6fG9PIR39TuhtfOVLfs7pdiWRR4zgkns32rltp0zw973XeNxiY46KjiCH+ipd+y+4AyyRQn3znmHIbkXqEWn1NZRSQuKenInSNND2B1+kCjIZ9FEG0RJ8SP83iu5kMOwnMIGH663NfY5K5yr0MQWTm5wuCm8ryPH/6uOklXdn944W6AvbXQq44AMW+G0xzzyLF2cz2LHVps+tE="
+    }
+  },
+  "Quest": true,
 
   "CreateEntity": {
     "key": "david_2",
@@ -37,13 +46,13 @@
   "Dummy": [],
 
   "If": [],
-  "NotIn": "david_level_2_slave",
-  "Start": "david_level_2_slave",
+  "Equals": ["david_two", ">=", 20.0],
+  "Skip": "RewardForSlave",
   "Dummy": [],
 
   "If": [],
-  "Equals": ["david_two", ">=", 20.0],
-  "Skip": "RewardForSlave",
+  "NotIn": "david_level_2_slave",
+  "Start": "david_level_2_slave",
   "Start": "david_progress",
 
   "Skip": "TalkLoop",

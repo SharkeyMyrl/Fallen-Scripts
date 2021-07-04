@@ -3,6 +3,7 @@
   "Author": "SharkeyMyrl",
 
   "Comment": "One",
+  "In": ["david_level_1"],
   "Wait":1,
   "GiveItem": {
     "material": "rotten_flesh",
@@ -12,6 +13,7 @@
   "Leave":[],
 
   "Comment": "Two",
+  "In": ["david_level_1"],
   "Wait":1,
   "GiveItem": {
     "material": "spider_eye",
@@ -21,6 +23,7 @@
   "Leave":[],
 
   "Comment": "Three",
+  "In": ["david_level_1"],
   "Wait":1,
   "GiveItem": {
     "material": "VenomousExtract",
@@ -30,6 +33,7 @@
   "Leave":[],
 
   "Comment": "Four",
+  "In": ["david_level_1"],
   "Wait":1,
   "GiveItem": {
     "material": "ender_eye",
@@ -39,6 +43,7 @@
   "Leave":[],
 
   "Comment": "Five",
+  "In": ["david_level_1"],
   "Wait":1,
   "GiveItem": {
     "material": "MummifiedBones",

@@ -116,63 +116,53 @@
    "Leave": [],
 
    "Comment": "LevelOne",
+   "GiveItem": [ "fallen_stone_sword", 1 ],
+   "GiveItem": [ "fallen_stone_pickaxe", 1 ],
+   "GiveItem": [ "fallen_stone_axe", 1 ],
    "GiveItem": [ "fallen_leather_helmet", 1 ],
    "GiveItem": [ "fallen_leather_chestplate", 1 ],
    "GiveItem": [ "fallen_leather_leggings", 1 ],
    "GiveItem": [ "fallen_leather_boots", 1 ],
-
-   "GiveItem": [ "fallen_stone_sword", 1 ],
-   "GiveItem": [ "fallen_stone_pickaxe", 1 ],
-   "GiveItem": [ "fallen_stone_axe", 1 ],
-
    "Leave": [],
 
    "Comment": "LevelTwo",
+   "GiveItem": [ "fallen_iron_sword", 1 ],
+   "GiveItem": [ "fallen_iron_pickaxe", 1 ],
+   "GiveItem": [ "fallen_iron_axe", 1 ],
    "GiveItem": [ "fallen_iron_helmet", 1 ],
    "GiveItem": [ "fallen_iron_chestplate", 1 ],
    "GiveItem": [ "fallen_iron_leggings", 1 ],
    "GiveItem": [ "fallen_iron_boots", 1 ],
-
-   "GiveItem": [ "fallen_iron_sword", 1 ],
-   "GiveItem": [ "fallen_iron_pickaxe", 1 ],
-   "GiveItem": [ "fallen_iron_axe", 1 ],
-
    "Leave": [],
 
    "Comment": "LevelThree",
+   "GiveItem": [ "fallen_golden_sword", 1 ],
+   "GiveItem": [ "fallen_iron_pickaxe", 1 ],
+   "GiveItem": [ "fallen_golden_axe", 1 ],
    "GiveItem": [ "fallen_golden_helmet", 1 ],
    "GiveItem": [ "fallen_golden_chestplate", 1 ],
    "GiveItem": [ "fallen_golden_leggings", 1 ],
    "GiveItem": [ "fallen_golden_boots", 1 ],
-
-   "GiveItem": [ "fallen_golden_sword", 1 ],
-   "GiveItem": [ "fallen_iron_pickaxe", 1 ],
-   "GiveItem": [ "fallen_golden_axe", 1 ],
-
    "Leave": [],
 
    "Comment": "LevelFour",
+   "GiveItem": [ "fallen_golden_sword", 1 ],
+   "GiveItem": [ "fallen_iron_pickaxe", 1 ],
+   "GiveItem": [ "fallen_golden_axe", 1 ],
    "GiveItem": [ "fallen_diamond_helmet", 1 ],
    "GiveItem": [ "fallen_diamond_chestplate", 1 ],
    "GiveItem": [ "fallen_diamond_leggings", 1 ],
    "GiveItem": [ "fallen_diamond_boots", 1 ],
-
-   "GiveItem": [ "fallen_golden_sword", 1 ],
-   "GiveItem": [ "fallen_iron_pickaxe", 1 ],
-   "GiveItem": [ "fallen_golden_axe", 1 ],
-
    "Leave": [],
 
    "Comment": "LevelFive",
+   "GiveItem": [ "fallen_diamond_sword", 1 ],
+   "GiveItem": [ "fallen_diamond_pickaxe", 1 ],
+   "GiveItem": [ "fallen_diamond_axe", 1 ],
    "GiveItem": [ "fallen_emerald_helmet", 1 ],
    "GiveItem": [ "fallen_emerald_chestplate", 1 ],
    "GiveItem": [ "fallen_emerald_leggings", 1 ],
    "GiveItem": [ "fallen_emerald_boots", 1 ],
-
-   "GiveItem": [ "fallen_diamond_sword", 1 ],
-   "GiveItem": [ "fallen_diamond_pickaxe", 1 ],
-   "GiveItem": [ "fallen_diamond_axe", 1 ],
-
    "Leave": [],
 
    "Dummy": []

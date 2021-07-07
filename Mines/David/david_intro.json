@@ -112,6 +112,7 @@
 
   "MoveEntity": ["david", 2326.5, 70.0, 596.5],
   "Hide": "david",
+  "KingdomSet": ["davidMissing", 1.0],
 
   "Progress": "david_missing",
 

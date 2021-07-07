@@ -11,9 +11,6 @@
   "AllowRejoining": false,
   "NotCompleted": [24, false],
 
-  "KingdomAdd": ["daily_apple_one_count", 0],
-  "KingdomEquals": ["daily_apple_one_count", "<", 4],
-
   "StoreRandom": ["easy",[
     [1901.5, 79.0, 581.5],
     [1921.5, 43.0, 557.5],
@@ -39,10 +36,6 @@
 
   "CumulativePickupItem":["easy", "&aApple", "apple"],
   "Wait": 1,
-  "KingdomAdd": ["daily_apple_one_count", 1],
-  "If": [],
-  "KingdomEquals": ["daily_apple_one_count", ">", 4],
-  "Leave": [],
   "Start": ["daily_apple_rewards", 1.0, "One"],
   "Wait": 1,
   "Complete": []

@@ -13,7 +13,7 @@
   "Leave":[],
 
   "Comment": "Two",
-  "In": ["david_level_1"],
+  "In": ["david_level_2"],
   "Wait":1,
   "GiveItem": {
     "material": "spider_eye",
@@ -23,7 +23,7 @@
   "Leave":[],
 
   "Comment": "Three",
-  "In": ["david_level_1"],
+  "In": ["david_level_3"],
   "Wait":1,
   "GiveItem": {
     "material": "VenomousExtract",
@@ -33,7 +33,7 @@
   "Leave":[],
 
   "Comment": "Four",
-  "In": ["david_level_1"],
+  "In": ["david_level_4"],
   "Wait":1,
   "GiveItem": {
     "material": "ender_eye",
@@ -43,7 +43,7 @@
   "Leave":[],
 
   "Comment": "Five",
-  "In": ["david_level_1"],
+  "In": ["david_level_5"],
   "Wait":1,
   "GiveItem": {
     "material": "MummifiedBones",

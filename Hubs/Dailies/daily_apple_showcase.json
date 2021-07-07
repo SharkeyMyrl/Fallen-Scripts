@@ -8,10 +8,10 @@
     "material":"apple"
   },
   "PlayerJoin":[],
-  "NotIn": "daily_apple_1",
-  "NotIn": "daily_apple_2",
-  "NotIn": "daily_apple_3",
-  "NotIn": "daily_apple_4",
+  "NotIn": ["daily_apple_1", false],
+  "NotIn": ["daily_apple_2", false],
+  "NotIn": ["daily_apple_3", false],
+  "NotIn": ["daily_apple_4", false],
 
   "AllowRejoining": false,
   "Set": ["count", 0.0, true],

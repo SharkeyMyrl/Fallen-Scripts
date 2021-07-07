@@ -11,7 +11,8 @@
   "AllowRejoining": false,
   "NotCompleted": [24, false],
 
-  "KingdomEquals": ["daily_apple_four_count", "<", 4.0],
+  "KingdomAdd": ["daily_apple_four_count", 0],
+  "KingdomEquals": ["daily_apple_four_count", "<", 4],
 
   "StoreRandom": ["extreme",[
     [1944.5, 143.0, 682.5],
@@ -24,9 +25,9 @@
 
   "CumulativePickupItem":["extreme", "&dApple", "apple"],
   "Wait": 1,
-  "KingdomAdd": ["daily_apple_four_count", 1.0],
+  "KingdomAdd": ["daily_apple_four_count", 1],
   "If": [],
-  "KingdomEquals": ["daily_apple_four_count", ">", 4.0],
+  "KingdomEquals": ["daily_apple_four_count", ">", 4],
   "Leave": [],
   "Start": ["daily_apple_rewards", 1.0, "Four"],
   "Wait": 1,

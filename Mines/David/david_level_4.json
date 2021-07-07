@@ -30,7 +30,9 @@
     2710, 68, 435
   ],
 
-  "Completed": ["david_intro", ""],
+  "If": [],
+  "NotCompletedKingdom": ["david_intro", false],
+  "Leave": [],
   "NotCompletedKingdom": [24, false],
 
   "Wait": 10,

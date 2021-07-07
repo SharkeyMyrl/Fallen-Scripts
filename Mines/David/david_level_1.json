@@ -36,7 +36,7 @@
   "If": [],
   "NotCompletedKingdom": ["david_intro", false],
   "Leave": [],
-  "NotCompletedKingdom": [false],
+  "NotCompletedKingdom": [6, false],
 
   "Wait": 10,
   "Show": "david_1_walking",

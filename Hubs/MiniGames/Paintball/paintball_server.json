@@ -11,7 +11,7 @@
   "Dummy": [],
 
   "If": [],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_waiting", "<=", 3.0],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_waiting", "<=", 1.0],
   "Leave": [],
   "Subtract": ["server", "paintball_lobby_timer", 1.0, true],
 

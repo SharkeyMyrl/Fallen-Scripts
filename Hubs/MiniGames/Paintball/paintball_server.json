@@ -47,12 +47,17 @@
   "Dummy": [],
 
   "If": [],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_red_frozen", "=", "[SCRIPT_PLAYER_COUNT:paintball_red]"],
-  "Skip": "BluePoints",
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_red_slave", "=", 0.0],
   "Dummy": [],
+  "Skip": 4,
 
   "If": [],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_blue_frozen", "=", "[SCRIPT_PLAYER_COUNT:paintball_blue]"],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_blue_slave", "=", 0.0],
+  "Skip": "Draw",
+  "Skip": "BluePoints",
+
+  "If": [],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_blue_slave", "=", 0.0],
   "Skip": "RedPoints",
   "Dummy": [],
 
@@ -64,33 +69,30 @@
   "Comment": "CheckPoints",
 
   "If": [],
-  "Equals":["[SCRIPT_PLAYER_COUNT]", "paintball_red_frozen", "=", "[SCRIPT_PLAYER_COUNT:paintball_blue_frozen]"],
+  "Equals":["[SCRIPT_PLAYER_COUNT]", "paintball_red_slave", "=", "[SCRIPT_PLAYER_COUNT:paintball_blue_slave]"],
   "Skip": "Draw",
   "Dummy": [],
 
   "If": [],
-  "Equals":["[SCRIPT_PLAYER_COUNT]", "paintball_red_frozen", ">", "[SCRIPT_PLAYER_COUNT:paintball_blue_frozen]"],
+  "Equals":["[SCRIPT_PLAYER_COUNT]", "paintball_red_slave", ">", "[SCRIPT_PLAYER_COUNT:paintball_blue_slave]"],
   "Skip": "RedPoints",
   "Dummy": [],
 
   "If": [],
-  "Equals":["[SCRIPT_PLAYER_COUNT]", "paintball_blue_frozen", ">", "[SCRIPT_PLAYER_COUNT:paintball_red_frozen]"],
+  "Equals":["[SCRIPT_PLAYER_COUNT]", "paintball_red_slave", "<", "[SCRIPT_PLAYER_COUNT:paintball_blue_slave]"],
   "Skip": "BluePoints",
   "Skip": "Draw",
 
   "Comment": "Draw",
-  "BroadcastMessage": "Draw",
   "Add": ["server", "paintball_round", 1.0, true],
   "Skip": "CheckWinner",
 
   "Comment": "RedPoints",
-  "BroadcastMessage": "Red",
   "Add": ["server", "paintball_redwin", 1.0, true],
   "Add": ["server", "paintball_round", 1.0, true],
   "Skip": "CheckWinner",
 
   "Comment": "BluePoints",
-  "BroadcastMessage": "Blue",
   "Add": ["server", "paintball_bluewin", 1.0, true],
   "Add": ["server", "paintball_round", 1.0, true],
   "Skip": "CheckWinner",
@@ -114,8 +116,6 @@
   "Skip": "BlueWins",
 
   "Comment": "ResetPlayers",
-  "LeaveAll": ["paintball_red_frozen"],
-  "LeaveAll": ["paintball_blue_frozen"],
   "StartAll": [1.0, 1, "paintball_reset"],
   "Wait": 10,
   "Leave": [],

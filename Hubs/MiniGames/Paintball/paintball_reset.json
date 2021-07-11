@@ -6,15 +6,25 @@
 
   "If": [],
   "In": ["paintball_red", false],
-  "Start": "paintball_red_slave",
   "Dummy": [],
+  "Skip": 5,
+
+  "If": [],
+  "In": ["paintball_red_slave", false],
+  "Leave": "paintball_red_slave",
+  "Dummy": [],
+  "Start": "paintball_red_slave",
 
   "If": [],
   "In": ["paintball_blue", false],
-  "Start": "paintball_blue_slave",
   "Dummy": [],
+  "Skip": 5,
 
-  "Unfreeze": [],
+  "If": [],
+  "In": ["paintball_blue_slave", false],
+  "Leave": "paintball_blue_slave",
+  "Dummy": [],
+  "Start": "paintball_blue_slave",
 
   "Dummy": []
 }

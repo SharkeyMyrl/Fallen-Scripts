@@ -23,8 +23,7 @@
   "SetScoreboard": [
     "   &lPAINTBALL",
     "",
-    "Lobby Timer:",
-    "[server:paintball_lobby_timer_minutes] : [server:paintball_lobby_timer_seconds]",
+    "Lobby Timer: &b[server:paintball_lobby_timer_minutes] : [server:paintball_lobby_timer_seconds]",
     "",
     "&lPlayers",
     "&9Team: &f[SCRIPT_PLAYER_COUNT:paintball_blue]",
@@ -39,8 +38,7 @@
   "SetScoreboard": [
     "   &lPAINTBALL",
     "",
-    "Timer:",
-    "[server:paintball_timer_minutes] : [server:paintball_timer_seconds]",
+    "Timer: &b[server:paintball_timer_minutes] : [server:paintball_timer_seconds]",
     "",
     "Round: &f[server:paintball_round]",
     "&cScore: &f[server:paintball_redwin]",
@@ -60,8 +58,7 @@
   "SetScoreboard": [
     "   &lPAINTBALL",
     "",
-    "Timer:",
-    "[server:paintball_timer_minutes] : [server:paintball_timer_seconds]",
+    "Timer: &b[server:paintball_timer_minutes] : [server:paintball_timer_seconds]",
     "",
     "Round: &f[server:paintball_round]",
     "&9Score: &f[server:paintball_bluewin]",
@@ -75,11 +72,6 @@
   ],
   "Wait": 10,
   "Skip": "Loop",
-
-
-
-
-
 
   "Dummy": []
 }

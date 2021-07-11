@@ -3,7 +3,6 @@
   "Author": "SharkeyMyrl",
   "Description": "Holder of red player count.",
 
-  "NotIn": ["paintball_blue", false],
   "SendMessage": "Welcome to Team Red.",
 
   "SaveInventory": [],

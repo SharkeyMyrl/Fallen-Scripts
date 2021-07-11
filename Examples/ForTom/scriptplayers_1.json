@@ -4,17 +4,17 @@
   "SendMessage": "Testing Equals",
   "If": [],
   "Equals":["[SCRIPT_PLAYER_COUNT]", "scriptplayers_1", "=", "[SCRIPT_PLAYER_COUNT:scriptplayers_2]"],
-  "SendMessage": "Draw : 1",
+  "SendMessage": "Skip to Draw : 1",
   "Dummy": [],
 
   "If": [],
   "Equals":["[SCRIPT_PLAYER_COUNT]", "scriptplayers_1", ">", "[SCRIPT_PLAYER_COUNT:scriptplayers_2]"],
-  "SendMessage": "#1 : 2",
+  "SendMessage": "Skip to #1 : 2",
   "Dummy": [],
 
   "If": [],
   "Equals":["[SCRIPT_PLAYER_COUNT]", "scriptplayers_1", "<", "[SCRIPT_PLAYER_COUNT:scriptplayers_2]"],
-  "SendMessage": "#2 : 3",
-  "SendMessage": "Draw : 4",
-  "Dummy": []
+  "SendMessage": "Skip to #2 : 3",
+  "SendMessage": "Skip to Draw : 4",
+  "Hold": []
 }

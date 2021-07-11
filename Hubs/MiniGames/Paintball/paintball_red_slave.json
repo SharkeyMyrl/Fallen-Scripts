@@ -4,7 +4,7 @@
   "Description": "Team red hit detection.",
   "Wait": 1,
 
-  "UnFreeze": [],
+  "Unfreeze": [],
   "Teleport": [1960.5, 26.0, 597.0, -90, 0],
 
   "ProjectileHit": ["snowball", "paintball_red"],

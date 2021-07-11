@@ -34,6 +34,7 @@
   "NotCompletedKingdom": ["david_intro", false],
   "Leave": [],
   "NotCompletedKingdom": [24, false],
+  "CompleteKingdomQuest": [],
 
   "Wait": 10,
   "Show": "david_4",
@@ -72,5 +73,5 @@
   "MoveEntity": ["david_4", 2705.0, 67.0, 431.5],
   "Hide": "david_4",
 
-  "CompleteKingdomQuest": []
+  "Dummy": []
 }

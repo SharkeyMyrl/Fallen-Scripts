@@ -3,7 +3,7 @@
   "Author": "SharkeyMyrl",
 
   "Comment": "One",
-  "In": ["david_level_1"],
+  "In": ["david_level_1", false],
   "Wait":1,
   "GiveItem": {
     "material": "rotten_flesh",
@@ -13,7 +13,7 @@
   "Leave":[],
 
   "Comment": "Two",
-  "In": ["david_level_2"],
+  "In": ["david_level_2", false],
   "Wait":1,
   "GiveItem": {
     "material": "spider_eye",
@@ -23,7 +23,7 @@
   "Leave":[],
 
   "Comment": "Three",
-  "In": ["david_level_3"],
+  "In": ["david_level_3", false],
   "Wait":1,
   "GiveItem": {
     "material": "VenomousExtract",
@@ -33,7 +33,7 @@
   "Leave":[],
 
   "Comment": "Four",
-  "In": ["david_level_4"],
+  "In": ["david_level_4", false],
   "Wait":1,
   "GiveItem": {
     "material": "ender_eye",
@@ -43,12 +43,31 @@
   "Leave":[],
 
   "Comment": "Five",
-  "In": ["david_level_5"],
+  "In": ["david_level_5", false],
   "Wait":1,
   "GiveItem": {
     "material": "MummifiedBones",
     "amount": 75
   },
   "AddPersistent": ["SharkQuest", "extremeDavid", 1],
+  "Leave":[],
+
+  "Comment": "FoodOne",
+  "In": ["david_intro", false],
+  "Wait":1,
+  "AddBalance": ["currency_gold", 40000],
+  "Leave":[],
+
+  "Comment": "FoodTwo",
+  "In": ["david_intro", false],
+  "Wait":1,
+  "AddBalance": ["currency_gold", 20000],
+  "Leave":[],
+
+  "Comment": "FoodThree",
+  "In": ["david_intro", false],
+  "Wait":1,
+  "AddBalance": ["currency_gold", 10000],
   "Leave":[]
+
 }

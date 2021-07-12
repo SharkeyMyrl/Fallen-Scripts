@@ -29,18 +29,17 @@
   "Hide": ["david_1", "david_1_walking"],
 
   "PlayerJoin": [],
+  "CompleteKingdomQuest": ["david_missing", false],
+
+  "If": [],
+  "CompleteKingdomQuest": ["david_level_1", false],
+  "Leave": [],
+  "Dummy": [],
 
   "InRegion": [
     2329, 69, 469,
     2340, 73, 463
   ],
-
-  "If": [],
-  "NotCompletedKingdom": ["david_intro", false],
-  "Leave": [],
-  "NotCompletedKingdom": [6, false],
-  "CompleteKingdomQuest": [],
-
   "Wait": 10,
   "Show": "david_1_walking",
 
@@ -50,29 +49,54 @@
   "Hide": "david_1_walking",
   "Show": "david_1",
 
+  "Comment": "QuestBeginning",
+  "HighlightClickEntity": "david_1",
+
+  "Dialog": [{"David": "I am in need of some help [PLAYER]."}],
+  "Wait": 10,
+  "Dialog": [{"David": "Can you assit me in clearing out some of the &l&4Shambler&f?"}],
+
+  "Menu": [
+    "Accept Quest?",
+    1,
+    {
+      "0": {"green stained glass pane"},
+      "1": {"green stained glass pane"},
+      "2": {"green stained glass pane"},
+      "3": {"green stained glass pane"},
+      "5": {"red stained glass pane"},
+      "6": {"red stained glass pane"},
+      "7": {"red stained glass pane"},
+      "8": {"red stained glass pane"}
+    }
+  ],
+  "Dummy": [],
+  "Dummy": [],
+  "Dummy": [],
+  "Dummy": [],
+  "Skip": "QuestBeginning",
+  "Skip": "QuestBeginning",
+  "Skip": "QuestBeginning",
+  "Skip": "QuestBeginning",
+
+  "If": [],
+  "CompleteKingdomQuest": ["david_level_1", false],
+  "Skip": "In",
+  "Skip": "NotIn",
+
+  "Comment": "NotIn",
+  "AllowRejoining": true,
+  "CompleteKingdomQuest": [],
+  "Skip": "FirstLoop",
+
+  "Comment": "In",
+  "Wait": 10,
+  "Dialog": [{"David": "It would seem someone else from your kingdom is already assiting me with this quest."}],
+  "Leave": [],
+
   "Comment": "TalkLoop",
   "HighlightClickEntity": "david_1",
-
-  "If": [],
-  "KingdomEquals": ["davidMissing", "=", 0.0],
-  "Skip": 15,
-  "KingdomSet": ["davidMissing", 0.0],
-  "Dialog": [{"David": "Thank you for the help earlier, [PLAYER]."}],
-  "If": [],
-  "KingdomEquals": ["davidOffering", "=", 1.0],
-  "AddBalance": ["currency_gold", 40000],
-  "Dummy": [],
-  "If": [],
-  "KingdomEquals": ["davidOffering", "=", 2.0],
-  "AddBalance": ["currency_gold", 20000],
-  "Dummy": [],
-  "If": [],
-  "KingdomEquals": ["davidOffering", "=", 3.0],
-  "AddBalance": ["currency_gold", 10000],
-  "Dummy": [],
-  "HighlightClickEntity": "david_1",
-
-  "AllowRejoining": true,
+  "Comment": "FirstLoop",
 
   "If": [],
   "Equals": ["david_one", "=", -1.0],

@@ -26,24 +26,68 @@
   "Hide": ["david_2"],
 
   "PlayerJoin": [],
+  "CompleteKingdomQuest": ["david_missing", false],
+
+  "If": [],
+  "CompleteKingdomQuest": ["david_level_2", false],
+  "Leave": [],
+  "Dummy": [],
 
   "InRegion": [
     2503, 62, 460,
     2514, 66, 454
   ],
-
-  "If": [],
-  "NotCompletedKingdom": ["david_intro", false],
-  "Leave": [],
-  "NotCompletedKingdom": [12, false],
-  "CompleteKingdomQuest": [],
-
   "Wait": 10,
   "Show": "david_2",
 
+  "Comment": "QuestBeginning",
+  "HighlightClickEntity": "david_2",
+
+  "Dialog": [{"David": "I am in need of some help [PLAYER]."}],
+  "Wait": 10,
+  "Dialog": [{"David": "Can you assit me in clearing out some of the &l&4Crawlers&f?"}],
+
+  "Menu": [
+    "Accept Quest?",
+    1,
+    {
+      "0": {"green stained glass pane"},
+      "1": {"green stained glass pane"},
+      "2": {"green stained glass pane"},
+      "3": {"green stained glass pane"},
+      "5": {"red stained glass pane"},
+      "6": {"red stained glass pane"},
+      "7": {"red stained glass pane"},
+      "8": {"red stained glass pane"}
+    }
+  ],
+  "Dummy": [],
+  "Dummy": [],
+  "Dummy": [],
+  "Dummy": [],
+  "Skip": "QuestBeginning",
+  "Skip": "QuestBeginning",
+  "Skip": "QuestBeginning",
+  "Skip": "QuestBeginning",
+
+  "If": [],
+  "CompleteKingdomQuest": ["david_level_2", false],
+  "Skip": "In",
+  "Skip": "NotIn",
+
+  "Comment": "NotIn",
+  "AllowRejoining": true,
+  "CompleteKingdomQuest": [],
+  "Skip": "FirstLoop",
+
+  "Comment": "In",
+  "Wait": 10,
+  "Dialog": [{"David": "It would seem someone else from your kingdom is already assiting me with this quest."}],
+  "Leave": [],
+
   "Comment": "TalkLoop",
   "HighlightClickEntity": "david_2",
-  "AllowRejoining": true,
+  "Comment": "FirstLoop",
 
   "If": [],
   "Equals": ["david_two", "=", -1.0],

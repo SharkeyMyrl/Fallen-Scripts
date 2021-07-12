@@ -26,12 +26,16 @@
   "Hide": ["david_3"],
 
   "PlayerJoin": [],
-  "CompleteKingdomQuest": ["david_missing", false],
 
   "If": [],
-  "CompleteKingdomQuest": ["david_level_3", false],
+  "NotCompletedKingdom": ["david_missing", false],
   "Leave": [],
   "Dummy": [],
+
+  "If": [],
+  "NotCompletedKingdom": ["david_level_1", false],
+  "Dummy": [],
+  "Leave": [],
 
   "InRegion": [
     2860, 64, 450,
@@ -51,14 +55,14 @@
     "Accept Quest?",
     1,
     {
-      "0": {"green stained glass pane"},
-      "1": {"green stained glass pane"},
-      "2": {"green stained glass pane"},
-      "3": {"green stained glass pane"},
-      "5": {"red stained glass pane"},
-      "6": {"red stained glass pane"},
-      "7": {"red stained glass pane"},
-      "8": {"red stained glass pane"}
+      "0": {"name": "&aYes", "material": "Green Stained Glass Pane"},
+        "1": {"name": "&aYes", "material": "Green Stained Glass Pane"},
+          "2": {"name": "&aYes", "material": "Green Stained Glass Pane"},
+            "3": {"name": "&aYes", "material": "Green Stained Glass Pane"},
+              "5": {"name": "&cNo", "material": "Red Stained Glass Pane"},
+                "6": {"name": "&cNo", "material": "Red Stained Glass Pane"},
+                  "7": {"name": "&cNo", "material": "Red Stained Glass Pane"},
+                    "8": {"name": "&cNo", "material": "Red Stained Glass Pane"}
     }
   ],
   "Dummy": [],
@@ -71,9 +75,9 @@
   "Skip": "QuestBeginning",
 
   "If": [],
-  "CompleteKingdomQuest": ["david_level_3", false],
-  "Skip": "In",
+  "NotCompletedKingdom": ["david_level_3", 18, false],
   "Skip": "NotIn",
+  "Skip": "In",
 
   "Comment": "NotIn",
   "AllowRejoining": true,
@@ -83,7 +87,7 @@
   "Comment": "In",
   "Wait": 10,
   "Dialog": [{"David": "It would seem someone else from your kingdom is already assiting me with this quest."}],
-  "Leave": [],
+  "Skip": "AnimateLeave",
 
   "Comment": "TalkLoop",
   "HighlightClickEntity": "david_3",

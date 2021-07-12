@@ -25,6 +25,8 @@
   },
   "Hide": ["david_3"],
 
+  "PlayerJoin": [],
+
   "InRegion": [
     2860, 64, 450,
     2871, 68, 444

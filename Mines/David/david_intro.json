@@ -15,12 +15,11 @@
     "look": true
   },
   "Hide": "david",
-
-  "Wait": 10,
   "AllowRejoining": true,
 
+  "PlayerJoin": [],
   "In": ["david_missing", "Hold", ""],
-
+  
   "InRegion": [
     2329, 69, 469,
     2340, 73, 463

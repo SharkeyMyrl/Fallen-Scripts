@@ -1,0 +1,19 @@
+{
+  "Key": "ac",
+
+  "If": [],
+  "Equals": ["dealer", "oneSuit", "=", 1],
+  "Dummy": [],
+  "Skip": 4,
+  "If": [],
+  "Equals": ["dealer", "oneNumber", "=", 1],
+  "Skip": "ReDraw",
+  "Dummy": [],
+
+  "Comment": "ReDraw",
+
+
+
+  "Comment": "Drawn",
+  "Hold": []
+}

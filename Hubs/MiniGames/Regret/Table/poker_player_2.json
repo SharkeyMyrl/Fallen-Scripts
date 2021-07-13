@@ -1,0 +1,12 @@
+{
+  "Key": "poker_player_2",
+
+  "ClickBlock": [
+    1938, 23, 579, "right"
+  ],
+  "StayInRegion": [ 1938, 23, 579, 1938, 23, 579, ""],
+  "Dialog": [{"&c&lSharkBark": "Welcome [PLAYER], to the poker table of regret."}],
+
+  "Hold": []
+
+}

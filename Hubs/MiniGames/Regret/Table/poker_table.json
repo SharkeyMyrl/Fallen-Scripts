@@ -1,0 +1,42 @@
+{
+  "Key": "poker_table",
+
+  "InRegion": [1945, 20, 589, 1925, 40, 569],
+
+  "CreateEntity": {
+    "key": "shark",
+    "skin": {
+      "texture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNjIwNjQxMjk0OSwKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MTQxNDE0MWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWNkNjBlNjRiOTdlMDJiYzdhM2Q4YzY1ZWFiZjVhMTA0NGU1MmRlN2VkZjU4YjdlMTE2ZjE0OGI1NWRkYTI0MSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+      "signature": "eYeN53Ia9vRVODHy1HI2V7FqcKgqPFYh7DTwWqu8x0PZQTGkG9Nz3qtdJLaK22RjG7bs/HbtJyFxtub2ga8dG0OAYWIsIS5u/AypuHXi7m9CZ8KvSktHRm3wiYBWwrtbZaVX2FtfwlE+fy032z9SDcSO6W3xrf/J6eh1q5OmM7f9mWDWtqxwHq8Cc3qpaUGjXmrixHemyw3pL0DPkUVL9vC3GOpZn8eBfGuZXCvooWeZLzw39K+qLFLvs07/EFAWd0ZdYKpQ8NlJB4TLyzi5ipwDhOo1UOu0TYcQlbiqqBwR31jFcDtyK94TsMIlU2oF9wT4sSUgYuKKhRjbl6Y4C1pWkqLydYH6FNGbaVHPqUy8sOXC9N4YdpUoFG7bPgdP7tpFrwZPRzfZ8HNeADlcic3vfyKGKP82xxbtGI5YYiz7IUIyTI2mbSnbiV+FP5h7fZsNK3SH0IDYoboEk2+bd3W1qGcqA8Q/V7OUwy1OA8Un0NlJo23c8SBUHLBE9au3uwmVZciyIP2qKobkD5wJfvaJGFMjtf3mRNSJW7kaIx+MQT/JLXPGnVRKNwMg/l8qU32HYO3iR05sWZMR+qYzt6EPZNhA80eW2d+A8SmrORPa11NQfZqaI/iPnV0eSMYnsXUlGs4PkSjy8T/V0+tE+IaZf41WBW6R2Egx+zOYDAc="
+    },
+    "location": [1936.5, 23.0, 579.5, -90],
+    "name": [
+			"&6&lSharkBark",
+			"&7&oDealer"
+		],
+    "global": true
+  },
+
+  "SetBlocks": [1936, 23, 581, 1937, 23, 577, "Dark Oak Planks"],
+  "Wait": 1,
+  "SetBlock": [ 1936, 23, 579,"Air"],
+  "SetBlock": [1938, 23, 580, {"material":"Dark Oak Stairs", "face": "West" }, true ],
+  "SetBlock": [1938, 23, 578, {"material":"Dark Oak Stairs", "face": "West" }, true ],
+  "SetBlock": [1938, 23, 581, { "material": "Stone Brick Stairs", "face": "East" }, true ],
+  "SetBlock": [1938, 23, 579, { "material": "Stone Brick Stairs", "face": "East" }, true ],
+  "SetBlock": [1938, 23, 577, { "material": "Stone Brick Stairs", "face": "East" }, true ],
+  "Wait": 1,
+  "Chair": [ 1938, 23, 581, 135 ],
+  "Chair": [ 1938, 23, 579, 90 ],
+  "Chair": [ 1938, 23, 577, 45 ],
+
+  "Start": "poker_player_1",
+  "Start": "poker_player_2",
+  "Start": "poker_player_3",
+
+  "StayInRegion": [ 1945, 20, 589, 1925, 40, 569, ""],
+  "RegionEntry": [ 1940, 20, 584, 1930, 40, 577 ],
+  "PlayCustomSound": "chatroom-enter-sound",
+  "SetTitle": [ "&9&lPoker Table", "Welcome to the poker table." ],
+  "ChatRoom": "Poker Table"
+}

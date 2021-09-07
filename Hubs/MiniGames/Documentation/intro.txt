@@ -1,0 +1,15 @@
+  Welcome to a short guide about how to make a minigame for Lucile Game. To start, I choose this format of game logic for the ability for scripters to add more functionality to the games as it evolves with out having to touch vital portions of the game logic. Before in order to make a mini-game a scripter would utilize regions to define the play area as well as handle the game logic. However Lucile Games scripting language has grown and can handle a more centrally orchestrated form of minigames. This format also allows minigames to be relatively easily ported between servers as the system relies more of scripts and server/database variables.
+
+  To begin a minigame there are five key functionalities which need to be created in order to form the basic game logic of a game.
+
+  Firstly we have the brain of the minigame, the `Server Script`, this script will handle the bulk of the game logic with a main focus of handling the flow of the game. The flow of the game consists of times, win conditions, and resetting of the minigame.
+
+  Next up we have the `Lobby Script`, this script servers as the waiting room for players while the lobby timer ticks down. As well as how we detect if enough players have joined in order to start a game and how we control how the `Lobby` is interpreted for this minigame. This script will serve as the entry point to the minigame for the players that wish to play.
+
+  Next we have the defining script of the game, the `Game Script`, this script in most chases will be a short concise script which is use to keep track if the player is participating in the current game, as well as any other global settings that all participating players should have applied to them. For example, `HidePlayers: Not In Script` would be put in this script as we want all players not playing the game to be hidden as they could be distracting to the flow of the game depending where the minigame is hosted in the world. In general terms, this script will end with a `Hold` stage in stead of looping.
+
+  The `Team Scripts`, as you may guess will be the central controller for assigning scripts and/or items to the players on each team. Generally speaking it is best to have a unique script for each team as this also server as the player count for each team. Spectators would also just be another team which could be made with out altering the game logic loops.
+
+  Lastly we have the `Winner Script`, you will utilize this script as a transition between server controlled logic to player controlled logic so only players that were in the game get notified of who won. However is approved it can be forgone for a server broadcast, however currently at the time a writing there is no way to announce the player names of the teams.
+
+  See accompanying files for more information about each script.

@@ -1,7 +1,10 @@
-To Do List:
+To Do List:\
+-Add spectator team logic\
+-Add arena handling\
+-Consider changes to (re)spawn location to be handled by schematic handler
 
-Finalize all logic in server script
-Clean up team scripts
-Consider paintball gun selection
-Add arena schematic handling
-Add spectator support
+Final Goals:\
+-Dynamic games of Paintball\
+-Support for spectators\
+-Minimal Overhead\
+-Server defined arena schematics

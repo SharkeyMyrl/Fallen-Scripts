@@ -23,6 +23,8 @@
     "Blue Wool"
   ],
 
+  "Set": ["team", ""],
+
   "Start": "lobby_blue",
   "Start": "lobby_red",
   "Start": "lobby_neutral",

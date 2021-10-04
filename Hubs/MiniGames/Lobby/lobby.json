@@ -25,17 +25,20 @@
 
   "Set": ["team", ""],
 
-  "Start": "lobby_blue",
-  "Start": "lobby_red",
-  "Start": "lobby_neutral",
-
   "Teleport": [1985.5, 29.0, 638.5, -180, 0],
 
   "Hold": [],
 
+  "Leave": "lobby_black",
   "Leave": "lobby_blue",
+  "Leave": "lobby_green",
+  "Leave": "lobby_orange",
+  "Leave": "lobby_pink",
+  "Leave": "lobby_purple",
+  "Leave": "lobby_random",
   "Leave": "lobby_red",
-  "Leave": "lobby_neutral",
+  "Leave": "lobby_spectator",
+  "Leave": "lobby_white",
 
   "Window": [1978, 29, 635, 1992, 31, 635],
   "Window": [1992, 29, 635, 1992, 31, 641],

@@ -1,10 +1,10 @@
 To Do List:\
--Add 6 more team colors\
--Add spectator team\
--Add lobby schematic handling
+-Add lobby schematic handling\
+-Change NPC skins and armor
 
 Final Goals\
 -8 Team Minigame Support\
+-Mini-Game declares available teams\
 -Spectator Support\
 -Minimal Overhead\
 -One version of Lobby per Server

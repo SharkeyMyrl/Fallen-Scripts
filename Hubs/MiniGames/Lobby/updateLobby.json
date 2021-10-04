@@ -1,0 +1,17 @@
+{
+  "Key": "updateLobby",
+  "Author": "SharkeyMyrl",
+  "SendMessage": "Updating lobby scripts.",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Lobby/lobby_black.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Lobby/lobby_blue.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Lobby/lobby_green.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Lobby/lobby_orange.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Lobby/lobby_pink.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Lobby/lobby_purple.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Lobby/lobby_random.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Lobby/lobby_red.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Lobby/lobby_spectator.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Lobby/lobby_white.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Lobby/lobby.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Lobby/updateLobby.json"
+}

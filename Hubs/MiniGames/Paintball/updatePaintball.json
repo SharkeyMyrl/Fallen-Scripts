@@ -1,0 +1,16 @@
+{
+  "Key": "updatePaintball",
+  "Author": "SharkeyMyrl",
+  "SendMessage": "Updating paintball scripts.",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Paintball/paintball_ammo.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Paintball/paintball_blue_slave.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Paintball/paintball_blue.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Paintball/paintball_red_slave.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Paintball/paintball_red.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Paintball/paintball_reset.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Paintball/paintball_scoreboard.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Paintball/paintball_server.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Paintball/paintball_waiting.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Paintball/paintballwinners.json",
+  "LoadScript": "https://github.com/SharkeyMyrl/Fallen-Scripts/blob/master/Hubs/MiniGames/Paintball/updatePaintball.json"
+}

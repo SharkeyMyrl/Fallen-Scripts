@@ -6,6 +6,9 @@
   "SendMessage": "Entering Lobby",
 
   "Start": "lobby",
+  "Start": "lobby_blue",
+  "Start": "lobby_random",
+  "Start": "lobby_red",
 
   "Start": "paintball",
   "Start": "paintball_scoreboard",
@@ -27,6 +30,11 @@
   "If": [],
   "In": ["paintball_blue", false],
   "Skip": "ProgBlue",
+  "Dummy": [],
+
+  "If": [],
+  "In": ["paintball_spectator", false],
+  "Skip": "ProgSpec",
   "Set": ["team", "rand"],
   "Skip": "PickTeams",
 
@@ -37,6 +45,11 @@
 
   "Comment": "ProgBlue",
   "Progress": "paintball_blue",
+  "Progress": "lobby",
+  "Leave": [],
+
+  "Comment": "ProgSpec",
+  "Progress": "paintball_spectator",
   "Progress": "lobby",
   "Leave": [],
 
@@ -53,7 +66,12 @@
   "Dummy": [],
 
   "If": [],
-  "Equals": ["team", "rand"],
+  "Equals": ["team", "spectator"],
+  "Skip": "Spectator",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["team", "random"],
   "Skip": "Neutral",
   "Dummy": [],
 
@@ -63,6 +81,21 @@
   "Dummy": [],
 
   "SendMessage": "How did you get here?",
+  "Set": ["team", ""],
+  "Skip": "Loop",
+
+  "Comment": "Spectator",
+  "If": [],
+  "In": ["paintball_spectator", false],
+  "Skip": "Loop",
+  "Dummy": [],
+
+  "Set": ["team", ""],
+  "Skip": "Loop",
+
+  "Leave": "paintball_red",
+  "Leave": "paintball_blue",
+  "Start": "paintball_spectator",
   "Set": ["team", ""],
   "Skip": "Loop",
 

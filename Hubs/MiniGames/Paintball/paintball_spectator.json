@@ -1,0 +1,21 @@
+{
+  "Key": "paintball_spectator",
+  "Author": "SharkeyMyrl",
+  "Description": "Holder of spectator player count.",
+
+  "SendMessage": "Welcome to the crowd! Please enjoy the game.",
+  
+  "Hold": [],
+
+  "RandomOption": 4,
+  "Teleport": [2026.5, 26.0, 592.0, 90, 0],
+  "Teleport": [2026.5, 26.0, 592.0, 90, 0],
+  "Teleport": [2026.5, 26.0, 592.0, 90, 0],
+  "Teleport": [2026.5, 26.0, 592.0, 90, 0],
+
+  "Hold": [],
+
+  "Leave": [],
+
+  "Dummy": []
+}

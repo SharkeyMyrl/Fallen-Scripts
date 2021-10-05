@@ -18,19 +18,20 @@
       "description": [ "Team Purple Overalls", "", "&a&oMiniGame Item" ]
     },
     "leggings": {
-      "material": "Leather Chestplate",
+      "material": "Leather Leggings",
       "color": "Purple",
       "description": [ "Team Purple Overalls", "", "&a&oMiniGame Item" ]
     },
     "boots": {
-      "material": "Leather Chestplate",
+      "material": "Leather Boots",
       "color": "Purple",
       "description": [ "Team Purple Overalls", "", "&a&oMiniGame Item" ]
     },
     "global": true
   },
-
+  "Hide": "lobby_purple_npc",
   "In": ["lobby", false],
+  "Show": "lobby_purple_npc",
 
   "HighlightClickEntity": "lobby_purple_npc",
 

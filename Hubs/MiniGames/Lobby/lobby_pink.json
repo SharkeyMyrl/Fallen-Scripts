@@ -18,19 +18,20 @@
       "description": [ "Team Pink Overalls", "", "&a&oMiniGame Item" ]
     },
     "leggings": {
-      "material": "Leather Chestplate",
+      "material": "Leather Leggings",
       "color": "Pink",
       "description": [ "Team Pink Overalls", "", "&a&oMiniGame Item" ]
     },
     "boots": {
-      "material": "Leather Chestplate",
+      "material": "Leather Boots",
       "color": "Pink",
       "description": [ "Team Pink Overalls", "", "&a&oMiniGame Item" ]
     },
     "global": true
   },
-
+  "Hide": "lobby_pink_npc",
   "In": ["lobby", false],
+  "Show": "lobby_pink_npc",
 
   "HighlightClickEntity": "lobby_pink_npc",
 

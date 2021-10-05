@@ -18,19 +18,20 @@
       "description": [ "Team Green Overalls", "", "&a&oMiniGame Item" ]
     },
     "leggings": {
-      "material": "Leather Chestplate",
+      "material": "Leather Leggings",
       "color": "Green",
       "description": [ "Team Green Overalls", "", "&a&oMiniGame Item" ]
     },
     "boots": {
-      "material": "Leather Chestplate",
+      "material": "Leather Boots",
       "color": "Green",
       "description": [ "Team Green Overalls", "", "&a&oMiniGame Item" ]
     },
     "global": true
   },
-
+  "Hide": "lobby_green_npc",
   "In": ["lobby", false],
+  "Show": "lobby_green_npc",
 
   "HighlightClickEntity": "lobby_green_npc",
 

@@ -18,19 +18,20 @@
       "description": [ "Team Orange Overalls", "", "&a&oMiniGame Item" ]
     },
     "leggings": {
-      "material": "Leather Chestplate",
+      "material": "Leather Leggings",
       "color": "Orange",
       "description": [ "Team Orange Overalls", "", "&a&oMiniGame Item" ]
     },
     "boots": {
-      "material": "Leather Chestplate",
+      "material": "Leather Boots",
       "color": "Orange",
       "description": [ "Team Orange Overalls", "", "&a&oMiniGame Item" ]
     },
     "global": true
   },
-
+  "Hide": "lobby_orange_npc",
   "In": ["lobby", false],
+  "Show": "lobby_orange_npc",
 
   "HighlightClickEntity": "lobby_orange_npc",
 

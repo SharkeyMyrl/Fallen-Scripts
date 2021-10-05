@@ -18,19 +18,20 @@
       "description": [ "Team Red Overalls", "", "&a&oMiniGame Item" ]
     },
     "leggings": {
-      "material": "Leather Chestplate",
+      "material": "Leather Leggings",
       "color": "Red",
       "description": [ "Team Red Overalls", "", "&a&oMiniGame Item" ]
     },
     "boots": {
-      "material": "Leather Chestplate",
+      "material": "Leather Boots",
       "color": "Red",
       "description": [ "Team Red Overalls", "", "&a&oMiniGame Item" ]
     },
     "global": true
   },
-
+  "Hide": "lobby_red_npc",
   "In": ["lobby", false],
+  "Show": "lobby_red_npc",
 
   "HighlightClickEntity": "lobby_red_npc",
 

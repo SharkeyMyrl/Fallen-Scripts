@@ -18,19 +18,20 @@
       "description": [ "Team Blue Overalls", "", "&a&oMiniGame Item" ]
     },
     "leggings": {
-      "material": "Leather Chestplate",
+      "material": "Leather Leggings",
       "color": "Blue",
       "description": [ "Team Blue Overalls", "", "&a&oMiniGame Item" ]
     },
     "boots": {
-      "material": "Leather Chestplate",
+      "material": "Leather Boots",
       "color": "Blue",
       "description": [ "Team Blue Overalls", "", "&a&oMiniGame Item" ]
     },
     "global": true
   },
-
+  "Hide": "lobby_blue_npc",
   "In": ["lobby", false],
+  "Show": "lobby_blue_npc",
 
   "HighlightClickEntity": "lobby_blue_npc",
 

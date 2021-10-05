@@ -3,26 +3,6 @@
 
   "Comment": "JoinLobby",
 
-  "SetBlocks": [
-    1983,
-    28,
-    640,
-    1979,
-    28,
-    636,
-    "Red Wool"
-  ],
-
-  "SetBlocks": [
-    1987,
-    28,
-    640,
-    1991,
-    28,
-    636,
-    "Blue Wool"
-  ],
-
   "Set": ["team", ""],
 
   "Teleport": [1985.5, 29.0, 638.5, -180, 0],
@@ -39,12 +19,6 @@
   "Leave": "lobby_red",
   "Leave": "lobby_spectator",
   "Leave": "lobby_white",
-
-  "Window": [1978, 29, 635, 1992, 31, 635],
-  "Window": [1992, 29, 635, 1992, 31, 641],
-  "Window": [1978, 29, 641, 1992, 31, 641],
-  "Window": [1978, 29, 635, 1978, 31, 641],
-  "Window": [1992, 32, 635, 1978, 32, 641],
 
   "Dummy": []
 }

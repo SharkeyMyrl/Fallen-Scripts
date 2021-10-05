@@ -13,7 +13,7 @@
     {
       "material": "Leather Chestplate",
       "color": "Red",
-      "description": [ "Team Red overalls.", "", "&a&oMiniGame Item" ]
+      "description": [ "Team Red Overalls", "", "&a&oMiniGame Item" ]
     },
     true
   ],
@@ -22,7 +22,7 @@
     {
       "material": "Leather Leggings",
       "color": "Red",
-      "description": [ "Team Red overalls.", "", "&a&oMiniGame Item" ]
+      "description": [ "Team Red Overalls", "", "&a&oMiniGame Item" ]
     },
     true
   ],
@@ -31,7 +31,7 @@
     {
       "material": "Leather Boots",
       "color": "Red",
-      "description": [ "Team Red overalls.", "", "&a&oMiniGame Item" ]
+      "description": [ "Team Red Overalls", "", "&a&oMiniGame Item" ]
     },
     true
   ],

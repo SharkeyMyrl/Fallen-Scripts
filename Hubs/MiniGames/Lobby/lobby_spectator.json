@@ -12,6 +12,10 @@
       "Spectators",
       "&7&oMiniGames Spectators"
     ],
+    "chestplate": {
+      "material": "Glass Block",
+      "description": [ "Spectator Helmat", "", "&a&oMiniGame Item" ]
+    },
     "global": true
   },
 

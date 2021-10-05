@@ -93,6 +93,7 @@
   "Set": ["team", ""],
   "Skip": "Loop",
 
+  "Leave": "paintball_player",
   "Leave": "paintball_red",
   "Leave": "paintball_blue",
   "Start": "paintball_spectator",
@@ -112,8 +113,10 @@
   "Set": ["team", ""],
   "Skip": "Loop",
 
+  "Leave": "paintball_player",
   "Leave": "paintball_red",
   "Start": "paintball_blue",
+  "Start": "paintball_player",
   "Set": ["team", ""],
   "Skip": "Loop",
 
@@ -130,8 +133,10 @@
   "Set": ["team", ""],
   "Skip": "Loop",
 
+  "Leave": "paintball_player",
   "Leave": "paintball_blue",
   "Start": "paintball_red",
+  "Start": "paintball_player",
   "Set": ["team", ""],
   "Skip": "Loop",
 

@@ -1,7 +1,7 @@
 {
   "Key": "paintball",
   "Author": "SharkeyMyrl",
-  "Description": "Holder of player count.",
+  "Description": "Holder of player participants.",
   "HidePlayer": "Not In Script",
   "Hold": []
 }

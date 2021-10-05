@@ -15,6 +15,7 @@
   "Comment": "CleanUp",
   "Unfreeze": [],
   "Leave": ["paintball"],
+  "Leave": ["paintball_spectator"],
   "Leave": ["paintball_red"],
   "Leave": ["paintball_red_slave"],
   "Leave": ["paintball_blue"],

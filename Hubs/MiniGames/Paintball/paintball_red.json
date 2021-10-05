@@ -37,6 +37,7 @@
   ],
   "Hold": [],
 
+  "Start": "paintball_schematic",
   "Start": "paintball_red_slave",
   "Start": "paintball_ammo",
 

@@ -1,0 +1,145 @@
+{
+  "Key": "paintball_schematic",
+  "Author": "SharkeyMyrl",
+  "Description": "Spawn handling and schematic handling",
+
+  "Comment": "Load Arena",
+
+  "Comment":"Define Arena and Borders",
+  "NoBorderRegion": [
+    1000,
+    0,
+    1000,
+    2000,
+    254,
+    2000
+  ],
+
+  "If": [],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_player", ">=", 21.0],
+  "Skip": "SizeThree",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_player", ">=", 11.0],
+  "Skip": "SizeTwo",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_player", ">=", 1.0],
+  "Skip": "SizeOne",
+  "SendMessage": "How in the world are you even here....",
+
+  "Comment": "SizeOne",
+      "LoadSchematic": [],
+      "If": [],
+      "In":  ["paintball_red", false],
+      "Skip": "SpawnRed",
+      "Dummy": [],
+
+      "If": [],
+      "In": ["paintball_red", false],
+      "Skip": "SpawnRed",
+      "Dummy": [],
+
+      "If": [],
+      "NotIn": ["paintball_red", false],
+      "Leave":[],
+      "Teleport": [1960.5, 26.0, 597.0, -90, 0],
+      "Skip": "SpawnSpectator",
+
+
+
+      "Comment": "SpawnBlue",
+      "Unfreeze": [],
+      "Teleport": [1960.5, 26.0, 597.0, -90, 0],
+      "Hold": [],
+      "Skip": "SpawnBlue",
+
+      "Comment": "SpawnRed",
+      "Unfreeze": [],
+      "Teleport": [1960.5, 26.0, 597.0, -90, 0],
+      "Hold": [],
+      "Skip": "SpawnRed",
+
+      "Comment": "SpawnSpectator",
+      "Hold": [],
+      "Skip": "SpawnSpectator",
+
+
+  "Comment": "SizeTwo",
+      "LoadSchematic": [],
+      "If": [],
+      "In":  ["paintball_red", false],
+      "Skip": "SpawnRed",
+      "Dummy": [],
+
+      "If": [],
+      "In": ["paintball_red", false],
+      "Skip": "SpawnRed",
+      "Dummy": [],
+
+      "If": [],
+      "NotIn": ["paintball_red", false],
+      "Leave":[],
+      "Teleport": [1960.5, 26.0, 597.0, -90, 0],
+      "Skip": "SpawnSpectator",
+
+
+
+      "Comment": "SpawnBlue",
+      "Unfreeze": [],
+      "Teleport": [1960.5, 26.0, 597.0, -90, 0],
+      "Hold": [],
+      "Skip": "SpawnBlue",
+
+      "Comment": "SpawnRed",
+      "Unfreeze": [],
+      "Teleport": [1960.5, 26.0, 597.0, -90, 0],
+      "Hold": [],
+      "Skip": "SpawnRed",
+
+      "Comment": "SpawnSpectator",
+      "Hold": [],
+      "Skip": "SpawnSpectator",
+
+"Comment": "SizeThree",
+      "LoadSchematic": [],
+      "If": [],
+      "In":  ["paintball_red", false],
+      "Skip": "SpawnRed",
+      "Dummy": [],
+
+      "If": [],
+      "In": ["paintball_red", false],
+      "Skip": "SpawnRed",
+      "Dummy": [],
+
+      "If": [],
+      "NotIn": ["paintball_red", false],
+      "Leave":[],
+      "Teleport": [1960.5, 26.0, 597.0, -90, 0],
+      "Skip": "SpawnSpectator",
+
+
+
+      "Comment": "SpawnBlue",
+      "Unfreeze": [],
+      "Teleport": [1960.5, 26.0, 597.0, -90, 0],
+      "Hold": [],
+      "Skip": "SpawnBlue",
+
+      "Comment": "SpawnRed",
+      "Unfreeze": [],
+      "Teleport": [1960.5, 26.0, 597.0, -90, 0],
+      "Hold": [],
+      "Skip": "SpawnRed",
+
+      "Comment": "SpawnSpectator",
+      "Hold": [],
+      "Skip": "SpawnSpectator",
+
+
+
+  "Dummy": []
+}

@@ -91,9 +91,6 @@
   "Skip": "Loop",
   "Dummy": [],
 
-  "Set": ["team", ""],
-  "Skip": "Loop",
-
   "Leave": "paintball_player",
   "Leave": "paintball_red",
   "Leave": "paintball_blue",

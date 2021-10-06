@@ -1,5 +1,5 @@
 {
-  "Key": "lobby_neutral",
+  "Key": "lobby_random",
 
   "CreateEntity": {
     "key": "lobby_random_npc",

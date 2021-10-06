@@ -18,8 +18,9 @@
     },
     "global": true
   },
-
+  "Hide": "lobby_spectator_npc",
   "In": ["lobby", false],
+  "Show": "lobby_spectator_npc",
 
   "HighlightClickEntity": "lobby_spectator_npc",
 

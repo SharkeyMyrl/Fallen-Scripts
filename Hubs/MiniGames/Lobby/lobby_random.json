@@ -14,8 +14,9 @@
     ],
     "global": true
   },
-
+  "Hide": "lobby_random_npc",
   "In": ["lobby", false],
+  "Show": "lobby_random_npc",
 
   "HighlightClickEntity": "lobby_random_npc",
 

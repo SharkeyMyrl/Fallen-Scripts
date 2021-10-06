@@ -22,5 +22,16 @@
   "Leave": "lobby_spectator",
   "Leave": "lobby_white",
 
+  "Hide": "lobby_black_npc",
+  "Hide": "lobby_blue_npc",
+  "Hide": "lobby_green_npc",
+  "Hide": "lobby_orange_npc",
+  "Hide": "lobby_pink_npc",
+  "Hide": "lobby_purple_npc",
+  "Hide": "lobby_random_npc",
+  "Hide": "lobby_red_npc",
+  "Hide": "lobby_spectator_npc",
+  "Hide": "lobby_white_npc",
+
   "Dummy": []
 }

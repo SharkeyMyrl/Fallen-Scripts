@@ -41,7 +41,7 @@
 
   "SendMessage": "Picking &fWhite Team.",
   "Set": ["team", "white"],
-  "Start": [],
+  "Skip": "HighlightClickEntity",
 
   "Dummy": []
 }

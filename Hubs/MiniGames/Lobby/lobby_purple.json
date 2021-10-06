@@ -41,7 +41,7 @@
 
   "SendMessage": "Picking &5Purple Team.",
   "Set": ["team", "purple"],
-  "Start": [],
+  "Skip": "HighlightClickEntity",
 
   "Dummy": []
 }

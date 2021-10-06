@@ -22,7 +22,7 @@
 
   "SendMessage": "Picking &7Random Team.",
   "Set": ["team", "random"],
-  "Start": [],
+  "Skip": "HighlightClickEntity",
 
   "Dummy": []
 }

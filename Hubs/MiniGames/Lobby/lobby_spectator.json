@@ -30,7 +30,7 @@
 
   "SendMessage": "Picking &bSpectator.",
   "Set": ["team", "spectator"],
-  "Start": [],
+  "Skip": "HighlightClickEntity",
 
   "Dummy": []
 }

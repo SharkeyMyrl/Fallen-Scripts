@@ -9,6 +9,7 @@
   "Start": "lobby_blue",
   "Start": "lobby_random",
   "Start": "lobby_red",
+  "Start": "lobby_spectator",
 
   "Start": "paintball",
   "Start": "paintball_scoreboard",

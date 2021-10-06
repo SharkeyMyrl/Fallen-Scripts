@@ -4,6 +4,10 @@
   "Description": "Holder of spectator player count.",
 
   "SendMessage": "Welcome to the crowd! Please enjoy the game.",
+
+  "SaveInventory": [],
+  "ClearInventory": [],
+  
   "SetItem": [
     39,
     {

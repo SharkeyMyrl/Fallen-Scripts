@@ -7,7 +7,7 @@
 
   "SaveInventory": [],
   "ClearInventory": [],
-  
+
   "SetItem": [
     39,
     {
@@ -16,6 +16,7 @@
     },
     true
   ],
+  
   "Hold": [],
 
   "RandomOption": 4,

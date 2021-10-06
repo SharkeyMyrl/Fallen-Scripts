@@ -4,7 +4,14 @@
   "Description": "Holder of spectator player count.",
 
   "SendMessage": "Welcome to the crowd! Please enjoy the game.",
-  
+  "SetItem": [
+    39,
+    {
+      "material": "Glass",
+      "description": [ "Spectator Helmet", "", "&a&oMiniGame Item" ]
+    },
+    true
+  ],
   "Hold": [],
 
   "RandomOption": 4,

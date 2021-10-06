@@ -14,7 +14,7 @@
     ],
     "helmet": {
       "material": "Glass",
-      "description": [ "Spectator Helmat", "", "&a&oMiniGame Item" ]
+      "description": [ "Spectator Helmet", "", "&a&oMiniGame Item" ]
     },
     "global": true
   },

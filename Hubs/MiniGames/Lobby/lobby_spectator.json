@@ -12,7 +12,7 @@
       "Spectators",
       "&7&oMiniGames Spectators"
     ],
-    "helmat": {
+    "helmet": {
       "material": "Glass Block",
       "description": [ "Spectator Helmat", "", "&a&oMiniGame Item" ]
     },

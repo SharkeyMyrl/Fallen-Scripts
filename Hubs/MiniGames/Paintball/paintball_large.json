@@ -1,5 +1,5 @@
 {
-  "Key": "paintball_schematic",
+  "Key": "paintball_large",
   "Author": "SharkeyMyrl",
   "Description": "Spawn handling and schematic handling",
 
@@ -14,7 +14,7 @@
     254,
     2000
   ],
-  
+
   "If": [],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_player", ">=", 21.0],
   "Start": "paintball_large",
@@ -30,14 +30,6 @@
   "Start": "paintball_large",
   "SendMessage": "How in the world are you even here....",
   "Hold": [],
-
-  "Comment": "Small",
-
-  "Comment": "Medium",
-
-  "Comment": "Large",
-
-
 
   "Dummy": []
 }

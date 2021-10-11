@@ -4,7 +4,21 @@
 
   "In": ["paintball", false],
 
-  "Progress": [1.0, 1, "paintball_schematic"],
+  "If": [],
+  "In": ["paintball_large", false],
+  "Progress": [1.0, 1, "paintball_red_slave"],
+  "Dummy": [],
+
+  "If": [],
+  "In": ["paintball_medium", false],
+  "Progress": [1.0, 1, "paintball_red_slave"],
+  "Dummy": [],
+
+  "If": [],
+  "In": ["paintball_small", false],
+  "Progress": [1.0, 1, "paintball_red_slave"],
+  "Dummy": [],
+
 
   "If": [],
   "In": ["paintball_red", false],

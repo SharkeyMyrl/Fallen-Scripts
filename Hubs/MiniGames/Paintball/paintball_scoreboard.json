@@ -18,6 +18,11 @@
   "Skip": "TeamRed",
   "Dummy": [],
 
+  "If": [],
+  "In": ["paintball_spectator", false],
+  "Skip": "Spectator",
+  "Dummy": [],
+
   "Comment": "Lobby",
 
   "SetScoreboard": [
@@ -55,6 +60,25 @@
 
 
   "Comment": "TeamBlue",
+  "SetScoreboard": [
+    "   &lPAINTBALL",
+    "",
+    "Timer: &b[server:paintball_timer_minutes] : [server:paintball_timer_seconds]",
+    "",
+    "Round: &f[server:paintball_round]",
+    "&9Score: &f[server:paintball_bluewin]",
+    "&cScore: &f[server:paintball_redwin]",
+    "",
+    "&lPlayers",
+    "&9Team: &f[SCRIPT_PLAYER_COUNT:paintball_blue]",
+    "&cTeam: &f[SCRIPT_PLAYER_COUNT:paintball_red]",
+    "",
+    "&eplay.fallenkingdom.co"
+  ],
+  "Wait": 10,
+  "Skip": "Loop",
+
+  "Comment": "Spectator",
   "SetScoreboard": [
     "   &lPAINTBALL",
     "",

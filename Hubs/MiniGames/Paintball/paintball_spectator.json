@@ -16,14 +16,10 @@
     },
     true
   ],
-  
+
   "Hold": [],
 
-  "RandomOption": 4,
-  "Teleport": [2026.5, 26.0, 592.0, 90, 0],
-  "Teleport": [2026.5, 26.0, 592.0, 90, 0],
-  "Teleport": [2026.5, 26.0, 592.0, 90, 0],
-  "Teleport": [2026.5, 26.0, 592.0, 90, 0],
+  "Start": "paintball_schematic",
 
   "Hold": [],
 

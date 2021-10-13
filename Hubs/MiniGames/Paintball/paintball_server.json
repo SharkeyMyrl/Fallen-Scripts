@@ -6,6 +6,11 @@
   "Repeat": 1.0,
 
   "If": [],
+  "Equals": ["server", "paintball_init", "=", 1.0],
+  "Dummy": [],
+  "Skip": "CleanUp",
+
+  "If": [],
   "Equals": ["server", "paintball_game_on", "=", 1.0],
   "Skip": "GameTimer",
   "Dummy": [],
@@ -14,7 +19,7 @@
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_red", "<=", 1.0],
   "Leave": [],
   "Dummy": [],
-  
+
   "If": [],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_blue", "<=", 1.0],
   "Leave": [],

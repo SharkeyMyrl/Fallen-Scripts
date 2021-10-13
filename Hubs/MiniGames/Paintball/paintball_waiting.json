@@ -41,17 +41,14 @@
 
   "Comment": "ProgRed",
   "Progress": "paintball_red",
-  "Progress": "lobby",
   "Leave": [],
 
   "Comment": "ProgBlue",
   "Progress": "paintball_blue",
-  "Progress": "lobby",
   "Leave": [],
 
   "Comment": "ProgSpec",
   "Progress": "paintball_spectator",
-  "Progress": "lobby",
   "Leave": [],
 
   "Comment": "PickTeams",

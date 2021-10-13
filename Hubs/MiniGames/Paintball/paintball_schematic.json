@@ -28,7 +28,7 @@
 
   "If": [],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_player", ">=", 1.0],
-  "Start": "Small",
+  "Skip": "Small",
   "SendMessage": "How in the world are you even here....",
   "Hold": [],
 

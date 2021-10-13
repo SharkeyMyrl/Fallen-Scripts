@@ -1,6 +1,5 @@
 To Do List:\
--Add lobby schematic handling\
--Change NPC skins and armor
+-Change NPC skins and armor\
 
 Final Goals\
 -8 Team Minigame Support\

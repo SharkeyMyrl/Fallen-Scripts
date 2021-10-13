@@ -4,6 +4,7 @@
   "Description": "Spawn handling and schematic handling",
 
   "Comment": "Load Arena",
+  "In": ["paintball"],
 
   "Comment":"Define Arena and Borders",
   "NoBorderRegion": [
@@ -14,29 +15,92 @@
     254,
     2000
   ],
-  
+
   "If": [],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_player", ">=", 21.0],
-  "Start": "paintball_large",
+  "Skip": "Large",
   "Dummy": [],
 
   "If": [],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_player", ">=", 11.0],
-  "Start": "paintball_large",
+  "Skip": "Medium",
   "Dummy": [],
 
   "If": [],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_player", ">=", 1.0],
-  "Start": "paintball_large",
+  "Start": "Small",
   "SendMessage": "How in the world are you even here....",
   "Hold": [],
 
   "Comment": "Small",
+  "Say": "Simulating Small Arena...",
+  "Schematic": [],
+
+  "If": [],
+  "In": ["paintball_spectator", false],
+  "Teleport": [],
+  "Dummy": [],
+
+  "Comment": "SmallLoop",
+  "If": [],
+  "In": ["paintball_blue", false],
+  "Teleport": [],
+  "Dummy": [],
+
+  "If": [],
+  "In": ["paintball_red", false],
+  "Teleport": [],
+  "Dummy": [],
+
+  "Hold": [],
+  "Skip": "SmallLoop",
+
 
   "Comment": "Medium",
+  "Say": "Simulating Medium Arena...",
+  "Schematic": [],
+
+  "If": [],
+  "In": ["paintball_spectator", false],
+  "Teleport": [],
+  "Dummy": [],
+
+  "Comment": "MediumLoop",
+  "If": [],
+  "In": ["paintball_blue", false],
+  "Teleport": [],
+  "Dummy": [],
+
+  "If": [],
+  "In": ["paintball_red", false],
+  "Teleport": [],
+  "Dummy": [],
+
+  "Hold": [],
+  "Skip": "MediumLoop",
 
   "Comment": "Large",
+  "Say": "Simulating Large Arena...",
+  "Schematic": [],
 
+  "If": [],
+  "In": ["paintball_spectator", false],
+  "Teleport": [],
+  "Dummy": [],
+
+  "Comment": "LargeLoop",
+  "If": [],
+  "In": ["paintball_blue", false],
+  "Teleport": [],
+  "Dummy": [],
+
+  "If": [],
+  "In": ["paintball_red", false],
+  "Teleport": [],
+  "Dummy": [],
+
+  "Hold": [],
+  "Skip": "LargeLoop",
 
 
   "Dummy": []

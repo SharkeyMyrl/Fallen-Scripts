@@ -42,6 +42,7 @@
   "Dummy": [],
 
   "Comment": "SmallLoop",
+  "Unfreeze": [],
   "If": [],
   "In": ["paintball_blue", false],
   "Teleport": [],
@@ -66,6 +67,7 @@
   "Dummy": [],
 
   "Comment": "MediumLoop",
+  "Unfreeze": [],
   "If": [],
   "In": ["paintball_blue", false],
   "Teleport": [],
@@ -89,6 +91,7 @@
   "Dummy": [],
 
   "Comment": "LargeLoop",
+  "Unfreeze": [],  
   "If": [],
   "In": ["paintball_blue", false],
   "Teleport": [],

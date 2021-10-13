@@ -141,9 +141,11 @@
   "Skip": "Loop",
 
   "Comment": "Neutral",
+  "Leave": "paintball_player",
   "Leave": "paintball_red",
   "Leave": "paintball_blue",
   "Leave": "paintball_spectator",
+  "Start": "paintball_player",
 
   "RandomOption": 2,
   "StartEmptiest": ["paintball_blue", "paintball_red"],

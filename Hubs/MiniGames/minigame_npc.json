@@ -27,7 +27,7 @@
     {
       "3": {
         "material": "Ice",
-        "name": "Freeze Tag"
+        "name": "Freeze Tag (Not Implemented)"
       },
       "4": {
         "material": "Snowball",
@@ -35,7 +35,7 @@
       },
       "5": {
         "material": "Rotten Flesh",
-        "name": "Infection Tag"
+        "name": "Infection Tag (Not Implemented)"
       }
     },
     false

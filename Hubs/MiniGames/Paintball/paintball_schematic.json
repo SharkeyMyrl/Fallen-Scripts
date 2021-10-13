@@ -33,24 +33,24 @@
   "Hold": [],
 
   "Comment": "Small",
-  "Say": "Simulating Small Arena...",
+  "SendMessage": "Simulating Small Arena...",
   "Schematic": [],
 
   "If": [],
   "In": ["paintball_spectator", false],
-  "Teleport": [],
+  "Teleport": [1990.5, 37.0, 608.5, 0, 0],
   "Dummy": [],
 
   "Comment": "SmallLoop",
   "Unfreeze": [],
   "If": [],
   "In": ["paintball_blue", false],
-  "Teleport": [],
+  "Teleport": [1961.5, 26.0, 597.5, -90, 0],
   "Dummy": [],
 
   "If": [],
   "In": ["paintball_red", false],
-  "Teleport": [],
+  "Teleport": [2025.5, 26.0, 592.5, 90, 0],
   "Dummy": [],
 
   "Hold": [],
@@ -58,7 +58,7 @@
 
 
   "Comment": "Medium",
-  "Say": "Simulating Medium Arena...",
+  "SendMessage": "Simulating Medium Arena...",
   "Schematic": [],
 
   "If": [],
@@ -82,7 +82,7 @@
   "Skip": "MediumLoop",
 
   "Comment": "Large",
-  "Say": "Simulating Large Arena...",
+  "SendMessage": "Simulating Large Arena...",
   "Schematic": [],
 
   "If": [],
@@ -91,7 +91,7 @@
   "Dummy": [],
 
   "Comment": "LargeLoop",
-  "Unfreeze": [],  
+  "Unfreeze": [],
   "If": [],
   "In": ["paintball_blue", false],
   "Teleport": [],

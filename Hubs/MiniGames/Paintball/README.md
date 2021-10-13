@@ -1,6 +1,6 @@
 To Do List:\
 -Add spectator team logic\
--Add arena schematics and coordinates\
+-Add arena schematics and coordinates
 
 Final Goals:\
 -Dynamic games of Paintball\

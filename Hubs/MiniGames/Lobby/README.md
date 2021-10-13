@@ -1,5 +1,5 @@
 To Do List:\
--Change NPC skins and armor\
+-Change NPC skins
 
 Final Goals\
 -8 Team Minigame Support\

@@ -101,6 +101,10 @@
   "Skip": "Loop",
   "Dummy": [],
 
+  "Leave": "paintball_player",
+  "Leave": "paintball_red",
+  "Leave": "paintball_spectator",
+
   "If": [],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_red", ">=", "[SCRIPT_PLAYER_COUNT:paintball_blue]"],
   "Skip": 3,
@@ -108,9 +112,6 @@
   "Set": ["team", ""],
   "Skip": "Loop",
 
-  "Leave": "paintball_player",
-  "Leave": "paintball_red",
-  "Leave": "paintball_spectator",
   "Start": "paintball_blue",
   "Start": "paintball_player",
   "Set": ["team", ""],
@@ -122,6 +123,10 @@
   "Skip": "Loop",
   "Dummy": [],
 
+  "Leave": "paintball_player",
+  "Leave": "paintball_blue",
+  "Leave": "paintball_spectator",
+
   "If": [],
   "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_blue", ">=", "[SCRIPT_PLAYER_COUNT:paintball_red]"],
   "Skip": 3,
@@ -129,9 +134,6 @@
   "Set": ["team", ""],
   "Skip": "Loop",
 
-  "Leave": "paintball_player",
-  "Leave": "paintball_blue",
-  "Leave": "paintball_spectator",
   "Start": "paintball_red",
   "Start": "paintball_player",
   "Set": ["team", ""],

@@ -32,9 +32,9 @@
   "Skip": 4,
 
   "If": [],
-  "NotIn": ["paintball_red_slave", false],
-  "LaunchProjectile": ["Snowball", 2.0],
+  "In": ["paintball_red_slave", "Freeze", false],
   "Dummy": [],
+  "LaunchProjectile": ["Snowball", 2.0],
 
   "If": [],
   "In": ["paintball_blue", false],
@@ -42,9 +42,9 @@
   "Skip": 4,
 
   "If": [],
-  "NotIn": ["paintball_blue_slave", false],
-  "LaunchProjectile": ["Snowball", 2.0],
+  "In": ["paintball_blue_slave", "Freeze", false],
   "Dummy": [],
+  "LaunchProjectile": ["Snowball", 2.0],
 
   "Wait": 10,
   "Skip": "AmmoLoop",

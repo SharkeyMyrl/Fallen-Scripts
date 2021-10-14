@@ -6,7 +6,7 @@
 
   "If": [],
   "In": ["paintball_schematic", false],
-  "Progress": [1.0, 1, "schematic"],
+  "Progress": [1.0, 1, "paintball_schematic"],
   "Dummy": [],
 
   "If": [],

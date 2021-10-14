@@ -40,14 +40,17 @@
   "Skip": "PickTeams",
 
   "Comment": "ProgRed",
+  "Start": "paintball_schematic",
   "Progress": "paintball_red",
   "Leave": [],
 
   "Comment": "ProgBlue",
+  "Start": "paintball_schematic",
   "Progress": "paintball_blue",
   "Leave": [],
 
   "Comment": "ProgSpec",
+  "Start": "paintball_schematic",
   "Progress": "paintball_spectator",
   "Leave": [],
 

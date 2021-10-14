@@ -23,6 +23,8 @@
   "Leave": ["paintball_waiting"],
   "Leave": ["paintball_ammo"],
   "Leave": ["paintball_scoreboard"],
+  "Leave": ["paintball_schematic"],
+  "Leave": ["paintball_player"],
   "Leave": [],
 
 

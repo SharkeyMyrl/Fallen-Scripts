@@ -135,6 +135,16 @@
   "Skip": "BlueWins",
 
   "Comment": "ResetPlayers",
+  "If": [],
+  "Equals": ["server", "paintball_redwin", "=", 4],
+  "Skip": "RedWins",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["server", "paintball_bluewin", "=", 4],
+  "Skip": "BlueWins",
+  "Dummy": [],
+
   "StartAll": [1.0, 1, "paintball_reset"],
   "Wait": 10,
   "Leave": [],

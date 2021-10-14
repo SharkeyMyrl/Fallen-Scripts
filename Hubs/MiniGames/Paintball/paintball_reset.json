@@ -10,14 +10,16 @@
   "Dummy": [],
 
   "If": [],
-  "In": ["paintball_red", false],
-  "Progress": [1.0, 1, "paintball_red_slave"],
-  "Dummy": [],
+  "NotIn": ["paintball_red", false],
+  "Skip": 2,
+  "Leave": ["paintball_red_slave"],
+  "Start": ["paintball_red_slave"],
 
   "If": [],
-  "In": ["paintball_blue", false],
-  "Progress": [1.0, 1, "paintball_blue_slave"],
-  "Dummy": [],
+  "NotIn": ["paintball_blue", false],
+  "Skip": 2,
+  "Leave": ["paintball_blue_slave"],
+  "Start": ["paintball_blue_slave"],
 
   "Dummy": []
 }

@@ -32,6 +32,7 @@
   "Hide": "lobby_red_npc",
   "Hide": "lobby_spectator_npc",
   "Hide": "lobby_white_npc",
-
+  
+  "Hold": [],
   "Dummy": []
 }

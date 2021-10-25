@@ -21,7 +21,6 @@
   "Leave": ["freeze_blue"],
   "Leave": ["freeze_blue_slave"],
   "Leave": ["freeze_waiting"],
-  "Leave": ["freeze_ammo"],
   "Leave": ["freeze_scoreboard"],
   "Leave": ["freeze_schematic"],
   "Leave": ["freeze_player"],

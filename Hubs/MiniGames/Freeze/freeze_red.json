@@ -38,7 +38,6 @@
   "Hold": [],
 
   "Start": "freeze_red_slave",
-  "Start": "freeze_ammo",
   "Progress": "lobby",
 
   "Hold": [],

@@ -36,8 +36,6 @@
   "If": [],
   "Equals": ["team", "spectator"],
   "Skip": "Spectator",
-  "Leave": "Spectator",
-  "Set": ["team", ""],
   "Skip": "Loop",
 
   "Comment": "Random",
@@ -50,13 +48,19 @@
   "Comment": "Spectator",
   "If": [],
   "In": ["freeze_spectator", false],
-  "Skip": "Loop",
+  "Skip": "LeaveSpectator",
   "Dummy": [],
 
   "Leave": "freeze_player",
   "Leave": "freeze_red",
   "Leave": "freeze_blue",
   "Start": "freeze_spectator",
+  "Set": ["team", ""],
+
+  "Skip": "Loop",
+
+  "Comment": "LeaveSpectator",
+  "Leave": "freeze_spectator",
   "Set": ["team", ""],
   "Skip": "Loop",
 

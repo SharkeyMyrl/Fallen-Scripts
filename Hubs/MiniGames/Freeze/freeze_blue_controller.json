@@ -4,10 +4,12 @@
   "Description": "Team blue hit detection.",
   "Wait": 1,
 
-  "ProjectileHit": ["snowball", "paintball_blue"],
+  "Comment": "Reset",
+  "OnDamage": ["Player", "paintball_blue"],
   "SendMessage": "Opp- you got hit.",
-  "Add": ["server", "paintball_red", 1.0],
   "Freeze": [],
-  "Hold": [],
+  "OnDamage": ["Player", "paintball_red"],
+  "Unfreeze": [],
+  "Skip": "Reset",
   "Dummy": []
 }

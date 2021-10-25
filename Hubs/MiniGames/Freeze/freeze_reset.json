@@ -1,0 +1,25 @@
+{
+  "Key": "freeze_reset",
+  "Description": "Reset game, for next round.",
+
+  "In": ["freeze", false],
+
+  "If": [],
+  "In": ["freeze_schematic", false],
+  "Progress": [1.0, 1, "freeze_schematic"],
+  "Dummy": [],
+
+  "If": [],
+  "NotIn": ["freeze_red", false],
+  "Skip": 2,
+  "Leave": ["freeze_red_controller"],
+  "Start": ["freeze_red_controller"],
+
+  "If": [],
+  "NotIn": ["freeze_blue", false],
+  "Skip": 2,
+  "Leave": ["freeze_blue_controller"],
+  "Start": ["freeze_blue_controller"],
+
+  "Dummy": []
+}

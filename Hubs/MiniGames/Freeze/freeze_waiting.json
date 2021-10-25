@@ -6,9 +6,6 @@
   "SendMessage": "Entering Lobby",
 
   "Start": "lobby",
-  "Start": "lobby_blue",
-  "Start": "lobby_random",
-  "Start": "lobby_red",
   "Start": "lobby_spectator",
 
   "Start": "freeze",
@@ -22,32 +19,12 @@
   "Skip": "PickTeams",
 
   "Comment": "SendToTeams",
-  "Wait": 1,
-  "If": [],
-  "In": ["freeze_red", false],
-  "Skip": "ProgRed",
-  "Dummy": [],
-
-  "If": [],
-  "In": ["freeze_blue", false],
-  "Skip": "ProgBlue",
-  "Dummy": [],
 
   "If": [],
   "In": ["freeze_spectator", false],
   "Skip": "ProgSpec",
   "Set": ["team", "rand"],
-  "Skip": "PickTeams",
-
-  "Comment": "ProgRed",
-  "Start": "freeze_schematic",
-  "Progress": "freeze_red",
-  "Leave": [],
-
-  "Comment": "ProgBlue",
-  "Start": "freeze_schematic",
-  "Progress": "freeze_blue",
-  "Leave": [],
+  "Skip": "Random",
 
   "Comment": "ProgSpec",
   "Start": "freeze_schematic",
@@ -57,33 +34,18 @@
   "Comment": "PickTeams",
   "Wait": 1,
   "If": [],
-  "Equals": ["team", "red"],
-  "Skip": "Red",
-  "Dummy": [],
-
-  "If": [],
-  "Equals": ["team", "blue"],
-  "Skip": "Blue",
-  "Dummy": [],
-
-  "If": [],
   "Equals": ["team", "spectator"],
   "Skip": "Spectator",
-  "Dummy": [],
-
-  "If": [],
-  "Equals": ["team", "random"],
-  "Skip": "Neutral",
-  "Dummy": [],
-
-  "If": [],
-  "Equals": ["team", ""],
-  "Skip": "Loop",
-  "Dummy": [],
-
-  "SendMessage": "How did you get here?",
+  "Leave": "Spectator",
   "Set": ["team", ""],
   "Skip": "Loop",
+
+  "Comment": "Random",
+  "If": [],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "freeze_blue", "<=", 0.0],
+  "Start": "freeze_blue",
+  "Start": "freeze_red",
+  "Hold": [],
 
   "Comment": "Spectator",
   "If": [],
@@ -95,64 +57,6 @@
   "Leave": "freeze_red",
   "Leave": "freeze_blue",
   "Start": "freeze_spectator",
-  "Set": ["team", ""],
-  "Skip": "Loop",
-
-  "Comment": "Blue",
-  "If": [],
-  "In": ["freeze_blue", false],
-  "Skip": "Loop",
-  "Dummy": [],
-
-  "Leave": "freeze_player",
-  "Leave": "freeze_red",
-  "Leave": "freeze_spectator",
-
-  "If": [],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "freeze_red", ">=", "[SCRIPT_PLAYER_COUNT:freeze_blue]"],
-  "Skip": 3,
-  "SendMessage": "Sorry but at this time the team you picked is full please pick again.",
-  "Set": ["team", ""],
-  "Skip": "Loop",
-
-  "Start": "freeze_blue",
-  "Start": "freeze_player",
-  "Set": ["team", ""],
-  "Skip": "Loop",
-
-  "Comment": "Red",
-  "If": [],
-  "In": ["freeze_red", false],
-  "Skip": "Loop",
-  "Dummy": [],
-
-  "Leave": "freeze_player",
-  "Leave": "freeze_blue",
-  "Leave": "freeze_spectator",
-
-  "If": [],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "freeze_blue", ">=", "[SCRIPT_PLAYER_COUNT:freeze_red]"],
-  "Skip": 3,
-  "SendMessage": "Sorry but at this time the team you picked is full please pick again.",
-  "Set": ["team", ""],
-  "Skip": "Loop",
-
-  "Start": "freeze_red",
-  "Start": "freeze_player",
-  "Set": ["team", ""],
-  "Skip": "Loop",
-
-  "Comment": "Neutral",
-  "Leave": "freeze_player",
-  "Leave": "freeze_red",
-  "Leave": "freeze_blue",
-  "Leave": "freeze_spectator",
-  "Start": "freeze_player",
-
-  "RandomOption": 2,
-  "StartEmptiest": ["freeze_blue", "freeze_red"],
-  "StartEmptiest": ["freeze_red", "freeze_blue"],
-
   "Set": ["team", ""],
   "Skip": "Loop",
 

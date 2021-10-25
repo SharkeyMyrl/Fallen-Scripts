@@ -35,7 +35,6 @@
     },
     true
   ],
-  "Hold": [],
 
   "Start": "freeze_red_controller",
   "Progress": "lobby",

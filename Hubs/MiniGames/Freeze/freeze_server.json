@@ -165,6 +165,7 @@
   "Set": ["server", "freeze_timer_seconds", 0.0, true],
   "Set": ["server", "freeze_lobby_timer_seconds", 0.0, true],
   "Set": ["server", "freeze_game_on", -1.0, true],
+  "Set": ["server", "freeze_init", 1.0, true],
 
   "Set": ["server", "freeze_redwin", 0.0, true],
   "Set": ["server", "freeze_bluewin", 0.0, true],

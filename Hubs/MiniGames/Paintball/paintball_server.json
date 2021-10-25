@@ -165,6 +165,7 @@
   "Set": ["server", "paintball_timer_seconds", 0.0, true],
   "Set": ["server", "paintball_lobby_timer_seconds", 0.0, true],
   "Set": ["server", "paintball_game_on", -1.0, true],
+  "Set": ["server", "paintball_init", 1.0, true],
 
   "Set": ["server", "paintball_redwin", 0.0, true],
   "Set": ["server", "paintball_bluewin", 0.0, true],

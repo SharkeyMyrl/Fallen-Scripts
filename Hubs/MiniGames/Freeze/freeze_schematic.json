@@ -1,0 +1,110 @@
+{
+  "Key": "freeze_schematic",
+  "Author": "SharkeyMyrl",
+  "Description": "Spawn handling and schematic handling",
+
+  "Comment": "Load Arena",
+  "In": ["freeze"],
+
+  "Comment":"Define Arena and Borders",
+  "NoBorderRegion": [
+    1000,
+    0,
+    1000,
+    2000,
+    254,
+    2000
+  ],
+
+  "If": [],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "freeze_player", ">=", 21.0],
+  "Skip": "Large",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "freeze_player", ">=", 11.0],
+  "Skip": "Medium",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "freeze_player", ">=", 1.0],
+  "Skip": "Small",
+  "SendMessage": "How in the world are you even here....",
+  "Hold": [],
+
+  "Comment": "Small",
+  "SendMessage": "Simulating Small Arena...",
+  "Schematic": [],
+
+  "If": [],
+  "In": ["freeze_spectator", false],
+  "Teleport": [1990.5, 37.0, 608.5, 0, 0],
+  "Dummy": [],
+
+  "Comment": "SmallLoop",
+  "Unfreeze": [],
+  "If": [],
+  "In": ["freeze_blue", false],
+  "Teleport": [1961.5, 26.0, 597.5, -90, 0],
+  "Dummy": [],
+
+  "If": [],
+  "In": ["freeze_red", false],
+  "Teleport": [2025.5, 26.0, 592.5, 90, 0],
+  "Dummy": [],
+
+  "Hold": [],
+  "Skip": "SmallLoop",
+
+
+  "Comment": "Medium",
+  "SendMessage": "Simulating Medium Arena...",
+  "Schematic": [],
+
+  "If": [],
+  "In": ["freeze_spectator", false],
+  "Teleport": [],
+  "Dummy": [],
+
+  "Comment": "MediumLoop",
+  "Unfreeze": [],
+  "If": [],
+  "In": ["freeze_blue", false],
+  "Teleport": [],
+  "Dummy": [],
+
+  "If": [],
+  "In": ["freeze_red", false],
+  "Teleport": [],
+  "Dummy": [],
+
+  "Hold": [],
+  "Skip": "MediumLoop",
+
+  "Comment": "Large",
+  "SendMessage": "Simulating Large Arena...",
+  "Schematic": [],
+
+  "If": [],
+  "In": ["freeze_spectator", false],
+  "Teleport": [],
+  "Dummy": [],
+
+  "Comment": "LargeLoop",
+  "Unfreeze": [],
+  "If": [],
+  "In": ["freeze_blue", false],
+  "Teleport": [],
+  "Dummy": [],
+
+  "If": [],
+  "In": ["freeze_red", false],
+  "Teleport": [],
+  "Dummy": [],
+
+  "Hold": [],
+  "Skip": "LargeLoop",
+
+
+  "Dummy": []
+}

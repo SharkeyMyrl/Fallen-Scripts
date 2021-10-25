@@ -1,0 +1,176 @@
+{
+  "Key": "freeze_server",
+  "Author": "SharkeyMyrl",
+  "Description": "Gamemode controller and ruler.",
+
+  "Repeat": 1.0,
+
+  "If": [],
+  "Equals": ["server", "freeze_init", "=", 1.0],
+  "Skip": 2,
+  "Set": ["server", "freeze_init", -1.0, true],
+  "Skip": "CleanUp",
+
+  "If": [],
+  "Equals": ["server", "freeze_game_on", "=", 1.0],
+  "Skip": "GameTimer",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "freeze_red", "<=", 0.0],
+  "Leave": [],
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "freeze_blue", "<=", 0.0],
+  "Leave": [],
+  "Subtract": ["server", "freeze_lobby_timer", 1.0, true],
+
+  "If": [],
+  "Equals": ["server", "freeze_lobby_timer_seconds", "=", 0.0],
+  "Skip": 2,
+  "Subtract": ["server", "freeze_lobby_timer_seconds", 1.0, true],
+  "Skip": 2,
+  "Subtract": ["server", "freeze_lobby_timer_minutes", 1.0, true],
+  "Set": ["server", "freeze_lobby_timer_seconds", 59.0, true],
+
+  "If": [],
+  "Equals": ["server", "freeze_lobby_timer", ">=", 0.0],
+  "Leave": [],
+  "Set": ["server", "freeze_game_on", 1.0, true],
+
+  "Comment": "GameTimer",
+  "Subtract": ["server", "freeze_timer", 1.0, true],
+
+  "If": [],
+  "Equals": ["server", "freeze_timer_seconds", "=", 0.0],
+  "Skip": 2,
+  "Subtract": ["server", "freeze_timer_seconds", 1.0, true],
+  "Skip": 2,
+  "Subtract": ["server", "freeze_timer_minutes", 1.0, true],
+  "Set": ["server", "freeze_timer_seconds", 59.0, true],
+
+  "If": [],
+  "Equals": ["server", "freeze_timer", ">=", 580.0],
+  "Leave": [],
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "freeze_red", "=", 0.0],
+  "Skip": "BlueWins",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "freeze_blue", "=", 0.0],
+  "Skip": "RedWins",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "freeze_red", "=", "[server:freeze_red]"],
+  "Dummy": [],
+  "Skip": 4,
+
+  "If": [],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "freeze_blue", "=", "[server:freeze_blue]"],
+  "Skip": "Draw",
+  "Skip": "BluePoints",
+
+  "If": [],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "freeze_blue", "=", "[server:freeze_blue]"],
+  "Skip": "RedPoints",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["server", "freeze_timer", "<=", 0.0],
+  "Skip": "CheckPoints",
+  "Leave": [],
+
+  "Comment": "CheckPoints",
+
+  "If": [],
+  "Equals":["[SCRIPT_PLAYER_COUNT]", "freeze_red_slave", "=", "[SCRIPT_PLAYER_COUNT:freeze_blue_slave]"],
+  "Skip": "Draw",
+  "Dummy": [],
+
+  "If": [],
+  "Equals":["[SCRIPT_PLAYER_COUNT]", "freeze_red_slave", ">", "[SCRIPT_PLAYER_COUNT:freeze_blue_slave]"],
+  "Skip": "RedPoints",
+  "Dummy": [],
+
+  "If": [],
+  "Equals":["[SCRIPT_PLAYER_COUNT]", "freeze_red_slave", "<", "[SCRIPT_PLAYER_COUNT:freeze_blue_slave]"],
+  "Skip": "BluePoints",
+  "Skip": "Draw",
+
+  "Comment": "Draw",
+  "Add": ["server", "freeze_round", 1.0, true],
+  "Skip": "CheckWinner",
+
+  "Comment": "RedPoints",
+  "Add": ["server", "freeze_redwin", 1.0, true],
+  "Add": ["server", "freeze_round", 1.0, true],
+  "Skip": "CheckWinner",
+
+  "Comment": "BluePoints",
+  "Add": ["server", "freeze_bluewin", 1.0, true],
+  "Add": ["server", "freeze_round", 1.0, true],
+  "Skip": "CheckWinner",
+
+  "Comment": "CheckWinner",
+  "BroadcastMessage": "Checking winners",
+  "Set": ["server", "freeze_red", 0.0, true],
+  "Set": ["server", "freeze_blue", 0.0, true],
+  "Set": ["server", "freeze_timer", 600.0, true],
+  "Set": ["server", "freeze_timer_minutes", 10.0, true],
+  "Set": ["server", "freeze_timer_seconds", 0.0, true],
+
+  "If": [],
+  "Equals": ["server", "freeze_round", "<=", 7.0],
+  "Skip": "ResetPlayers",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["server", "freeze_redwin", ">", "[server:freeze_bluewin]"],
+  "Skip": "RedWins",
+  "Skip": "BlueWins",
+
+  "Comment": "ResetPlayers",
+  "If": [],
+  "Equals": ["server", "freeze_redwin", "=", 4],
+  "Skip": "RedWins",
+  "Dummy": [],
+
+  "If": [],
+  "Equals": ["server", "freeze_bluewin", "=", 4],
+  "Skip": "BlueWins",
+  "Dummy": [],
+
+  "StartAll": [1.0, 1, "freeze_reset"],
+  "Wait": 10,
+  "Leave": [],
+
+  "Comment": "BlueWins",
+  "StartAll": [1.0, 7, "freeze_winners"],
+  "Skip": "CleanUp",
+
+  "Comment": "RedWins",
+  "StartAll": [1.0, 3, "freeze_winners"],
+  "Skip": "CleanUp",
+
+  "Comment": "CleanUp",
+  "Set": ["server", "freeze_timer", 600.0, true],
+  "Set": ["server", "freeze_lobby_timer", 120.0, true],
+  "Set": ["server", "freeze_timer_minutes", 10.0, true],
+  "Set": ["server", "freeze_lobby_timer_minutes", 2.0, true],
+  "Set": ["server", "freeze_timer_seconds", 0.0, true],
+  "Set": ["server", "freeze_lobby_timer_seconds", 0.0, true],
+  "Set": ["server", "freeze_game_on", -1.0, true],
+
+  "Set": ["server", "freeze_redwin", 0.0, true],
+  "Set": ["server", "freeze_bluewin", 0.0, true],
+  "Set": ["server", "freeze_round", 1.0, true],
+  "Set": ["server", "freeze_red", 0.0, true],
+  "Set": ["server", "freeze_blue", 0.0, true],
+
+  "Dummy": []
+}

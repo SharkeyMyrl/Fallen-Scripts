@@ -1,0 +1,7 @@
+{
+  "Key": "freeze_player",
+  "Author": "SharkeyMyrl",
+  "Description": "Holder of player count.",
+  "HidePlayer": "Not In Script",
+  "Hold": []
+}

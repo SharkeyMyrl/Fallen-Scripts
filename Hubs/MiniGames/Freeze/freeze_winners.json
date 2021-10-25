@@ -1,0 +1,32 @@
+{
+  "Key": "freeze_winners",
+  "Author": "SharkeyMyrl",
+
+  "Comment": "Red",
+  "In": ["freeze", false],
+  "SendMessage": "Congratulations Team Red!!",
+  "Skip": "CleanUp",
+
+  "Comment": "Blue",
+  "In": ["freeze", false],
+  "SendMessage": "Congratulations Team Blue!!",
+  "Skip": "CleanUp",
+
+  "Comment": "CleanUp",
+  "Unfreeze": [],
+  "Leave": ["freeze"],
+  "Leave": ["freeze_spectator"],
+  "Leave": ["freeze_red"],
+  "Leave": ["freeze_red_slave"],
+  "Leave": ["freeze_blue"],
+  "Leave": ["freeze_blue_slave"],
+  "Leave": ["freeze_waiting"],
+  "Leave": ["freeze_ammo"],
+  "Leave": ["freeze_scoreboard"],
+  "Leave": ["freeze_schematic"],
+  "Leave": ["freeze_player"],
+  "Leave": [],
+
+
+  "Dummy": []
+}

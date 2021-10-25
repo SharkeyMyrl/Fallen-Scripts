@@ -1,0 +1,49 @@
+{
+  "Key": "freeze_red",
+  "Author": "SharkeyMyrl",
+  "Description": "Holder of red player count.",
+
+  "SendMessage": "Welcome to Team Red.",
+
+  "SaveInventory": [],
+  "ClearInventory": [],
+
+  "SetItem": [
+    38,
+    {
+      "material": "Leather Chestplate",
+      "color": "Red",
+      "description": [ "Team Red Overalls", "", "&a&oMiniGame Item" ]
+    },
+    true
+  ],
+  "SetItem": [
+    37,
+    {
+      "material": "Leather Leggings",
+      "color": "Red",
+      "description": [ "Team Red Overalls", "", "&a&oMiniGame Item" ]
+    },
+    true
+  ],
+  "SetItem": [
+    36,
+    {
+      "material": "Leather Boots",
+      "color": "Red",
+      "description": [ "Team Red Overalls", "", "&a&oMiniGame Item" ]
+    },
+    true
+  ],
+  "Hold": [],
+
+  "Start": "freeze_red_slave",
+  "Start": "freeze_ammo",
+  "Progress": "lobby",
+
+  "Hold": [],
+
+  "Leave": [],
+
+  "Dummy": []
+}

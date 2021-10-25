@@ -1,0 +1,49 @@
+{
+  "Key": "freeze_blue",
+  "Author": "SharkeyMyrl",
+  "Description": "Holder of blue player count.",
+
+  "SendMessage": "Welcome to Team Blue.",
+
+  "SaveInventory": [],
+  "ClearInventory": [],
+
+  "SetItem": [
+    38,
+    {
+      "material": "Leather Chestplate",
+      "color": "Blue",
+      "description": [ "Team Blue Overalls", "", "&a&oMiniGame Item" ]
+    },
+    true
+  ],
+  "SetItem": [
+    37,
+    {
+      "material": "Leather Leggings",
+      "color": "Blue",
+      "description": [ "Team Blue Overalls", "", "&a&oMiniGame Item" ]
+    },
+    true
+  ],
+  "SetItem": [
+    36,
+    {
+      "material": "Leather Boots",
+      "color": "Blue",
+      "description": [ "Team Blue Overalls", "", "&a&oMiniGame Item" ]
+    },
+    true
+  ],
+  "Hold": [],
+
+  "Start": "freeze_blue_slave",
+  "Start": "freeze_ammo",
+  "Progress": "lobby",
+
+  "Hold": [],
+
+  "Leave": [],
+
+  "Dummy": []
+}

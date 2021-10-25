@@ -1,0 +1,101 @@
+{
+  "Key": "freeze_scoreboard",
+
+  "Comment": "Loop",
+
+  "If": [],
+  "In": ["freeze_waiting", false],
+  "Skip": "Lobby",
+  "Dummy": [],
+
+  "If": [],
+  "In": ["freeze_blue", false],
+  "Skip": "TeamBlue",
+  "Dummy": [],
+
+  "If": [],
+  "In": ["freeze_red", false],
+  "Skip": "TeamRed",
+  "Dummy": [],
+
+  "If": [],
+  "In": ["freeze_spectator", false],
+  "Skip": "Spectator",
+  "Dummy": [],
+
+  "Comment": "Lobby",
+
+  "SetScoreboard": [
+    "   &lPAINTBALL",
+    "",
+    "Lobby Timer: &b[server:freeze_lobby_timer_minutes] : [server:freeze_lobby_timer_seconds]",
+    "",
+    "&lPlayers",
+    "&9Team: &f[SCRIPT_PLAYER_COUNT:freeze_blue]",
+    "&cTeam: &f[SCRIPT_PLAYER_COUNT:freeze_red]",
+    "",
+    "&eplay.fallenkingdom.co"
+  ],
+  "Wait": 10,
+  "Skip": "Loop",
+
+  "Comment": "TeamRed",
+  "SetScoreboard": [
+    "   &lPAINTBALL",
+    "",
+    "Timer: &b[server:freeze_timer_minutes] : [server:freeze_timer_seconds]",
+    "",
+    "Round: &f[server:freeze_round]",
+    "&cScore: &f[server:freeze_redwin]",
+    "&9Score: &f[server:freeze_bluewin]",
+    "",
+    "&lPlayers",
+    "&cTeam: &f[SCRIPT_PLAYER_COUNT:freeze_red]",
+    "&9Team: &f[SCRIPT_PLAYER_COUNT:freeze_blue]",
+    "",
+    "&eplay.fallenkingdom.co"
+  ],
+  "Wait": 10,
+  "Skip": "Loop",
+
+
+  "Comment": "TeamBlue",
+  "SetScoreboard": [
+    "   &lPAINTBALL",
+    "",
+    "Timer: &b[server:freeze_timer_minutes] : [server:freeze_timer_seconds]",
+    "",
+    "Round: &f[server:freeze_round]",
+    "&9Score: &f[server:freeze_bluewin]",
+    "&cScore: &f[server:freeze_redwin]",
+    "",
+    "&lPlayers",
+    "&9Team: &f[SCRIPT_PLAYER_COUNT:freeze_blue]",
+    "&cTeam: &f[SCRIPT_PLAYER_COUNT:freeze_red]",
+    "",
+    "&eplay.fallenkingdom.co"
+  ],
+  "Wait": 10,
+  "Skip": "Loop",
+
+  "Comment": "Spectator",
+  "SetScoreboard": [
+    "   &lPAINTBALL",
+    "",
+    "Timer: &b[server:freeze_timer_minutes] : [server:freeze_timer_seconds]",
+    "",
+    "Round: &f[server:freeze_round]",
+    "&9Score: &f[server:freeze_bluewin]",
+    "&cScore: &f[server:freeze_redwin]",
+    "",
+    "&lPlayers",
+    "&9Team: &f[SCRIPT_PLAYER_COUNT:freeze_blue]",
+    "&cTeam: &f[SCRIPT_PLAYER_COUNT:freeze_red]",
+    "",
+    "&eplay.fallenkingdom.co"
+  ],
+  "Wait": 10,
+  "Skip": "Loop",
+
+  "Dummy": []
+}

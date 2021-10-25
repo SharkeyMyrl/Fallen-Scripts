@@ -28,7 +28,6 @@
   "Equals": ["team", "=", "spectator"],
   "SendMessage": "Seriously? You're already on this team.",
 
-  "SendMessage": "Picking &bSpectator.",
   "Set": ["team", "spectator"],
   "Skip": "HighlightClickEntity",
 

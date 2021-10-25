@@ -20,7 +20,6 @@
 
   "HighlightClickEntity": "lobby_random_npc",
 
-  "SendMessage": "Picking &7Random Team.",
   "Set": ["team", "random"],
   "Skip": "HighlightClickEntity",
 

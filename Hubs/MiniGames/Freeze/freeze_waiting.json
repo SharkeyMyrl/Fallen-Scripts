@@ -60,6 +60,7 @@
   "Skip": "Loop",
 
   "Comment": "LeaveSpectator",
+  "SendMessage": "Crowd says goodbye.",
   "Leave": "freeze_spectator",
   "Set": ["team", ""],
   "Skip": "Loop",

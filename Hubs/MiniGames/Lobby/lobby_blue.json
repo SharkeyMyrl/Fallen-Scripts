@@ -39,7 +39,6 @@
   "Equals": ["team", "=", "blue"],
   "SendMessage": "Seriously? You're already on this team.",
 
-  "SendMessage": "Picking &9Blue Team.",
   "Set": ["team", "blue"],
   "Skip": "HighlightClickEntity",
 

@@ -26,7 +26,7 @@
   "Comment": "Lobby",
 
   "SetScoreboard": [
-    "   &lPAINTBALL",
+    "   &lFREEZE TAG",
     "",
     "Lobby Timer: &b[server:freeze_lobby_timer_minutes] : [server:freeze_lobby_timer_seconds]",
     "",
@@ -41,7 +41,7 @@
 
   "Comment": "TeamRed",
   "SetScoreboard": [
-    "   &lPAINTBALL",
+    "   &lFREEZE TAG",
     "",
     "Timer: &b[server:freeze_timer_minutes] : [server:freeze_timer_seconds]",
     "",
@@ -61,7 +61,7 @@
 
   "Comment": "TeamBlue",
   "SetScoreboard": [
-    "   &lPAINTBALL",
+    "   &lFREEZE TAG",
     "",
     "Timer: &b[server:freeze_timer_minutes] : [server:freeze_timer_seconds]",
     "",
@@ -80,7 +80,7 @@
 
   "Comment": "Spectator",
   "SetScoreboard": [
-    "   &lPAINTBALL",
+    "   &lFREEZE TAG",
     "",
     "Timer: &b[server:freeze_timer_minutes] : [server:freeze_timer_seconds]",
     "",

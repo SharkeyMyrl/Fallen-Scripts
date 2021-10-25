@@ -1,14 +1,14 @@
 {
-  "Key": "paintball_blue_controller",
+  "Key": "freeze_blue_controller",
   "Author": "SharkeyMyrl",
   "Description": "Team blue hit detection.",
   "Wait": 1,
 
   "Comment": "Reset",
-  "OnDamage": ["Player", "paintball_blue"],
+  "OnDamage": ["Player", "freeze_blue"],
   "SendMessage": "Opp- you got hit.",
   "Freeze": [],
-  "OnDamage": ["Player", "paintball_red"],
+  "OnDamage": ["Player", "freeze_red"],
   "Unfreeze": [],
   "Skip": "Reset",
   "Dummy": []

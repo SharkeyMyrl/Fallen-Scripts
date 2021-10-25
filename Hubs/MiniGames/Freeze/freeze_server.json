@@ -88,17 +88,17 @@
   "Comment": "CheckPoints",
 
   "If": [],
-  "Equals":["[SCRIPT_PLAYER_COUNT]", "freeze_red_controller", "=", "[SCRIPT_PLAYER_COUNT:freeze_blue_controller]"],
+  "Equals":["server", "freeze_red", "=", "[server:freeze_blue]"],
   "Skip": "Draw",
   "Dummy": [],
 
   "If": [],
-  "Equals":["[SCRIPT_PLAYER_COUNT]", "freeze_red_controller", ">", "[SCRIPT_PLAYER_COUNT:freeze_blue_controller]"],
+  "Equals":["server", "freeze_red", ">", "[server:freeze_blue]"],
   "Skip": "RedPoints",
   "Dummy": [],
 
   "If": [],
-  "Equals":["[SCRIPT_PLAYER_COUNT]", "freeze_red_controller", "<", "[SCRIPT_PLAYER_COUNT:freeze_blue_controller]"],
+  "Equals":["server", "freeze_red", "<", "[server:freeze_blue]"],
   "Skip": "BluePoints",
   "Skip": "Draw",
 

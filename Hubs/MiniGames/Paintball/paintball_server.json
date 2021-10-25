@@ -88,17 +88,17 @@
   "Comment": "CheckPoints",
 
   "If": [],
-  "Equals":["[SCRIPT_PLAYER_COUNT]", "paintball_red_controller", "=", "[SCRIPT_PLAYER_COUNT:paintball_blue_controller]"],
+  "Equals":["server", "paintball_red", "=", "[server:paintball_blue]"],
   "Skip": "Draw",
   "Dummy": [],
 
   "If": [],
-  "Equals":["[SCRIPT_PLAYER_COUNT]", "paintball_red_controller", ">", "[SCRIPT_PLAYER_COUNT:paintball_blue_controller]"],
+  "Equals":["server", "paintball_red", ">", "[server:paintball_blue]"],
   "Skip": "RedPoints",
   "Dummy": [],
 
   "If": [],
-  "Equals":["[SCRIPT_PLAYER_COUNT]", "paintball_red_controller", "<", "[SCRIPT_PLAYER_COUNT:paintball_blue_controller]"],
+  "Equals":["server", "paintball_red", "<", "[server:paintball_blue]"],
   "Skip": "BluePoints",
   "Skip": "Draw",
 

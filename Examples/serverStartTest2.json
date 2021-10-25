@@ -1,6 +1,0 @@
-{
-  "Key": "serverStartTest2",
-
-  "BroadcastMessage": "Hi I am running test 2.",
-  "Wait": 60.0
-}

@@ -1,7 +1,0 @@
-{
-  "Key": "serverStartTest",
-
-  "Server": [],
-  "Start": "serverStartTest2",
-  "Hold": []
-}

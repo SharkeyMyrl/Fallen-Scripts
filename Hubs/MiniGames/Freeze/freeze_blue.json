@@ -37,7 +37,7 @@
   ],
   "Hold": [],
 
-  "Start": "freeze_blue_slave",
+  "Start": "freeze_blue_controller",
   "Progress": "lobby",
 
   "Hold": [],

@@ -12,14 +12,14 @@
   "If": [],
   "NotIn": ["paintball_red", false],
   "Skip": 2,
-  "Leave": ["paintball_red_slave"],
-  "Start": ["paintball_red_slave"],
+  "Leave": ["paintball_red_controller"],
+  "Start": ["paintball_red_controller"],
 
   "If": [],
   "NotIn": ["paintball_blue", false],
   "Skip": 2,
-  "Leave": ["paintball_blue_slave"],
-  "Start": ["paintball_blue_slave"],
+  "Leave": ["paintball_blue_controller"],
+  "Start": ["paintball_blue_controller"],
 
   "Dummy": []
 }

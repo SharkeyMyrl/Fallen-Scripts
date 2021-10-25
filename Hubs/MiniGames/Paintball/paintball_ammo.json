@@ -32,7 +32,7 @@
   "Skip": 4,
 
   "If": [],
-  "In": ["paintball_red_slave", "Freeze", false],
+  "In": ["paintball_red_controller", "Freeze", false],
   "Dummy": [],
   "LaunchProjectile": ["Snowball", 2.0],
 
@@ -42,7 +42,7 @@
   "Skip": 4,
 
   "If": [],
-  "In": ["paintball_blue_slave", "Freeze", false],
+  "In": ["paintball_blue_controller", "Freeze", false],
   "Dummy": [],
   "LaunchProjectile": ["Snowball", 2.0],
 

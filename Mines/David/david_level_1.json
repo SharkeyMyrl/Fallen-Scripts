@@ -104,7 +104,7 @@
 
   "If": [],
   "Equals": ["david_one", "=", -1.0],
-  "Start": "david_level_1_slave",
+  "Start": "david_level_1_controller",
   "Dummy": [],
 
   "If": [],
@@ -113,8 +113,8 @@
   "Dummy": [],
 
   "If": [],
-  "NotIn": "david_level_1_slave",
-  "Start": "david_level_1_slave",
+  "NotIn": "david_level_1_controller",
+  "Start": "david_level_1_controller",
   "Start": "david_progress",
 
   "Skip": "TalkLoop",

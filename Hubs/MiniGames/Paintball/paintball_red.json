@@ -37,7 +37,7 @@
   ],
   "Hold": [],
 
-  "Start": "paintball_red_slave",
+  "Start": "paintball_red_controller",
   "Start": "paintball_ammo",
   "Progress": "lobby",
 

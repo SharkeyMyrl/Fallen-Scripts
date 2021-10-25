@@ -1,0 +1,14 @@
+{
+  "Key": "paintball_red_controller",
+  "Author": "SharkeyMyrl",
+  "Description": "Team red hit detection.",
+  "Wait": 1,
+
+  "ProjectileHit": ["snowball", "paintball_red"],
+  "SendMessage": "Opp- you got hit.",
+  "Add": ["server", "paintball_blue", 1.0],
+  "Freeze": [],
+  "Hold": [],
+  "Dummy": []
+
+}

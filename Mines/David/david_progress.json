@@ -4,27 +4,27 @@
   "AllowRejoining": false,
 
   "If":[],
-  "In": "david_level_1_slave",
+  "In": "david_level_1_controller",
   "SendMessage": "&6You have killed [david_one]&6/10 &l&4Shambler&f&6, in Mines I.",
   "Dummy":[],
 
   "If":[],
-  "In": "david_level_2_slave",
+  "In": "david_level_2_controller",
   "SendMessage": "&6You have killed [david_two]&6/20 &l&4Crawlers&f&6, in Mines II.",
   "Dummy":[],
 
   "If":[],
-  "In": "david_level_3_slave",
+  "In": "david_level_3_controller",
   "SendMessage": "&6You have killed [david_three]&6/30 &l&4Cave Stalkers&f&6, in Mines II.",
   "Dummy":[],
 
   "If":[],
-  "In": "david_level_4_slave",
+  "In": "david_level_4_controller",
   "SendMessage": "&6You have killed [david_four]&6/40 &l&4Ore Munchers&f&6, in Mines IV.",
   "Dummy":[],
 
   "If":[],
-  "In": "david_level_5_slave",
+  "In": "david_level_5_controller",
   "SendMessage": "&6You have killed [david_five]&6/50 &l&4Ankaras&f&6a, in Mines V.",
   "Dummy":[],
 

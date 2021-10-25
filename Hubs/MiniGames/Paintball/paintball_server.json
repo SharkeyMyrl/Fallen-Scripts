@@ -88,17 +88,17 @@
   "Comment": "CheckPoints",
 
   "If": [],
-  "Equals":["[SCRIPT_PLAYER_COUNT]", "paintball_red_slave", "=", "[SCRIPT_PLAYER_COUNT:paintball_blue_slave]"],
+  "Equals":["[SCRIPT_PLAYER_COUNT]", "paintball_red_controller", "=", "[SCRIPT_PLAYER_COUNT:paintball_blue_controller]"],
   "Skip": "Draw",
   "Dummy": [],
 
   "If": [],
-  "Equals":["[SCRIPT_PLAYER_COUNT]", "paintball_red_slave", ">", "[SCRIPT_PLAYER_COUNT:paintball_blue_slave]"],
+  "Equals":["[SCRIPT_PLAYER_COUNT]", "paintball_red_controller", ">", "[SCRIPT_PLAYER_COUNT:paintball_blue_controller]"],
   "Skip": "RedPoints",
   "Dummy": [],
 
   "If": [],
-  "Equals":["[SCRIPT_PLAYER_COUNT]", "paintball_red_slave", "<", "[SCRIPT_PLAYER_COUNT:paintball_blue_slave]"],
+  "Equals":["[SCRIPT_PLAYER_COUNT]", "paintball_red_controller", "<", "[SCRIPT_PLAYER_COUNT:paintball_blue_controller]"],
   "Skip": "BluePoints",
   "Skip": "Draw",
 

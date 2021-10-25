@@ -9,8 +9,8 @@
     0,
     {
       "material": "stick",
-      "name": "&cPaintBall",
-      "description": ["White icy pain.", "", "&a&oMiniGame Item"],
+      "name": "&cPaintBall Stick",
+      "description": ["Fires white icy pain.", "", "&a&oMiniGame Item"],
       "amount": 1
     },
     true
@@ -20,8 +20,8 @@
   "ClickItem": [
     {
       "material": "stick",
-      "name": "&cPaintBall",
-      "description": ["White icy pain.", "", "&a&oMiniGame Item"],
+      "name": "&cPaintBall Stick",
+      "description": ["Fires white icy pain.", "", "&a&oMiniGame Item"],
       "amount": 1
     }
   ],

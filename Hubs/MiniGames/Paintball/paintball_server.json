@@ -66,17 +66,17 @@
   "Dummy": [],
 
   "If": [],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_red", "=", "[server:paintball_red]"],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_red", "=", "[server:paintball_blue]"],
   "Dummy": [],
   "Skip": 4,
 
   "If": [],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_blue", "=", "[server:paintball_blue]"],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_blue", "=", "[server:paintball_red]"],
   "Skip": "Draw",
   "Skip": "BluePoints",
 
   "If": [],
-  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_blue", "=", "[server:paintball_blue]"],
+  "Equals": ["[SCRIPT_PLAYER_COUNT]", "paintball_blue", "=", "[server:paintball_red]"],
   "Skip": "RedPoints",
   "Dummy": [],
 

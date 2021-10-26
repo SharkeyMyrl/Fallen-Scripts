@@ -1,5 +1,5 @@
 To Do List:\
--Add overa draw check\
+-Add overall draw check\
 -Add spectator team logic\
 -Add arena schematics and coordinates
 

@@ -1,7 +1,7 @@
 To Do List:\
 -Add overall draw check\
 -Add spectator team logic\
--Add arena schematics and coordinates
+-Consider paintball, schematics do not block snowballs\
 
 Final Goals:\
 -Dynamic games of Paintball\
